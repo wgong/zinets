@@ -1,1 +1,1 @@
-streamlit run ZiNets.py
+streamlit run ZiZi.py

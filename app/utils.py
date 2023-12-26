@@ -15,151 +15,42 @@ import sqlite3
 import streamlit as st
 from streamlit_option_menu import option_menu
 from st_aggrid import (
-    AgGrid, GridOptionsBuilder, GridUpdateMode, JsCode, DataReturnMode
+    AgGrid, GridOptionsBuilder, GridUpdateMode
+    , JsCode, DataReturnMode
 )
+
+from schema import *
+
+ACTIVE_STATES = ["Y", ""]
+SELECTBOX_OPTIONS = {
+    "is_active": ACTIVE_STATES,
+    "is_radical": ACTIVE_STATES,
+    "as_part": ACTIVE_STATES,
+}
 
 #############################
 # Config params (1st)
 #############################
 CFG = {
-    "DEBUG_FLAG" : False, # True, # 
+    "DEBUG_FLAG" : True, # False, # 
     
-    "DB_FILENAME" : Path(__file__).parent / "zinets.sqlite",
+    # "DB_FILENAME" : Path(__file__).parent / "zinets.sqlite",
+    "DB_FILENAME" : Path(__file__).parent / "zizi.sqlite",
 
     # assign table names
     "TABLE_ZI" : "t_zi",            # all Zi 字
-    "TABLE_PART" : "t_zi_part",     # decomposed Zi 字子
-    "TABLE_SHUFA" : "t_zi_shufa",   # ShuFa 书法
-    "TABLE_WORD" : "t_zi_word",     # phrase/word 词语
-    "TABLE_TEXT" : "t_zi_text",     # text 文章 
-    "TABLE_MEDIA" : "t_zi_media",   # audio/video 录音，视频
+    "TABLE_PART" : "t_part",        # parts - not exposed in UI
+    "TABLE_ZI_PART" : "t_zi_part",  # decomposed Zi 字子
+    "TABLE_SHUFA" : "t_shufa",   # ShuFa 书法
+    "TABLE_WORD" : "t_phrase",     # phrase/word 词语
+    "TABLE_TEXT" : "t_text",     # text 文章 
+    "TABLE_MEDIA" : "t_resource",   # audio/video 录音，视频
 
     "SHUFA_TYPE": ["甲骨", "金", "篆", "隶", "楷", "行", "草"]
 }
 
-# use dict update so Table name can be reused
-CFG.update({
-    # define table columns in a list (same SQL syntax)
-    "TABLES" : {
-        # main table to store Zi unicode and ENU translation
-        CFG["TABLE_ZI"] : [
-            'zi text NOT NULL',
-
-            'desc text',
-            'pinyin text',
-            'nstrokes int',
-            'alias text',
-
-            'is_radical int',
-            'is_zi int',
-            'is_traditional int',
-
-            'zi_en text',
-            'desc_en text',
-
-            'id text NOT NULL',
-            'ts text',
-            'uid text',
-            'is_active int default 0'
-        ],
-
-        # Zi parts
-        CFG["TABLE_PART"] : [
-            'zi text NOT NULL',
-
-            'zi_left_up text',      # left-up
-            'zi_left text',         # left
-            'zi_left_down text',    # left-down
-
-            'zi_up text',           # up
-            'zi_mid text',          # mid
-            'zi_down text',         # down
-
-            'zi_right_up text',     # right-up
-            'zi_right text',        # right
-            'zi_right_down text',   # right-down
-
-            'zi_mid_front text',    # mid-front
-            'zi_mid_back text',     # mid-back
-
-            'id text NOT NULL',
-            'ts text',
-            'uid text',
-            'is_active int default 0'
-        ],
-
-        # Zi Shufa
-        CFG["TABLE_SHUFA"] : [
-            'zi text NOT NULL',
-
-            'seq_num int',
-            'shufa_type text', 
-            'url_img text', 
-
-            'id text NOT NULL',
-            'ts text',
-            'uid text',
-            'is_active int default 0'
-        ],
-
-        # word
-        CFG["TABLE_WORD"] : [
-            'zi text NOT NULL',
-
-            'zi_0 text', 
-            'zi_1 text', 
-            'zi_2 text', 
-            'zi_3 text', 
-            'zi_4 text', 
-            'zi_5 text', 
-            'zi_6 text',             
-            'zi_7 text', 
-            'zi_8 text', 
-            'zi_9 text', 
-
-            'desc text', 
-
-            'word_en text', 
-            'desc_en text', 
-
-            'id text NOT NULL',
-            'ts text',
-            'uid text',
-            'is_active int default 0'
-        ],
-
-        # text
-        CFG["TABLE_TEXT"] : [
-            'zi text NOT NULL',
-
-            'zi_text text', 
-            'desc text', 
-
-            'zi_text_en text', 
-            'desc_en text', 
-
-            'id text NOT NULL',
-            'ts text',
-            'uid text',
-            'is_active int default 0'
-        ],
-        # media
-        CFG["TABLE_MEDIA"] : [
-            'zi text NOT NULL',
-
-            'seq_num int',
-            'media_type text',  #  url, image, audio, video, book 
-            'desc text', 
-
-            'desc_en text', 
-
-            'id text NOT NULL',
-            'ts text',
-            'uid text',
-            'is_active int default 0'
-        ],
-    },
-})
+def fix_None_val(v):
+    return "" if v is None else v
 
 
 #############################
@@ -176,12 +67,14 @@ class DBConn(object):
         self.conn.close()
 
 
-def db_run_sql(sql_stmt, conn=None):
+def db_run_sql(sql_stmt, conn=None, debug=CFG["DEBUG_FLAG"]):
     """handles both select and insert/update/delete
     """
     if not sql_stmt or conn is None:
         return None
     
+    debug_print(sql_stmt, debug=debug)
+
     if sql_stmt.lower().strip().startswith("select"):
         return pd.read_sql(sql_stmt, conn)
     
@@ -192,13 +85,14 @@ def db_run_sql(sql_stmt, conn=None):
     return None
 
 
-def db_execute(sql_statement, debug=CFG["DEBUG_FLAG"]):
+def db_execute(sql_statement, debug=CFG["DEBUG_FLAG"], execute_flag=True):
     """handles insert/update/delete
     """
     with DBConn() as _conn:
         debug_print(sql_statement, debug=debug)
-        _conn.execute(sql_statement)
-        _conn.commit()      
+        if execute_flag:
+            _conn.execute(sql_statement)
+            _conn.commit()      
 
 def db_get_row_count(table_name):
     with DBConn() as _conn:
@@ -218,60 +112,45 @@ def db_select_by_id(table_name, id_value=""):
         sql_stmt = f"""
             select *
             from {table_name} 
-            where id = '{id_value}' ;
+            where u_id = '{id_value}' ;
         """
         return pd.read_sql(sql_stmt, _conn).fillna("").to_dict('records')
 
-def db_upsert(data, user_key_cols=["id"]):
+
+
+
+def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
     if not data: 
         return None
-    
+
     table_name = data.get("table_name", "")
     if not table_name:
         raise Exception(f"[ERROR] Missing table_name: {data}")
     
-    # skip if key columns are missing
-    required_val = ""
-    if table_name == CFG["TABLE_CHATS"]:
-        required_val = data.get("answer", "")
-    elif table_name == CFG["TABLE_MODEL"]:
-        required_val = data.get("name", "")
-    if not required_val: return
-
-    if not "uid" in data or not data.get("uid", ""):
-        data.update({"uid":get_uid()})
-
     # build SQL
-    visible_columns = get_columns(table_name, prop_name="is_visible")
+    if call_meta_func:
+        visible_columns = get_columns(table_name, prop_name="is_visible")
+    else:
+        # temp workaround
+        visible_columns = get_all_columns(table_name)
 
-    # query by user-key to avoid duplicates
-    uk_where_clause = []
-    for col,val in data.items():
-        if col in user_key_cols:
-            if val != "":
-                uk_where_clause.append(f" {col} = '{escape_single_quote(val)}' ")
+    sql_type = "INSERT"
+    id_ = data.get(user_key_cols, "")
+    if id_:
+        with DBConn() as _conn:
+            sql_stmt = f"""
+                select *
+                from {table_name} 
+                where {user_key_cols} = '{id_}';
+            """
+            rows = pd.read_sql(sql_stmt, _conn).to_dict('records')
 
-    if not uk_where_clause:
-        return None # skip if user key cols not populated
+            if len(rows):
+                sql_type = "UPDATE"  
+                old_row = rows[0]
 
-    with DBConn() as _conn:
-        where_clause = " and ".join(uk_where_clause)
-        sql_stmt = f"""
-            select id
-            from {table_name} 
-            where {where_clause};
-        """
-        rows = pd.read_sql(sql_stmt, _conn).to_dict('records')
-
-    if not len(rows):
-        sql_type = "INSERT" 
-    else: 
-        sql_type = "UPDATE"  
-        old_row = rows[0]
-
-    
+    upsert_sql = ""
     if sql_type == "INSERT":
-
 
         col_clause = []
         val_clause = []
@@ -293,31 +172,33 @@ def db_upsert(data, user_key_cols=["id"]):
 
     else:
         set_clause = []
-        for col,val in data.items():
-            if col not in visible_columns or col in user_key_cols:
-                continue
+        for col in visible_columns:
+            if col == "is_active":
+                val = data.get(col, "")
+                old_val = old_row.get(col, "")
+                if old_val is None:
+                    old_val = ""
+            else:
+                val = data.get(col, 1)
+                old_val = old_row.get(col, 1)
 
-            # skip if no change
-            old_val = old_row.get(col, "")
-            if old_val is None:
-                old_val = ""
-            if val == old_val:
+            if (val and old_val and val == old_val) or (not val and not old_val):
                 continue
 
             col_val = escape_single_quote(val)
-
             set_clause.append(f" {col} = '{col_val}'")
 
         if set_clause:
-            id_ = old_row.get("id")
             upsert_sql = f"""
                 update {table_name} 
                 set 
                     {", ".join(set_clause)}
-                where id = '{id_}';
+                where {user_key_cols} = '{id_}';
             """
 
-    db_execute(upsert_sql)
+    if upsert_sql:
+        # db_execute(upsert_sql, execute_flag=False)
+        db_execute(upsert_sql)
 
 def db_delete_by_id(data):
     if not data: 
@@ -327,13 +208,13 @@ def db_delete_by_id(data):
     if not table_name:
         raise Exception(f"[ERROR] Missing table_name: {data}")
 
-    id_val = data.get("id", "")
+    id_val = data.get("u_id", "")
     if not id_val:
         return None
     
     delete_sql = f"""
         delete from {table_name}
-        where id = '{id_val}';
+        where u_id = '{id_val}';
     """
     db_execute(delete_sql)
 
@@ -345,12 +226,10 @@ def db_update_by_id(data, update_changed=True):
     if not table_name:
         raise Exception(f"[ERROR] Missing table_name: {data}")
 
-    id_val = data.get("id", "")
+    id_val = data.get("u_id", "")
     if not id_val:
         return
 
-    if not "uid" in data or not data.get("uid", ""):
-        data.update({"uid":get_uid()})
 
     if update_changed:
         rows = db_select_by_id(table_name=table_name, id_value=id_val)
@@ -378,10 +257,11 @@ def db_update_by_id(data, update_changed=True):
         update_sql = f"""
             update {table_name}
             set {', '.join(set_clause)}
-            where id = '{id_val}';
+            where u_id = '{id_val}';
         """
         db_execute(update_sql)  
 
+# deprecated
 def db_create_table(table_name, conn, drop_table=False):
     cols = CFG["TABLES"][table_name]
     t_cols = ",\n\t".join(cols) 
@@ -395,17 +275,6 @@ def db_create_table(table_name, conn, drop_table=False):
     # print(drop_create_table_sql)
     db_run_sql(drop_create_table_sql, conn)
 
-def db_get_llm_models():
-    return []
-    # table_name = CFG["TABLE_MODEL"]
-    # with DBConn() as _conn:
-    #     sql_stmt = f"""
-    #         select name from {table_name}
-    #         order by name
-    #     """
-    #     df = pd.read_sql(sql_stmt, _conn)
-    #     return [""] + df["name"].to_list()  # prepend blank
-    
 #############################
 #  Misc
 #############################
@@ -487,7 +356,7 @@ AGGRID_OPTIONS = {
 }
 
 # list of system columns in all tables
-SYS_COLS = ["id","ts","uid"]
+SYS_COLS = ["id","ts","u_id"]
 
 # column UI-properties
 PROPS = [
@@ -504,183 +373,122 @@ PROPS = [
 ]
 
 # define options for selectbox column type, keyed on column name
-# placed after db_get_llm_models() is defined
+
 SELECTBOX_OPTIONS = {
     "shufa_type": CFG["SHUFA_TYPE"],
 }
 
-# config UI layout for form-view
-COLUMN_PROPS = {
 
-    CFG["TABLE_ZI"]: {
+def map_streamlit_widget_type(col_name, data_type):
+    if data_type in ("real", "integer"):
+        return "number_input"
+    else:
+        if (col_name.startswith("is_") or col_name.startswith("has_") or col_name.startswith("as_")):
+            return "selectbox"
+        else:
+            return "text_input"
 
-        "zi": {
-            "is_system_col": False,
-            "is_user_key": True,
-            "is_required": True,
-            "is_visible": True,
-            "is_editable": True,
-            "is_clickable": False,
-            "form_column": "COL_1-1",
-            "widget_type": "text_input",
-            "label_text": "字"
-        },
-        "desc": {
-            "is_system_col": False,
-            "is_user_key": False,
-            "is_required": False,
-            "is_visible": True,
-            "is_editable": True,
-            "is_clickable": False,
-            "form_column": "COL_1-2",
-            "widget_type": "text_area",
-            "label_text": "解释"
-        },
-        "pinyin": {
-            "is_system_col": False,
-            "is_user_key": False,
-            "is_required": False,
-            "is_visible": True,
-            "is_editable": True,
-            "is_clickable": False,
-            "form_column": "COL_1-3",
-            "widget_type": "text_input",
-            "label_text": "拼音"
-        },
-        "nstrokes": {
-            "is_system_col": False,
-            "is_user_key": False,
-            "is_required": False,
-            "is_visible": True,
-            "is_editable": True,
-            "is_clickable": False,
-            "form_column": "COL_1-4",
-            "widget_type": "number_input",
-            "label_text": "笔画数"
-        },
+def init_cap(col_name):
+    return " ".join([c.capitalize() for c in col_name.split("_")])
 
-        "alias": {
-            "is_system_col": False,
-            "is_user_key": False,
-            "is_required": False,
-            "is_visible": True,
-            "is_editable": True,
-            "is_clickable": False,
-            "form_column": "COL_2-1",
-            "widget_type": "text_input",
-            "label_text": "Alias"
-        },
-        "is_radical": {
-            "is_system_col": False,
-            "is_user_key": False,
-            "is_required": False,
-            "is_visible": True,
-            "is_editable": True,
-            "is_clickable": False,
-            "form_column": "COL_2-2",
-            "widget_type": "number_input",
-            "label_text": "部首？"
-        },
-        "is_zi": {
-            "is_system_col": False,
-            "is_user_key": False,
-            "is_required": False,
-            "is_visible": True,
-            "is_editable": True,
-            "is_clickable": False,
-            "form_column": "COL_2-3",
-            "widget_type": "number_input",
-            "label_text": "字？"
-        },
-        "is_traditional": {
-            "is_system_col": False,
-            "is_user_key": False,
-            "is_required": False,
-            "is_visible": True,
-            "is_editable": True,
-            "is_clickable": False,
-            "form_column": "COL_2-4",
-            "widget_type": "number_input",
-            "label_text": "繁体？"
-        },
+def parse_ddl_reserved(x):
+    x = x.strip()
+    for kw in ["--", "primary ", "not ", "default "]:
+        if kw in x: 
+            x = x.split(kw)[0].strip()
+    return x
 
-        # col
-        "zi_en": {
-            "is_system_col": False,
-            "is_user_key": False,
-            "is_required": False,
-            "is_visible": True,
-            "is_editable": True,
-            "is_clickable": False,
-            "form_column": "COL_3-1",
-            "widget_type": "text_area",
-            "label_text": "English"
-        },
-        "desc_en": {
-            "is_system_col": False,
-            "is_user_key": False,
-            "is_required": False,
-            "is_visible": True,
-            "is_editable": True,
-            "is_clickable": False,
-            "form_column": "COL_3-2",
-            "widget_type": "text_area",
-            "label_text": "Meaning"
-        },
+def parse_ddl_line(line):
+    """handle , and --, returns a list of column definition
+    """
+    res = []
+    x = line.strip()
+    if x.startswith("--"):
+        return res
+    
+    for j in [i.strip() for i in x.split(",") if i.strip()]:
+        j = parse_ddl_reserved(j)
+        if j:
+            res.append(j)
+    return res
 
-        # Column
-        "id": {
-            "is_system_col": True,
-            "is_user_key": False,
-            "is_required": True,
-            "is_visible": True,
-            "is_editable": False,
-            "is_clickable": False,
-            "form_column": "COL_4-1",
-            "widget_type": "text_input",
-            "label_text": "Id"
-        },
+def parse_ddl(ddl_str, filtered_types=[]):
+    """Parse DDL text string into col_datatype map
+    
+    filtered_types = []: return all, else only specified types
+    """
+    out = []
+    for i in ddl_str.lower().split("create "):
+        if not i.startswith("table "): continue 
+        out.append(i.split("\n"))
+        
+    # table_names = []
+    col_datatypes = {}
+    for t in out:
+        if "table" in t[0]:
+            table_name = t[0].split()[-1]
+        # table_names.append(table_name)
+        else:
+            print(f"[ERROR] Table name not found: {t}")
+            continue
+            
+        t2 = t[1:]
+        i_st = i_sp = -2
+        for i in range(len(t2)):
+            x = t2[i].strip()
+            if x.startswith("("):
+                i_st = i
+            elif x.startswith(")"):
+                i_sp = i
+        if i_st == -2 or i_sp == -2:
+            print(f"[ERROR] Missing parathesis: {t2}")
+            continue 
 
-        "ts": {
-            "is_system_col": True,
-            "is_user_key": False,
-            "is_required": False,
-            "is_visible": True,
-            "is_editable": False,
-            "is_clickable": False,
-            "form_column": "COL_4-2",
-            "widget_type": "text_input",
-            "label_text": "Timestamp"
-        },
+        t3 = []
+        for i in t2[i_st+1:i_sp]:
+            line = i.strip()
+            res = parse_ddl_line(line)
+            if res: 
+                t3.extend(res)
 
-        "uid": {
-            "is_system_col": True,
-            "is_user_key": False,
-            "is_required": False,
-            "is_visible": True,
-            "is_editable": False,
-            "is_clickable": False,
-            "form_column": "COL_4-3",
-            "widget_type": "text_input",
-            "label_text": "UID"
-        },
+        m = {}
+        for x in t3:
+            y = x.strip().split()
+            if len(y) == 0: 
+                continue
+            col_name = y[0]
+            datatype = "text" if len(y) < 2 else y[1]
+            if not filtered_types or datatype in filtered_types:
+                m[col_name] = datatype
+                
+        col_datatypes[table_name] = m
+    
+    return col_datatypes
 
-        "is_active": {
-            "is_system_col": False,
-            "is_user_key": False,
-            "is_required": False,
-            "is_visible": True,
-            "is_editable": True,
-            "is_clickable": False,
-            "form_column": "COL_4-4",
-            "widget_type": "number_input",
-            "label_text": "Active?"
-        },
-
-    },
-
-
-}
+def prepare_column_props(col_defn):
+    """Prepare UI config
+    """
+    col_props = {}
+    for table_name in col_defn.keys():
+        col_types = col_defn[table_name]
+        col_props[table_name] = {}
+        for col_name, data_type in col_types.items():
+            widget_type = map_streamlit_widget_type(col_name, data_type)
+            label_text = init_cap(col_name)
+            col_props[table_name].update({
+                col_name : dict(
+                    is_system_col=False,
+                    is_user_key=False,
+                    is_required=False,
+                    is_visible=False,
+                    is_editable=False,
+                    is_clickable=False,
+                    datatype=data_type,
+                    form_column="COL_1-1",
+                    widget_type=widget_type,
+                    label_text=label_text,
+                )})
+    return col_props
 
 def gen_label(col):
     "Convert table column into form label"
@@ -699,6 +507,13 @@ def gen_label(col):
         cols.append(c.capitalize())
     return " ".join(cols)
 
+def get_all_columns(table_name):
+    cols = COLUMN_PROPS[table_name].keys()
+    out = [c.split()[0] for c in cols]
+    if table_name == "t_zi_part":
+        out = [c for c in out if c not in ["zi", ]]
+    return out
+
 def get_columns(table_name, prop_name="is_visible"):
     cols_bool = []
     cols_text = {}
@@ -712,7 +527,6 @@ def get_columns(table_name, prop_name="is_visible"):
                 cols_text.update({k: val})
     
     return cols_bool or cols_text
-
 
 def parse_column_props():
     """parse COLUMN_PROPS map
@@ -756,19 +570,20 @@ def parse_column_props():
 def ui_layout_form_fields(data,form_name,old_row,col,
                         widget_types,col_labels,system_columns):
     DISABLED = col in system_columns
+    key_name_field = f"col_{form_name}_{col}"
     if old_row:
         old_val = old_row.get(col, "")
         widget_type = widget_types.get(col, "text_input")
         if widget_type == "text_area":
             kwargs = {"height":125}
-            val = st.text_area(col_labels.get(col), value=old_val, disabled=DISABLED, key=f"col_{form_name}_{col}", kwargs=kwargs)
+            val = st.text_area(col_labels.get(col), value=old_val, disabled=DISABLED, key=key_name_field, kwargs=kwargs)
         elif widget_type == "date_input":
             old_date_input = old_val.split("T")[0]
             if old_date_input:
                 val_date = datetime.strptime(old_date_input, "%Y-%m-%d")
             else:
                 val_date = datetime.now().date()
-            val = st.date_input(col_labels.get(col), value=val_date, disabled=DISABLED, key=f"col_{form_name}_{col}")
+            val = st.date_input(col_labels.get(col), value=val_date, disabled=DISABLED, key=key_name_field)
             val = datetime.strftime(val, "%Y-%m-%d")
         elif widget_type == "time_input":
             old_time_input = old_val
@@ -776,7 +591,7 @@ def ui_layout_form_fields(data,form_name,old_row,col,
                 val_time = datetime.strptime(old_time_input.split(".")[0], "%H:%M:%S").time()
             else:
                 val_time = datetime.now().time()
-            val = st.time_input(col_labels.get(col), value=val_time, disabled=DISABLED, key=f"col_{form_name}_{col}")
+            val = st.time_input(col_labels.get(col), value=val_time, disabled=DISABLED, key=key_name_field)
         elif widget_type == "selectbox":
             # check if options is avail, otherwise display as text_input
             if col in SELECTBOX_OPTIONS:
@@ -788,14 +603,14 @@ def ui_layout_form_fields(data,form_name,old_row,col,
 
                     old_val = old_row.get(col, "")
                     _idx = _options.index(old_val)
-                    val = st.selectbox(col_labels.get(col), _options, index=_idx, key=f"col_{form_name}_{col}")
+                    val = st.selectbox(col_labels.get(col), _options, index=_idx, key=key_name_field)
                 except ValueError:
                     val = old_row.get(col, "")
             else:
-                val = st.text_input(col_labels.get(col), value=old_val, disabled=DISABLED, key=f"col_{form_name}_{col}")
+                val = st.text_input(col_labels.get(col), value=old_val, disabled=DISABLED, key=key_name_field)
 
         else:
-            val = st.text_input(col_labels.get(col), value=old_val, disabled=DISABLED, key=f"col_{form_name}_{col}")
+            val = st.text_input(col_labels.get(col), value=old_val, disabled=DISABLED, key=key_name_field)
 
         if val != old_val:
             data.update({col : val})
@@ -821,9 +636,9 @@ def ui_layout_form(selected_row, table_name):
     data = {"table_name": table_name}
 
     # copy id if present
-    id_val = old_row.get("id", "")
+    id_val = old_row.get("u_id", "")
     if id_val:
-        data.update({"id" : id_val})
+        data.update({"u_id" : id_val})
 
     # display form and populate data dict
     col_col = {}
@@ -836,6 +651,7 @@ def ui_layout_form(selected_row, table_name):
                 col_col[pfx] = col_columns
     N_COLS = len(col_col.keys())
 
+    key_names = []
     with st.form(form_name, clear_on_submit=True):
         st_cols = st.columns(N_COLS)
         id_col = 0
@@ -844,6 +660,7 @@ def ui_layout_form(selected_row, table_name):
                 for col in col_col[col_prefix[id_col]]:
                     data = ui_layout_form_fields(data,form_name,old_row,col,
                                 widget_types,col_labels,system_columns)
+                    key_names.append(f"col_{form_name}_{col}")
 
                 if id_col == len(st_cols)-1:
                     # add checkbox for deleting this record
@@ -857,6 +674,7 @@ def ui_layout_form(selected_row, table_name):
                 for col in col_col[col_prefix[id_col]]:
                     data = ui_layout_form_fields(data,form_name,old_row,col,
                                 widget_types,col_labels,system_columns)
+                    key_names.append(f"col_{form_name}_{col}")
 
                 if id_col == len(st_cols)-1:
                     # add checkbox for deleting this record
@@ -870,6 +688,7 @@ def ui_layout_form(selected_row, table_name):
                 for col in col_col[col_prefix[id_col]]:
                     data = ui_layout_form_fields(data,form_name,old_row,col,
                                 widget_types,col_labels,system_columns)
+                    key_names.append(f"col_{form_name}_{col}")
 
                 if id_col == len(st_cols)-1:
                     # add checkbox for deleting this record
@@ -883,6 +702,7 @@ def ui_layout_form(selected_row, table_name):
                 for col in col_col[col_prefix[id_col]]:
                     data = ui_layout_form_fields(data,form_name,old_row,col,
                                 widget_types,col_labels,system_columns)
+                    key_names.append(f"col_{form_name}_{col}")
 
                 if id_col == len(st_cols)-1:
                     # add checkbox for deleting this record
@@ -895,22 +715,28 @@ def ui_layout_form(selected_row, table_name):
             try:
                 delete_flag = data.get("delelte_record", False)
                 if delete_flag:
-                    if data.get("id"):
+                    if data.get("u_id"):
                         db_delete_by_id(data)
                 else:
-                    if data.get("id"):
+                    if data.get("u_id"):
                         data.update({"ts": get_ts_now(),
-                                    "uid": get_uid(), })
+                                    })
                         db_update_by_id(data)
                     else:
-                        data.update({"id": get_uuid(), 
+                        data.update({"u_id": get_uuid(), 
                                     "ts": get_ts_now(),
-                                    "uid": get_uid(), })
+                                    })
                         db_upsert(data)
 
             except Exception as ex:
                 st.error(f"{str(ex)}")
 
+        # clear form
+        try:
+            for c in key_names:
+                st.session_state[c] = ""
+        except Exception as e:
+            pass # ignore
 
 
 def ui_display_df_grid(df, 
