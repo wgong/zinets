@@ -160,15 +160,23 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
             col_clause.append(col)
             col_val = escape_single_quote(val)
             val_clause.append(f"'{col_val}'")
+        col_clause.append(user_key_cols)
+        val_clause.append("id")
 
         upsert_sql = f"""
+            with uid as (
+                select cast(max(cast({user_key_cols} as int))+1 as text) as id
+                from {table_name}
+            )
             insert into {table_name} (
                 {", ".join(col_clause)}
             )
-            values (
-                {", ".join(val_clause)}
-            );
+            select {", ".join(val_clause)} 
+            from uid;
         """
+            # values (
+            #     {", ".join(val_clause)}
+            # );
 
     else:
         set_clause = []
@@ -723,7 +731,7 @@ def ui_layout_form(selected_row, table_name):
                                     })
                         db_update_by_id(data)
                     else:
-                        data.update({"u_id": get_uuid(), 
+                        data.update({
                                     "ts": get_ts_now(),
                                     })
                         db_upsert(data)
@@ -789,3 +797,6 @@ def ui_display_df_grid(df,
  
     return grid_response
 
+def df_to_csv(df, index=False):
+    # IMPORTANT: Cache the conversion to prevent computation on every rerun
+    return df.to_csv(index=index).encode('utf-8')

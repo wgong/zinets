@@ -30,3 +30,9 @@ streamlit run ZiZi.py
 
 - [East Asian character emojis](https://chenhuijing.com/blog/east-asian-character-emojis/)
      - [Unicode Emoji List](https://unicode.org/emoji/charts/full-emoji-list.html) (see zistory/zinets/resources/unicode-emoji/v15.1)
+
+- Poems
+     - [Mao](https://www.wikiwand.com/zh/%E6%AF%9B%E6%B3%BD%E4%B8%9C)
+          - https://www.wikiwand.com/en/Poetry_of_Mao_Zedong
+          - https://www.marxists.org/reference/archive/mao/selected-works/poems/index.htm
+          - https://raw.githubusercontent.com/banned-historical-archives/banned-historical-archives0/main/mao-quanji/38-OCR.pdf

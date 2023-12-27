@@ -1,3 +1,43 @@
+with uid as (
+	select cast(max(cast(u_id as int))+1 as text) as id 
+	from t_zi_part
+)
+insert into t_zi_part (zi,u_id,zi_up,zi_mid)
+select 
+'元', id, '一', '兀'
+from uid;
+
+select * from t_zi_part where u_id = '9830';
+delete from t_zi_part where u_id = '9830';
+
+select * from t_zi_part limit 2;
+-- 元	2				一	兀
+-- zi  u_id             zi_up  zi_mid
+
+with uid as (
+	select cast(max(cast(u_id as int))+1 as text) as id 
+	from t_part
+)
+insert into t_part (zi,u_id,meaning,is_active)
+select 
+'一', id, 'one', 'Y'
+from uid;
+
+select * from t_part where u_id = '259';
+delete from t_part where u_id = '259';
+
+select max(cast(u_id as int)) from t_part;
+
+select * from t_part limit 5;
+
+
+select * from t_zi_part where zi_left = '示' and zi_right is not null and zi_mid is null;
+update t_zi_part set zi_left='礻', zi_mid = zi_right, zi_right=NULL 
+where zi_left = '示' and zi_right is not null and zi_mid is null;
+
+select * from t_part order by cast(strokes as int), u_id;
+
+
 -- migrate data from w_part to t_part
 insert into t_part (
 zi
