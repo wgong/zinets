@@ -19,14 +19,8 @@ from st_aggrid import (
     , JsCode, DataReturnMode
 )
 
-from schema import *
+from ui_layout import *
 
-ACTIVE_STATES = ["Y", ""]
-SELECTBOX_OPTIONS = {
-    "is_active": ACTIVE_STATES,
-    "is_radical": ACTIVE_STATES,
-    "as_part": ACTIVE_STATES,
-}
 
 #############################
 # Config params (1st)
@@ -49,9 +43,17 @@ CFG = {
     "SHUFA_TYPE": ["甲骨", "金", "篆", "隶", "楷", "行", "草"]
 }
 
+ACTIVE_STATES = ["", "Y",]
+# define options for selectbox column type, keyed on column name
+SELECTBOX_OPTIONS = {
+    "is_active": ACTIVE_STATES,
+    "is_radical": ACTIVE_STATES,
+    "as_part": ACTIVE_STATES,
+    "shufa_type": CFG["SHUFA_TYPE"],
+}
+
 def fix_None_val(v):
     return "" if v is None else v
-
 
 #############################
 #  DB related  (2nd)
@@ -93,6 +95,16 @@ def db_execute(sql_statement, debug=CFG["DEBUG_FLAG"], execute_flag=True):
         if execute_flag:
             _conn.execute(sql_statement)
             _conn.commit()      
+
+def db_query_layer():
+    sql_stmt = f"""
+        select distinct layer 
+        from {CFG["TABLE_ZI"]}
+        order by layer;
+    """
+    with DBConn() as _conn:
+        df = pd.read_sql(sql_stmt, _conn)
+    return [""] + df["layer"].to_list()
 
 def db_get_row_count(table_name):
     with DBConn() as _conn:
@@ -380,11 +392,6 @@ PROPS = [
     'kwargs'
 ]
 
-# define options for selectbox column type, keyed on column name
-
-SELECTBOX_OPTIONS = {
-    "shufa_type": CFG["SHUFA_TYPE"],
-}
 
 
 def map_streamlit_widget_type(col_name, data_type):
@@ -604,11 +611,7 @@ def ui_layout_form_fields(data,form_name,old_row,col,
             # check if options is avail, otherwise display as text_input
             if col in SELECTBOX_OPTIONS:
                 try:
-                    if col == "ref_val":
-                        _options = SELECTBOX_OPTIONS[col]()
-                    else:
-                        _options = SELECTBOX_OPTIONS.get(col,[])
-
+                    _options = SELECTBOX_OPTIONS.get(col,[])
                     old_val = old_row.get(col, "")
                     _idx = _options.index(old_val)
                     val = st.selectbox(col_labels.get(col), _options, index=_idx, key=key_name_field)

@@ -7,24 +7,22 @@ Note:
 from utils import *
 
 st.set_page_config(layout="wide")
-st.subheader("🐼 字编辑 - Zi Editor 📝")
+st.subheader("🐼 字编辑 Zi Editor 📝")
 
 TABLE_NAME = CFG["TABLE_ZI"]
 KEY_PREFIX = f"col_{TABLE_NAME}"
 
 @st.cache_data
 def query_layer():
-    sql_stmt = f"""
-        select distinct layer 
-        from {TABLE_NAME} 
-        order by layer;
-    """
-    with DBConn() as _conn:
-        df = pd.read_sql(sql_stmt, _conn)
-    return [""] + df["layer"].to_list()
+    return db_query_layer()
 
 def main():
-    LAYERS = query_layer()
+    if "LAYERS" not in st.session_state:
+        LAYERS = query_layer()
+        st.session_state["LAYERS"] = LAYERS
+    else:
+        LAYERS = st.session_state["LAYERS"]
+
     c1, c2, c3, c4 = st.columns([1,6,2,1])
     with c1:
         search_term = st.text_input("🔍Search:", key=f"{KEY_PREFIX}_search_term").strip()
@@ -38,9 +36,13 @@ def main():
     where_clause = " 1=1 " 
     where_clause += " " if not active else f" and is_active = '{active}' "
     where_clause += " " if not search_layer else f" and layer = '{search_layer}' "
+
     if search_term:
         where_clause += f""" and (
-            (zi||alias||pinyin||zi_en) like '%{search_term}%'
+            zi like '%{search_term}%'
+            or alias like '%{search_term}%'
+            or pinyin like '%{search_term}%'
+            or zi_en like '%{search_term}%'
             or desc_cn like '%{search_term}%'
             or desc_en like '%{search_term}%'         
         )
@@ -60,15 +62,15 @@ def main():
                 , pinyin
                 , alias
                 , traditional
-                , as_part
-                , is_radical
+                , ifnull(as_part, '') as as_part
+                , ifnull(is_radical, '') as is_radical
                 , nstrokes
                 , desc_cn
                 , zi_en
                 , desc_en
                 , layer
                 , u_id
-                , is_active
+                , ifnull(is_active, '')  as is_active
                 , sort_val                
             from {TABLE_NAME}
             where {where_clause}

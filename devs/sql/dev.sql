@@ -1,3 +1,52 @@
+alter table t_zi_part add column id_shuowen text;
+
+update t_zi_part set id_shuowen = u_id;
+
+-- why u_id mismatch
+select z.u_id, z.zi, p.zi, p.u_id
+from t_zi z join t_zi_part p
+on z.u_id = p.u_id 
+order by z.sort_val;
+
+with zi as (
+select 
+	z.u_id as z_u_id,  
+	z.zi as z_zi, 
+	p.u_id as p_u_id, 
+	p.zi as p_zi
+from t_zi z join t_zi_part p
+on z.zi = p.zi 
+--order by z.sort_val
+) 
+select * from t_zi_part where zi not in (
+	select p_zi from zi
+);
+
+update t_zi_part set is_active='', u_id = NULL;
+
+update t_zi_part 
+set u_id = (
+	select u_id from t_zi where t_zi.zi = t_zi_part.zi
+)
+where zi in (select zi from t_zi);
+update t_zi_part set is_active='Y' where u_id is not NULL;
+
+select u_id,count(*) from t_zi group by u_id having count(*) > 1;
+
+with dup as (
+	select u_id,count(*) from t_zi_part 
+	where u_id is not NULL 
+	group by u_id having count(*) > 1
+	order by cast(u_id as int)
+) 
+select p.* from t_zi_part p join dup on dup.u_id = p.u_id 
+order by p.u_id;
+
+
+select count(*) from t_zi;  --11516
+select count(*) from t_zi_part; --8530
+
+
 with uid as (
 	select cast(max(cast(u_id as int))+1 as text) as id 
 	from t_zi_part
@@ -9,6 +58,19 @@ from uid;
 
 select * from t_zi_part where u_id = '9830';
 delete from t_zi_part where u_id = '9830';
+
+select distinct layer from t_zi order by layer;
+
+
+
+select * from t_zi where u_id = '498';  -- 龚龔
+select * from t_zi_part where zi in ('龚','龔');  -- 芣
+
+select * from t_zi_part where zi like '%龔%';  -- 
+
+select * from t_zi_part where u_id = '498';  -- 芣
+
+
 
 select * from t_zi_part limit 2;
 -- 元	2				一	兀
