@@ -35,21 +35,24 @@ CFG = {
     "TABLE_ZI" : "t_zi",            # all Zi 字
     "TABLE_PART" : "t_part",        # parts - not exposed in UI
     "TABLE_ZI_PART" : "t_zi_part",  # decomposed Zi 字子
-    "TABLE_SHUFA" : "t_shufa",   # ShuFa 书法
-    "TABLE_WORD" : "t_phrase",     # phrase/word 词语
-    "TABLE_TEXT" : "t_text",     # text 文章 
+    "TABLE_SHUFA" : "t_shufa",      # ShuFa 书法
+    "TABLE_WORD" : "t_phrase",      # phrase/word 词语
+    "TABLE_TEXT" : "t_text",        # text 文章 
     "TABLE_MEDIA" : "t_resource",   # audio/video 录音，视频
+    "TABLE_NOTE" : "t_note",        # Note on Journal/Resource
 
-    "SHUFA_TYPE": ["甲骨", "金", "篆", "隶", "楷", "行", "草"]
+    "SHUFA_TYPE": ["", "甲骨", "金", "篆", "隶", "楷", "行", "草"],
+    "NOTE_TYPE": ["", "REF", "JOURNAL"],
 }
 
-ACTIVE_STATES = ["", "Y",]
 # define options for selectbox column type, keyed on column name
+ACTIVE_STATES = ["", "Y",]   # add empty-str as placeholder
 SELECTBOX_OPTIONS = {
     "is_active": ACTIVE_STATES,
     "is_radical": ACTIVE_STATES,
     "as_part": ACTIVE_STATES,
     "shufa_type": CFG["SHUFA_TYPE"],
+    "note_type": CFG["NOTE_TYPE"],
 }
 
 def fix_None_val(v):
@@ -177,7 +180,11 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
 
         upsert_sql = f"""
             with uid as (
-                select cast(max(cast({user_key_cols} as int))+1 as text) as id
+                select 
+                case 
+                    when max({user_key_cols}) is NULL then '10' 
+                    else cast(max(cast({user_key_cols} as int))+1 as text) 
+                end as id
                 from {table_name}
             )
             insert into {table_name} (

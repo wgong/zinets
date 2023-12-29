@@ -1,4 +1,43 @@
+ update t_zi_part set zi_left_up = 'X' where zi_left_up = 'x'; 
+ update t_zi_part set zi_up = 'X' where zi_up = 'x'; 
+ update t_zi_part set zi_right_up = 'X' where zi_right_up = 'x'; 
+ update t_zi_part set zi_left = 'X' where zi_left = 'x'; 
+ update t_zi_part set zi_mid = 'X' where zi_mid = 'x'; 
+ update t_zi_part set zi_right = 'X' where zi_right = 'x'; 
+ update t_zi_part set zi_left_down = 'X' where zi_left_down = 'x'; 
+ update t_zi_part set zi_down = 'X' where zi_down = 'x'; 
+ update t_zi_part set zi_right_down = 'X' where zi_right_down = 'x'; 
+ update t_zi_part set zi_mid_in = 'X' where zi_mid_in = 'x'; 
+ update t_zi_part set zi_mid_out = 'X' where zi_mid_out = 'x'; 
+
+
+select zi from t_zi where (layer like 'HSK_1%' or layer like 'HSK_2%') order by zi;
+
+select zi from t_zi_part where is_active = 'Y' and u_id is not null
+order by zi;  --3636
+
+select zi from t_zi_part where hsk_note='in HSK'
+order by zi;  --1236
+
+select zi from t_zi_part where hsk_note='from HSK'
+order by zi;  --2504
+
+select u_id,count(*) from t_zi_part where u_id is not null 
+group by u_id having count(*) > 1;
+
+
+update t_zi_part set hsk_note='in HSK' where is_active='Y' and u_id is not null
+and zi in (
+	select zi from t_zi where (layer like 'HSK_1%' or layer like 'HSK_2%')
+)
+;
+
 alter table t_zi_part add column id_shuowen text;
+alter table t_zi_part add column hsk_note text;
+alter table t_zi_part add column desc_en text;
+alter table t_part add column category text;
+
+select * from t_part where zi is null;
 
 update t_zi_part set id_shuowen = u_id;
 
@@ -277,8 +316,7 @@ update t_zi set sort_val=cast(sort_id as real);
 update t_zi set as_part=1 where is_radical=1;
 
 alter table t_zi add column as_part int;
-alter table t_zi add column nid int;
-update t_zi set nid = cast(id as int);
+
 
 ALTER TABLE t_zi RENAME COLUMN is_traditional TO has_traditional;
 ALTER TABLE t_zi RENAME COLUMN desc TO desc_cn;

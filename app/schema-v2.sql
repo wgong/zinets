@@ -34,6 +34,7 @@ create table if not exists t_part
     strokes text,
     meaning text,
     example text,
+    category text,
     is_active text default 'Y'
 );
 
@@ -56,6 +57,9 @@ create table if not exists t_zi_part
     zi_mid_in text,
     ts text,
     desc_cn text,
+    desc_en text,
+    hsk_note text,
+    id_shuowen text,
     is_active text default 'Y'
 );
 
@@ -130,6 +134,21 @@ create table if not exists t_resource
     desc_cn text,
     desc_en text,
     link_url text,
+    ts text,
+    is_active text default 'Y'
+);
+
+-- note: note-taking: journal/resource
+-- similar to watchetf app table: notes
+drop table if exists t_note;
+create table if not exists t_note
+(
+    title text NOT NULL,
+    u_id text,          -- number in string
+    note_type text,     -- REF/JOURNAL
+    note text,
+    link_url text,
+    tags text,
     ts text,
     is_active text default 'Y'
 );

@@ -20,47 +20,69 @@ ZI_PART_COLS = [
 TAG_LEFT = "|["
 TAG_RIGHT = "]|"
 
-# @st.cache_data
-def query_parts(strokes_clause):
-    """concat all parts
-    """
-    sql_stmt = f"""
-        select zi,traditional as zi_tr from t_part 
-        where is_active = 'Y' and cast(strokes as int) {strokes_clause}
-        order by cast(strokes as int), u_id
-    """
-    with DBConn() as _conn:
-        df3 = pd.read_sql(sql_stmt, _conn)
-    df3["zi2"] = df3["zi"] + df3["zi_tr"]
-    parts  = df3["zi2"].to_list()
-    return parts 
-
 @st.cache_data
 def colorize_text(txt, color="red"):
     return f"""<span style="color:{color}">{txt}</span>"""
 
+# @st.cache_data
+def query_parts(strokes_clause):
+    """query and concat all parts based on strokes
+        if =n:  (n = 1..9)
+        else: strokes is null or >9
+    """
+    if strokes_clause.strip().startswith("="):
+        where_clause = f""" 
+            cast(strokes as int) {strokes_clause} 
+        """
+    else:
+        one2nine = str(list(range(1,10)))
+        where_clause = f""" 
+            (
+                strokes is null or cast(strokes as int) not 
+                    in {one2nine.replace("[","(").replace("]",")")}
+            )
+        """
+    sql_stmt = f"""
+        select zi,traditional as zi_tr from t_part 
+        where is_active = 'Y' 
+            and zi is not null
+            and {where_clause}
+        order by cast(strokes as int), u_id
+    """
+    with DBConn() as _conn:
+        df3 = pd.read_sql(sql_stmt, _conn).fillna("")
+    df3["zi2"] = df3["zi"] + df3["zi_tr"]
+    parts  = df3["zi2"].to_list()
+
+    out = [p for p in parts if isinstance(p, str)]
+    return out, len(out)
+
 # @st.cache_data 
 def format_parts(chars_per_row=30):
+    n_parts = 0
     parts = []
-    for i in range(1,9):
+    for i in range(1,10):
         txt = f" {TAG_LEFT} {str(i)} {TAG_RIGHT} "
         parts.append(colorize_text(txt))
         strokes_clause = f"={str(i)}"
-        part = query_parts(strokes_clause)
+        part, n_part = query_parts(strokes_clause)
+        n_parts += n_part
         parts.extend(part)
 
-    txt = f" {TAG_LEFT} 9+ {TAG_RIGHT} "
+    txt = f" {TAG_LEFT} 10+ {TAG_RIGHT} "
     parts.append(colorize_text(txt))
-    strokes_clause = ">8"
-    part = query_parts(strokes_clause)
+    strokes_clause = "null or >9"
+    part, n_part = query_parts(strokes_clause)
+    n_parts += n_part
     parts.extend(part)
-    
+
     out = []
     for i in range(0, len(parts), chars_per_row):
         i_st = i 
         i_sp = i + chars_per_row
-        out.append("".join(parts[i_st:i_sp]))
-    return out
+        items = parts[i_st:i_sp]
+        out.append("".join(items))
+    return out, n_parts
 
 @st.cache_data
 def query_layer():
@@ -137,7 +159,8 @@ def main():
                 , u_id
                 , ifnull(is_active, '') as is_active
                 , desc_cn
-                , ts
+                , desc_en
+                , hsk_note
             from {TABLE_NAME}
             where {where_clause}
             order by cast(u_id as integer)
@@ -158,7 +181,7 @@ def main():
         zi_u_id = zi["u_id"]
         zi_is_active = zi["is_active"]
         zi_desc_cn = zi["desc_cn"]
-        zi_ts = zi["ts"]
+        # zi_ts = zi["ts"]
         zi_zi_left_up = zi["zi_left_up"]
         zi_zi_up = zi["zi_up"]
         zi_zi_right_up = zi["zi_right_up"]
@@ -170,12 +193,14 @@ def main():
         zi_zi_down = zi["zi_down"]
         zi_zi_right_down = zi["zi_right_down"]
         zi_zi_mid_in = zi["zi_mid_in"]
+        zi_desc_en = zi["desc_en"]
+        zi_hsk_note = zi["hsk_note"]
     else:
         zi_zi = ""
         zi_u_id = ""
         zi_is_active = ""
         zi_desc_cn = ""
-        zi_ts = ""
+        # zi_ts = ""
         zi_zi_left_up = ""
         zi_zi_up = ""
         zi_zi_right_up = ""
@@ -187,8 +212,10 @@ def main():
         zi_zi_down = ""
         zi_zi_right_down = ""
         zi_zi_mid_in = ""
+        zi_desc_en = ""
+        zi_hsk_note = ""
 
-    col_left, _, col_right = st.columns([6,1,10])
+    col_left, col_right = st.columns([10,10])
 
     st.session_state["selected_row_original_value"] = zi
 
@@ -196,7 +223,7 @@ def main():
     # display Zi form
     with col_left:
         with st.form(key="zi_parts"):
-            c0_1,c0_2,c0_3 = st.columns([2,2,8])
+            c0_1,c0_2,c0_3,c0_4 = st.columns([2,2,6,6])
             with c0_1:
                 zi_title = f"""
                 <span style="color:red; font-size:2.5em;">{zi_zi}</span>
@@ -208,15 +235,19 @@ def main():
                 st.selectbox('Active?', ACTIVE_STATES, index=ACTIVE_STATES.index(fix_None_val(zi_is_active)),  key=f"{KEY_PREFIX}_is_active")
             with c0_3:
                 st.text_area('解释', value=zi_desc_cn,  key=f"{KEY_PREFIX}_desc_cn")
-                st.text_input("ts", value=zi_ts, key=f"{KEY_PREFIX}_ts")
+            with c0_4:
+                st.text_area('Explanation', value=zi_desc_en,  key=f"{KEY_PREFIX}_desc_en")
+                # st.text_input("ts", value=zi_ts, key=f"{KEY_PREFIX}_ts")
 
-            c1_1,c1_2,c1_3,_ = st.columns(4)
+            c1_1,c1_2,c1_3,c1_4 = st.columns(4)
             with c1_1:
                 st.text_input('左上', value=zi_zi_left_up,  key=f"{KEY_PREFIX}_zi_left_up")
             with c1_2:
                 st.text_input('上', value=zi_zi_up,  key=f"{KEY_PREFIX}_zi_up")
             with c1_3:
                 st.text_input("右上", value=zi_zi_right_up,  key=f"{KEY_PREFIX}_zi_right_up")
+            with c1_4:
+                st.text_input('HSK note', value=zi_hsk_note,  key=f"{KEY_PREFIX}_hsk_note")
 
             c2_1,c2_2,c2_3,c2_4 = st.columns(4)
             with c2_1:
@@ -242,9 +273,9 @@ def main():
 
     # display Zi parts
     with col_right:
+        parts, n_parts = format_parts(30)
 
-        st.subheader("Parts:")
-        parts = format_parts()
+        st.subheader(f"Parts ({n_parts}):")
         for p in parts:
             st.markdown(p, unsafe_allow_html=True)
 
