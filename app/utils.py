@@ -55,6 +55,21 @@ SELECTBOX_OPTIONS = {
     "note_type": CFG["NOTE_TYPE"],
 }
 
+# temp workaround
+ZI_PART_COLS = [
+    "zi",
+    "zi_left_up", "zi_up", "zi_right_up",
+    "zi_left", "zi_mid", "zi_right",
+    "zi_left_down", "zi_down", "zi_right_down",
+    "zi_mid_in", "zi_mid_out",
+    "is_active",
+    "desc_cn",
+    "desc_en",
+    "hsk_note",
+    "u_id",
+    "ts"
+]
+
 def fix_None_val(v):
     return "" if v is None else v
 
@@ -148,6 +163,7 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
     else:
         # temp workaround
         visible_columns = get_all_columns(table_name)
+    # print(f"visible_columns = {visible_columns}")
 
     sql_type = "INSERT"
     id_ = data.get(user_key_cols, "")
@@ -502,8 +518,8 @@ def prepare_column_props(col_defn):
                     is_system_col=False,
                     is_user_key=False,
                     is_required=False,
-                    is_visible=False,
-                    is_editable=False,
+                    is_visible=True,
+                    is_editable=True,
                     is_clickable=False,
                     datatype=data_type,
                     form_column="COL_1-1",
@@ -529,11 +545,13 @@ def gen_label(col):
         cols.append(c.capitalize())
     return " ".join(cols)
 
+
+
 def get_all_columns(table_name):
     cols = COLUMN_PROPS[table_name].keys()
     out = [c.split()[0] for c in cols]
     if table_name == "t_zi_part":
-        out = [c for c in out if c not in ["zi", ]]
+        out = ZI_PART_COLS
     return out
 
 def get_columns(table_name, prop_name="is_visible"):

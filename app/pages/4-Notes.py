@@ -7,16 +7,19 @@ TABLE_NAME = CFG["TABLE_NOTE"]
 KEY_PREFIX = f"col_{TABLE_NAME}"
 
 def main():
-    c1, c2,  c4 = st.columns([3,8,1])
+    c1, c2, c3, c4 = st.columns([3,8,2,1])
     with c1:
         search_term = st.text_input("🔍Search:", key=f"{KEY_PREFIX}_search_term").strip()
     with c2:
         search_others = st.text_input("🔍Free-form where-clause:", key=f"{KEY_PREFIX}_search_others").strip()
+    with c3:
+        search_type = st.selectbox("🔍Note Type", CFG["NOTE_TYPE"], index=CFG["NOTE_TYPE"].index(""), key=f"{KEY_PREFIX}_search_type")
     with c4:
         active = st.selectbox("🔍Active?", ACTIVE_STATES, index=ACTIVE_STATES.index("Y"), key=f"{KEY_PREFIX}_active")
 
     where_clause = " 1=1 " 
     where_clause += " " if not active else f" and is_active = '{active}' "
+    where_clause += " " if not search_type else f" and note_type = '{search_type}' "
 
     if search_term:
         where_clause += f""" and (
@@ -38,9 +41,9 @@ def main():
             select 
                 title
                 , note
-                , note_type
                 , link_url
                 , tags
+                , note_type
                 , u_id
                 , ts
                 , ifnull(is_active, '')  as is_active

@@ -1,3 +1,6 @@
+"""
+hand-crafted UI layout
+"""
 from utils import *
 
 st.set_page_config(layout="wide")
@@ -5,17 +8,7 @@ st.subheader("🐒 字分解 Zi Decomposer 📝")
 
 TABLE_NAME = CFG["TABLE_ZI_PART"]
 KEY_PREFIX = f"col_{TABLE_NAME}"
-ZI_PART_COLS = [
-    "zi",
-    "zi_left_up", "zi_up", "zi_right_up",
-    "zi_left", "zi_mid", "zi_right",
-    "zi_left_down", "zi_down", "zi_right_down",
-    "zi_mid_in", "zi_mid_out",
-    "is_active",
-    "desc_cn",
-    "u_id",
-    "ts"
-]
+
 
 TAG_LEFT = "|["
 TAG_RIGHT = "]|"
@@ -314,8 +307,8 @@ def _submit_zi_parts():
     # submit update to DB
     try:
         # print(zi_orig_val)
-        print("DEBUG:======================")
-        print(data)
+        # print("DEBUG:======================")
+        # print(data)
         db_upsert(data)
 
     except Exception as e:
