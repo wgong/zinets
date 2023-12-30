@@ -38,6 +38,9 @@ zi,traditional,pinyin,category,strokes,meaning,example,u_id,is_active
 又,,yòu,,2,right hand / again,叉 友 双 发 受,37,Y
 讠,訁 ,yán,,2,speech,计 讨 记 讲 识,188,Y
 乃,,nai,,2,,,259,Y
+丁,,ding,,2,,,260,Y
+X,,,,2,,,262,Y
+了,,le,,2,,,263,Y
 口,,kǒu,,3,mouth / opening,吃 叹 品 吵 叫,38,Y
 囗,,wéi,,3,enclosure / boundary,围 团 国 囚 困,39,Y
 土,,tǔ,,3,earth / soil,在 地 城 地 型,40,Y
@@ -95,7 +98,7 @@ zi,traditional,pinyin,category,strokes,meaning,example,u_id,is_active
 攴,,pū,,4,rap/beat,,81,Y
 攵,,pū,,4,rap/beat,收 改 政 故 敌,82,Y
 文,,wén,,4,script / literature,齐 斌 斑 斓 斋,83,Y
-斗,,dǒu,,4,vessel / struggle,料 斛 斟 斜,84,Y
+斗,鬥,"dǒu, dou ",,4,vessel / struggle,料 斛 斟 斜,84,Y
 斤,,jīn,,4,axe / pound,斧 断 斯 新 斩,85,Y
 方,,fāng,,4,square,施 旁 旋 旅 旗,86,Y
 无,,wú,,4,not / none,芜,87,Y
@@ -138,6 +141,7 @@ zi,traditional,pinyin,category,strokes,meaning,example,u_id,is_active
 长,長 ,cháng,,4,long / grow,张 帐 账,210,Y
 韦,,wěi,,4,soft leather,韧 韩 韫,221,Y
 风,風 ,fēng,,4,wind,飒 飓 飘,225,Y
+凤,,feng,,4,,,261,Y
 母,,mǔ,,5,mother,每 毒,99,Y
 比,,bǐ,,5,compare / compete,毕 庇 毙,100,Y
 氺,,shuǐ,,5,water,承,106,Y
