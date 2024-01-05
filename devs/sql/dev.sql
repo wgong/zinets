@@ -1,3 +1,25 @@
+select c.zi, c.caizi, p.*
+from t_zi_part p join w_caizi c on p.zi = c.zi;
+
+select c.zi, c.caizi, p.*
+from t_zi_part p join w_caizi c on p.zi = c.zi
+where 1=1
+and p.zi_left is null and p.zi_left_down is null and p.zi_left_up is null 
+and p.zi_right is null and p.zi_right_down is null and p.zi_right_up is null 
+and p.zi_up is null and p.zi_mid is null and p.zi_down is null and p.zi_mid_in is null and p.zi_mid_out is null
+;
+-- 2449 are not yet decomposed
+
+
+ select max(u_id) from t_note;
+ 
+ select 
+	case 
+		when max(u_id) is NULL then '10' 
+		else cast(max(cast(u_id as int))+1 as text) 
+	end as id
+ from t_note;
+ 
  update t_zi_part set zi_left_up = 'X' where zi_left_up = 'x'; 
  update t_zi_part set zi_up = 'X' where zi_up = 'x'; 
  update t_zi_part set zi_right_up = 'X' where zi_right_up = 'x'; 
@@ -343,3 +365,28 @@ update t_zi set sort_id = (select sort_id from ids where ids.id = t_zi.id);
 SELECT ROW_NUMBER() OVER (order by layer, pinyin) nid, * FROM t_zi  
 order by layer, pinyin
 ;
+
+-- DDL
+-- create TABLE
+create table if not exists t_note
+(
+    title text NOT NULL,
+    u_id text,          -- number in string
+    note_type text,     -- REF/JOURNAL
+    note text,
+    link_url text,
+    tags text,
+    ts text,
+    is_active text default 'Y'
+);
+
+create table if not exists w_caizi
+(
+    zi text NOT NULL,
+	caizi text,
+    tags text,
+    is_active text default 'Y'
+);
+
+-- alter table 
+

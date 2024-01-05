@@ -5,6 +5,10 @@ ZiZi app prototype in streamlit
 # TODO
 #=======
 
+[2024-01-04]
+- incorporate work at https://github.com/kfcd/chaizi 
+
+
 [2023-12-23]
 - build an emoji lookup tool 
     - scrape and parse 2000 emojis into CSV (https://unicode.org/emoji/charts/full-emoji-list.html)
