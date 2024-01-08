@@ -67,7 +67,8 @@ ZI_PART_COLS = [
     "desc_en",
     "hsk_note",
     "u_id",
-    "ts"
+    "ts",
+    "caizi",
 ]
 
 def fix_None_val(v):

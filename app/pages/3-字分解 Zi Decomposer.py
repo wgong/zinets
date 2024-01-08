@@ -36,7 +36,10 @@ def query_parts(strokes_clause):
             )
         """
     sql_stmt = f"""
-        select zi,traditional as zi_tr from t_part 
+        select 
+            distinct zi
+            ,traditional as zi_tr 
+        from t_part 
         where is_active = 'Y' 
             and zi is not null
             and {where_clause}
@@ -93,30 +96,30 @@ def main():
     with c1:
         search_parts = st.text_input("🔍Search parts:", key=f"{KEY_PREFIX}_search_parts").strip()
     with c2:
-        search_others = st.text_input("🔍Free-form where-clause:", key=f"{KEY_PREFIX}_search_others").strip()
+        search_others = st.text_input("🔍Free-form where-clause (add z. prefix to column):", key=f"{KEY_PREFIX}_search_others").strip()
     with c3:
         search_layer = st.selectbox("🔍Layer", LAYERS, index=LAYERS.index(""), key=f"{KEY_PREFIX}_search_layer")
     with c4:
         active = st.selectbox("🔍Active?", ACTIVE_STATES, index=ACTIVE_STATES.index("Y"), key=f"{KEY_PREFIX}_active")
 
     where_clause = " 1=1 " 
-    where_clause += " " if not active else f" and is_active = '{active}' "
+    where_clause += " " if not active else f" and z.is_active = '{active}' "
 
     if search_parts:
         where_clause += f""" 
             and (
-                zi like '%{search_parts}%'
-                OR zi_left_up like '%{search_parts}%'
-                OR zi_left like '%{search_parts}%'
-                OR zi_left_down like '%{search_parts}%'
-                OR zi_up like '%{search_parts}%'
-                OR zi_mid like '%{search_parts}%'
-                OR zi_down like '%{search_parts}%'
-                OR zi_right_up like '%{search_parts}%'
-                OR zi_right like '%{search_parts}%'
-                OR zi_right_down like '%{search_parts}%'
-                OR zi_mid_out like '%{search_parts}%'
-                OR zi_mid_in like '%{search_parts}%'
+                z.zi like '%{search_parts}%'
+                OR z.zi_left_up like '%{search_parts}%'
+                OR z.zi_left like '%{search_parts}%'
+                OR z.zi_left_down like '%{search_parts}%'
+                OR z.zi_up like '%{search_parts}%'
+                OR z.zi_mid like '%{search_parts}%'
+                OR z.zi_down like '%{search_parts}%'
+                OR z.zi_right_up like '%{search_parts}%'
+                OR z.zi_right like '%{search_parts}%'
+                OR z.zi_right_down like '%{search_parts}%'
+                OR z.zi_mid_out like '%{search_parts}%'
+                OR z.zi_mid_in like '%{search_parts}%'
         ) """
     if search_others:
         where_clause += f""" 
@@ -126,7 +129,7 @@ def main():
 
     if search_layer:
         where_clause += f"""
-            and zi in (
+            and z.zi in (
                 select zi from {CFG["TABLE_ZI"]}
                 where layer = '{search_layer}'
             )
@@ -137,26 +140,29 @@ def main():
     with DBConn() as _conn:
         sql_stmt = f"""
             select 
-                zi
-                , zi_left_up
-                , zi_left
-                , zi_left_down
-                , zi_up
-                , zi_mid
-                , zi_down
-                , zi_right_up
-                , zi_right
-                , zi_right_down
-                , zi_mid_out
-                , zi_mid_in
-                , u_id
-                , ifnull(is_active, '') as is_active
-                , desc_cn
-                , desc_en
-                , hsk_note
-            from {TABLE_NAME}
+                z.zi
+                , z.zi_left_up
+                , z.zi_left
+                , z.zi_left_down
+                , z.zi_up
+                , z.zi_mid
+                , z.zi_down
+                , z.zi_right_up
+                , z.zi_right
+                , z.zi_right_down
+                , z.zi_mid_out
+                , z.zi_mid_in
+                , z.u_id
+                , ifnull(z.is_active, '') as is_active
+                , z.desc_cn
+                , z.desc_en
+                , z.hsk_note
+                , c.caizi
+            from {TABLE_NAME} z join w_caizi c
+            on z.zi = c.zi
             where {where_clause}
-            order by cast(u_id as integer)
+                and c.is_active = 'Y'
+            order by cast(z.u_id as integer)
             ;
         """
         # st.write(sql_stmt)
@@ -188,6 +194,7 @@ def main():
         zi_zi_mid_in = zi["zi_mid_in"]
         zi_desc_en = zi["desc_en"]
         zi_hsk_note = zi["hsk_note"]
+        zi_caizi = zi["caizi"]
     else:
         zi_zi = ""
         zi_u_id = ""
@@ -207,6 +214,7 @@ def main():
         zi_zi_mid_in = ""
         zi_desc_en = ""
         zi_hsk_note = ""
+        zi_caizi = ""
 
     col_left, col_right = st.columns([10,10])
 
@@ -216,23 +224,20 @@ def main():
     # display Zi form
     with col_left:
         with st.form(key="zi_parts"):
-            c0_1,c0_2,c0_3,c0_4 = st.columns([2,2,6,6])
+            c0_1,c0_3,c0_4 = st.columns([2,6,6])
             with c0_1:
+                st.text_input('字', value=zi_zi, key=f"{KEY_PREFIX}_zi")
                 zi_title = f"""
-                <span style="color:red; font-size:2.5em;">{zi_zi}</span>
+                <span style="color:red; font-size:2.0em;">{zi_zi}</span>
                 """
                 st.markdown(zi_title, unsafe_allow_html=True)
-                st.text_input('字', value=zi_zi, key=f"{KEY_PREFIX}_zi")
-            with c0_2:
-                st.text_input('ID', value=zi_u_id, disabled=True, key=f"{KEY_PREFIX}_u_id")
-                st.selectbox('Active?', ACTIVE_STATES, index=ACTIVE_STATES.index(fix_None_val(zi_is_active)),  key=f"{KEY_PREFIX}_is_active")
             with c0_3:
                 st.text_area('解释', value=zi_desc_cn,  key=f"{KEY_PREFIX}_desc_cn")
             with c0_4:
                 st.text_area('Explanation', value=zi_desc_en,  key=f"{KEY_PREFIX}_desc_en")
                 # st.text_input("ts", value=zi_ts, key=f"{KEY_PREFIX}_ts")
 
-            c1_1,c1_2,c1_3,c1_4 = st.columns(4)
+            c1_1,c1_2,c1_3,c1_4,c1_5 = st.columns([2,2,2,1,1])
             with c1_1:
                 st.text_input('左上', value=zi_zi_left_up,  key=f"{KEY_PREFIX}_zi_left_up")
             with c1_2:
@@ -240,9 +245,11 @@ def main():
             with c1_3:
                 st.text_input("右上", value=zi_zi_right_up,  key=f"{KEY_PREFIX}_zi_right_up")
             with c1_4:
-                st.text_input('HSK note', value=zi_hsk_note,  key=f"{KEY_PREFIX}_hsk_note")
+                st.selectbox('Active?', ACTIVE_STATES, index=ACTIVE_STATES.index(fix_None_val(zi_is_active)),  key=f"{KEY_PREFIX}_is_active")
+            with c1_5:
+                st.text_input('ID', value=zi_u_id, disabled=True, key=f"{KEY_PREFIX}_u_id")
 
-            c2_1,c2_2,c2_3,c2_4 = st.columns(4)
+            c2_1,c2_2,c2_3,c2_4 = st.columns([2,2,2,2])
             with c2_1:
                 st.text_input('左', value=zi_zi_left,  key=f"{KEY_PREFIX}_zi_left")
             with c2_2:
@@ -252,7 +259,7 @@ def main():
             with c2_4:
                 st.text_input('中外', value=zi_zi_mid_out,  key=f"{KEY_PREFIX}_zi_mid_out")
 
-            c3_1,c3_2,c3_3,c3_4 = st.columns(4)
+            c3_1,c3_2,c3_3,c3_4 = st.columns([2,2,2,2])
             with c3_1:
                 st.text_input('左下', value=zi_zi_left_down,  key=f"{KEY_PREFIX}_zi_left_down")
             with c3_2:
@@ -262,7 +269,13 @@ def main():
             with c3_4:
                 st.text_input('中内', value=zi_zi_mid_in,  key=f"{KEY_PREFIX}_zi_mid_in")
 
-            st.form_submit_button('Save', on_click=_submit_zi_parts, use_container_width=True)
+            c4_1,c4_2,c4_3 = st.columns([3,3,3])
+            with c4_1:
+                st.text_input("拆字", value=zi_caizi, key=f"{KEY_PREFIX}_caizi")
+            with c4_2:
+                st.text_input('HSK note', value=zi_hsk_note,  key=f"{KEY_PREFIX}_hsk_note")
+            with c4_3:
+                st.form_submit_button('Save', on_click=_submit_zi_parts, use_container_width=True)
 
     # display Zi parts
     with col_right:
@@ -290,6 +303,7 @@ def _submit_zi_parts():
         zp = st.session_state.get(f"{KEY_PREFIX}_{c}","")
         if c == "ts" and zp == "":
             zp = get_ts_now()
+        if c == "caizi": continue  # skip caizi
         data.update({c : zp})
 
     zi_orig_val = st.session_state.get("selected_row_original_value",None)
