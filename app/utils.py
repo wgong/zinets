@@ -25,6 +25,8 @@ from ui_layout import *
 #############################
 # Config params (1st)
 #############################
+
+STR_SAVE = "✅ Save" # 💾
 CFG = {
     "DEBUG_FLAG" : True, # False, # 
     
@@ -387,7 +389,7 @@ def get_uuid():
 # https://stackoverflow.com/questions/72624323/how-to-set-a-max-column-length-for-streamlit-aggrid
 AGGRID_OPTIONS = {
     "paginationPageSize": 10,
-    "grid_height": 360,
+    "grid_height": 370,
     "return_mode_value": DataReturnMode.__members__["FILTERED"],
     "update_mode_value": GridUpdateMode.__members__["MODEL_CHANGED"],
     "fit_columns_on_grid_load": True,
@@ -747,7 +749,7 @@ def ui_layout_form(selected_row, table_name):
                     delete_flag = st.checkbox("Delelte Record?", value=False)
                     data.update({col: delete_flag})
 
-        save_btn = st.form_submit_button("💾 Save")
+        save_btn = st.form_submit_button(STR_SAVE)  
         if save_btn:
             try:
                 delete_flag = data.get("delelte_record", False)
@@ -805,9 +807,10 @@ def ui_display_df_grid(df,
         gb.configure_column(k, cellStyle=v)
 
     if clickable_columns:       # config clickable columns
-        cell_renderer_url =  JsCode("""
-            function(params) {return `<a href=${params.value} target="_blank">${params.value}</a>`}
-        """)
+        js_code = """
+            function(params) {return params.value ? `<a href=${params.value} target="_blank">${params.value}</a>` : "" }
+        """
+        cell_renderer_url =  JsCode(js_code)
         for col_name in clickable_columns:
             gb.configure_column(col_name, cellRenderer=cell_renderer_url)
 

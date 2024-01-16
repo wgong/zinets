@@ -35,20 +35,49 @@ def query_parts(strokes_clause):
                     in {one2nine.replace("[","(").replace("]",")")}
             )
         """
+    # sql_stmt = f"""
+    #     select 
+    #         distinct zi
+    #         ,traditional as zi_tr 
+    #     from t_part 
+    #     where is_active = 'Y' 
+    #         and zi is not null
+    #         and {where_clause}
+    #     order by cast(strokes as int), u_id
+    # """
     sql_stmt = f"""
+        with parts as (
+            select 
+                zi
+                ,traditional as zi_tr
+                , strokes
+                , u_id
+            from t_part 
+            where is_active = 'Y' 
+                and zi is not null
+            union all
+            select 
+                zi
+                ,traditional as zi_tr
+                , nstrokes as strokes
+                , u_id
+            from t_zi
+            where is_active = 'Y' 
+                and zi is not null
+                and as_part = 'Y'                       
+        )
         select 
             distinct zi
-            ,traditional as zi_tr 
-        from t_part 
-        where is_active = 'Y' 
-            and zi is not null
-            and {where_clause}
-        order by cast(strokes as int), u_id
+            -- , zi_tr 
+        from parts
+        where {where_clause}
+            order by cast(strokes as int), u_id    
     """
     with DBConn() as _conn:
         df3 = pd.read_sql(sql_stmt, _conn).fillna("")
-    df3["zi2"] = df3["zi"] + df3["zi_tr"]
-    parts  = df3["zi2"].to_list()
+    # df3["zi2"] = df3["zi"] + df3["zi_tr"]
+    # parts  = df3["zi2"].to_list()
+    parts  = df3["zi"].to_list()
 
     out = [p for p in parts if isinstance(p, str)]
     return out, len(out)
@@ -96,7 +125,7 @@ def main():
     with c1:
         search_parts = st.text_input("🔍Search parts:", key=f"{KEY_PREFIX}_search_parts").strip()
     with c2:
-        search_others = st.text_input("🔍Free-form where-clause (add z. prefix to column):", key=f"{KEY_PREFIX}_search_others").strip()
+        search_others = st.text_input("🔍Free-form where-clause (add z. prefix to column, e.g. cast(z.u_id as int) > 233):", key=f"{KEY_PREFIX}_search_others").strip()
     with c3:
         search_layer = st.selectbox("🔍Layer", LAYERS, index=LAYERS.index(""), key=f"{KEY_PREFIX}_search_layer")
     with c4:
@@ -237,6 +266,17 @@ def main():
                 st.text_area('Explanation', value=zi_desc_en,  key=f"{KEY_PREFIX}_desc_en")
                 # st.text_input("ts", value=zi_ts, key=f"{KEY_PREFIX}_ts")
 
+            c4_0, c4_1,c4_2,_, c4_3 = st.columns([1, 3, 4, 1,1 ])
+            with c4_0:
+                st.text_input('ID', value=zi_u_id, disabled=True, key=f"{KEY_PREFIX}_u_id")
+            with c4_1:
+                st.text_input("拆字", value=zi_caizi, key=f"{KEY_PREFIX}_caizi")
+            with c4_2:
+                st.text_input('HSK note', value=zi_hsk_note,  key=f"{KEY_PREFIX}_hsk_note")
+            with c4_3:
+                st.form_submit_button(STR_SAVE, on_click=_submit_zi_parts, use_container_width=True)
+
+
             c1_1,c1_2,c1_3,c1_4,c1_5 = st.columns([2,2,2,1,1])
             with c1_1:
                 st.text_input('左上', value=zi_zi_left_up,  key=f"{KEY_PREFIX}_zi_left_up")
@@ -246,8 +286,6 @@ def main():
                 st.text_input("右上", value=zi_zi_right_up,  key=f"{KEY_PREFIX}_zi_right_up")
             with c1_4:
                 st.selectbox('Active?', ACTIVE_STATES, index=ACTIVE_STATES.index(fix_None_val(zi_is_active)),  key=f"{KEY_PREFIX}_is_active")
-            with c1_5:
-                st.text_input('ID', value=zi_u_id, disabled=True, key=f"{KEY_PREFIX}_u_id")
 
             c2_1,c2_2,c2_3,c2_4 = st.columns([2,2,2,2])
             with c2_1:
@@ -269,17 +307,9 @@ def main():
             with c3_4:
                 st.text_input('中内', value=zi_zi_mid_in,  key=f"{KEY_PREFIX}_zi_mid_in")
 
-            c4_1,c4_2,c4_3 = st.columns([3,3,3])
-            with c4_1:
-                st.text_input("拆字", value=zi_caizi, key=f"{KEY_PREFIX}_caizi")
-            with c4_2:
-                st.text_input('HSK note', value=zi_hsk_note,  key=f"{KEY_PREFIX}_hsk_note")
-            with c4_3:
-                st.form_submit_button('Save', on_click=_submit_zi_parts, use_container_width=True)
-
     # display Zi parts
     with col_right:
-        parts, n_parts = format_parts(30)
+        parts, n_parts = format_parts(35)
 
         st.subheader(f"Parts ({n_parts}):")
         for p in parts:
