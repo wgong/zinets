@@ -44,7 +44,8 @@ CFG = {
     "TABLE_NOTE" : "t_note",        # Note on Journal/Resource
 
     "SHUFA_TYPE": ["", "甲骨", "金", "篆", "隶", "楷", "行", "草"],
-    "NOTE_TYPE": ["", "REF", "JOURNAL"],
+    "NOTE_TYPE": ["", "RESOURCE", "JOURNAL", "APP","PROJECT", "TASK",],
+    "STATUS_CODE": ["", "ToDo","WIP", "Complete", "Blocked","De-Scoped",],
 }
 
 # define options for selectbox column type, keyed on column name
@@ -55,6 +56,7 @@ SELECTBOX_OPTIONS = {
     "as_part": ACTIVE_STATES,
     "shufa_type": CFG["SHUFA_TYPE"],
     "note_type": CFG["NOTE_TYPE"],
+    "status_code": CFG["STATUS_CODE"],
 }
 
 # temp workaround

@@ -535,6 +535,17 @@ COLUMN_PROPS = {
     'widget_type': 'selectbox',
     'label_text': 'Type'
     },
+    'status_code': {'is_system_col': False,
+    'is_user_key': False,
+    'is_required': False,
+    'is_visible': True,
+    'is_editable': True,
+    'is_clickable': False,
+    'datatype': 'text',
+    'form_column': 'COL_2-3',
+    'widget_type': 'selectbox',
+    'label_text': 'Status'
+    },
     'is_active': {'is_system_col': False,
     'is_user_key': False,
     'is_required': False,
