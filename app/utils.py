@@ -1,3 +1,12 @@
+"""
+# ToDo
+- [2024-01-20]
+
+# Done
+- [2024-01-20]
+    - fixed issue in db_execute() to allow matching by `zi`
+"""
+
 # basic libs
 from datetime import datetime
 from io import StringIO 
@@ -29,6 +38,7 @@ from ui_layout import *
 STR_SAVE = "✅ Save" # 💾
 CFG = {
     "DEBUG_FLAG" : True, # False, # 
+    "SQL_EXECUTION_FLAG" : True, #  False, #   control SQL
     
     # "DB_FILENAME" : Path(__file__).parent / "zinets.sqlite",
     "DB_FILENAME" : Path(__file__).parent / "zizi.sqlite",
@@ -110,14 +120,18 @@ def db_run_sql(sql_stmt, conn=None, debug=CFG["DEBUG_FLAG"]):
     return None
 
 
-def db_execute(sql_statement, debug=CFG["DEBUG_FLAG"], execute_flag=True):
+def db_execute(sql_statement, 
+               debug=CFG["DEBUG_FLAG"], 
+               execute_flag=CFG["SQL_EXECUTION_FLAG"],):
     """handles insert/update/delete
     """
     with DBConn() as _conn:
         debug_print(sql_statement, debug=debug)
         if execute_flag:
             _conn.execute(sql_statement)
-            _conn.commit()      
+            _conn.commit()
+        else:
+            print("[WARN] SQL Execution is off ! ")   
 
 def db_query_layer():
     sql_stmt = f"""
@@ -152,7 +166,13 @@ def db_select_by_id(table_name, id_value=""):
         return pd.read_sql(sql_stmt, _conn).fillna("").to_dict('records')
 
 
-
+def trim_str_col_val(data):
+    data_new = {}
+    for k,v in data.items():
+        if isinstance(v, str):
+            v = v.strip()
+        data_new.update({k:v})
+    return data_new
 
 def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
     if not data: 
@@ -170,8 +190,15 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
         visible_columns = get_all_columns(table_name)
     # print(f"visible_columns = {visible_columns}")
 
+    data = trim_str_col_val(data)
+
     sql_type = "INSERT"
-    id_ = data.get(user_key_cols, "")
+    id_ = data.get(user_key_cols, "None")
+    if id_ is None or id_ == "None":
+        id_ = ""
+        sql_type = "INSERT"
+
+    zi_ = data.get("zi", "").strip()
     if id_:
         with DBConn() as _conn:
             sql_stmt = f"""
@@ -184,6 +211,26 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
             if len(rows):
                 sql_type = "UPDATE"  
                 old_row = rows[0]
+                id_ = old_row.get("u_id")         
+           
+    elif zi_:
+        # query by Zi
+        with DBConn() as _conn:
+            sql_stmt = f"""
+                select *
+                from {table_name} 
+                where trim(zi) = '{zi_}';
+            """
+            rows = pd.read_sql(sql_stmt, _conn).to_dict('records')
+
+            if len(rows):
+                sql_type = "UPDATE"  
+                old_row = rows[0]
+                id_ = old_row.get("u_id")         
+
+    if id_ is None or id_ == "None":
+        id_ = ""
+        sql_type = "INSERT"
 
     upsert_sql = ""
     if sql_type == "INSERT":
@@ -192,6 +239,8 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
         val_clause = []
         for col,val in data.items():
             if col not in visible_columns:
+                continue
+            if col == user_key_cols and not val:
                 continue
             col_clause.append(col)
             col_val = escape_single_quote(val)
@@ -221,6 +270,8 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
     else:
         set_clause = []
         for col in visible_columns:
+            if col == user_key_cols: continue
+
             if col == "is_active":
                 val = data.get(col, "")
                 old_val = old_row.get(col, "")
@@ -229,7 +280,8 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
             else:
                 val = data.get(col, 1)
                 old_val = old_row.get(col, 1)
-
+            if isinstance(val, str):
+                val = val.strip()
             if (val and old_val and val == old_val) or (not val and not old_val):
                 continue
 
@@ -245,8 +297,10 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
             """
 
     if upsert_sql:
-        # db_execute(upsert_sql, execute_flag=False)
-        db_execute(upsert_sql)
+        db_execute(upsert_sql, 
+                   debug=CFG["DEBUG_FLAG"], 
+                   execute_flag=CFG["SQL_EXECUTION_FLAG"], 
+            )
 
 def db_delete_by_id(data):
     if not data: 
@@ -264,7 +318,10 @@ def db_delete_by_id(data):
         delete from {table_name}
         where u_id = '{id_val}';
     """
-    db_execute(delete_sql)
+    db_execute(delete_sql, 
+                debug=CFG["DEBUG_FLAG"], 
+                execute_flag=CFG["SQL_EXECUTION_FLAG"], 
+        )    
 
 def db_update_by_id(data, update_changed=True):
     if not data: 
@@ -307,7 +364,10 @@ def db_update_by_id(data, update_changed=True):
             set {', '.join(set_clause)}
             where u_id = '{id_val}';
         """
-        db_execute(update_sql)  
+        db_execute(update_sql, 
+                    debug=CFG["DEBUG_FLAG"], 
+                    execute_flag=CFG["SQL_EXECUTION_FLAG"], 
+            )
 
 # deprecated
 def db_create_table(table_name, conn, drop_table=False):
@@ -367,7 +427,7 @@ def escape_single_quote(s):
         return ''
     if not "'" in s:
         return s
-    return s.replace("\'", "\'\'")
+    return s.strip().replace("\'", "\'\'")
 
 def list2sql_str(l):
     """convert a list into SQL in string

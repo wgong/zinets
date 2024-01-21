@@ -73,6 +73,9 @@ def query_parts(strokes_clause):
         where {where_clause}
             order by cast(strokes as int), u_id    
     """
+    # if CFG["DEBUG_FLAG"]:
+    #     print(sql_stmt)
+
     with DBConn() as _conn:
         df3 = pd.read_sql(sql_stmt, _conn).fillna("")
     # df3["zi2"] = df3["zi"] + df3["zi_tr"]
@@ -125,14 +128,14 @@ def main():
     with c1:
         search_parts = st.text_input("🔍Search parts:", key=f"{KEY_PREFIX}_search_parts").strip()
     with c2:
-        search_others = st.text_input("🔍Free-form where-clause (add z. prefix to column, e.g. cast(z.u_id as int) > 233):", key=f"{KEY_PREFIX}_search_others").strip()
+        search_others = st.text_input("🔍Free-form where-clause (e.g. cast(z.u_id as int) >= 233 ):", key=f"{KEY_PREFIX}_search_others").strip()
     with c3:
         search_layer = st.selectbox("🔍Layer", LAYERS, index=LAYERS.index(""), key=f"{KEY_PREFIX}_search_layer")
     with c4:
         active = st.selectbox("🔍Active?", ACTIVE_STATES, index=ACTIVE_STATES.index("Y"), key=f"{KEY_PREFIX}_active")
 
     where_clause = " 1=1 " 
-    where_clause += " " if not active else f" and z.is_active = '{active}' "
+    where_clause += " " if not active  else f" and z.is_active = '{active}' "
 
     if search_parts:
         where_clause += f""" 
@@ -187,10 +190,10 @@ def main():
                 , z.desc_en
                 , z.hsk_note
                 , c.caizi
-            from {TABLE_NAME} z join w_caizi c
-            on z.zi = c.zi
+            from {TABLE_NAME} z 
+            left join w_caizi c
+                on z.zi = c.zi
             where {where_clause}
-                and c.is_active = 'Y'
             order by cast(z.u_id as integer)
             ;
         """
@@ -198,7 +201,13 @@ def main():
         df = pd.read_sql(sql_stmt, _conn)
 
     # display grid
-    grid_resp = ui_display_df_grid(df, selection_mode="single")
+    grid_resp = ui_display_df_grid(
+            df, 
+            selection_mode="single",
+            # temp use
+            page_size=5,
+            grid_height=int(0.6*AGGRID_OPTIONS["grid_height"]),
+        )
  
 
     selected_rows = grid_resp['selected_rows']
@@ -255,9 +264,8 @@ def main():
         with st.form(key="zi_parts"):
             c0_1,c0_3,c0_4 = st.columns([2,6,6])
             with c0_1:
-                st.text_input('字', value=zi_zi, key=f"{KEY_PREFIX}_zi")
                 zi_title = f"""
-                <span style="color:red; font-size:2.0em;">{zi_zi}</span>
+                <span style="color:red; font-size:5.6em;">{zi_zi}</span>
                 """
                 st.markdown(zi_title, unsafe_allow_html=True)
             with c0_3:
@@ -266,50 +274,52 @@ def main():
                 st.text_area('Explanation', value=zi_desc_en,  key=f"{KEY_PREFIX}_desc_en")
                 # st.text_input("ts", value=zi_ts, key=f"{KEY_PREFIX}_ts")
 
-            c4_0, c4_1,c4_2,_, c4_3 = st.columns([1, 3, 4, 1,1 ])
+            c4_0, c4_1,c4_2,c4_3, c4_4 = st.columns([1, 3, 4, 1, 1 ])
             with c4_0:
-                st.text_input('ID', value=zi_u_id, disabled=True, key=f"{KEY_PREFIX}_u_id")
+                st.text_input('字 zi', value=zi_zi, key=f"{KEY_PREFIX}_zi")
             with c4_1:
                 st.text_input("拆字", value=zi_caizi, key=f"{KEY_PREFIX}_caizi")
             with c4_2:
                 st.text_input('HSK note', value=zi_hsk_note,  key=f"{KEY_PREFIX}_hsk_note")
             with c4_3:
+                st.text_input('ID', value=zi_u_id, disabled=True, key=f"{KEY_PREFIX}_u_id")
+            with c4_4:
                 st.form_submit_button(STR_SAVE, on_click=_submit_zi_parts, use_container_width=True)
 
 
             c1_1,c1_2,c1_3,c1_4,c1_5 = st.columns([2,2,2,1,1])
             with c1_1:
-                st.text_input('左上', value=zi_zi_left_up,  key=f"{KEY_PREFIX}_zi_left_up")
+                st.text_input('左上 left_up', value=zi_zi_left_up,  key=f"{KEY_PREFIX}_zi_left_up")
             with c1_2:
-                st.text_input('上', value=zi_zi_up,  key=f"{KEY_PREFIX}_zi_up")
+                st.text_input('上 up', value=zi_zi_up,  key=f"{KEY_PREFIX}_zi_up")
             with c1_3:
-                st.text_input("右上", value=zi_zi_right_up,  key=f"{KEY_PREFIX}_zi_right_up")
+                st.text_input("右上 right_up", value=zi_zi_right_up,  key=f"{KEY_PREFIX}_zi_right_up")
             with c1_4:
                 st.selectbox('Active?', ACTIVE_STATES, index=ACTIVE_STATES.index(fix_None_val(zi_is_active)),  key=f"{KEY_PREFIX}_is_active")
 
             c2_1,c2_2,c2_3,c2_4 = st.columns([2,2,2,2])
             with c2_1:
-                st.text_input('左', value=zi_zi_left,  key=f"{KEY_PREFIX}_zi_left")
+                st.text_input('左 left', value=zi_zi_left,  key=f"{KEY_PREFIX}_zi_left")
             with c2_2:
-                st.text_input('中', value=zi_zi_mid,  key=f"{KEY_PREFIX}_zi_mid")
+                st.text_input('中 mid', value=zi_zi_mid,  key=f"{KEY_PREFIX}_zi_mid")
             with c2_3:
-                st.text_input("右", value=zi_zi_right,  key=f"{KEY_PREFIX}_zi_right")
+                st.text_input("右 right", value=zi_zi_right,  key=f"{KEY_PREFIX}_zi_right")
             with c2_4:
-                st.text_input('中外', value=zi_zi_mid_out,  key=f"{KEY_PREFIX}_zi_mid_out")
+                st.text_input('中外 mid_outer', value=zi_zi_mid_out,  key=f"{KEY_PREFIX}_zi_mid_out")
 
             c3_1,c3_2,c3_3,c3_4 = st.columns([2,2,2,2])
             with c3_1:
-                st.text_input('左下', value=zi_zi_left_down,  key=f"{KEY_PREFIX}_zi_left_down")
+                st.text_input('左下 left_down', value=zi_zi_left_down,  key=f"{KEY_PREFIX}_zi_left_down")
             with c3_2:
-                st.text_input('下', value=zi_zi_down,  key=f"{KEY_PREFIX}_zi_down")
+                st.text_input('下 down', value=zi_zi_down,  key=f"{KEY_PREFIX}_zi_down")
             with c3_3:
-                st.text_input("右下", value=zi_zi_right_down,  key=f"{KEY_PREFIX}_zi_right_down")
+                st.text_input("右下 right_down", value=zi_zi_right_down,  key=f"{KEY_PREFIX}_zi_right_down")
             with c3_4:
-                st.text_input('中内', value=zi_zi_mid_in,  key=f"{KEY_PREFIX}_zi_mid_in")
+                st.text_input('中内 mid_inner', value=zi_zi_mid_in,  key=f"{KEY_PREFIX}_zi_mid_in")
 
     # display Zi parts
     with col_right:
-        parts, n_parts = format_parts(35)
+        parts, n_parts = format_parts(40)
 
         st.subheader(f"Parts ({n_parts}):")
         for p in parts:
@@ -337,7 +347,8 @@ def _submit_zi_parts():
         data.update({c : zp})
 
     zi_orig_val = st.session_state.get("selected_row_original_value",None)
-    if zi_orig_val is None: return
+    # if zi_orig_val is None: return
+    # commented out on 2024-01-20 to allow adding
 
     # add id back
     data.update({
@@ -350,9 +361,10 @@ def _submit_zi_parts():
     
     # submit update to DB
     try:
-        # print(zi_orig_val)
-        # print("DEBUG:======================")
-        # print(data)
+        if CFG["DEBUG_FLAG"]:
+            print("DEBUG:======================")
+            print(f"[SelectedRow]\n\t {zi_orig_val}")
+            print(f"[DATA]\n\t {data}")
         db_upsert(data)
 
     except Exception as e:

@@ -1,3 +1,262 @@
+-- bulk UPDATE - use dev_update_parts.ipynb if Zi cannot be rendered here
+-- ##################
+-- update t_zi_part set zi_left = trim(zi_left); 
+
+select * from t_zi_part where zi_left='禾' -- '辵' -- or zi_right='鬼' --'頁' --'齒'
+ and zi_right is not null; --zi_down='隹';
+
+update t_zi_part set --zi_up = zi_left,
+	zi_mid = zi_right, zi_right = null
+ where zi_left = '禾' and zi_right is not null;
+ 
+ update t_zi_part set zi_left='辶'  where zi_left = '辵' ;
+  update t_zi_part set zi_left_down=zi_left, zi_left = null
+  where zi_left = '辶' ;
+ 
+ update t_zi_part set --zi_up = zi_left,
+	zi_mid = zi_right, zi_right =  zi_left, zi_left=null
+ where zi_left = '虎';
+ 
+ select * from t_zi_part where zi_left_down='辶' ;
+ 
+delete 
+--select * 
+from t_zi_part where zi = '獻' and (u_id is null or u_id='');
+
+select * from t_zi_part where zi_left = '鸟' --'隹' --'魚' --'犬' --'牛' 
+	and zi_right is not null and zi_mid is null -- zi_right != zi_left and zi_right is not null and zi_right != '' 
+and is_active='Y'; -- 
+--revise
+update t_zi_part 
+set 
+	zi_mid = zi_right, zi_right = '鸟', zi_left = null
+where 1=1 -- and zi = '漂'
+and zi_left = '鸟' and zi_right != zi_left and zi_right is not null and zi_right != '' and is_active='Y';
+--verify
+select * from t_zi_part where zi_right = '鸟' --'犭' --'牛' --'馬' 
+and  zi_mid != '' 
+and is_active='Y';
+
+
+
+select * from t_zi_part where zi_left = '馬' and zi_right != zi_left and zi_right is not null and zi_right != '' 
+and is_active='Y'; -- 
+--revise
+update t_zi_part 
+set zi_left = '马', 
+zi_mid = zi_right, zi_right = null
+where 1=1 -- and zi = '漂'
+and zi_left = '馬' and zi_right != zi_left and zi_right is not null and zi_right != '' and is_active='Y';
+--verify
+select * from t_zi_part where zi_left = '马' --'馬' 
+and  zi_mid != '' 
+and is_active='Y';
+
+
+
+--search 
+select * from t_zi_part 
+where zi_left = '邑' --'金' --'石' --'林' --'夕' --'雨' --'山' --'月' --'日' 
+	and u_id is not null
+	and zi_right != zi_left and zi_right is not null and zi_right != '' and is_active='Y'; 
+--revise
+update t_zi_part 
+set zi_mid = zi_right, zi_right = '钅', zi_left = null
+	-- zi_down = zi_right, zi_right = null, zi_left = null
+where zi_left = '邑' --'金' --'雨' --'山' --'月' --'日' 
+	and zi_right != zi_left and zi_right is not null and zi_right != '' 
+	and is_active='Y';
+	
+update t_zi_part 
+set zi_right='阝' where zi_right = '钅' and  zi_mid != '' 
+--verify
+select * from t_zi_part where zi_right = '阝' --'雨' --'山' --'月' --'日' 
+	and  zi_mid != ''  and is_active='Y';
+
+
+select * from t_zi_part where zi_left = '疒' and zi_right != zi_left and zi_right is not null and zi_right != '' 
+and is_active='Y'; -- 
+--revise
+update t_zi_part 
+set zi_left_up = zi_left, 
+zi_mid = zi_right, zi_right = null, zi_left = null
+where 1=1 -- and zi = '漂'
+and zi_left = '疒' and zi_right != zi_left and zi_right is not null and zi_right != '' and is_active='Y';
+--verify
+select * from t_zi_part where zi_left_up = '疒' and  zi_mid != '' 
+and is_active='Y';
+
+
+select * from t_zi_part where zi_left = '目' and zi_right != zi_left and zi_right is not null and zi_right != '' 
+and is_active='Y'; -- 
+--revise
+update t_zi_part 
+set --zi_left = '衤', 
+zi_mid = zi_right, zi_right = null
+where 1=1 -- and zi = '漂'
+and zi_left = '目' and zi_right != zi_left and zi_right is not null and zi_right != '' and is_active='Y';
+--verify
+select * from t_zi_part where zi_left = '目' and  zi_mid != '' 
+and is_active='Y';
+
+
+select * from t_zi_part where zi_left = '衣' and zi_right != zi_left and zi_right is not null and zi_right != '' 
+and is_active='Y'; -- 
+--revise
+update t_zi_part 
+set zi_left = '衤', 
+zi_mid = zi_right, zi_right = null
+where 1=1 -- and zi = '漂'
+and zi_left = '衣' and zi_right != zi_left and zi_right is not null and zi_right != '' and is_active='Y';
+--verify
+select * from t_zi_part where zi_left = '衤' and  zi_mid != '' 
+and is_active='Y';
+
+
+select * from t_zi_part where zi_left = '足' and zi_right != zi_left and zi_right is not null and zi_right != '' 
+and is_active='Y';
+--no change
+
+select * from t_zi_part where zi_left = '火' and zi_right != zi_left and zi_right is not null and zi_right != '' 
+and is_active='Y';
+--revise
+update t_zi_part 
+set --zi_left = '王', 
+zi_mid = zi_right, zi_right = null
+where 1=1 -- and zi = '漂'
+and zi_left = '火' and zi_right != zi_left and zi_right is not null and zi_right != '' and is_active='Y';
+--verify
+select * from t_zi_part where zi_left = '火' and  zi_mid != '' 
+and is_active='Y';
+
+
+select * from t_zi_part where zi_left = '竹' and zi_right != zi_left and zi_right is not null and zi_right != '' 
+and is_active='Y';
+--revise
+update t_zi_part 
+set zi_up = '⺮', zi_mid = zi_right, zi_right = null, zi_left = null
+where 1=1 -- and zi = '宰' 
+and zi_left = '竹' and zi_right != zi_left and zi_right is not null and zi_right != '' and is_active='Y';
+
+select * from t_zi_part where zi_left = '虫' and zi_right != zi_left and zi_right is not null and zi_right != '' 
+and is_active='Y';
+--no change
+
+
+
+
+
+
+select * from t_zi_part where zi_left = '女' and zi_right != zi_left and zi_right is not null and zi_right != '' 
+and is_active='Y';
+--revise
+update t_zi_part 
+set zi_mid = zi_right, zi_right = null
+where 1=1 -- and zi = '漂'
+and zi_left = '女' and zi_right != zi_left and zi_right is not null and zi_right != '' and is_active='Y';
+--verify
+select * from t_zi_part where zi_left = '女' and is_active='Y';
+
+select * from t_zi_part where zi_left = '玉' and zi_right != zi_left and zi_right is not null and zi_right != '' 
+and is_active='Y';
+--revise
+update t_zi_part 
+set zi_left = '王', zi_mid = zi_right, zi_right = null
+where 1=1 -- and zi = '漂'
+and zi_left = '玉' and zi_right != zi_left and zi_right is not null and zi_right != '' and is_active='Y';
+--verify
+select * from t_zi_part where zi_left = '王' and  zi_mid != '' 
+and is_active='Y';
+
+select * from t_zi_part where zi_left = '口' and zi_right != zi_left and zi_right is not null and zi_right != '' and is_active='Y';
+--revise
+update t_zi_part 
+set zi_mid = zi_right, zi_right = null
+where 1=1 -- and zi = '漂'
+and zi_left = '口' and zi_right != zi_left and zi_right is not null and zi_right != '' and is_active='Y';
+--verify
+select * from t_zi_part where zi_left = '口' and is_active='Y';
+
+select * from t_zi_part where zi_left = '心' and zi_right != zi_left and is_active='Y';
+--revise
+update t_zi_part 
+set zi_down = zi_left, zi_up = zi_right, zi_right = null, zi_left = null
+where 1=1 -- and zi = '宰' 
+and zi_left = '心' and zi_right != zi_left and is_active='Y';
+--verify
+select * from t_zi_part where zi_down = '心' and is_active='Y';
+
+select * from t_zi_part where zi_left = '艸' and zi_right != zi_left and is_active='Y';
+--revise
+update t_zi_part 
+set zi_up = '艹', zi_mid = zi_right, zi_right = null, zi_left = null
+where 1=1 -- and zi = '宰' 
+and zi_left = '艸' and zi_right != zi_left and is_active='Y';
+--verify
+select * from t_zi_part where zi_up = '艹' and is_active='Y';
+
+select * from t_zi_part where zi_left = '手' and zi_right != zi_left and is_active='Y';
+--revise
+update t_zi_part 
+set zi_left = '扌',  zi_mid = zi_right, zi_right = null
+where 1=1 -- and zi = '漂'
+and zi_left = '手' and zi_right != zi_left and is_active='Y';
+--verify
+select * from t_zi_part where zi_left = '扌' and is_active='Y';
+
+
+select * from t_zi_part where zi_left = '木' and zi_right != zi_left and is_active='Y';
+--revise
+update t_zi_part 
+set  zi_mid = zi_right, zi_right = null
+where 1=1 -- and zi = '漂'
+and zi_left = '木' and zi_right != zi_left and is_active='Y';
+--verify
+select * from t_zi_part where zi_left = '木' and is_active='Y';
+
+select * from t_zi_part where zi_left = '水' and zi_right != zi_left and is_active='Y';
+--revise
+update t_zi_part 
+set zi_left = '氵', zi_mid = zi_right, zi_right = null
+where 1=1 -- and zi = '漂'
+and zi_left = '水' and zi_right != zi_left and is_active='Y';
+--verify
+select * from t_zi_part where zi_left = '氵' and is_active='Y';
+
+select * from t_zi_part where zi_left = '宀' and zi_right != zi_left and is_active='Y';
+--revise
+update t_zi_part 
+set zi_up = zi_left, zi_mid = zi_right, zi_right = null, zi_left = null
+where 1=1 -- and zi = '宰' 
+and zi_left = '宀' and zi_right != zi_left and is_active='Y';
+--verify
+select * from t_zi_part where zi_up = '宀' and is_active='Y';
+
+select * from t_zi_part where zi_left = '人' and zi_right != zi_left and is_active='Y';
+--revise
+update t_zi_part 
+set zi_left = '亻', zi_mid = zi_right, zi_right = null
+where 1=1 -- zi = '信'
+and zi_left = '人' and zi_right != zi_left and is_active='Y';
+
+select * from t_zi_part where zi_left = '肉' and zi_right != zi_left and is_active='Y';
+update t_zi_part 
+set zi_left = '月', zi_mid = zi_right, zi_right = null
+where 1=1 -- zi = '信'
+and zi_left = '肉' and zi_right != zi_left and is_active='Y';
+
+-- TODO 
+-- 玉 艸 口  刀 力 匚 又
+-- 厂 㫃 䖵 仌 冂 几 勹
+with parts as (
+	select * from t_zi_part where zi_left is not null and zi_left != '' and zi_right is not null and is_active='Y' and zi_mid is null
+	and zi_left not in ( '氵', '宀', '肉', '人', '水')
+) 
+select zi_left,count(*) from parts group by zi_left 
+order by count(*) desc;
+
+
+
 select c.zi, c.caizi, p.*
 from t_zi_part p join w_caizi c on p.zi = c.zi;
 
@@ -365,6 +624,9 @@ update t_zi set sort_id = (select sort_id from ids where ids.id = t_zi.id);
 SELECT ROW_NUMBER() OVER (order by layer, pinyin) nid, * FROM t_zi  
 order by layer, pinyin
 ;
+
+
+ALTER TABLE t_note add COLUMN status_code text;
 
 -- DDL
 -- create TABLE

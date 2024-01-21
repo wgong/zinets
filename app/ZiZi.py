@@ -4,6 +4,9 @@ ZiZi app prototype in streamlit
 #=======
 # TODO
 #=======
+[2024-01-18]
+- bulk-update in SQLite, see zizi\devs\sql\parts_count-20240118.csv
+
 
 [2024-01-04]
 - incorporate work at https://github.com/kfcd/chaizi 

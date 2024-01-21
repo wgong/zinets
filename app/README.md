@@ -8,7 +8,7 @@ multimodal/multilingual Chinese dictionary powered by AI，built on [Streamlit](
 streamlit run ZiZi.py
 ```
 
-### Resources
+## Resources and Tools
             
 - [《说文解字》与汉字构型 汉字部首释例 王宁主讲 ](https://www.youtube.com/watch?v=aRgrP1gtrFg)
 
@@ -42,9 +42,20 @@ streamlit run ZiZi.py
 
 - [Chinese Characters GitHub Repos](https://github.com/topics/chinese-characters)
 
+- [Google Translate](https://translate.google.com/?sl=en&tl=zh-CN&text=ordinary%0A&op=translate)
 
-#### Poems
-     - [Mao](https://www.wikiwand.com/zh/%E6%AF%9B%E6%B3%BD%E4%B8%9C)
+### Poems
+- [Mao](https://www.wikiwand.com/zh/%E6%AF%9B%E6%B3%BD%E4%B8%9C)
           - https://www.wikiwand.com/en/Poetry_of_Mao_Zedong
           - https://www.marxists.org/reference/archive/mao/selected-works/poems/index.htm
           - https://raw.githubusercontent.com/banned-historical-archives/banned-historical-archives0/main/mao-quanji/38-OCR.pdf
+
+- [青禾未秀]()
+
+### Classic Music
+- [50 Best Classic Music of all time⚜️: Mozart, Tchaikovsky, Vivaldi, Paganini, Chopin](https://youtu.be/6truGSXOGF4?si=E7NcqQ2NHh2ro2_z)
+## ToDo
+
+### UI
+- write recursive query to display Zi tree (字谱)
+test cases: 嶷
