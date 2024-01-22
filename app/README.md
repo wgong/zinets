@@ -58,4 +58,6 @@ streamlit run ZiZi.py
 
 ### UI
 - write recursive query to display Zi tree (字谱)
-test cases: 嶷
+test cases: 嶷  𩱷
+
+- mark t_zi_part.u_id = '-1' for deletion

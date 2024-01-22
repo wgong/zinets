@@ -1,0 +1,13 @@
+heaven
+earth
+plant
+animal
+human
+society
+math
+space
+time
+color
+unit-of-measure
+abstract
+misc

@@ -1,25 +1,26 @@
 -- bulk UPDATE - use dev_update_parts.ipynb if Zi cannot be rendered here
 -- ##################
 -- update t_zi_part set zi_left = trim(zi_left); 
+-- select u_id from t_zi_part where u_id is not null order by u_id desc limit 100;
 
-select * from t_zi_part where zi_left='禾' -- '辵' -- or zi_right='鬼' --'頁' --'齒'
- and zi_right is not null; --zi_down='隹';
+select * from t_zi_part where zi_left= '歹' --'歺' --zi_left= '米' --'車' --  zi_up = '广';
+--zi_left= '广' -- '讠' --'言' ----'罒' -- and ts is null  --'糸' -- '辵' -- or zi_right='鬼' --'頁' --'齒'
+ --and zi_right is not null; --zi_down='隹';
 
-update t_zi_part set --zi_up = zi_left,
-	zi_mid = zi_right, zi_right = null
- where zi_left = '禾' and zi_right is not null;
+update t_zi_part set  zi_mid = zi_right,   zi_left_up = zi_left, zi_left =  null , zi_right = null
+ where zi_left = '厂' and zi_right is not null and (zi_mid is null or zi_mid='');
  
- update t_zi_part set zi_left='辶'  where zi_left = '辵' ;
+ update t_zi_part set zi_left='纟'  where zi_left = '糸' ;
   update t_zi_part set zi_left_down=zi_left, zi_left = null
   where zi_left = '辶' ;
  
- update t_zi_part set --zi_up = zi_left,
-	zi_mid = zi_right, zi_right =  zi_left, zi_left=null
- where zi_left = '虎';
+ update t_zi_part set zi_up = zi_left, 	zi_mid = zi_right, zi_right = null, zi_left=null  where zi_left = '尸';
+ 
+ update t_zi_part set zi_left=null  where zi_left_down='走' and zi_left='走';
  
  select * from t_zi_part where zi_left_down='辶' ;
  
-delete 
+delete from t_zi_part where u_id= '13643';
 --select * 
 from t_zi_part where zi = '獻' and (u_id is null or u_id='');
 

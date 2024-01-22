@@ -175,6 +175,8 @@ def trim_str_col_val(data):
     return data_new
 
 def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
+    """ u_id = '-1' are marked for deletion
+    """
     if not data: 
         return None
 
@@ -199,7 +201,7 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
         sql_type = "INSERT"
 
     zi_ = data.get("zi", "").strip()
-    if id_:
+    if id_ and id_ not in ['-1']:
         with DBConn() as _conn:
             sql_stmt = f"""
                 select *
@@ -211,7 +213,7 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
             if len(rows):
                 sql_type = "UPDATE"  
                 old_row = rows[0]
-                id_ = old_row.get("u_id")         
+                id_ = old_row.get(user_key_cols)         
            
     elif zi_:
         # query by Zi
@@ -219,7 +221,7 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
             sql_stmt = f"""
                 select *
                 from {table_name} 
-                where trim(zi) = '{zi_}';
+                where trim(zi) = '{zi_}' and u_id not in ('-1');
             """
             rows = pd.read_sql(sql_stmt, _conn).to_dict('records')
 
@@ -228,7 +230,7 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
                 old_row = rows[0]
                 id_ = old_row.get("u_id")         
 
-    if id_ is None or id_ == "None":
+    if id_ is None or id_ in ["None", "-1"]:
         id_ = ""
         sql_type = "INSERT"
 
@@ -256,6 +258,7 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
                     else cast(max(cast({user_key_cols} as int))+1 as text) 
                 end as id
                 from {table_name}
+                where {user_key_cols} not in ('-1')
             )
             insert into {table_name} (
                 {", ".join(col_clause)}
