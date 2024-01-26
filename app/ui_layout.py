@@ -10,7 +10,7 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_1-1',
         'widget_type': 'text_input',
-        'label_text': '字'
+        'label_text': '字  Zi'
         },
     'traditional': {'is_system_col': False,
         'is_user_key': False,
@@ -21,7 +21,7 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_1-2',
         'widget_type': 'text_input',
-        'label_text': '繁体'
+        'label_text': '繁体  Traditional'
         },
     'pinyin': {'is_system_col': False,
         'is_user_key': False,
@@ -32,7 +32,7 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_1-3',
         'widget_type': 'text_input',
-        'label_text': '拼音'
+        'label_text': '拼音  Pinyin'
         },
     'alias': {'is_system_col': False,
         'is_user_key': False,
@@ -57,7 +57,7 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_2-1',
         'widget_type': 'number_input',
-        'label_text': '笔画数'
+        'label_text': '笔画数  Strokes'
         },
 
     'as_part': {'is_system_col': False,
@@ -69,7 +69,7 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_2-3',
         'widget_type': 'selectbox',
-        'label_text': '部件？'
+        'label_text': '部件？ Part'
         },
     'is_radical': {'is_system_col': False,
         'is_user_key': False,
@@ -80,7 +80,7 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_2-4',
         'widget_type': 'selectbox',
-        'label_text': '部首？'
+        'label_text': '部首？ Radical'
         },
     'layer': {'is_system_col': False,
         'is_user_key': False,
@@ -105,7 +105,7 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_3-1',
         'widget_type': 'text_area',
-        'label_text': '解释'
+        'label_text': '解释  Explanation'
         },
 
     'zi_en': {'is_system_col': False,
@@ -500,7 +500,7 @@ COLUMN_PROPS = {
     'widget_type': 'text_input',
     'label_text': 'URL'
     },
-    'tags': {'is_system_col': False,
+    'status_code': {'is_system_col': False,
     'is_user_key': False,
     'is_required': False,
     'is_visible': True,
@@ -508,8 +508,8 @@ COLUMN_PROPS = {
     'is_clickable': False,
     'datatype': 'text',
     'form_column': 'COL_1-4',
-    'widget_type': 'text_input',
-    'label_text': 'Tags'
+    'widget_type': 'selectbox',
+    'label_text': 'Status'
     },
 
     # Col_2
@@ -535,7 +535,7 @@ COLUMN_PROPS = {
     'widget_type': 'selectbox',
     'label_text': 'Type'
     },
-    'status_code': {'is_system_col': False,
+    'tags': {'is_system_col': False,
     'is_user_key': False,
     'is_required': False,
     'is_visible': True,
@@ -543,8 +543,8 @@ COLUMN_PROPS = {
     'is_clickable': False,
     'datatype': 'text',
     'form_column': 'COL_2-3',
-    'widget_type': 'selectbox',
-    'label_text': 'Status'
+    'widget_type': 'text_input',
+    'label_text': 'Tags'
     },
     'is_active': {'is_system_col': False,
     'is_user_key': False,

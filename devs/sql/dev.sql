@@ -1,14 +1,16 @@
+select layer,count(*) from t_zi group by layer order by layer;
+
 -- bulk UPDATE - use dev_update_parts.ipynb if Zi cannot be rendered here
 -- ##################
 -- update t_zi_part set zi_left = trim(zi_left); 
 -- select u_id from t_zi_part where u_id is not null order by u_id desc limit 100;
 
-select * from t_zi_part where zi_left= '歹' --'歺' --zi_left= '米' --'車' --  zi_up = '广';
+select * from t_zi_part where zi_left= '殳' --'歺' --zi_left= '米' --'車' --  zi_up = '广';
 --zi_left= '广' -- '讠' --'言' ----'罒' -- and ts is null  --'糸' -- '辵' -- or zi_right='鬼' --'頁' --'齒'
  --and zi_right is not null; --zi_down='隹';
 
-update t_zi_part set  zi_mid = zi_right,   zi_left_up = zi_left, zi_left =  null , zi_right = null
- where zi_left = '厂' and zi_right is not null and (zi_mid is null or zi_mid='');
+update t_zi_part set  zi_mid = zi_right,   zi_right = null --zi_right = zi_left, zi_left =  null --, 
+ where zi_left = '白' and zi_right is not null and (zi_mid is null or zi_mid='');
  
  update t_zi_part set zi_left='纟'  where zi_left = '糸' ;
   update t_zi_part set zi_left_down=zi_left, zi_left = null

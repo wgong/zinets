@@ -128,7 +128,7 @@ def main():
     with c1:
         search_parts = st.text_input("🔍Search parts:", key=f"{KEY_PREFIX}_search_parts").strip()
     with c2:
-        search_others = st.text_input("🔍Free-form where-clause (e.g. cast(z.u_id as int) >= 233 ):", key=f"{KEY_PREFIX}_search_others").strip()
+        search_others = st.text_input("🔍Free-form where-clause (e.g.    cast(z.u_id as int) > 233    ):", key=f"{KEY_PREFIX}_search_others").strip()
     with c3:
         search_layer = st.selectbox("🔍Layer", LAYERS, index=LAYERS.index(""), key=f"{KEY_PREFIX}_search_layer")
     with c4:
@@ -205,8 +205,8 @@ def main():
             df, 
             selection_mode="single",
             # temp use
-            page_size=5,
-            grid_height=int(0.6*AGGRID_OPTIONS["grid_height"]),
+            page_size=10,
+            grid_height=int(1.0*AGGRID_OPTIONS["grid_height"]),
         )
  
 

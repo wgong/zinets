@@ -350,7 +350,7 @@ def db_update_by_id(data, update_changed=True):
     # build SQL
     set_clause = []
     for col,val in data.items():
-        if col not in editable_columns: 
+        if col not in (editable_columns + ["ts"]): 
             continue
 
         if update_changed:
@@ -417,7 +417,7 @@ def parse_html_txt_claude(html_txt):
     if not html_txt: return cells
 
     soup = BeautifulSoup(html_txt, "html.parser")
-    results = soup.findAll("div", class_="contents")
+    results=soup.findAll("div", class_="contents")
     for i in range(len(results)):
         v = results[i].prettify()
         if is_noise_word(v): continue

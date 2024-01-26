@@ -60,4 +60,19 @@ streamlit run ZiZi.py
 - write recursive query to display Zi tree (字谱)
 test cases: 嶷  𩱷
 
+#### visualization of decomposition
+濒 = 氵止 少 页 (leaf-nodes), 3 levels
+     >  氵 
+     > 频
+          > 步 
+               > 止 
+               > 少
+          > 页
+
+朝 = 十 日 十 月 
+
+噩
+
+畐 - someone who has 1 plot of land is considered blessed and rich
+
 - mark t_zi_part.u_id = '-1' for deletion

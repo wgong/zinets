@@ -42,11 +42,12 @@ def main():
                 title
                 , note
                 , link_url
-                , tags
+                , status_code
                 , note_type
+                , tags
+                , ifnull(is_active, '')  as is_active
                 , u_id
                 , ts
-                , ifnull(is_active, '')  as is_active
             from {TABLE_NAME}
             where {where_clause}
             order by ts desc
