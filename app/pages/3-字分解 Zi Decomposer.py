@@ -128,7 +128,7 @@ def main():
     with c1:
         search_parts = st.text_input("🔍Search parts:", key=f"{KEY_PREFIX}_search_parts").strip()
     with c2:
-        search_others = st.text_input("🔍Free-form where-clause (e.g.    cast(z.u_id as int) > 233    ):", key=f"{KEY_PREFIX}_search_others").strip()
+        search_others = st.text_input("🔍Free-form where-clause (e.g.    cast(z.u_id as int) > 1,  z.zi = '佥'    ):", key=f"{KEY_PREFIX}_search_others").strip()
     with c3:
         search_layer = st.selectbox("🔍Layer", LAYERS, index=LAYERS.index(""), key=f"{KEY_PREFIX}_search_layer")
     with c4:
@@ -193,7 +193,8 @@ def main():
             from {TABLE_NAME} z 
             left join w_caizi c
                 on z.zi = c.zi
-            where {where_clause}
+            where {where_clause} 
+                and cast(z.u_id as real) > 1   -- exclude u_id=-1
             order by cast(z.u_id as integer)
             ;
         """

@@ -74,6 +74,7 @@ def main():
                 , sort_val                
             from {TABLE_NAME}
             where {where_clause}
+                and cast(u_id as real) > 1   -- exclude u_id=-1
             order by sort_val;
         """
         # st.write(sql_stmt)

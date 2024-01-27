@@ -49,7 +49,8 @@ def main():
                 , ifnull(is_active, '')  as is_active
             from {TABLE_NAME}
             where {where_clause}
-            order by cast(strokes as int) , cast(u_id as int)
+                and cast(u_id as real) > 1   -- exclude u_id=-1
+            order by cast(strokes as int) , cast(u_id as real)
             ;
         """
         # st.write(sql_stmt)
