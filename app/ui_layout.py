@@ -12,7 +12,7 @@ COLUMN_PROPS = {
         'widget_type': 'text_input',
         'label_text': '字  Zi'
         },
-    'traditional': {'is_system_col': False,
+    'pinyin': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -21,9 +21,9 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_1-2',
         'widget_type': 'text_input',
-        'label_text': '繁体  Traditional'
+        'label_text': '拼音  Pinyin'
         },
-    'pinyin': {'is_system_col': False,
+    'traditional': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -32,7 +32,7 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_1-3',
         'widget_type': 'text_input',
-        'label_text': '拼音  Pinyin'
+        'label_text': '繁体  Traditional'
         },
     'alias': {'is_system_col': False,
         'is_user_key': False,

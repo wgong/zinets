@@ -207,7 +207,7 @@ def main():
             selection_mode="single",
             # temp use
             page_size=10,
-            grid_height=int(1.0*AGGRID_OPTIONS["grid_height"]),
+            grid_height=int(0.95*AGGRID_OPTIONS["grid_height"]),
         )
  
 

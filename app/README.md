@@ -61,6 +61,18 @@ streamlit run ZiZi.py
 test cases: 嶷  𩱷
 
 #### visualization of decomposition
+藻
+     > 艹
+     > 澡
+          > 氵
+          > 喿
+               > 品
+                    > 口 
+                    > 口 
+                    > 口 
+               > 木
+
+               
 濒 = 氵止 少 页 (leaf-nodes), 3 levels
      >  氵 
      > 频
@@ -74,5 +86,7 @@ test cases: 嶷  𩱷
 噩
 
 畐 - someone who has 1 plot of land is considered blessed and rich
+
+
 
 - mark t_zi_part.u_id = '-1' for deletion

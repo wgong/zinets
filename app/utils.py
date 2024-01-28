@@ -34,7 +34,7 @@ from ui_layout import *
 #############################
 # Config params (1st)
 #############################
-
+DUMMY_VALUE = ""
 STR_SAVE = "✅ Save" # 💾
 CFG = {
     "DEBUG_FLAG" : True, # False, # 
@@ -53,13 +53,13 @@ CFG = {
     "TABLE_MEDIA" : "t_resource",   # audio/video 录音，视频
     "TABLE_NOTE" : "t_note",        # Note on Journal/Resource
 
-    "SHUFA_TYPE": ["", "甲骨", "金", "篆", "隶", "楷", "行", "草"],
-    "NOTE_TYPE": ["", "RESOURCE", "JOURNAL", "APP","PROJECT", "TASK",],
-    "STATUS_CODE": ["", "ToDo","WIP", "Complete", "Blocked","De-Scoped",],
+    "SHUFA_TYPE": [DUMMY_VALUE, "甲骨", "金", "篆", "隶", "楷", "行", "草"],
+    "NOTE_TYPE": [DUMMY_VALUE, "RESOURCE", "JOURNAL", "APP","PROJECT", "TASK",],
+    "STATUS_CODE": [DUMMY_VALUE, "ToDo","WIP", "Complete", "Blocked","De-Scoped",],
 }
 
 # define options for selectbox column type, keyed on column name
-ACTIVE_STATES = ["", "Y",]   # add empty-str as placeholder
+ACTIVE_STATES = ["Y", DUMMY_VALUE, ]   # add empty-str as placeholder
 SELECTBOX_OPTIONS = {
     "is_active": ACTIVE_STATES,
     "is_radical": ACTIVE_STATES,
@@ -300,10 +300,13 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
             """
 
     if upsert_sql:
-        db_execute(upsert_sql, 
-                   debug=CFG["DEBUG_FLAG"], 
-                   execute_flag=CFG["SQL_EXECUTION_FLAG"], 
-            )
+        try:
+            db_execute(upsert_sql, 
+                    debug=CFG["DEBUG_FLAG"], 
+                    execute_flag=CFG["SQL_EXECUTION_FLAG"], 
+                )
+        except Exception as ex:
+            print(f"[ERROR] db_upsert():\n\t{str(ex)}")
 
 def db_delete_by_id(data):
     if not data: 
@@ -705,7 +708,7 @@ def ui_layout_form_fields(data,form_name,old_row,col,
             if col in SELECTBOX_OPTIONS:
                 try:
                     _options = SELECTBOX_OPTIONS.get(col,[])
-                    old_val = old_row.get(col, "")
+                    old_val = old_row.get(col, DUMMY_VALUE)
                     _idx = _options.index(old_val)
                     val = st.selectbox(col_labels.get(col), _options, index=_idx, key=key_name_field)
                 except ValueError:
