@@ -1,3 +1,16 @@
+select zi from t_zi_part z where   z.zi like '%青%'
+OR z.zi_left_up like '%青%'
+OR z.zi_left like '%青%'
+OR z.zi_left_down like '%青%'
+OR z.zi_up like '%青%'
+OR z.zi_mid like '%青%'
+OR z.zi_down like '%青%'
+OR z.zi_right_up like '%青%'
+OR z.zi_right like '%青%'
+OR z.zi_right_down like '%青%'
+OR z.zi_mid_out like '%青%'
+OR z.zi_mid_in like '%青%';
+
 select layer,count(*) from t_zi group by layer order by layer;
 
 -- bulk UPDATE - use dev_update_parts.ipynb if Zi cannot be rendered here
