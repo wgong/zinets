@@ -1,0 +1,5 @@
+streamlit
+pyecharts
+streamlit_tree_select
+jieba
+paddlepaddle

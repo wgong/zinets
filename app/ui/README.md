@@ -17,7 +17,9 @@ streamlit run ZiZi.py
 ```
 
 ## Resources and Tools
-            
+
+- [wikiwand-zh-cn](https://www.wikiwand.com/zh-cn/%E7%99%B6%E9%83%A8)
+
 - [《说文解字》与汉字构型 汉字部首释例 王宁主讲 ](https://www.youtube.com/watch?v=aRgrP1gtrFg)
 
 - [chinese-characters](https://www.chinese-characters.org/)
@@ -33,7 +35,8 @@ streamlit run ZiZi.py
 
 - [书同文学校](https://hanzi.unihan.com.cn) 
 
-- [结巴中文分词](https://github.com/fxsjy/jieba)
+- [结巴中文分词](https://github.com/wgong/jieba/tree/master)
+     - see ~/.../zistory/jieba/notebook/demo-1.ipynb
 
 - [A handy list of all 214 Chinese radicals, and what they mean](https://www.berlitz.com/blog/chinese-radicals-list)
      - [Mandarin Tutor](https://www.mandarintutor.com/resources/commonradicals)
@@ -50,6 +53,8 @@ streamlit run ZiZi.py
 
 - [Chinese Characters GitHub Repos](https://github.com/topics/chinese-characters)
 
+- [孔子学院](https://ci.cn/)
+
 - [Google Translate](https://translate.google.com/?sl=en&tl=zh-CN&text=ordinary%0A&op=translate)
 
 ### Poems
@@ -58,7 +63,7 @@ streamlit run ZiZi.py
           - https://www.marxists.org/reference/archive/mao/selected-works/poems/index.htm
           - https://raw.githubusercontent.com/banned-historical-archives/banned-historical-archives0/main/mao-quanji/38-OCR.pdf
 
-- [青禾未秀]()
+- [青禾未秀](https://youtu.be/8svj3Esp9ww?si=Q5ZB6CUrq0Yz1ZH5)
 
 ### Classic Music
 - [50 Best Classic Music of all time⚜️: Mozart, Tchaikovsky, Vivaldi, Paganini, Chopin](https://youtu.be/6truGSXOGF4?si=E7NcqQ2NHh2ro2_z)
@@ -67,6 +72,7 @@ streamlit run ZiZi.py
 ### UI
 - write recursive query to display Zi tree (字谱)
 test cases: 嶷  𩱷
+- POC: zizi\devs\notebook\st_tree_select.py
 
 #### visualization of decomposition
 ```
@@ -102,3 +108,26 @@ test cases: 嶷  𩱷
 
 
 - mark t_zi_part.u_id = '-1' for deletion
+
+### Items
+- import docs/zi_part_freq.csv into t_part table with frequency and category info
+
+### tree widget
+#### UI control
+- pip install streamlit-tree-select
+
+#### chart
+
+- https://github.com/erdogant/d3graph/tree/master
+     - d3blocks
+
+- pip install pyecharts
+
+- dtreevis - visualize decisiontree in streamlit 
+     - https://discuss.streamlit.io/t/dtreeviz-on-streamlit/9970/5
+
+- menu-tree on sidebar
+     - https://github.com/streamlit/streamlit/issues/5889
+- streamlit widgets including tree
+     - https://nicedouble-streamlitantdcomponentsdemo-app-middmy.streamlit.app/
+     - https://github.com/nicedouble/StreamlitAntdComponents/tree/master

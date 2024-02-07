@@ -9,6 +9,8 @@ ZiZi app prototype in streamlit
 - Visualize Zi in tree structures
 - Design Zi app for end-user
 - Integrate with AI for pronounciation, Chinese-to-English translation, text-to-image
+- create a new page to log activities
+- prepare AI app proposal (deadline 2024-03-01)
 
 [2024-01-04]
 - incorporate work at https://github.com/kfcd/chaizi 
