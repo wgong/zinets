@@ -1,3 +1,48 @@
+-- zi in t_zi_part, but not in t_zi 
+
+select zi,count(*) from (
+	select zi from t_zi_part where is_active = 'Y'
+	EXCEPT
+	select zi from t_zi where is_active = 'Y'
+) group by zi having count(*) > 1
+;
+create table w_zi_dup 
+as select * from t_zi where is_active='Y' and zi in (
+	select zi from (
+		select zi,count(*) from t_zi where is_active = 'Y' group by zi having count(*) > 1	
+	)
+) order by zi;
+
+select zi,count(*) from t_zi where is_active = 'Y' group by zi having count(*) > 1;
+
+select * from t_zi where is_active='Y' and (u_id is null or u_id='');
+
+
+insert into t_zi (zi,is_active,u_id) 
+select zi,is_active,u_id from t_zi_part where zi in (
+	--356
+	select zi from t_zi_part where is_active = 'Y'  
+	EXCEPT
+	select zi from t_zi where is_active = 'Y'
+) and is_active='Y';
+
+
+select * from t_zi_part where is_active='Y' and (u_id is null or u_id='');
+
+with uid as (
+	select 
+	case 
+		when max(u_id) is NULL then '10' 
+		else cast(max(cast(u_id as int))+1 as text) 
+	end as id
+	from t_zi_part
+	where u_id not in ('-1')
+)
+update t_zi_part set u_id = (select id from uid) 
+where  is_active='Y' and (u_id is null or u_id='');
+
+
+
 -- write org_chart query in SQLite
 -- https://stackoverflow.com/questions/3897952/creating-a-list-tree-with-sqlite
 
