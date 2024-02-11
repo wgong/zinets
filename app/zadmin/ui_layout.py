@@ -369,17 +369,6 @@ COLUMN_PROPS = {
         'widget_type': 'text_input',
         'label_text': '字'
         },
-    'traditional': {'is_system_col': False,
-        'is_user_key': False,
-        'is_required': False,
-        'is_visible': True,
-        'is_editable': True,
-        'is_clickable': False,
-        'datatype': 'text',
-        'form_column': 'COL_1-2',
-        'widget_type': 'text_input',
-        'label_text': '繁体'
-        },
     'pinyin': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
@@ -391,9 +380,20 @@ COLUMN_PROPS = {
         'widget_type': 'text_input',
         'label_text': '拼音'
         },
+    'traditional': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_1-4',
+        'widget_type': 'text_input',
+        'label_text': '繁体'
+        },
 
     # Col_2
-    'strokes': {'is_system_col': False,
+    'is_radical': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -401,10 +401,21 @@ COLUMN_PROPS = {
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_2-1',
+        'widget_type': 'selectbox',
+        'label_text': '扁旁?'
+        },
+    'strokes': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_2-2',
         'widget_type': 'text_input',
         'label_text': '笔画数'
         },
-    'category': {'is_system_col': False,
+    'zi_count': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -413,9 +424,8 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_2-3',
         'widget_type': 'text_input',
-        'label_text': '分类'
+        'label_text': '出现字数'
         },
-
     # Col_3
     'meaning': {'is_system_col': False,
         'is_user_key': False,
@@ -425,10 +435,10 @@ COLUMN_PROPS = {
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_3-1',
-        'widget_type': 'text_area',
+        'widget_type': 'text_input',
         'label_text': 'Meaning'
         },
-    'example': {'is_system_col': False,
+    'category': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -437,7 +447,18 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_3-2',
         'widget_type': 'text_input',
-        'label_text': 'Example'
+        'label_text': '分类'
+        },
+    'sub_category': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_3-3',
+        'widget_type': 'text_input',
+        'label_text': '次分类'
         },
 
     # Col_4
@@ -452,7 +473,7 @@ COLUMN_PROPS = {
         'widget_type': 'text_input',
         'label_text': 'ID'
         },
-    'is_active': {'is_system_col': False,
+    'example': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -460,9 +481,20 @@ COLUMN_PROPS = {
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_4-2',
+        'widget_type': 'text_input',
+        'label_text': 'Example'
+        },
+    'is_active': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_4-3',
         'widget_type': 'selectbox',
         'label_text': 'Active?'
-        }
+        },
 },
 
 't_note': {

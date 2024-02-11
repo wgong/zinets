@@ -41,16 +41,19 @@ def main():
                 zi
                 , traditional
                 , pinyin
+                , is_radical
                 , category
+                , sub_category
                 , strokes
                 , meaning
                 , example
+                , zi_count
                 , u_id
                 , ifnull(is_active, '')  as is_active
             from {TABLE_NAME}
             where {where_clause}
-                and cast(u_id as real) > 1   -- exclude u_id=-1
-            order by cast(strokes as int) , cast(u_id as real)
+                and cast(u_id as real) > 0   -- exclude u_id=-1
+            order by cast(u_id as real)
             ;
         """
         # st.write(sql_stmt)

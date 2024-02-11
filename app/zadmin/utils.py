@@ -901,3 +901,51 @@ def ui_display_df_grid(df,
 def df_to_csv(df, index=False):
     # IMPORTANT: Cache the conversion to prevent computation on every rerun
     return df.to_csv(index=index).encode('utf-8')
+
+def format_insert_sql(out_dict, table_name="w_zi_dup_merged"):
+    """create SQL Insert statement using out_dict data
+    """
+    col_list = []
+    val_list = []
+
+    for k,v in out_dict.items():
+        col_list.append(k)
+        try:
+            x = float(v)
+            val_list.append(str(v)) 
+        except:
+            v = escape_single_quote(v)
+            val_list.append(f"'{v}'") 
+
+    col_str = ", ".join(col_list)
+    val_str = ", ".join(val_list)
+    sql_insert = f"""
+        insert into {table_name} ({col_str}) 
+        values ({val_str});
+    """
+    return sql_insert
+
+def strip_null(data):
+    data_new = []
+    for d in data: 
+        if isinstance(d,str):
+            d = d.strip()
+            if d: data_new.append(d)
+            continue 
+        data_new.append(d)
+    return data_new 
+
+def merge_data_col(data, sep = " / "):
+    """ concat unique non-blank values
+    """
+    return sep.join(set(strip_null(data)))
+
+def merge_single_col(data):
+    """pick a single non-blank value
+    https://stackoverflow.com/questions/59825/how-to-retrieve-an-element-from-a-set-without-removing-it
+    """
+    ds = set(strip_null(data))
+    if not ds: return ""
+    for d in ds:
+        break
+    return d

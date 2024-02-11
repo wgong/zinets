@@ -1,3 +1,68 @@
+    select distinct category from w_part_count;
+	update w_part_count set category='12-Color' where category='color';
+	
+select count(*) from w_part_count where zi is null;
+
+select * from t_part where u_id = '213';
+
+
+-- drop table w_part_count;
+
+	
+	insert into w_zi_dup_merged (zi, u_id, unicode, pinyin, nstrokes, alias, traditional, as_part, is_radical, layer, desc_cn, zi_en, desc_en, ts, sort_val, is_active) values ('丑', '2405', '', 'chou3', '4', '', '醜', 'Y', '', 'HSK_1-Common-02', '', '', 'shameful/ugly/disgraceful / clown/2nd earthly branch: 1-3 a.m., 12th solar month (6th January to 3rd February), year of the Ox/ancient Chinese compass point: 30°', '', '205.0', 'Y');
+
+	select * from w_zi_dup_merged;
+	
+	select * from t_zi where zi in (select zi from w_zi_dup_merged)
+	order by zi
+	;
+	
+	alter table t_part add column sub_category text;
+	alter table t_part add column is_radical text;
+	alter table t_part add column ts text;
+	alter table t_part add column zi_count INTEGER;
+	
+	delete from w_part_count where u_id = '-1';
+	
+	select zi,count(*) from w_part_count group by zi having count(*) > 1;
+	
+	select * from t_zi where zi = '个';
+	select * from w_zi_dup_merged where zi = '个';
+	
+	delete from t_zi where zi in (select zi from w_zi_dup_merged);
+	insert into t_zi select * from w_zi_dup_merged;
+	
+	
+delete from w_zi_dup_merged;
+	
+create table w_zi_dup_merged as select * from t_zi where 1=2;
+select * from w_zi_dup order by zi;
+
+with matched as (
+   select zi from w_zi_dup where is_winner='M'
+), unmatched as (
+	select * from w_zi_dup 
+	where zi not in (select zi from matched)
+), min_uids as (
+	select zi, min(u_id) as min_uid from unmatched group by zi
+)
+update w_zi_dup set is_winner = 'Y' where u_id in (
+	select min_uid from min_uids
+);
+-- select * from min_uid order by zi;
+
+-- 1178 all  307 unmatched
+/*
+个	3937
+个	3941  MN
+
+𬉼 NN
+*/
+
+select * from t_zi_part where zi = '个';
+
+select zi,count(*) from t_zi_part where is_active = 'Y' group by zi having count(*) > 1;
+
 -- zi in t_zi_part, but not in t_zi 
 
 select zi,count(*) from (

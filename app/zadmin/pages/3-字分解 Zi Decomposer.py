@@ -73,8 +73,6 @@ def query_parts(strokes_clause):
         where {where_clause}
             order by cast(strokes as int), u_id    
     """
-    # if CFG["DEBUG_FLAG"]:
-    #     print(sql_stmt)
 
     with DBConn() as _conn:
         df3 = pd.read_sql(sql_stmt, _conn).fillna("")
@@ -128,7 +126,7 @@ def main():
     with c1:
         search_parts = st.text_input("🔍Search parts:", key=f"{KEY_PREFIX}_search_parts").strip()
     with c2:
-        search_others = st.text_input("🔍Free-form where-clause (e.g.    cast(z.u_id as int) > 1,  z.zi = '佥'    ):", key=f"{KEY_PREFIX}_search_others").strip()
+        search_others = st.text_input("🔍Free-form where-clause (e.g.    cast(z.u_id as int) > 0,  z.zi = '佥'    ):", key=f"{KEY_PREFIX}_search_others").strip()
     with c3:
         search_layer = st.selectbox("🔍Layer", LAYERS, index=LAYERS.index(""), key=f"{KEY_PREFIX}_search_layer")
     with c4:
@@ -171,7 +169,7 @@ def main():
     df = None
     with DBConn() as _conn:
         sql_stmt = f"""
-            select 
+            select distinct
                 z.zi
                 , z.zi_left_up
                 , z.zi_left
@@ -184,22 +182,24 @@ def main():
                 , z.zi_right_down
                 , z.zi_mid_out
                 , z.zi_mid_in
-                , z.u_id
-                , ifnull(z.is_active, '') as is_active
                 , z.desc_cn
                 , z.desc_en
                 , z.hsk_note
+                , zi.layer as hsk_layer
                 , c.caizi
+                , z.u_id
+                , ifnull(z.is_active, '') as is_active
             from {TABLE_NAME} z 
             left join w_caizi c
                 on z.zi = c.zi
+            left join t_zi zi
+                on zi.zi = z.zi
             where {where_clause} 
-                and (z.u_id is null or  z.u_id in ('','-1')) -- exclude u_id=-1
-                --and cast(z.u_id as real) > 1   -- exclude u_id=-1
+                and cast(z.u_id as real) > 0   -- exclude u_id=-1
             order by cast(z.u_id as integer)
             ;
         """
-        # st.write(sql_stmt)
+        print(f"[DEBUG-SQL] {sql_stmt}")
         df = pd.read_sql(sql_stmt, _conn)
 
     # display grid
@@ -233,6 +233,7 @@ def main():
         zi_zi_right_down = zi["zi_right_down"]
         zi_zi_mid_in = zi["zi_mid_in"]
         zi_desc_en = zi["desc_en"]
+        zi_hsk_layer = zi["hsk_layer"]
         zi_hsk_note = zi["hsk_note"]
         zi_caizi = zi["caizi"]
     else:
@@ -253,6 +254,7 @@ def main():
         zi_zi_right_down = ""
         zi_zi_mid_in = ""
         zi_desc_en = ""
+        zi_hsk_layer = ""
         zi_hsk_note = ""
         zi_caizi = ""
 
@@ -264,7 +266,7 @@ def main():
     # display Zi form
     with col_left:
         with st.form(key="zi_parts"):
-            c0_1,c0_3,c0_4 = st.columns([2,6,6])
+            c0_1,c0_3,c0_4,c0_5 = st.columns([2,5,4,2])
             with c0_1:
                 zi_title = f"""
                 <span style="color:red; font-size:5.6em;">{zi_zi}</span>
@@ -274,20 +276,20 @@ def main():
                 st.text_area('解释', value=zi_desc_cn,  key=f"{KEY_PREFIX}_desc_cn")
             with c0_4:
                 st.text_area('Explanation', value=zi_desc_en,  key=f"{KEY_PREFIX}_desc_en")
-                # st.text_input("ts", value=zi_ts, key=f"{KEY_PREFIX}_ts")
+            with c0_5:
+                st.text_input('HSK note', value=zi_hsk_note,  key=f"{KEY_PREFIX}_hsk_note")
 
-            c4_0, c4_1,c4_2,c4_3, c4_4 = st.columns([1, 3, 4, 1, 1 ])
+            c4_0, c4_1, c4_2, c4_3, c4_4 = st.columns([1, 3, 3, 1, 2 ])
             with c4_0:
                 st.text_input('字 zi', value=zi_zi, key=f"{KEY_PREFIX}_zi")
             with c4_1:
                 st.text_input("拆字", value=zi_caizi, key=f"{KEY_PREFIX}_caizi")
             with c4_2:
-                st.text_input('HSK note', value=zi_hsk_note,  key=f"{KEY_PREFIX}_hsk_note")
+                st.text_input('HSK layer', value=zi_hsk_layer,  key=f"{KEY_PREFIX}_hsk_layer")
             with c4_3:
                 st.text_input('ID', value=zi_u_id, disabled=True, key=f"{KEY_PREFIX}_u_id")
             with c4_4:
                 st.form_submit_button(STR_SAVE, on_click=_submit_zi_parts, use_container_width=True)
-
 
             c1_1,c1_2,c1_3,c1_4,c1_5 = st.columns([2,2,2,1,1])
             with c1_1:
