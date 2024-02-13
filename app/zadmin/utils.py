@@ -57,17 +57,38 @@ CFG = {
     "SHUFA_TYPE": [BLANK_STR_VALUE, "甲骨", "金", "篆", "隶", "楷", "行", "草"],
     "NOTE_TYPE": [BLANK_STR_VALUE, "RESOURCE", "JOURNAL", "APP","PROJECT", "TASK",],
     "STATUS_CODE": [BLANK_STR_VALUE, "ToDo","WIP", "Complete", "Blocked","De-Scoped",],
+    "PART_CATEGORY" : [
+        BLANK_STR_VALUE,
+        '01-Heaven',
+        '02-Earth',
+        '03-Fire',
+        '03-Metal',
+        '03-Soil',
+        '03-Water',
+        '03-Wood',
+        '04-Plant',
+        '05-Animal',
+        '06-Human',
+        '07-Society',
+        '08-Math',
+        '09-Space-time',
+        '10-Abstract',
+        '11-Unit-of-measure',
+        '12-Color',
+    ],
 }
 
 # define options for selectbox column type, keyed on column name
 ACTIVE_STATES = ["Y", BLANK_STR_VALUE, ]   # add empty-str as placeholder
+TRI_STATES = ["Y", BLANK_STR_VALUE, None,]
 SELECTBOX_OPTIONS = {
     "is_active": ACTIVE_STATES,
-    "is_radical": ACTIVE_STATES,
-    "as_part": ACTIVE_STATES,
+    "as_part": TRI_STATES,
+    "is_radical": TRI_STATES,
     "shufa_type": CFG["SHUFA_TYPE"],
     "note_type": CFG["NOTE_TYPE"],
     "status_code": CFG["STATUS_CODE"],
+    "category": CFG["PART_CATEGORY"],
 }
 
 # temp workaround
@@ -750,7 +771,7 @@ def ui_layout_form(selected_row, table_name):
 
     # display form and populate data dict
     col_col = {}
-    col_prefix = [f"COL_{n}" for n in range(1,5)]  # max 4 columns
+    col_prefix = [f"COL_{n}" for n in range(1,6)]  # max 5 columns
     for pfx in col_prefix:
         col_columns = col_col.get(pfx, [])
         for c in visible_columns:
@@ -804,7 +825,22 @@ def ui_layout_form(selected_row, table_name):
                     delete_flag = st.checkbox("Delelte Record?", value=False)
                     data.update({col: delete_flag})
 
+
         id_col = 3
+        if len(st_cols) > id_col:
+            with st_cols[id_col]:
+                for col in col_col[col_prefix[id_col]]:
+                    data = ui_layout_form_fields(data,form_name,old_row,col,
+                                widget_types,col_labels,system_columns)
+                    key_names.append(f"col_{form_name}_{col}")
+
+                if id_col == len(st_cols)-1:
+                    # add checkbox for deleting this record
+                    col = "delelte_record"
+                    delete_flag = st.checkbox("Delelte Record?", value=False)
+                    data.update({col: delete_flag})
+
+        id_col = 4
         if len(st_cols) > id_col:
             with st_cols[id_col]:
                 for col in col_col[col_prefix[id_col]]:

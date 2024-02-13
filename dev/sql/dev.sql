@@ -1,3 +1,37 @@
+drop table MyStruct;
+
+insert into w_part_count_merged (zi, u_id, traditional, pinyin, strokes, meaning, example, is_active, category, sub_category, is_radical, zi_count, ts) 
+        values ('一',1,'','yī',1,'one','丁 万 上 下','Y','08-Math','','',71,'');
+
+--delete from w_part_count_merged where zi='一';
+select * from w_part_count where u_id is null or u_id = '' order by zi;
+
+update t_part set category = trim(ifnull(category,''));
+
+update t_part set category = '12-Color' where category = 'color';
+
+select distinct category from t_part order by category;
+
+select * from t_part where zi='⺌';
+
+update t_part set is_radical='Y' where zi in (
+select zi from t_zi where is_radical = 'Y'
+);
+
+alter table w_part_count drop column is_winner;
+
+select is_radical, count(*) from t_part group by is_radical;
+-- 267
+select  count(*) from t_zi where as_part='Y' ;
+--348
+
+select zi from t_part union select zi from t_zi where as_part='Y' ;
+
+select * from t_zi where zi = 'X';
+select * from t_part where zi = 'X';
+delete from t_part where u_id='-1';
+
+
     select distinct category from w_part_count;
 	update w_part_count set category='12-Color' where category='color';
 	

@@ -80,7 +80,7 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_2-4',
         'widget_type': 'selectbox',
-        'label_text': '部首？ Radical'
+        'label_text': '扁旁部首？ Radical'
         },
     'layer': {'is_system_col': False,
         'is_user_key': False,
@@ -108,6 +108,20 @@ COLUMN_PROPS = {
         'label_text': '解释  Explanation'
         },
 
+    'notes': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_3-2',
+        'widget_type': 'text_area',
+        'label_text': 'Notes'
+        },
+
+
+        # Col-4
     'zi_en': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
@@ -115,10 +129,11 @@ COLUMN_PROPS = {
         'is_editable': True,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_3-3',
-        'widget_type': 'text_input',
+        'form_column': 'COL_4-1',
+        'widget_type': 'text_area',
         'label_text': 'English'
         },
+
     'desc_en': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
@@ -126,12 +141,11 @@ COLUMN_PROPS = {
         'is_editable': True,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_3-4',
+        'form_column': 'COL_4-2',
         'widget_type': 'text_area',
         'label_text': 'Meaning'
         },
-
-        # Col-4
+        # Col-5
     'u_id': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
@@ -139,7 +153,7 @@ COLUMN_PROPS = {
         'is_editable': False,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_4-1',
+        'form_column': 'COL_5-1',
         'widget_type': 'text_input',
         'label_text': 'ID'
         },
@@ -150,22 +164,22 @@ COLUMN_PROPS = {
         'is_editable': False,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_4-2',
+        'form_column': 'COL_5-2',
         'widget_type': 'text_input',
         'label_text': 'Unicode'
         },
 
-    'sort_val': {'is_system_col': False,
-        'is_user_key': False,
-        'is_required': False,
-        'is_visible': True,
-        'is_editable': True,
-        'is_clickable': False,
-        'datatype': 'real',
-        'form_column': 'COL_4-4',
-        'widget_type': 'number_input',
-        'label_text': 'Sort Value'
-        },
+    # 'sort_val': {'is_system_col': False,
+    #     'is_user_key': False,
+    #     'is_required': False,
+    #     'is_visible': True,
+    #     'is_editable': True,
+    #     'is_clickable': False,
+    #     'datatype': 'real',
+    #     'form_column': 'COL_5-2',
+    #     'widget_type': 'number_input',
+    #     'label_text': 'Sort Value'
+    #     },
     'is_active': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
@@ -173,7 +187,7 @@ COLUMN_PROPS = {
         'is_editable': True,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_4-5',
+        'form_column': 'COL_5-3',
         'widget_type': 'selectbox',
         'label_text': 'Active?'
         },
@@ -402,7 +416,7 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_2-1',
         'widget_type': 'selectbox',
-        'label_text': '扁旁?'
+        'label_text': '扁旁部首?'
         },
     'strokes': {'is_system_col': False,
         'is_user_key': False,
@@ -446,7 +460,7 @@ COLUMN_PROPS = {
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_3-2',
-        'widget_type': 'text_input',
+        'widget_type': 'selectbox',
         'label_text': '分类'
         },
     'sub_category': {'is_system_col': False,
@@ -462,18 +476,7 @@ COLUMN_PROPS = {
         },
 
     # Col_4
-    'u_id': {'is_system_col': False,
-        'is_user_key': False,
-        'is_required': True,
-        'is_visible': True,
-        'is_editable': False,
-        'is_clickable': False,
-        'datatype': 'text',
-        'form_column': 'COL_4-1',
-        'widget_type': 'text_input',
-        'label_text': 'ID'
-        },
-    'example': {'is_system_col': False,
+    'notes': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -481,8 +484,22 @@ COLUMN_PROPS = {
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_4-2',
+        'widget_type': 'text_area',
+        'label_text': 'Notes'
+        },
+
+
+    # Col_5
+    'u_id': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': True,
+        'is_visible': True,
+        'is_editable': False,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_5-1',
         'widget_type': 'text_input',
-        'label_text': 'Example'
+        'label_text': 'ID'
         },
     'is_active': {'is_system_col': False,
         'is_user_key': False,
@@ -491,7 +508,7 @@ COLUMN_PROPS = {
         'is_editable': True,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_4-3',
+        'form_column': 'COL_5-3',
         'widget_type': 'selectbox',
         'label_text': 'Active?'
         },

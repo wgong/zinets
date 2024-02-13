@@ -11,7 +11,7 @@ def main():
     with c1:
         search_term = st.text_input("🔍Search:", key=f"{KEY_PREFIX}_search_term").strip()
     with c2:
-        search_others = st.text_input("🔍Free-form where-clause:", key=f"{KEY_PREFIX}_search_others").strip()
+        search_others = st.text_input("🔍Free-form where-clause  (e.g.    cast(u_id as int) > 0,  zi = '佥'    ):", key=f"{KEY_PREFIX}_search_others").strip()
     with c4:
         active = st.selectbox("🔍Active?", ACTIVE_STATES, index=ACTIVE_STATES.index("Y"), key=f"{KEY_PREFIX}_active")
 
@@ -46,7 +46,7 @@ def main():
                 , sub_category
                 , strokes
                 , meaning
-                , example
+                , notes
                 , zi_count
                 , u_id
                 , ifnull(is_active, '')  as is_active
