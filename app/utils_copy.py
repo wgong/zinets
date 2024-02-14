@@ -42,7 +42,7 @@ CFG = {
     "SQL_EXECUTION_FLAG" : True, #  False, #   control SQL
     
     # "DB_FILENAME" : Path(__file__).parent / "zinets.sqlite",
-    "DB_FILENAME" : Path(__file__).parent / "ui" / "zizi.sqlite",
+    "DB_FILENAME" : Path(__file__).parent / "zadmin" / "zizi.sqlite",
 
     # assign table names
     "TABLE_ZI" : "t_zi",            # all Zi 字

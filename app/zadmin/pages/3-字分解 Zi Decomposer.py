@@ -126,30 +126,30 @@ def main():
     with c1:
         search_parts = st.text_input("🔍Search parts:", key=f"{KEY_PREFIX}_search_parts").strip()
     with c2:
-        search_others = st.text_input("🔍Free-form where-clause (e.g.    cast(z.u_id as int) > 0,  z.zi = '佥'    ):", key=f"{KEY_PREFIX}_search_others").strip()
+        search_others = st.text_input("🔍Free-form where-clause (e.g.    cast(zi.u_id as int) > 0,  zi.zi = '佥'    ):", key=f"{KEY_PREFIX}_search_others").strip()
     with c3:
         search_layer = st.selectbox("🔍Layer", LAYERS, index=LAYERS.index(""), key=f"{KEY_PREFIX}_search_layer")
     with c4:
         active = st.selectbox("🔍Active?", ACTIVE_STATES, index=ACTIVE_STATES.index("Y"), key=f"{KEY_PREFIX}_active")
 
     where_clause = " 1=1 " 
-    where_clause += " " if not active  else f" and z.is_active = '{active}' "
+    where_clause += " " if not active  else f" and zi.is_active = '{active}' "
 
     if search_parts:
         where_clause += f""" 
             and (
-                z.zi like '%{search_parts}%'
-                OR z.zi_left_up like '%{search_parts}%'
-                OR z.zi_left like '%{search_parts}%'
-                OR z.zi_left_down like '%{search_parts}%'
-                OR z.zi_up like '%{search_parts}%'
-                OR z.zi_mid like '%{search_parts}%'
-                OR z.zi_down like '%{search_parts}%'
-                OR z.zi_right_up like '%{search_parts}%'
-                OR z.zi_right like '%{search_parts}%'
-                OR z.zi_right_down like '%{search_parts}%'
-                OR z.zi_mid_out like '%{search_parts}%'
-                OR z.zi_mid_in like '%{search_parts}%'
+                zp.zi like '%{search_parts}%'
+                OR zp.zi_left_up like '%{search_parts}%'
+                OR zp.zi_left like '%{search_parts}%'
+                OR zp.zi_left_down like '%{search_parts}%'
+                OR zp.zi_up like '%{search_parts}%'
+                OR zp.zi_mid like '%{search_parts}%'
+                OR zp.zi_down like '%{search_parts}%'
+                OR zp.zi_right_up like '%{search_parts}%'
+                OR zp.zi_right like '%{search_parts}%'
+                OR zp.zi_right_down like '%{search_parts}%'
+                OR zp.zi_mid_out like '%{search_parts}%'
+                OR zp.zi_mid_in like '%{search_parts}%'
         ) """
     if search_others:
         where_clause += f""" 
@@ -159,46 +159,78 @@ def main():
 
     if search_layer:
         where_clause += f"""
-            and z.zi in (
-                select zi from {CFG["TABLE_ZI"]}
-                where layer = '{search_layer}'
-            )
+            and zi.layer = '{search_layer}'
         """
 
 
     df = None
     with DBConn() as _conn:
+        ### drive by t_zi_part
+        # sql_stmt = f"""
+        #     select distinct
+        #         zp.zi
+        #         , zp.zi_left_up
+        #         , zp.zi_left
+        #         , zp.zi_left_down
+        #         , zp.zi_up
+        #         , zp.zi_mid
+        #         , zp.zi_down
+        #         , zp.zi_right_up
+        #         , zp.zi_right
+        #         , zp.zi_right_down
+        #         , zp.zi_mid_out
+        #         , zp.zi_mid_in
+        #         , zp.desc_cn
+        #         , zp.desc_en
+        #         , zp.hsk_note
+        #         , zi.layer as hsk_layer
+        #         , c.caizi
+        #         , zp.u_id
+        #         , ifnull(zp.is_active, '') as is_active
+        #     from {TABLE_NAME} zp 
+        #     left join w_caizi c
+        #         on zp.zi = c.zi
+        #     left join t_zi zi
+        #         on zi.zi = zp.zi
+        #     where {where_clause} 
+        #         and cast(zp.u_id as real) > 0   -- exclude u_id=-1
+        #     order by cast(zp.u_id as real)
+        #     ;
+        # """
+
+        ### drive by t_zi
         sql_stmt = f"""
             select distinct
-                z.zi
-                , z.zi_left_up
-                , z.zi_left
-                , z.zi_left_down
-                , z.zi_up
-                , z.zi_mid
-                , z.zi_down
-                , z.zi_right_up
-                , z.zi_right
-                , z.zi_right_down
-                , z.zi_mid_out
-                , z.zi_mid_in
-                , z.desc_cn
-                , z.desc_en
-                , z.hsk_note
+                zi.zi
+                , zp.zi_left_up
+                , zp.zi_left
+                , zp.zi_left_down
+                , zp.zi_up
+                , zp.zi_mid
+                , zp.zi_down
+                , zp.zi_right_up
+                , zp.zi_right
+                , zp.zi_right_down
+                , zp.zi_mid_out
+                , zp.zi_mid_in
+                , zp.desc_cn
+                , zp.desc_en
+                , zp.hsk_note
                 , zi.layer as hsk_layer
                 , c.caizi
-                , z.u_id
-                , ifnull(z.is_active, '') as is_active
-            from {TABLE_NAME} z 
+                , zi.u_id
+                , ifnull(zi.is_active, '') as is_active
+            from  t_zi zi
+            left join {TABLE_NAME} zp 
+                on zi.zi = zp.zi
             left join w_caizi c
-                on z.zi = c.zi
-            left join t_zi zi
-                on zi.zi = z.zi
+                on zi.zi = c.zi
             where {where_clause} 
-                and cast(z.u_id as real) > 0   -- exclude u_id=-1
-            order by cast(z.u_id as integer)
+                and cast(zi.u_id as real) > 0   -- exclude u_id=-1
+            order by cast(zi.u_id as real)
             ;
         """
+
         print(f"[DEBUG-SQL] {sql_stmt}")
         df = pd.read_sql(sql_stmt, _conn)
 

@@ -1,4 +1,73 @@
-drop table MyStruct;
+with uniq_zi_layer as (
+	select distinct layer,zi from t_zi
+)
+select layer,count(*) from uniq_zi_layer group by layer;
+
+select layer,count(*) from t_zi group by layer;
+
+select * from t_zi where layer is null or layer = '' ;
+
+update t_zi set layer='HSK_3' where layer is null or layer = '' ;
+update t_zi set layer='HSK_z' where layer = 'HSK_8' ;
+
+select u_id,count(*) from t_zi group by u_id having count(*) > 1;
+
+
+with dup_uid as (
+	select u_id,count(*) from t_zi group by u_id having count(*) > 1
+), set_uid as (
+	select zi from t_zi 
+	where u_id in (select u_id from dup_uid) and zi in (select zi from t_zi_part)
+)
+--select * from set_uid;
+update t_zi set u_id = null where zi in (select zi from set_uid);
+
+/*
+豳	13524
+鳴	13524
+*/
+
+select * from t_zi where u_id = '13533';
+select * from t_zi_part where u_id = '13533';
+
+select u_id,count(*) from t_zi_part group by u_id having count(*) > 1;
+--0
+-- Y	6124
+
+select is_active,count(*) from t_zi group by is_active;
+/* 
+	3
+Y	11264
+*/
+
+select zi from t_zi_part 
+except 
+select zi from t_zi; 
+-- 0
+
+select * from t_zi where u_id = '-1';
+delete from t_zi where u_id = '-1';
+
+select * from t_zi_part zp where not exists (select 1 from t_zi where u_id=zp.u_id);
+
+select * from t_zi_part zp where not exists (select 1 from t_zi where zi=zp.zi);
+
+select z.u_id as z_uid, zp.u_id as zp_uid, z.* 
+from t_zi z, t_zi_part zp where z.zi = zp.zi and z.u_id != zp.u_id;
+
+
+
+
+select * from t_zi where is_active is NULL;
+
+select * from t_zi where is_active='Y' and zi in (
+   select zi from t_zi where is_active is NULL
+);
+
+alter table t_part rename column example to notes;
+alter table t_zi add column notes text;
+
+--drop table MyStruct;
 
 insert into w_part_count_merged (zi, u_id, traditional, pinyin, strokes, meaning, example, is_active, category, sub_category, is_radical, zi_count, ts) 
         values ('一',1,'','yī',1,'one','丁 万 上 下','Y','08-Math','','',71,'');

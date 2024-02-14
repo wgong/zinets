@@ -66,6 +66,77 @@ def main():
     selected_row = selected_rows[0] if len(selected_rows) else None
     ui_layout_form(selected_row, TABLE_NAME)
 
+    st.subheader("部件频率")
+    sql_stmt = """
+
+    -- unique parts
+    with parts as (  
+        select zi from t_part where is_active = 'Y'
+        union 
+        select zi from t_zi where is_active = 'Y' and as_part='Y'
+    )
+    -- zi vs part
+    , zi_part as (
+        select zi_left_up as part, zi from t_zi_part 
+        union all
+        select zi_left as part, zi from t_zi_part 
+        union all
+        select zi_left_down as part, zi from t_zi_part 
+        union all
+        select zi_up as part, zi from t_zi_part 
+        union all
+        select zi_mid as part, zi from t_zi_part 
+        union all
+        select zi_down as part, zi from t_zi_part 
+        union all
+        select zi_right_up as part, zi from t_zi_part 
+        union all
+        select zi_right as part, zi from t_zi_part 
+        union all
+        select zi_right_down as part, zi from t_zi_part 
+        union all
+        select zi_mid_in as part, zi from t_zi_part 
+        union all
+        select zi_mid_out as part, zi from t_zi_part 
+    )
+    -- unique zi,part
+    , zi_part_2 as (
+        select distinct zp.zi, zp.part 
+        from zi_part zp 
+        join parts p 
+            on zp.part = p.zi
+        where zp.part is not null and trim(zp.part) !='' 
+    )
+    --select * from zi_part_2 order by zi,part;
+    -- count part frequency
+    , part_freq as (
+        select part,count(zi) as zi_freq from zi_part_2 
+        group by part -- having count(zi) > 10
+        order by count(zi) desc, part    
+    ), part_freq_2 as (
+        select 
+            f.part, f.zi_freq, p.category, p.sub_category, '0' as tag
+        from part_freq f 
+        join t_part p
+        on f.part = p.zi
+        where trim(p.category || '') != ''
+        union all
+        select 
+            f.part, f.zi_freq, p.category, p.sub_category, '1' as tag
+        from part_freq f 
+        join t_part p
+        on f.part = p.zi
+        where trim(p.category || '') = ''
+    )
+    select * from part_freq_2 
+    order by tag,category,zi_freq desc, part;
+    """
+
+    with DBConn() as _conn:
+        df_part_freq = pd.read_sql(sql_stmt, _conn).fillna("")
+        st.dataframe(df_part_freq)
+
+
     # optional download
     with st.expander("Download CSV", expanded=False):
         _, c1, _ = st.columns([5,2,5])
