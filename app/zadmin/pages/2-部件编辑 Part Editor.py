@@ -39,6 +39,7 @@ def main():
         sql_stmt = f"""
             select 
                 zi
+                , alias
                 , traditional
                 , pinyin
                 , is_radical
@@ -129,7 +130,7 @@ def main():
         where trim(p.category || '') = ''
     )
     select * from part_freq_2 
-    order by tag,category,zi_freq desc, part;
+    order by tag,category,sub_category,zi_freq desc, part;
     """
 
     with DBConn() as _conn:

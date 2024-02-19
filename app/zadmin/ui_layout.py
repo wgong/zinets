@@ -394,7 +394,7 @@ COLUMN_PROPS = {
         'widget_type': 'text_input',
         'label_text': '拼音'
         },
-    'traditional': {'is_system_col': False,
+    'alias': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -403,7 +403,7 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_1-4',
         'widget_type': 'text_input',
-        'label_text': '繁体'
+        'label_text': 'Alias异体'
         },
 
     # Col_2
@@ -429,7 +429,7 @@ COLUMN_PROPS = {
         'widget_type': 'text_input',
         'label_text': '笔画数'
         },
-    'zi_count': {'is_system_col': False,
+    'traditional': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -438,20 +438,10 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_2-3',
         'widget_type': 'text_input',
-        'label_text': '出现字数'
+        'label_text': '繁体'
         },
+
     # Col_3
-    'meaning': {'is_system_col': False,
-        'is_user_key': False,
-        'is_required': False,
-        'is_visible': True,
-        'is_editable': True,
-        'is_clickable': False,
-        'datatype': 'text',
-        'form_column': 'COL_3-1',
-        'widget_type': 'text_input',
-        'label_text': 'Meaning'
-        },
     'category': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
@@ -474,8 +464,30 @@ COLUMN_PROPS = {
         'widget_type': 'text_input',
         'label_text': '次分类'
         },
+    'zi_count': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_3-4',
+        'widget_type': 'text_input',
+        'label_text': '出现字数'
+        },
 
     # Col_4
+    'meaning': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_4-1',
+        'widget_type': 'text_input',
+        'label_text': 'Meaning'
+        },
     'notes': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,

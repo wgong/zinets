@@ -19,6 +19,10 @@ streamlit run ZiZi.py
 ## Resources and Tools
 
 - [wikiwand-zh-cn](https://www.wikiwand.com/zh-cn/%E7%99%B6%E9%83%A8)
+- [Kangxi radical](https://en.wikipedia.org/wiki/Kangxi_radical)
+     - https://en.wikipedia.org/wiki/Table_of_Indexing_Chinese_Character_Components
+
+- [汉查查](https://hanchacha.com/)
 
 - [《说文解字》与汉字构型 汉字部首释例 王宁主讲 ](https://www.youtube.com/watch?v=aRgrP1gtrFg)
 
