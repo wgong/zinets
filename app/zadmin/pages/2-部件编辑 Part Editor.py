@@ -37,24 +37,30 @@ def main():
     df = None
     with DBConn() as _conn:
         sql_stmt = f"""
-            select 
-                zi
-                , alias
-                , traditional
-                , pinyin
-                , is_radical
-                , category
-                , sub_category
-                , strokes
-                , meaning
-                , notes
-                , zi_count
-                , u_id
-                , ifnull(is_active, '')  as is_active
-            from {TABLE_NAME}
-            where {where_clause}
-                and cast(u_id as real) > 0   -- exclude u_id=-1
-            order by cast(u_id as real)
+            with parts as (
+                select 
+                    zi
+                    , alias
+                    , traditional
+                    , pinyin
+                    , is_radical
+                    , category
+                    , sub_category
+                    , meaning
+                    , notes
+                    , case when strokes is null then '99'
+                        when strokes='' then '99'
+                        else strokes
+                      end as strokes
+                    , u_id
+                    , zi_count
+                    , ifnull(is_active, '')  as is_active
+                from {TABLE_NAME}
+                where {where_clause}
+                    and cast(u_id as real) > 0   -- exclude u_id=-1
+            )
+            select * from parts
+            order by cast(strokes as int), cast(u_id as real)
             ;
         """
         # st.write(sql_stmt)

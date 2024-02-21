@@ -258,6 +258,11 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
 
     upsert_sql = ""
     if sql_type == "INSERT":
+        # set defaults
+        if "is_active" not in data:
+            data.update({"is_active" : "Y"})
+        if "note_type" not in data:
+            data.update({"note_type" : "RESOURCE"})
 
         col_clause = []
         val_clause = []

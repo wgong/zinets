@@ -1,3 +1,7 @@
+delete from t_part where u_id='420';
+
+alter table t_part add column alias text;
+
 with uniq_zi_layer as (
 	select distinct layer,zi from t_zi
 )

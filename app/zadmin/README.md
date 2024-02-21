@@ -19,8 +19,18 @@ streamlit run ZiZi.py
 ## Resources and Tools
 
 - [wikiwand-zh-cn](https://www.wikiwand.com/zh-cn/%E7%99%B6%E9%83%A8)
-- [Kangxi radical](https://en.wikipedia.org/wiki/Kangxi_radical)
-     - https://en.wikipedia.org/wiki/Table_of_Indexing_Chinese_Character_Components
+
+- [Chinese character classification](https://en.wikipedia.org/wiki/Chinese_character_classification#Rebus_.28phonetic_loan.29_characters)
+- Radicals
+     - [Logogram](https://en.wikipedia.org/wiki/Logogram)
+     - https://en.wikipedia.org/wiki/Radical_(Chinese_characters)
+          - Semantic components / ideograms
+          - graphical component 
+               - logogram
+               - pictogram
+          - [phonetic component](https://en.wikipedia.org/wiki/Chinese_character_classification#Rebus_.28phonetic_loan.29_characters)
+     - [Kangxi radical](https://en.wikipedia.org/wiki/Kangxi_radical)
+     - [汉字部首表](https://en.wikipedia.org/wiki/Table_of_Indexing_Chinese_Character_Components)
 
 - [汉查查](https://hanchacha.com/)
 
