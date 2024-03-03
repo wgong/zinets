@@ -55,17 +55,17 @@ CFG = {
     "TABLE_NOTE" : "t_note",        # Note on Journal/Resource
 
     "SHUFA_TYPE": [BLANK_STR_VALUE, "甲骨", "金", "篆", "隶", "楷", "行", "草"],
-    "NOTE_TYPE": [BLANK_STR_VALUE, "RESOURCE", "JOURNAL", "APP","PROJECT", "TASK",],
-    "STATUS_CODE": [BLANK_STR_VALUE, "ToDo","WIP", "Complete", "Blocked","De-Scoped",],
+    "NOTE_TYPE": [BLANK_STR_VALUE, "RESOURCE", "JOURNAL", "IDEA", "PROJECT", "TASK","APP",],
+    "STATUS_CODE": [BLANK_STR_VALUE, "ToDo","WIP", "Complete", "Blocked","De-Scoped","Others"],
     "PART_CATEGORY" : [
         BLANK_STR_VALUE,
         '01-Heaven',
         '02-Earth',
-        '03-Fire',
         '03-Metal',
-        '03-Soil',
-        '03-Water',
         '03-Wood',
+        '03-Water',
+        '03-Fire',
+        '03-Soil',
         '04-Plant',
         '05-Animal',
         '06-Human',
@@ -76,20 +76,113 @@ CFG = {
         '11-Unit-of-measure',
         '12-Color',
     ],
+    "ZI_CATEGORY" : [
+        BLANK_STR_VALUE,
+        '天文-',
+        '天文-日',
+        '天文-月',
+        '天文-金',
+        '天文-木',
+        '天文-水',
+        '天文-火',
+        '天文-土',
+        '天文-星',
+        '地理-',
+        '地理-山川',
+        '地理-河流',
+        '地理-陆地',
+        '数理-',
+        '数理-计算',
+        '数理-度量',
+        '数理-时空',
+        '数理-颜色',
+        '数理-天干',
+        '数理-地支',
+        '数理-八卦',
+        '植物-',
+        '植物-草',
+        '植物-花',
+        '植物-树',
+        '植物-竹',
+        '动物-',
+        '动物-生肖',
+        '人-',
+        '人-生理',
+        '人-心理',
+        '人-伦理',
+        '人-衣',
+        '人-食',
+        '人-住',
+        '人-行',
+        '社会-',
+        '社会-农业',
+        '社会-工业',
+        '社会-商业',
+        '社会-军事',
+        '社会-科技',
+        '社会-教育',
+        '社会-体育',
+        '社会-艺术',
+        '社会-文化',
+        '观念-',
+        '概念-',
+    ]    
 }
 
 # define options for selectbox column type, keyed on column name
-ACTIVE_STATES = ["Y", BLANK_STR_VALUE, ]   # add empty-str as placeholder
+BI_STATES = ["Y", BLANK_STR_VALUE, ]   # add empty-str as placeholder
 TRI_STATES = ["Y", BLANK_STR_VALUE, None,]
+HSK_LAYERS = ['', None, 
+        'HSK_1-Common-01', 'HSK_1-Common-02', 'HSK_1-Common-03', 'HSK_1-Common-04', 
+        'HSK_1-Common-05', 'HSK_1-Common-06', 'HSK_1-Common-07', 'HSK_1-Common-08', 
+        'HSK_1-Common-09', 'HSK_1-Common-10', 'HSK_1-Common-11', 'HSK_1-Common-12', 
+        'HSK_1-Common-13', 'HSK_1-Common-14', 'HSK_1-Common-15', 'HSK_1-Common-16', 
+        'HSK_2-CommonLow-1', 'HSK_2-CommonLow-2', 'HSK_2-CommonLow-3', 
+        'HSK_2-CommonLow-4', 'HSK_2-CommonLow-5', 'HSK_2-CommonLow-6', 
+        'HSK_2-CommonLow-7', 
+        'HSK_3', 
+        'HSK_z',
+    ]
+
+SET_ID_SEARCH_SPEC = [
+    BLANK_STR_VALUE, 
+    "     0",
+    "     1",
+    "<=   1",
+    "     2", 
+    "<=   2",
+    "     3", 
+    "<=   3",
+    "    10",
+    "<=  10",
+    "    30",
+    "<=  30",
+    "   100",
+    "<= 100",
+    "   300",
+    "<= 300",
+    "  1000",
+    "<=1000",
+    "  3000",
+    "<=3000",
+]
+
+SET_ID = [i for i in SET_ID_SEARCH_SPEC if "<=" not in i]
+
+
 SELECTBOX_OPTIONS = {
-    "is_active": ACTIVE_STATES,
+    "is_active": BI_STATES,
+    "is_picto": TRI_STATES,
     "as_part": TRI_STATES,
     "is_radical": TRI_STATES,
     "shufa_type": CFG["SHUFA_TYPE"],
     "note_type": CFG["NOTE_TYPE"],
     "status_code": CFG["STATUS_CODE"],
-    "category": CFG["PART_CATEGORY"],
+    "category": CFG["ZI_CATEGORY"],
+    "set_id": SET_ID,
+    "layer": HSK_LAYERS,
 }
+
 
 # temp workaround
 ZI_PART_COLS = [
@@ -274,8 +367,10 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
             col_clause.append(col)
             col_val = escape_single_quote(val)
             val_clause.append(f"'{col_val}'")
-        col_clause.append(user_key_cols)
-        val_clause.append("id")
+
+        if user_key_cols not in col_clause:
+            col_clause.append(user_key_cols)
+            val_clause.append("id")
 
         upsert_sql = f"""
             with uid as (
@@ -738,6 +833,17 @@ def ui_layout_form_fields(data,form_name,old_row,col,
                     old_val = old_row.get(col, BLANK_STR_VALUE)
                     _idx = _options.index(old_val)
                     val = st.selectbox(col_labels.get(col), _options, index=_idx, key=key_name_field)
+                except ValueError:
+                    val = old_row.get(col, "")
+            else:
+                val = st.text_input(col_labels.get(col), value=old_val, disabled=DISABLED, key=key_name_field)
+        elif widget_type == "multiselect":
+            # check if options is avail, otherwise display as text_input
+            if col in SELECTBOX_OPTIONS:
+                try:
+                    _options = SELECTBOX_OPTIONS.get(col,[])
+                    old_val = old_row.get(col, BLANK_STR_VALUE).split(",")
+                    val = st.multiselect(col_labels.get(col), _options, default=old_val, key=key_name_field)
                 except ValueError:
                     val = old_row.get(col, "")
             else:

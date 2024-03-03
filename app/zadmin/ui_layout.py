@@ -82,7 +82,7 @@ COLUMN_PROPS = {
         'widget_type': 'selectbox',
         'label_text': '扁旁部首？ Radical'
         },
-    'layer': {'is_system_col': False,
+    'is_picto': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -90,13 +90,25 @@ COLUMN_PROPS = {
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_2-5',
-        'widget_type': 'text_input',
-        'label_text': 'Layer'
+        'widget_type': 'selectbox',
+        'label_text': '象形？ Pictograph'
         },
 
 
         # Col-3
-    'desc_cn': {'is_system_col': False,
+    'category': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_3-0',
+        'widget_type': 'multiselect',
+        'label_text': '分类'
+        },
+
+    'set_id': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -104,11 +116,10 @@ COLUMN_PROPS = {
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_3-1',
-        'widget_type': 'text_area',
-        'label_text': '解释  Explanation'
+        'widget_type': 'selectbox',
+        'label_text': 'Set ID'
         },
-
-    'notes': {'is_system_col': False,
+    'layer': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -116,13 +127,23 @@ COLUMN_PROPS = {
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_3-2',
-        'widget_type': 'text_area',
-        'label_text': 'Notes'
+        'widget_type': 'selectbox',
+        'label_text': 'Layer'
+        },
+    'unicode': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': False,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_3-3',
+        'widget_type': 'text_input',
+        'label_text': 'Unicode'
         },
 
-
         # Col-4
-    'zi_en': {'is_system_col': False,
+    'desc_cn': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -131,9 +152,8 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_4-1',
         'widget_type': 'text_area',
-        'label_text': 'English'
+        'label_text': '解释  Explanation'
         },
-
     'desc_en': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
@@ -145,6 +165,8 @@ COLUMN_PROPS = {
         'widget_type': 'text_area',
         'label_text': 'Meaning'
         },
+
+
         # Col-5
     'u_id': {'is_system_col': False,
         'is_user_key': False,
@@ -157,29 +179,19 @@ COLUMN_PROPS = {
         'widget_type': 'text_input',
         'label_text': 'ID'
         },
-    'unicode': {'is_system_col': False,
+    'notes': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
-        'is_editable': False,
+        'is_editable': True,
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_5-2',
-        'widget_type': 'text_input',
-        'label_text': 'Unicode'
+        'widget_type': 'text_area',
+        'label_text': 'Notes'
         },
 
-    # 'sort_val': {'is_system_col': False,
-    #     'is_user_key': False,
-    #     'is_required': False,
-    #     'is_visible': True,
-    #     'is_editable': True,
-    #     'is_clickable': False,
-    #     'datatype': 'real',
-    #     'form_column': 'COL_5-2',
-    #     'widget_type': 'number_input',
-    #     'label_text': 'Sort Value'
-    #     },
+
     'is_active': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
@@ -450,7 +462,7 @@ COLUMN_PROPS = {
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_3-2',
-        'widget_type': 'selectbox',
+        'widget_type': 'multiselect',
         'label_text': '分类'
         },
     'sub_category': {'is_system_col': False,

@@ -115,11 +115,6 @@ def query_layer():
     return db_query_layer()
 
 def main():
-    if "LAYERS" not in st.session_state:
-        LAYERS = query_layer()
-        st.session_state["LAYERS"] = LAYERS
-    else:
-        LAYERS = st.session_state["LAYERS"]
 
     st.session_state["table_name"] = TABLE_NAME
     c1, c2, c3, c4 = st.columns([1,6,2,1])
@@ -128,9 +123,9 @@ def main():
     with c2:
         search_others = st.text_input("🔍Free-form where-clause (e.g.    cast(zi.u_id as int) > 0,  zi.zi = '佥'    ):", key=f"{KEY_PREFIX}_search_others").strip()
     with c3:
-        search_layer = st.selectbox("🔍Layer", LAYERS, index=LAYERS.index(""), key=f"{KEY_PREFIX}_search_layer")
+        search_layer = st.selectbox("🔍HSK Layer", HSK_LAYERS, index=HSK_LAYERS.index(""), key=f"{KEY_PREFIX}_search_layer")
     with c4:
-        active = st.selectbox("🔍Active?", ACTIVE_STATES, index=ACTIVE_STATES.index("Y"), key=f"{KEY_PREFIX}_active")
+        active = st.selectbox("🔍Active?", BI_STATES, index=BI_STATES.index("Y"), key=f"{KEY_PREFIX}_active")
 
     where_clause = " 1=1 " 
     where_clause += " " if not active  else f" and zi.is_active = '{active}' "
@@ -138,7 +133,7 @@ def main():
     if search_parts:
         where_clause += f""" 
             and (
-                zp.zi like '%{search_parts}%'
+                zi.zi like '%{search_parts}%'
                 OR zp.zi_left_up like '%{search_parts}%'
                 OR zp.zi_left like '%{search_parts}%'
                 OR zp.zi_left_down like '%{search_parts}%'
@@ -156,48 +151,19 @@ def main():
             and (
                 {search_others}
         ) """
+    else:
+        where_clause += " and 1=1 "
 
     if search_layer:
         where_clause += f"""
             and zi.layer = '{search_layer}'
         """
+    else:
+        where_clause += " and 1=1 "
 
 
     df = None
     with DBConn() as _conn:
-        ### drive by t_zi_part
-        # sql_stmt = f"""
-        #     select distinct
-        #         zp.zi
-        #         , zp.zi_left_up
-        #         , zp.zi_left
-        #         , zp.zi_left_down
-        #         , zp.zi_up
-        #         , zp.zi_mid
-        #         , zp.zi_down
-        #         , zp.zi_right_up
-        #         , zp.zi_right
-        #         , zp.zi_right_down
-        #         , zp.zi_mid_out
-        #         , zp.zi_mid_in
-        #         , zp.desc_cn
-        #         , zp.desc_en
-        #         , zp.hsk_note
-        #         , zi.layer as hsk_layer
-        #         , c.caizi
-        #         , zp.u_id
-        #         , ifnull(zp.is_active, '') as is_active
-        #     from {TABLE_NAME} zp 
-        #     left join w_caizi c
-        #         on zp.zi = c.zi
-        #     left join t_zi zi
-        #         on zi.zi = zp.zi
-        #     where {where_clause} 
-        #         and cast(zp.u_id as real) > 0   -- exclude u_id=-1
-        #     order by cast(zp.u_id as real)
-        #     ;
-        # """
-
         ### drive by t_zi
         sql_stmt = f"""
             select distinct
@@ -331,7 +297,7 @@ def main():
             with c1_3:
                 st.text_input("右上 right_up", value=zi_zi_right_up,  key=f"{KEY_PREFIX}_zi_right_up")
             with c1_4:
-                st.selectbox('Active?', ACTIVE_STATES, index=ACTIVE_STATES.index(fix_None_val(zi_is_active)),  key=f"{KEY_PREFIX}_is_active")
+                st.selectbox('Active?', BI_STATES, index=BI_STATES.index(fix_None_val(zi_is_active)),  key=f"{KEY_PREFIX}_is_active")
 
             c2_1,c2_2,c2_3,c2_4 = st.columns([2,2,2,2])
             with c2_1:

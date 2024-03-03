@@ -7,18 +7,26 @@ TABLE_NAME = CFG["TABLE_NOTE"]
 KEY_PREFIX = f"col_{TABLE_NAME}"
 
 def main():
-    c1, c2, c3, c4 = st.columns([3,8,2,1])
+    c1, c2, c3, c3_2, c4 = st.columns([3,6,2,2,1])
     with c1:
         search_term = st.text_input("🔍Search:", key=f"{KEY_PREFIX}_search_term").strip()
     with c2:
         search_others = st.text_input("🔍Free-form where-clause:", key=f"{KEY_PREFIX}_search_others").strip()
     with c3:
         search_type = st.selectbox("🔍Note Type", CFG["NOTE_TYPE"], index=CFG["NOTE_TYPE"].index(""), key=f"{KEY_PREFIX}_search_type")
+    with c3_2:
+        search_status = st.selectbox("🔍Status Code", CFG["STATUS_CODE"], index=CFG["STATUS_CODE"].index("Complete"), key=f"{KEY_PREFIX}_search_status")
     with c4:
-        active = st.selectbox("🔍Active?", ACTIVE_STATES, index=ACTIVE_STATES.index("Y"), key=f"{KEY_PREFIX}_active")
+        active = st.selectbox("🔍Active?", BI_STATES, index=BI_STATES.index("Y"), key=f"{KEY_PREFIX}_active")
 
     where_clause = " 1=1 " 
     where_clause += " " if not active else f" and is_active = '{active}' "
+    if not search_status:
+        where_clause += " "
+    elif search_status == "Others":
+        where_clause += " and (status_code is null or status_code != 'Complete') "
+    else:
+        where_clause += f" and status_code = '{search_status}' "
     where_clause += " " if not search_type else f" and note_type = '{search_type}' "
 
     if search_term:
@@ -40,10 +48,10 @@ def main():
         sql_stmt = f"""
             select 
                 title
-                , note
-                , link_url
-                , status_code
-                , note_type
+                , ifnull(note, '')  as note 
+                , ifnull(link_url, '')  as link_url 
+                , ifnull(status_code, '')  as status_code 
+                , ifnull(note_type, '')  as note_type 
                 , tags
                 , ifnull(is_active, '')  as is_active
                 , u_id
@@ -53,6 +61,7 @@ def main():
             order by ts desc
             ;
         """
+        print(sql_stmt)
         df = pd.read_sql(sql_stmt, _conn)
 
     grid_resp = ui_display_df_grid(df, 

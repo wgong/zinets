@@ -13,7 +13,7 @@ def main():
     with c2:
         search_others = st.text_input("🔍Free-form where-clause  (e.g.    cast(u_id as int) > 0,  zi = '佥'    ):", key=f"{KEY_PREFIX}_search_others").strip()
     with c4:
-        active = st.selectbox("🔍Active?", ACTIVE_STATES, index=ACTIVE_STATES.index("Y"), key=f"{KEY_PREFIX}_active")
+        active = st.selectbox("🔍Active?", BI_STATES, index=BI_STATES.index("Y"), key=f"{KEY_PREFIX}_active")
 
     where_clause = " 1=1 " 
     where_clause += " " if not active else f" and is_active = '{active}' "
@@ -73,8 +73,13 @@ def main():
     selected_row = selected_rows[0] if len(selected_rows) else None
     ui_layout_form(selected_row, TABLE_NAME)
 
-    st.subheader("部件频率")
-    sql_stmt = """
+    f1,f2,_ = st.columns([3,3,6])
+    with f1:
+        st.markdown("#### 部件频率", unsafe_allow_html=True)
+    with f2:
+        min_count = st.number_input("频率大于", value=40, min_value=0, max_value=300, step=20, key="part_freq_min")
+    
+    sql_stmt = f"""
 
     -- unique parts
     with parts as (  
@@ -135,7 +140,14 @@ def main():
         on f.part = p.zi
         where trim(p.category || '') = ''
     )
-    select * from part_freq_2 
+    select 
+        part            as "部件"
+        , zi_freq       as "频率"
+        , category      as "类别"
+        , sub_category  as "子类别"
+        , tag
+    from part_freq_2 
+    where zi_freq > {min_count}
     order by tag,category,sub_category,zi_freq desc, part;
     """
 

@@ -17,25 +17,33 @@ def query_layer():
     return db_query_layer()
 
 def main():
-    if "LAYERS" not in st.session_state:
-        LAYERS = query_layer()
-        st.session_state["LAYERS"] = LAYERS
-    else:
-        LAYERS = st.session_state["LAYERS"]
 
-    c1, c2, c3, c4 = st.columns([1,6,2,1])
-    with c1:
-        search_term = st.text_input("🔍Search:", key=f"{KEY_PREFIX}_search_term").strip()
+    c_zi, c2, c_cat, c_set_id, c_layer, c_active = st.columns([1,5,2,1,2,1])
+    with c_zi:
+        search_term = st.text_input("🔍Search Zi:", key=f"{KEY_PREFIX}_search_term").strip()
     with c2:
         search_others = st.text_input("🔍Free-form where-clause  (e.g.    cast(u_id as int) > 0,  zi = '佥'    ):", key=f"{KEY_PREFIX}_search_others").strip()
-    with c3:
-        search_layer = st.selectbox("🔍Layer", LAYERS, index=LAYERS.index(""), key=f"{KEY_PREFIX}_search_layer")
-    with c4:
-        active = st.selectbox("🔍Active?", ACTIVE_STATES, index=ACTIVE_STATES.index("Y"), key=f"{KEY_PREFIX}_active")
+    with c_cat:
+        search_cat = st.selectbox("Category", CFG["ZI_CATEGORY"], index=CFG["ZI_CATEGORY"].index(BLANK_STR_VALUE), key=f"{KEY_PREFIX}_search_cat")
+    with c_set_id:
+        search_set_id = st.selectbox("Set ID", SET_ID_SEARCH_SPEC, index=SET_ID_SEARCH_SPEC.index(BLANK_STR_VALUE), key=f"{KEY_PREFIX}_search_set_id")
+    with c_layer:
+        search_layer = st.selectbox("🔍HSK Layer", HSK_LAYERS, index=HSK_LAYERS.index(BLANK_STR_VALUE), key=f"{KEY_PREFIX}_search_layer")
+    with c_active:
+        active = st.selectbox("🔍Active?", BI_STATES, index=BI_STATES.index("Y"), key=f"{KEY_PREFIX}_active")
 
     where_clause = " 1=1 " 
     where_clause += " " if not active else f" and is_active = '{active}' "
     where_clause += " " if not search_layer else f" and layer = '{search_layer}' "
+    where_clause += " " if not search_cat else f" and category = '{search_cat}' "
+
+    if not search_set_id:
+        where_clause += " "
+    elif "<=" in search_set_id:
+        search_set_id_new = search_set_id.replace("<=", "  ")
+        where_clause += f" and set_id <= '{search_set_id_new}' "
+    else:
+        where_clause += f" and set_id = '{search_set_id}' "
 
     if search_term:
         where_clause += f""" and (
@@ -59,26 +67,27 @@ def main():
         sql_stmt = f"""
             select 
                 zi
-                , pinyin
-                , alias
-                , traditional
+                , ifnull(pinyin, '') as pinyin
+                , ifnull(alias, '') as alias
+                , ifnull(traditional, '') as traditional
                 , ifnull(as_part, '') as as_part
                 , ifnull(is_radical, '') as is_radical
-                , nstrokes
-                , desc_cn
-                , zi_en
-                , desc_en
-                , layer
-                , notes
+                , ifnull(is_picto, '') as is_picto
+                , ifnull(nstrokes, '') as nstrokes
+                , ifnull(category, '') as category
+                , ifnull(set_id, '') as set_id
+                , ifnull(layer, '') as layer
+                , ifnull(desc_cn, '') as desc_cn
+                , ifnull(desc_en, '') as desc_en
+                , ifnull(notes, '') as notes
                 , u_id
                 , ifnull(is_active, '')  as is_active
-                , sort_val                
             from {TABLE_NAME}
             where {where_clause}
                 and cast(u_id as real) > 0   -- exclude u_id=-1
-            order by cast(u_id as real);
+            order by set_id, cast(u_id as real);
         """
-        # st.write(sql_stmt)
+        print(sql_stmt)
         df = pd.read_sql(sql_stmt, _conn)
 
     grid_resp = ui_display_df_grid(df, selection_mode="single")
