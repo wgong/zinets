@@ -56,7 +56,7 @@ CFG = {
 
     "SHUFA_TYPE": [BLANK_STR_VALUE, "甲骨", "金", "篆", "隶", "楷", "行", "草"],
     "NOTE_TYPE": [BLANK_STR_VALUE, "RESOURCE", "JOURNAL", "IDEA", "PROJECT", "TASK","APP",],
-    "STATUS_CODE": [BLANK_STR_VALUE, "ToDo","WIP", "Complete", "Blocked","De-Scoped","Others"],
+    "STATUS_CODE": [BLANK_STR_VALUE, "ToDo","WIP", "Blocked", "Complete", "De-Scoped", "Others"],
     "PART_CATEGORY" : [
         BLANK_STR_VALUE,
         '01-Heaven',
@@ -1023,10 +1023,24 @@ def ui_display_df_grid(df,
         gb.configure_column(k, cellStyle=v)
 
     if clickable_columns:       # config clickable columns
-        js_code = """
-            function(params) {return params.value ? `<a href=${params.value} target="_blank">${params.value}</a>` : "" }
-        """
-        cell_renderer_url =  JsCode(js_code)
+        # js_code = """
+        #     function(params) {return params.value ? `<a href=${params.value} target="_blank">${params.value}</a>` : "" }
+        # """
+        # fix
+        cell_renderer_url =  JsCode("""
+            class UrlCellRenderer {
+                init(params) {
+                    this.eGui = document.createElement('a');
+                    this.eGui.innerText = params.value;
+                    this.eGui.setAttribute('href', params.value);
+                    this.eGui.setAttribute('style', "text-decoration:none");
+                    this.eGui.setAttribute('target', "_blank");
+                }
+                getGui() {
+                    return this.eGui;
+                }
+            }
+        """)
         for col_name in clickable_columns:
             gb.configure_column(col_name, cellRenderer=cell_renderer_url)
 
