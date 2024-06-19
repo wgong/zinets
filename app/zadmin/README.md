@@ -30,6 +30,7 @@ streamlit run ZiZi.py
 
 - [千篇汉语字典](https://zidian.qianp.com/zi/%E5%AD%90)
      - [汉语词典](https://cidian.qianp.com/zuci_wuqi.html)
+     - [汉语词典](https://cidian.qianp.com/zuci_wuqi.html)
      - search by ping-yin, radicals
      - 500, 2500 common Zi
 
@@ -108,6 +109,9 @@ streamlit run ZiZi.py
 - [Chinese Characters GitHub Repos](https://github.com/topics/chinese-characters)
 
 - [孔子学院](https://ci.cn/)
+- https://zh.wiktionary.org/wiki/Appendix:%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8
+- https://zh.wiktionary.org/wiki/%E4%BA%86
+
 - https://zh.wiktionary.org/wiki/Appendix:%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8
 - https://zh.wiktionary.org/wiki/%E4%BA%86
 

@@ -1,3 +1,4 @@
+
 import pandas as pd
 
 import streamlit as st
@@ -260,8 +261,3 @@ with open(file_html, 'r', encoding='utf-8') as f:
     components.html(html_data_2, scrolling=True, height=500)
     # NOT working
     # st.markdown(html_data,  unsafe_allow_html=True)  
-
-
-
-
-
