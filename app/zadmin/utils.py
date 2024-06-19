@@ -56,7 +56,7 @@ CFG = {
 
     "SHUFA_TYPE": [BLANK_STR_VALUE, "甲骨", "金", "篆", "隶", "楷", "行", "草"],
     "NOTE_TYPE": [BLANK_STR_VALUE, "RESOURCE", "JOURNAL", "IDEA", "PROJECT", "TASK","APP",],
-    "STATUS_CODE": [BLANK_STR_VALUE, "ToDo","WIP", "Complete", "Blocked","De-Scoped","Others"],
+    "STATUS_CODE": [BLANK_STR_VALUE, "ToDo","WIP", "Blocked", "Complete", "De-Scoped", "Others"],
     "PART_CATEGORY" : [
         BLANK_STR_VALUE,
         '01-Heaven',
