@@ -15,3 +15,7 @@ pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/
 
 - Bing English-Chinese Dict
 - DuDuChinese 
+
+## emojis
+- [Emoji Cheatsheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+- [Emojipedia](https://emojipedia.org/face-with-bags-under-eyes)
