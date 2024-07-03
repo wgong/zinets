@@ -92,9 +92,9 @@ def main():
 
     grid_resp = ui_display_df_grid(df, selection_mode="single")
     selected_rows = grid_resp['selected_rows']
+    selected_row = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
 
     # display form
-    selected_row = selected_rows[0] if len(selected_rows) else None
     ui_layout_form(selected_row, TABLE_NAME)
 
     # optional download

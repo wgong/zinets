@@ -211,8 +211,9 @@ def main():
  
 
     selected_rows = grid_resp['selected_rows']
+    zi = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
+
     # display form
-    zi = selected_rows[0] if len(selected_rows) else None
     if zi is not None:
         zi_zi = zi["zi"]
         zi_u_id = zi["u_id"]

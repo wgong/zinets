@@ -1,2 +1,5 @@
 data/
 archive/
+**/*.sqlite
+**/.virtual_documents/
+**/Untitled*.ipynb

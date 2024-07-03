@@ -75,15 +75,14 @@ def main():
             order by ts desc
             ;
         """
-        # print(sql_stmt)
+        # # print(sql_stmt)
         df = pd.read_sql(sql_stmt, _conn)
 
     grid_resp = ui_display_df_grid(df, 
                                    clickable_columns=["link_url"],
                                    selection_mode="single")
     selected_rows = grid_resp['selected_rows']
-
-    selected_row = selected_rows[0] if len(selected_rows) else None
+    selected_row = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
 
     c_1, c_2 = st.columns([3,3])
     with c_1:
@@ -112,6 +111,7 @@ def main():
 
     # display form
     ui_layout_form(selected_row, TABLE_NAME)
+
 
 if __name__ == '__main__':
     main()
