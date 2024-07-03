@@ -1,4 +1,3 @@
-
 import pandas as pd
 
 import streamlit as st
@@ -8,10 +7,8 @@ import streamlit.components.v1 as components
 from pyecharts import options as opts
 from pyecharts.charts import Tree
 
-from utils_copy import *
-
 st.set_page_config(
-     page_title='Dev Zapp',
+     page_title='字子',
      layout="wide",
      initial_sidebar_state="expanded",
 )
@@ -130,61 +127,34 @@ if "expanded" not in st.session_state:
 
 
 st.title("🐙 Streamlit-tree-select")
-st.subheader("Decompose Zi")
-c1, c2 = st.columns([6,2])
-with c1:
-    root_zi = st.text_input("Zi", value="澡", key="input_zi")
-with c2:
-    union_uniq = st.checkbox('No duplicates')
-    union_op = " UNION " if union_uniq else " UNION ALL "
-st.write(f"root_zi = {root_zi}, union_op = {union_op}")
-sql_stmt = f"""
-WITH RECURSIVE
-  zi_part_v(zi, part) as (
+st.subheader("A simple and elegant checkbox tree for Streamlit.")
 
-    select zi,part from (
-        select zi, zi_left_up as part from t_zi_part where zi_left_up is not null
-         union all 
-        select zi, zi_left as part from t_zi_part where  zi_left is not null
-         union all 
-        select zi, zi_left_down as part from t_zi_part where  zi_left_down is not null
-         union all 
-        select zi, zi_up as part from t_zi_part where  zi_up is not null
-         union all 
-        select zi, zi_mid as part from t_zi_part where   zi_mid is not null
-         union all 
-        select zi, zi_down as part from t_zi_part where  zi_down is not null
-         union all 
-        select zi, zi_right_up as part from t_zi_part where  zi_right_up is not null
-         union all 
-        select zi, zi_right as part from t_zi_part where  zi_right is not null
-         union all 
-        select zi, zi_right_down as part from t_zi_part where  zi_right_down is not null
-         union all 
-        select zi, zi_mid_out as part from t_zi_part where  zi_mid_out is not null
-         union all 
-        select zi, zi_mid_in as part from t_zi_part where  zi_mid_in is not null
-    ) 
-    where zi is not null and part is not null and zi != '' and part != '' 
-    --order by zi,part
-),
-  child_of(zi, part) AS (
-        SELECT zi, part 
-        FROM zi_part_v WHERE zi='{root_zi}'
-    --UNION   -- no duplicates
-    {union_op}
-         SELECT zp.zi, zp.part  
-         FROM  zi_part_v zp join child_of c
-             on zp.zi = c.part
-)
-SELECT * FROM child_of
-;
-"""
-with DBConn() as _conn:
-    df = pd.read_sql(sql_stmt, _conn)
-
+# Create nodes to display
+df = pd.read_csv("zi_data.csv")
 nodes_zi = [convert_d3graph_to_tree(df, pkg_name="st_tree_select")]
-st.write(f"nodes_zi = {nodes_zi}")
+# nodes_zi = [
+#     {
+#         "label": "藻", "value": "藻",
+#         "children": [
+#             {"label": "艹", "value": "艹"},
+#             {
+#                 "label": "喿", "value": "喿",
+#                 "children": [
+#                     {
+#                         "label": "品", "value": "品",
+#                         "children": [
+#                             {"label": "口", "value": "口-1"},
+#                             {"label": "口", "value": "口-2"},
+#                             {"label": "口", "value": "口-3"},
+#                         ], 
+#                     }, 
+#                     {"label": "木", "value": "木"},
+#                 ],
+#             },
+#         ],
+#     },
+# ]
+
 
 selected = tree_select(nodes_zi, 
                     checked=st.session_state.selected, 
@@ -231,7 +201,7 @@ with open(file_html, "w", encoding="utf-8") as f:
 # https://discuss.streamlit.io/t/display-an-html-file-in-streamlit/56579
 with open(file_html, 'r', encoding='utf-8') as f:
     html_data_2 = f.read() 
-    ## use components.html()
+    ##  use html()
     components.html(html_data_2, scrolling=True, height=500)
-    ## because st.markdown() NOT working
+    # NOT working
     # st.markdown(html_data,  unsafe_allow_html=True)  

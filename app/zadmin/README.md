@@ -60,6 +60,16 @@ streamlit run ZiZi.py
 
 - [书同文学校](https://hanzi.unihan.com.cn) 
 
+
+### Emoji
+
+- [Wikipedia - Emoji](https://en.wikipedia.org/wiki/Emoji)
+- [Unicode Emoji](https://unicode.org/emoji/charts/full-emoji-list.html)
+- [Emoji Cheatsheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+- [Emojipedia](https://emojipedia.org/)
+- [GetEmoji](https://getemoji.com/)
+- [EmojiHub](https://emojihub.org/)
+
 ### Other useful sites
 
 - [wikiwand-zh-cn](https://www.wikiwand.com/zh-cn/%E7%99%B6%E9%83%A8)
@@ -129,6 +139,15 @@ streamlit run ZiZi.py
 ### Classic Music
 - [50 Best Classic Music of all time⚜️: Mozart, Tchaikovsky, Vivaldi, Paganini, Chopin](https://youtu.be/6truGSXOGF4?si=E7NcqQ2NHh2ro2_z)
 ## ToDo
+
+[2024-04-03] 
+- in Zi-Decomposition page:
+     - add pronounciation via gTTS
+     - add translation via googletrans
+
+- add page to decompose a sentence into phrases using jieba pkg
+
+- add GenAI features
 
 ### Category
 - 天文-日
