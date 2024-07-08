@@ -1,0 +1,110 @@
+function $(id){return document.getElementById(id);}
+var xmenv = {
+	IE:/*@cc_on!@*/false,
+	mac:function() {return /^mac/i.test(navigator.platform);},
+	testCtrlCmd:function(e){
+		if(e==undefined) var e=window.event; // IE
+		if(e!=undefined){
+			if (e.ctrlKey) return true;
+			if (this.mac() && e.metaKey) return true;
+			return false;
+		}
+	}
+};
+var xm={
+	loaders:new Array(),
+	unloaders:new Array(),
+	xhr:function(){
+	  if (window.XMLHttpRequest)
+	    return new XMLHttpRequest();
+	  if (window.ActiveXObject)
+	    return new ActiveXObject("Microsoft.XMLHTTP");
+	  return null;
+	},
+	encode:function(s) {
+		if (window.encodeURIComponent)
+			return encodeURIComponent(s);
+		return escape(s);
+	},
+	trim:function(s) {
+		return s.replace(/^\s*(.*)\s*$/, "$1");
+	},
+	loadUri:function(uri) {
+		window.location = uri;
+	},
+	addParam:function(u,s) {
+		for (var id in s) {
+			var field=$(id);
+			if(field.value != '')u=u+(u.indexOf("?")==-1?"?":"&")+s[id]+"="+this.encode(field.value);
+		}
+		return u;
+	},
+	isString:function(o) {
+		if(typeof o=='string')return true;
+		if(Object.prototype.toString.call(o) === "[object String]") return true;
+		//if (typeof s == 'object') {
+		//	var criterion = s.constructor.toString().match(/string/i);
+		//	return (criterion != null);
+		//}
+		return false;
+	},
+	linkAsString:xmenv.IE?function(l){return l.href.replace(/%/g,"%25");}:function(l){return l.href;},
+	//change the opacity for different browsers
+	changeOpac:xmenv.IE?function(opacity,o){
+			o=$(o);
+			o.style.zoom=1;
+			o.style.filter="alpha(opacity="+opacity+")";// IE8 only...
+		} : function(opacity,o){
+			$(o).style.opacity=(opacity/100);
+    		//s.MozOpacity=(opacity/100);
+			//s.KhtmlOpacity=(opacity/100);
+		},
+	addLoader:function(f){this.loaders.push(f);},
+	addUnloader:function(f){this.unloaders.push(f);},
+	time:function(){return(new Date).getTime();},
+	getCookie:function(c){
+		var ca=document.cookie.split(';');
+		c+='=';
+		for (var i=0;i<ca.length;i++){
+			if(ca[i].indexOf(c)==0){
+				return unescape(ca[i].substr(c.length));
+			}
+		}
+		return '';
+	},
+	setCookie:function(c,v,e) {
+		document.cookie=c+'='+escape(v)+';expires='+e.toGMTString()+';samesite=lax';
+	},
+	getExpire:function() {
+		var e=new Date();
+		e.setTime(e.getTime()+31536000000);
+		return e;
+	}
+};
+window.onload = function(){for(var i=0;i<xm.loaders.length;i++)xm.loaders[i]();};
+window.unload = function(){for(var i=0;i<xm.unloaders.length;i++)xm.unloaders[i]();};
+function xmSetFontByClass(t,c,v){
+	var el;
+	// '*' not supported by IE/Win 5.5 and below
+	el=(xmenv.IE)?document.all:document.getElementsByTagName('*');
+	for(var i=0;i<el.length;i++){
+		var n=el.item(i);
+		if (n.attributes){
+			for(var j=0;j<n.attributes.length;j++){
+				if(n.attributes.item(j).nodeName=='class'){
+					var nc=' '+n.attributes.item(j).nodeValue+' ';
+					for(var k=0;k<c.length;k++){
+						if(nc.indexOf(' '+c[k]+' ')!=-1){
+							n.style.fontFamily=v;
+						}
+					}
+				}
+			}
+		}
+	}
+	var cuky=xm.getCookie('font_settings');
+	var extra=';0;36';
+	if(cuky!=''){var p=cuky.search(/;\d+;\d+$/);if(p!=-1)extra=cuky.substr(p);}
+	xm.setCookie('font_settings',v+extra,xm.getExpire());
+}
+function xmSetChineseFont(f){xmSetFontByClass('*',['hz','hanyu','bighz','variant','rad','hzsmall','hzpop'],f);}

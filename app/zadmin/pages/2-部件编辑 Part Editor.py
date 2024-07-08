@@ -1,3 +1,23 @@
+"""
+TO FIX: failed into new part
+
+ with uid as (
+    select
+    case
+        when max(u_id) is NULL then '10'
+        else cast(max(cast(u_id as int))+1 as text)
+    end as id
+    from t_part
+    where u_id not in ('-1')
+)
+insert into t_part (
+    zi, pinyin, alias, is_radical, strokes, category, meaning, is_active, u_id
+)
+select '⺩', 'yù', '玉', 'Y', '4', 'radical', 'jade', 'Y', id
+from uid;
+
+"""
+
 from utils import *
 
 st.set_page_config(layout="wide")
@@ -21,6 +41,7 @@ def main():
     if search_term:
         where_clause += f""" and (
             zi like '%{search_term}%'
+            or alias like '%{search_term}%'
             or traditional like '%{search_term}%'
             or pinyin like '%{search_term}%'
             or meaning like '%{search_term}%'
@@ -70,6 +91,8 @@ def main():
     selected_rows = grid_resp['selected_rows']
     selected_row = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
 
+    # st.write(selected_row)
+
     # display form
     ui_layout_form(selected_row, TABLE_NAME)
 
@@ -77,7 +100,7 @@ def main():
     with f1:
         st.markdown("#### 部件频率", unsafe_allow_html=True)
     with f2:
-        min_count = st.number_input("频率大于", value=40, min_value=0, max_value=300, step=20, key="part_freq_min")
+        min_count = st.number_input("频率大于", value=20, min_value=0, max_value=300, step=20, key="part_freq_min")
     
     sql_stmt = f"""
 
@@ -124,7 +147,7 @@ def main():
     , part_freq as (
         select part,count(zi) as zi_freq from zi_part_2 
         group by part -- having count(zi) > 10
-        order by count(zi) desc, part    
+        --order by count(zi) desc, part    
     ), part_freq_2 as (
         select 
             f.part, f.zi_freq, p.category, p.sub_category, '0' as tag
@@ -141,14 +164,18 @@ def main():
         where trim(p.category || '') = ''
     )
     select 
-        part            as "部件"
-        , zi_freq       as "频率"
-        , category      as "类别"
-        , sub_category  as "子类别"
-        , tag
-    from part_freq_2 
-    where zi_freq > {min_count}
-    order by tag,category,sub_category,zi_freq desc, part;
+        pf.part            as "部件"
+        , p.meaning
+        , p.notes as sample
+        , pf.zi_freq       as "频率"
+        , pf.category      as "类别"
+        , pf.sub_category  as "子类别"
+        , pf.tag
+    from part_freq_2 pf
+    join t_part p
+    on pf.part = p.zi
+    where pf.zi_freq > {min_count}
+    order by pf.category,pf.sub_category,pf.zi_freq desc, pf.part;
     """
 
     with DBConn() as _conn:
@@ -162,7 +189,7 @@ def main():
         with c1:
             st.download_button(
                 label="Submit",
-                data=df_to_csv(df, index=False),
+                data=df_to_csv(df_part_freq, index=False),
                 file_name=f"{TABLE_NAME}-{get_ts_now()}.csv",
                 mime='text/csv',
             )      
