@@ -5,7 +5,7 @@
 ### AI App - ZiZi 
 multimodal/multilingual Chinese dictionary powered by AI，built on [Streamlit](https://streamlit.io/) web framework ([Source](https://github.com/wgong/zinets)) : 
 
-### YouTube Channel - 学子话字 xzhz
+### YouTube Channel - ZiTalk 话字
 
 short videos on Zi's story
 
@@ -22,19 +22,19 @@ streamlit run ZiZi.py
 
 ### Dictionaries
 
-- [汉典](https://www.zdic.net/hans/%E5%AD%90)
+- [汉典](https://www.zdic.net/hans/%E5%AD%90)  (good)
      - [书法](http://sf.zdic.net/)
 
-- [查字典](https://www.chazidian.com/zi_bushou_80/) 
+- [查字典](https://www.chazidian.com/zi_bushou_80/)  (got 403)
      - search by parts
 
-- [千篇汉语字典](https://zidian.qianp.com/zi/%E5%AD%90)
+- [千篇汉语字典](https://zidian.qianp.com/)  (good)
      - [汉语词典](https://cidian.qianp.com/zuci_wuqi.html)
      - [汉语词典](https://cidian.qianp.com/zuci_wuqi.html)
      - search by ping-yin, radicals
      - 500, 2500 common Zi
 
-- [汉程网字典](https://hy.httpcn.com/Html/24/ZI/PWKOKOMETBUYBUYAZ/)
+- [汉程网字典](https://hy.httpcn.com/)  (good)
      - search by parts
 
 - [汉文学网](https://zd.hwxnet.com/search/hwxE5hwxADhwx90.html)
@@ -44,40 +44,42 @@ streamlit run ZiZi.py
      - [他非常期望能与中科院自动化研究所智能技术与系统工程团队进行长期深入的合作，共同将3500个常用汉字开发成故事产品，寓教于乐，让中小学生热爱汉字、了解汉字文化。](https://mp.weixin.qq.com/s/gAalrsB65Z43IQFk3DtKcg)
 
 - [汉字科普网站推荐](https://zhuanlan.zhihu.com/p/19808549)
-     - [中华语文知识库](https://www.chinese-linguipedia.org/)
+     - [中华语文知识库](https://www.chinese-linguipedia.org/)   (good)
           - [汉字科普网站推荐（二）──中华语文知识库](https://zhuanlan.zhihu.com/p/19950604)
           - very good for phrase
           - [漢字源流](https://www.chinese-linguipedia.org/search_source_inner.html?word=%E5%BF%83)
           - video - https://www.chinese-linguipedia.org/audio.html?page=3
                - [漢字說故事](https://www.youtube.com/watch?v=DprzUUPLrbo)
           - flashcard - https://bs.chinese-linguipedia.org/upload/word_edus/pdf/%E5%A5%B3.pdf
-     - [漢語多功能字庫](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/)
+     - [漢語多功能字庫](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/)   (good)
           - https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E6%84%8F
           - https://cuhk.edu.cn/zh-hans/event/2245
           - (香港中文大学)
           - [汉字科普网站推荐（三）](https://zhuanlan.zhihu.com/p/19823453)
           - [汉字科普网站推荐（七）——汉语多功能字库](https://zhuanlan.zhihu.com/p/24804498)
-     - [小學堂文字學資料庫](https://xiaoxue.iis.sinica.edu.tw/)
+     - [小學堂文字學資料庫](https://xiaoxue.iis.sinica.edu.tw/)   (good)
           - 臺灣大學中國文學系、中央研究院歷史語言研究所、資訊科學研究所、數位文化中心共同開發
           - https://xiaoxue.iis.sinica.edu.tw/yanbian?kaiOrder=136
           - [汉字科普网站推荐（一）——小学堂](https://zhuanlan.zhihu.com/p/19808732)
-     - [說文解字綜合檢索](http://www.homeinmists.com/shuowen/find_all.html)
+     - [說文解字綜合檢索](http://www.homeinmists.com/shuowen/find_all.html) (good)
           - [汉字科普网站推荐（四）——说文解字综合检索系统](https://zhuanlan.zhihu.com/p/20370117)
-     - [国学大师_国学网_汉字宝典_国学经典&古典文学_四库全书电子版&永乐大典](https://www.guoxuedashi.com/)
+     - [国学大师_国学网_汉字宝典_国学经典&古典文学_四库全书电子版&永乐大典](https://www.guoxuedashi.com/)  (good)
           - [汉字科普网站推荐（六）——国学大师](https://zhuanlan.zhihu.com/p/24666372)
-     - [汉字科普网站推荐（八）—— 引得市](https://zhuanlan.zhihu.com/p/32516713)
+
+     - [小马字典](https://www.xiaoma.info/bushou.php?ext=1)
 
 
 - [维基字典](https://zh.wiktionary.org/zh-hans/%E5%AD%90)
 - [百度百科](https://baike.baidu.com/item/%E5%AD%90/3135568)
      - [秒懂百科](https://baike.baidu.com/video?from=lemma&fromIndex=2&fromModule=lemma_video&fromPage=lemma-video&isSensitive=0&lemmaId=3135568&secondId=25766209&showNativeAd=1) short video
 
-### Learning Tools
+#### Learning Tools
 - [MDBG dictionary](https://www.mdbg.net/chinese/dictionary?page=cc-cedict)
      - good learning resource with English, handwriting input
 
 - [汉查查](https://hanchacha.com/)
      - learning resource
+     - has textbooks
 
 - [chinese-characters](https://www.chinese-characters.org/)
      - with English
