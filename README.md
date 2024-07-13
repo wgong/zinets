@@ -16,7 +16,7 @@ pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/
 - Bing English-Chinese Dict
 - DuDuChinese 
 
-### Emoji
+## Emoji
 
 - [Wikipedia - Emoji](https://en.wikipedia.org/wiki/Emoji)
 - [Unicode Emoji](https://unicode.org/emoji/charts/full-emoji-list.html)
@@ -24,3 +24,6 @@ pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/
 - [Emojipedia](https://emojipedia.org/)
 - [GetEmoji](https://getemoji.com/)
 - [EmojiHub](https://emojihub.org/)
+
+## Research
+related work, see parent folder ~/zistory/research 

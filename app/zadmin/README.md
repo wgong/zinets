@@ -77,7 +77,7 @@ streamlit run ZiZi.py
 - [MDBG dictionary](https://www.mdbg.net/chinese/dictionary?page=cc-cedict)
      - good learning resource with English, handwriting input
 
-- [汉查查](https://hanchacha.com/)
+- [汉查查](https://hanchacha.com/) (very good)
      - learning resource
      - has textbooks
 
