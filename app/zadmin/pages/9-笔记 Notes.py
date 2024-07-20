@@ -84,6 +84,10 @@ def main():
     selected_rows = grid_resp['selected_rows']
     selected_row = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
 
+    # display form
+    ui_layout_form(selected_row, TABLE_NAME)
+
+
     c_1, c_2 = st.columns([3,3])
     with c_1:
         st.markdown(f"""
@@ -108,9 +112,6 @@ def main():
             ##### Tags
             {tag_str}
         """, unsafe_allow_html=True)
-
-    # display form
-    ui_layout_form(selected_row, TABLE_NAME)
 
 
 if __name__ == '__main__':

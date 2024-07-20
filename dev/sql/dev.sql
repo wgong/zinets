@@ -970,5 +970,18 @@ create table if not exists w_caizi
     is_active text default 'Y'
 );
 
+CREATE TABLE t_textbook_page
+(
+	u_id text NOT NULL,
+    page_path text NOT NULL,
+	root_path text,
+    subject text,
+    note text,
+    note_enu text,
+    tags text,
+    ts text,
+    is_active text default 'Y'
+);
+
 -- alter table 
 

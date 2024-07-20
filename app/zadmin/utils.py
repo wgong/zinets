@@ -13,6 +13,7 @@ from io import StringIO
 import os
 from pathlib import Path
 from uuid import uuid4
+from PIL import Image
 
 # special libs
 from bs4 import BeautifulSoup
@@ -44,6 +45,8 @@ CFG = {
     # "DB_FILENAME" : Path(__file__).parent / "zinets.sqlite",
     "DB_FILENAME" : Path(__file__).parent / "zizi.sqlite",
 
+    "TEXTBOOK_PAGE_ROOT": r"C:\Users\p2p2l\projects\wgong\zistory\resources\books\Extracted-Pages",
+
     # assign table names
     "TABLE_ZI" : "t_zi",            # all Zi 字
     "TABLE_PART" : "t_part",        # parts - not exposed in UI
@@ -53,11 +56,18 @@ CFG = {
     "TABLE_TEXT" : "t_text",        # text 文章 
     "TABLE_MEDIA" : "t_resource",   # audio/video 录音，视频
     "TABLE_NOTE" : "t_note",        # Note on Journal/Resource
+    "TABLE_TEXTBOOK_PAGE" : "t_textbook_page",        # Chinese Textbook pages
+
+    "COLUMN_DEFS": {
+        "t_textbook_page": ["u_id", "page_path", "root_path", "subject","note","note_enu","tags","ts","is_active",],
+    },
 
     "SHUFA_TYPE": [BLANK_STR_VALUE, "甲骨", "金", "篆", "隶", "楷", "行", "草"],
     "NOTE_TYPE": [BLANK_STR_VALUE, "RESOURCE", "JOURNAL", "IDEA", "PROJECT", "TASK","APP",],
     "STATUS_CODE": [BLANK_STR_VALUE, "ToDo","WIP", "Blocked", "Complete", "De-Scoped", "Others"],
     "STATUS_CODE": [BLANK_STR_VALUE, "ToDo","WIP", "Blocked", "Complete", "De-Scoped", "Others"],
+    "SUBJECT_CODE": [BLANK_STR_VALUE, "Chinese","Math", "Science",],
+
     "PART_CATEGORY" : [
         BLANK_STR_VALUE,
         '01-Heaven',
@@ -180,6 +190,7 @@ SELECTBOX_OPTIONS = {
     "shufa_type": CFG["SHUFA_TYPE"],
     "note_type": CFG["NOTE_TYPE"],
     "status_code": CFG["STATUS_CODE"],
+    "subject": CFG["SUBJECT_CODE"],
     "category": CFG["ZI_CATEGORY"],
     "set_id": SET_ID,
     "layer": HSK_LAYERS,
@@ -1112,3 +1123,25 @@ def merge_single_col(data):
     for d in ds:
         break
     return d
+
+def list_all_filenames(directory, file_types=[".png", ".jpg", ".jpeg", ".gif"]):
+    """Lists all file names (including subdirectories) in a directory, optionally filtering by file types.
+
+    Args:
+      directory: The starting directory path.
+      file_types: A list of file extensions (e.g., [".png", ".jpg"]) to filter by (optional).
+
+    Returns:
+      A list of file names with their parent paths.
+    """
+    filenames = []
+    for root, dirs, files in os.walk(directory):
+        for filename in files:
+            if not file_types or filename.lower().endswith(tuple(file_types)):
+                # Include full path with filename
+                filenames.append(os.path.join(root, filename))
+    return filenames
+
+def remove_parent_path(file_name, parent_path=None):
+    x = file_name.replace(parent_path, "") if parent_path else file_name
+    return x[1:] if x[0] in ["\\", "/"] else x

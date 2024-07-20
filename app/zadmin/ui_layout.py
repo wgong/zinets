@@ -644,6 +644,122 @@ COLUMN_PROPS = {
    
 }, 
 
+'t_textbook_page': {
+    # Col_1
+    'page_path': {
+        'is_system_col': False,
+        'is_user_key': True,
+        'is_required': True,
+        'is_visible': True,
+        'is_editable': False,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_1-1',
+        'widget_type': 'text_input',
+        'label_text': 'Path'
+    },
+    'note': {
+        'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_1-2',
+        'widget_type': 'text_area',
+        'label_text': 'Note'
+    },
+    'note_enu': {
+        'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_1-3',
+        'widget_type': 'text_input',
+        'label_text': 'English Note'
+    },
+    'tags': {
+        'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_1-4',
+        'widget_type': 'text_input',
+        'label_text': 'Tags'
+    },
+    'subject': {
+        'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_1-5',
+        'widget_type': 'selectbox',
+        'label_text': 'Subject'
+    },
+
+    'is_active': {
+        'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': False,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_1-6',
+        'widget_type': 'selectbox',
+        'label_text': 'Active?'
+    },
+    'root_path': {
+        'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': False,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_1-7',
+        'widget_type': 'text_input',
+        'label_text': 'Parent Path'
+    },
+    'u_id': {
+        'is_system_col': True,
+        'is_user_key': False,
+        'is_required': True,
+        'is_visible': True,
+        'is_editable': False,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_1-8',
+        'widget_type': 'text_input',
+        'label_text': 'ID'
+    },
+
+    'ts': {
+        'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': False,
+        'is_editable': False,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_2-5',
+        'widget_type': 'text_input',
+        'label_text': 'Timestamp'
+    },
+   
+}, 
+
+
 't_emoji': {
     'desc_en': {'is_system_col': False,
         'is_user_key': False,
