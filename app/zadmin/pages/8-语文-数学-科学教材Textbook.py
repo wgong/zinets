@@ -61,18 +61,28 @@ def main():
     # get distinct tags
     tags = get_tags()
 
-    search_terms = st.text_input("🔍Search:", key=f"{KEY_PREFIX}_search_term").strip()
+    c1, c2 = st.columns([3,6])
+    with c1:
+        search_terms = st.text_input("🔍Search:", key=f"{KEY_PREFIX}_search_term").strip()
+    with c2:
+        search_others = st.text_input("🔍Free-form where-clause:", key=f"{KEY_PREFIX}_search_others").strip()
     search_term_list = [i.strip() for i in search_terms.split() if i.strip()]
     where_clause = " 1=1 " 
     for search_term in search_term_list:
         where_clause += f""" and (
             page_path like '%{search_term}%'
+            or root_path like '%{search_term}%'
             or subject like '%{search_term}%'
             or note like '%{search_term}%'
             or note_enu like '%{search_term}%'
             or tags like '%{search_term}%'       
         )
         """
+    if search_others:
+        where_clause += f""" 
+            and (
+                {search_others}
+        ) """
 
     df = None
     with DBConn() as _conn:
@@ -116,15 +126,8 @@ def main():
 
     # st.write(selected_row)
     c_left, c_right = st.columns([3,3])
-    with c_left:
-        # display page
-        if selected_row:
-            image_file = selected_row["page_path"]
-            img_path = os.path.join(TEXTBOOK_PAGE_ROOT, image_file)
-            img = Image.open(img_path)
-            st.image(img, caption=image_file, use_column_width=True)
     with c_right:
-        # display form
+        # display image
         _, c_prev, _, c_next = st.columns(4)
         with c_prev:
             if st.session_state.record_index > 0:
@@ -138,6 +141,39 @@ def main():
             else:
                 st.write("") 
 
+        if selected_row:
+            image_file = selected_row["page_path"]
+            root_path = selected_row["root_path"]
+            subject = selected_row["subject"]
+            img_path = os.path.join(root_path, image_file)
+            orig_img = Image.open(img_path)
+            if subject in ["Chinese","Math","Science"]:
+                img = orig_img
+            else:
+                c_left_180, c_left_90, c_right_90, c_right_180 = st.columns(4)
+                with c_right_90:
+                    b_n_90 = st.button("R-90")
+                with c_right_180:
+                    b_n_180 = st.button("R-180")
+                with c_left_90:
+                    b_p_90 = st.button("L-90")
+                with c_left_180:
+                    b_p_180 = st.button("L-180")
+
+                if b_n_90:
+                    img = orig_img.rotate(-90)
+                elif b_n_180:
+                    img = orig_img.rotate(-180)
+                elif b_p_90:
+                    img = orig_img.rotate(90)
+                elif b_p_180:
+                    img = orig_img.rotate(180)
+                else:
+                    img = orig_img
+
+            st.image(img, caption=image_file, use_column_width=True)
+    with c_left:
+        # display form
         ui_layout_form(selected_row, TABLE_NAME)
 
     st.image("images/ocean-surface.png", width=1000)
@@ -169,7 +205,11 @@ def main():
             """, unsafe_allow_html=True)
 
     with st.expander("Load Textbook Pages", expanded=False):
-        root_path = st.text_input("Root Path:", value=TEXTBOOK_PAGE_ROOT, key=f"{TABLE_NAME}-root-path")
+        c_path, c_mode = st.columns([10,2])
+        with c_path:
+            root_path = st.text_input("Root Path:", value=TEXTBOOK_PAGE_ROOT, key=f"{TABLE_NAME}-root-path")
+        with c_mode:
+            write_mode = st.selectbox("Write Mode:", options=CFG["PANDAS_WRITE_MODE"], index=CFG["PANDAS_WRITE_MODE"].index("append"), key=f"{TABLE_NAME}-write-mode")
         if st.button("Load"):
             # with st.spinner("Loading images to databse ...... "):
             # prepare dataframe
@@ -185,7 +225,7 @@ def main():
                 data.append([u_id, filename, root_path, subject, "", "", "", ts, "Y"])
             df = pd.DataFrame(data, columns=CFG["COLUMN_DEFS"][TABLE_NAME])
             with DBConn() as _conn:
-                df.to_sql(TABLE_NAME, con=_conn, if_exists="replace", index=False)
+                df.to_sql(TABLE_NAME, con=_conn, if_exists=write_mode, index=False)
 
 
     

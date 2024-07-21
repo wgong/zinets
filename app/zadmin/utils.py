@@ -67,6 +67,8 @@ CFG = {
     "STATUS_CODE": [BLANK_STR_VALUE, "ToDo","WIP", "Blocked", "Complete", "De-Scoped", "Others"],
     "STATUS_CODE": [BLANK_STR_VALUE, "ToDo","WIP", "Blocked", "Complete", "De-Scoped", "Others"],
     "SUBJECT_CODE": [BLANK_STR_VALUE, "Chinese","Math", "Science",],
+    "PANDAS_WRITE_MODE": ["replace","append"],
+
 
     "PART_CATEGORY" : [
         BLANK_STR_VALUE,
