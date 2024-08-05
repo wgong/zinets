@@ -15,6 +15,7 @@ pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/
 
 - Bing English-Chinese Dict
 - DuDuChinese 
+- https://www.yellowbridge.com/chinese/character-etymology.php?zi=%E9%BE%99
 
 ## Emoji
 
