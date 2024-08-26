@@ -1,0 +1,94 @@
+function xmTFM(){ // font menu
+	var a=$('ashowfont');
+	if ($('popf').style.visibility=="visible") {
+		a.style.backgroundColor="transparent";
+		xmpfont.hide(a);
+	} else{
+		a.style.backgroundColor="#ccf";
+		xmpfont.shows(a);
+	}
+}
+function xmp(name,x,y,w) { // create popup div
+  var x={
+	w:name,
+	ox:x,
+	oy:y,
+	ow:(!w?0:w),
+	color:"#00c",
+	hoverColor:"#007",
+	findPos:function(o) {
+		var curleft = 0, curtop = 0;
+		if (o.offsetParent) {
+			while (o.offsetParent) {
+				curleft += o.offsetLeft;
+				curtop += o.offsetTop;
+				o = o.offsetParent;
+			}
+		} else if (o.x) {
+			curleft += o.x;
+			curtop += o.y;
+		}
+		return {x:curleft, y:curtop};
+	},
+	showc:function(o, t) {
+		var p = $(this.w);
+		if (xm.isString(o)) o = $(o);
+		if (p) {
+			p.innerHTML = t;
+			var pos = this.findPos(o);
+			p.style.top = (pos.y+this.oy)+"px";
+			p.style.left = (pos.x+this.ox)+"px";
+			p.style.visibility = "visible";
+		}
+		if (o) { o.style.color = this.hoverColor; o.style.backgroundColor="#ccf"; }
+	},
+	hidec:function(o) {
+		var p = $(this.w);
+		if (p) p.style.visibility = "hidden";
+		if (xm.isString(o)) o = $(o);
+		if (o) { o.style.color = this.color; o.style.backgroundColor="transparent"; }
+	},
+	show:function(o,t) {
+		var p = $(this.w);
+		if (xm.isString(o)) o = $(o);
+		if (p) {
+			p.innerHTML = t;
+			var pos = this.findPos(o);
+			//console.log(o.tagName+"="+pos.x+","+pos.y);
+			p.style.top = (pos.y+this.oy)+"px";
+			p.style.left = (pos.x+this.ox)+"px";
+			p.style.visibility = "visible";
+		}
+	},
+	showm:function(o,t) {
+		var p = $(this.w);
+		if (xm.isString(o)) o = $(o);
+		if (p) {
+			p.innerHTML = t;
+			var pos = this.findPos(o);
+			//console.log(o.tagName+"="+pos.x+","+pos.y);
+			p.style.maxWidth = this.ow+"px";
+			p.style.top = (pos.y+this.oy)+"px";
+			p.style.left = "0px";//Compute width
+			p.style.left = (pos.x+this.ox)+(o.offsetWidth/2)-(p.offsetWidth/2)+"px";
+			p.style.visibility = "visible";
+		}
+	},
+	shows:function(o) {
+		var p = $(this.w);
+		if (xm.isString(o)) o = $(o);
+		if (p) {
+			var pos = this.findPos(o);
+			p.style.top = (pos.y+this.oy+o.offsetHeight)+"px";
+			p.style.left = (pos.x+this.ox)+"px";
+			p.style.visibility = "visible";
+		}
+	},
+	hide:function() {
+		var p = $(this.w);
+		if (p) p.style.visibility = "hidden";
+	}
+  };
+  xmf.registerPop(x);
+  return x;
+};

@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 # **/*.sqlite
 **/*.db
+**/.virtual_documents/
+**/Untitled*.ipynb
 
 # C extensions
 *.so

@@ -19,3 +19,16 @@ pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/
 
 - Bing English-Chinese Dict
 - DuDuChinese 
+- https://www.yellowbridge.com/chinese/character-etymology.php?zi=%E9%BE%99
+
+## Emoji
+
+- [Wikipedia - Emoji](https://en.wikipedia.org/wiki/Emoji)
+- [Unicode Emoji](https://unicode.org/emoji/charts/full-emoji-list.html)
+- [Emoji Cheatsheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+- [Emojipedia](https://emojipedia.org/)
+- [GetEmoji](https://getemoji.com/)
+- [EmojiHub](https://emojihub.org/)
+
+## Research
+related work, see parent folder ~/zistory/research 

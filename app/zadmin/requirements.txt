@@ -1,0 +1,10 @@
+lxml
+streamlit-option-menu>=0.3.2
+# streamlit-aggrid==0.3.3   
+# 
+# fix for latest 1.0.5 
+#     selected_row = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
+streamlit-aggrid
+
+# display image
+pillow
