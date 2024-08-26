@@ -58,7 +58,10 @@ def main():
     grid_resp = ui_display_df_grid(df, 
                                    clickable_columns=["link_url"],
                                    selection_mode="single")
+    
     selected_rows = grid_resp['selected_rows']
+    if not grid_resp['selected_rows']:
+        return
 
     # display form
     selected_row = selected_rows[0] if len(selected_rows) else None

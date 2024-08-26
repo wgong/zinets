@@ -57,6 +57,9 @@ def main():
         df = pd.read_sql(sql_stmt, _conn)
 
     grid_resp = ui_display_df_grid(df, selection_mode="single")
+    if not grid_resp['selected_rows']:
+        return
+   
     selected_rows = grid_resp['selected_rows']
 
     # display form
