@@ -17,21 +17,7 @@ def get_tags():
         # print(sql_stmt)
         return pd.read_sql(sql_stmt, _conn)["tags"].to_list()
 
-def get_tags():
-    with DBConn() as _conn:
-        sql_stmt = f"""
-            select 
-                distinct tags
-            from {TABLE_NAME}
-            ;
-        """
-        # print(sql_stmt)
-        return pd.read_sql(sql_stmt, _conn)["tags"].to_list()
-
 def main():
-    # get distinct tags
-    tags = get_tags()
-
     # get distinct tags
     tags = get_tags()
 
@@ -97,7 +83,10 @@ def main():
                                    selection_mode="single")
     selected_rows = grid_resp['selected_rows']
 
-    selected_row = selected_rows[0] if len(selected_rows) else None
+    # streamlit-aggrid==0.3.3
+    # selected_row = selected_rows[0] if len(selected_rows) else None
+    # streamlit-aggrid==1.0.5
+    selected_row = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
 
     c_1, c_2 = st.columns([3,3])
     with c_1:
@@ -127,33 +116,6 @@ def main():
     # display form
     ui_layout_form(selected_row, TABLE_NAME)
 
-    c_1, c_2 = st.columns([3,3])
-    with c_1:
-        st.markdown(f"""
-            ##### Download CSV
-        """, unsafe_allow_html=True)
-        st.download_button(
-            label="Submit",
-            data=df_to_csv(df, index=False),
-            file_name=f"{TABLE_NAME}-{get_ts_now()}.csv",
-            mime='text/csv',
-        )
-    with c_2:
-        tags_new = []
-        for t in tags:
-            if t is None or not t: continue
-            if "," in t:
-                tags_new.extend([i.strip().upper() for i in t.split(",") if i.strip()])
-            else:
-                tags_new.append(t.strip().upper())
-        tag_str = " , ".join(sorted(list(set(tags_new))))
-        st.markdown(f"""
-            ##### Tags
-            {tag_str}
-        """, unsafe_allow_html=True)
-
-    # display form
-    ui_layout_form(selected_row, TABLE_NAME)
 
 if __name__ == '__main__':
     main()

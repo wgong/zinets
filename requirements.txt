@@ -1,5 +1,12 @@
 streamlit
-pyecharts
+streamlit>=1.17.0
+streamlit-option-menu>=0.3.2
+streamlit-aggrid
 streamlit_tree_select
+
+
+pyecharts
 jieba
 paddlepaddle
+bs4
+lxml

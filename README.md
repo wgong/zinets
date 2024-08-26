@@ -2,6 +2,10 @@
 hanzi network
 
 
+```
+conda create -n zinets python=3.11
+conda activate zinets
+```
 ## SQLite as graphDB
 
 https://github.com/dpapathanasiou/simple-graph-pypi
