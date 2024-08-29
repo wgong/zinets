@@ -58,6 +58,9 @@ def main():
     grid_resp = ui_display_df_grid(df, 
                                    clickable_columns=["link_url"],
                                    selection_mode="single")
+    if not grid_resp['selected_rows']:
+        return
+    
     selected_rows = grid_resp['selected_rows']
 
     # display form

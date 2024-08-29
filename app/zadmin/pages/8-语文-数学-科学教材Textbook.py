@@ -120,12 +120,13 @@ def main():
             st.session_state["NUM_IMAGES"] = df.shape[0]
     
 
+    # st.dataframe(df)
     grid_resp = ui_display_df_grid(df, 
                                    selection_mode="single")
     selected_rows = grid_resp['selected_rows']
 
     # handle manual selection
-    if selected_rows is not None and not selected_rows.empty:   
+    if selected_rows is not None and selected_rows.empty:   
         # debug
         # st.write(selected_rows)
         # st.write(selected_rows.index[0])
@@ -229,6 +230,8 @@ def main():
         c_path, c_mode = st.columns([10,2])
         with c_path:
             root_path = st.text_input("Root Path:", value=TEXTBOOK_PAGE_ROOT, key=f"{TABLE_NAME}-root-path")
+            if "~" in root_path:
+                root_path = os.path.expanduser(root_path)
         with c_mode:
             write_mode = st.selectbox("Write Mode:", options=CFG["PANDAS_WRITE_MODE"], index=CFG["PANDAS_WRITE_MODE"].index("append"), key=f"{TABLE_NAME}-write-mode")
         if st.button("Load"):

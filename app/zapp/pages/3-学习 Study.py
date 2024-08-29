@@ -209,7 +209,10 @@ def main():
             page_size=10,
             grid_height=int(0.95*AGGRID_OPTIONS["grid_height"]),
         )
- 
+
+    if not grid_resp['selected_rows']:
+        return
+   
 
     selected_rows = grid_resp['selected_rows']
     # display form

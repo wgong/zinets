@@ -2,6 +2,10 @@
 hanzi network
 
 
+```
+conda create -n zinets python=3.11
+conda activate zinets
+```
 ## SQLite as graphDB
 
 https://github.com/dpapathanasiou/simple-graph-pypi
@@ -15,6 +19,7 @@ pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/
 
 - Bing English-Chinese Dict
 - DuDuChinese 
+- https://www.yellowbridge.com/chinese/character-etymology.php?zi=%E9%BE%99
 
 ## Emoji
 
