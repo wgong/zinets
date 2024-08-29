@@ -16,15 +16,15 @@ TEXTBOOK_PAGE_ROOT = CFG["TEXTBOOK_PAGE_ROOT"]
 if "record_index" not in st.session_state:
     st.session_state["record_index"] = 0
 
-if "NUM_IMAGES" not in st.session_state:
-    st.session_state["NUM_IMAGES"] = 0
-
 if "selected_row" not in st.session_state:
     st.session_state["selected_row"] = {}
 
-   
 if "df" not in st.session_state:
     st.session_state["df"] = None
+
+def get_df_size():
+    df = st.session_state.get("df", None)
+    return df.shape[0] if df is not None and not df.empty else 0
 
 def set_selected_row():
     # set selected_row
@@ -38,7 +38,7 @@ def next_record():
     # print(f"curr_row: {st.session_state.record_index} ")
     curr_row = st.session_state["record_index"]
     curr_row += 1
-    st.session_state["record_index"] = curr_row if curr_row <= st.session_state["NUM_IMAGES"] else 0
+    st.session_state["record_index"] = curr_row if curr_row <= get_df_size() else 0
     # print(f"curr_row: {st.session_state.record_index} ")
     set_selected_row()
 
@@ -46,7 +46,7 @@ def prev_record():
     # print(f"curr_row: {st.session_state.record_index} ")
     curr_row = st.session_state["record_index"]
     curr_row -= 1
-    st.session_state["record_index"] = curr_row if curr_row >= 0 else st.session_state["NUM_IMAGES"]
+    st.session_state["record_index"] = curr_row if curr_row >= 0 else get_df_size()
     # print(f"curr_row: {st.session_state.record_index} ")
     set_selected_row()
 
@@ -116,31 +116,32 @@ def main():
         # # print(sql_stmt)
         df = pd.read_sql(sql_stmt, _conn)
         st.session_state["df"] = df
-        if df is not None and not df.empty:
-            st.session_state["NUM_IMAGES"] = df.shape[0]
     
-
     # st.dataframe(df)
     grid_resp = ui_display_df_grid(df, 
                                    selection_mode="single")
+
     selected_rows = grid_resp['selected_rows']
+    # st.write(selected_rows)
 
     # handle manual selection
-    if selected_rows is not None and selected_rows.empty:   
+    if selected_rows is not None and not selected_rows.empty:   
         # debug
         # st.write(selected_rows)
         # st.write(selected_rows.index[0])
         # st.write(selected_rows.to_dict(orient='records'))
-        selected_row = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
+        # selected_row = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
+        selected_row = selected_rows.to_dict(orient='records')[0]
         record_index = selected_rows.index[0]
-        if record_index != st.session_state.get("record_index"):
+        if record_index != st.session_state.get("record_index", 0):
             # reset session_state
             st.session_state["record_index"] = int(record_index)
             st.session_state["selected_row"] = selected_row
     else:
-        selected_row = st.session_state.get("selected_row")
+        selected_row = st.session_state.get("selected_row", {})
 
-    # st.write(selected_row)
+    print(f"[DEBUG] selected_row:\n {selected_row}")
+
     c_left, c_right = st.columns([3,3])
     with c_right:
         # display image
@@ -159,7 +160,7 @@ def main():
         with c_hint:
             st.markdown(f"""
                 <span style="font-size:13px;color:blue;">
-                    unselect row when using buttons
+                    uncheck row before using button
                 </span>
             """, unsafe_allow_html=True)
 
@@ -198,7 +199,7 @@ def main():
         # display form
         ui_layout_form(selected_row, TABLE_NAME)
 
-    st.image("images/ocean-surface.png", width=1000)
+    st.image("images/ocean-surface.png", width=1200)
 
     with st.expander("Download CSV or view tags", expanded=False):
         c_1, c_2 = st.columns([3,3])

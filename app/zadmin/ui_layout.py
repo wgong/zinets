@@ -655,7 +655,7 @@ COLUMN_PROPS = {
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_1-1',
-        'widget_type': 'text_input',
+        'widget_type': 'text_area',
         'label_text': 'Path'
     },
     'note': {
@@ -679,7 +679,7 @@ COLUMN_PROPS = {
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_1-3',
-        'widget_type': 'text_input',
+        'widget_type': 'text_area',
         'label_text': 'English Note'
     },
     'tags': {
