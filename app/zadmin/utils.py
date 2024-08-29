@@ -598,7 +598,7 @@ AGGRID_OPTIONS = {
     "return_mode_value": DataReturnMode.__members__["FILTERED"],
     "update_mode_value": GridUpdateMode.__members__["MODEL_CHANGED"],
     "fit_columns_on_grid_load": True,
-    "min_column_width": 4,
+    # "min_column_width": 4,
     "selection_mode": "single",  #  "multiple",  # 
     "allow_unsafe_jscode": True,
     "groupSelectsChildren": True,
@@ -1012,7 +1012,7 @@ def ui_layout_form(selected_row, table_name):
 def ui_display_df_grid(df, 
         selection_mode="single",  # "multiple", 
         fit_columns_on_grid_load=AGGRID_OPTIONS["fit_columns_on_grid_load"],
-        min_column_width=AGGRID_OPTIONS["min_column_width"],
+        # min_column_width=AGGRID_OPTIONS["min_column_width"],
         page_size=AGGRID_OPTIONS["paginationPageSize"],
         grid_height=AGGRID_OPTIONS["grid_height"],
         clickable_columns=[],
@@ -1022,7 +1022,7 @@ def ui_display_df_grid(df,
     """show input df in a grid and return selected row
     """
 
-    gb = GridOptionsBuilder.from_dataframe(df, min_column_width=min_column_width)
+    gb = GridOptionsBuilder.from_dataframe(df)
     gb.configure_selection(selection_mode,
             use_checkbox=True,
             groupSelectsChildren=AGGRID_OPTIONS["groupSelectsChildren"], 

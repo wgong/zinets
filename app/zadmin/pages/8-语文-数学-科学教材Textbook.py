@@ -16,6 +16,9 @@ TEXTBOOK_PAGE_ROOT = CFG["TEXTBOOK_PAGE_ROOT"]
 if "record_index" not in st.session_state:
     st.session_state["record_index"] = 0
 
+if "NUM_IMAGES" not in st.session_state:
+    st.session_state["NUM_IMAGES"] = 0
+
 if "selected_row" not in st.session_state:
     st.session_state["selected_row"] = {}
 
@@ -27,15 +30,24 @@ def set_selected_row():
     # set selected_row
     df = st.session_state.get("df")
     if df is not None and not df.empty:
-        selected_row = df.iloc[st.session_state.record_index].to_dict()
+        curr_row = st.session_state["record_index"]
+        selected_row = df.iloc[curr_row].to_dict()
         st.session_state["selected_row"] = selected_row
 
 def next_record():
-    st.session_state.record_index += 1
+    # print(f"curr_row: {st.session_state.record_index} ")
+    curr_row = st.session_state["record_index"]
+    curr_row += 1
+    st.session_state["record_index"] = curr_row if curr_row <= st.session_state["NUM_IMAGES"] else 0
+    # print(f"curr_row: {st.session_state.record_index} ")
     set_selected_row()
 
 def prev_record():
-    st.session_state.record_index -= 1
+    # print(f"curr_row: {st.session_state.record_index} ")
+    curr_row = st.session_state["record_index"]
+    curr_row -= 1
+    st.session_state["record_index"] = curr_row if curr_row >= 0 else st.session_state["NUM_IMAGES"]
+    # print(f"curr_row: {st.session_state.record_index} ")
     set_selected_row()
 
 def parse_subject(filename):
@@ -104,6 +116,9 @@ def main():
         # # print(sql_stmt)
         df = pd.read_sql(sql_stmt, _conn)
         st.session_state["df"] = df
+        if df is not None and not df.empty:
+            st.session_state["NUM_IMAGES"] = df.shape[0]
+    
 
     grid_resp = ui_display_df_grid(df, 
                                    selection_mode="single")
@@ -128,7 +143,7 @@ def main():
     c_left, c_right = st.columns([3,3])
     with c_right:
         # display image
-        _, c_prev, _, c_next = st.columns(4)
+        _, c_prev, c_next, c_hint = st.columns([4,2,2,4])
         with c_prev:
             if st.session_state.record_index > 0:
                 st.button("< Prev", on_click=prev_record)
@@ -140,6 +155,12 @@ def main():
                 st.button("Next >", on_click=next_record)
             else:
                 st.write("") 
+        with c_hint:
+            st.markdown(f"""
+                <span style="font-size:13px;color:blue;">
+                    unselect row when using buttons
+                </span>
+            """, unsafe_allow_html=True)
 
         if selected_row:
             image_file = selected_row["page_path"]
