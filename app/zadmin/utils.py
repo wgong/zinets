@@ -43,7 +43,8 @@ CFG = {
     "SQL_EXECUTION_FLAG" : True, #  False, #   control SQL
     
     # "DB_FILENAME" : Path(__file__).parent / "zinets.sqlite",
-    "DB_FILENAME" : Path(__file__).parent / "zizi.sqlite",
+    # "DB_FILENAME" : Path(__file__).parent / "zizi.sqlite",
+    "DB_FILENAME" : Path(__file__).parent / "zi.sqlite",
 
     "TEXTBOOK_PAGE_ROOT": r"C:\Users\p2p2l\projects\wgong\zistory\resources\books\Extracted-Pages",
 
