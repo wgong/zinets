@@ -2,6 +2,12 @@
 
 https://deepmind.google/technologies/imagen-3/
 
+### Image store
+
+used `zinets/app/most-often-used-parts.xlsx`
+to create concept-based, most-often used simple characters in 
+C:\Users\p2p2l\projects\wgong\zistory\resources\images\Google-Imagen-3
+
 
 ## Chinese calligraphy
 
@@ -12,9 +18,6 @@ https://hanzi.unihan.com.cn/Signet - 书同文名章篆刻
 - https://en.wikipedia.org/wiki/Clipchamp
 
 
-## Image store
-
-C:\Users\p2p2l\projects\wgong\zistory\resources\images
 
 ## Misc
 
