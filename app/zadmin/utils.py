@@ -819,12 +819,16 @@ def parse_column_props():
 def ui_layout_form_fields(data,form_name,old_row,col,
                         widget_types,col_labels,system_columns):
     DISABLED = col in system_columns
-    key_name_field = f"col_{form_name}_{col}"
+    key_name = f"col_{form_name}_{col}"
+    i_widget = 0
+    key_name_field = f"{key_name}-{str(i_widget)}"
     if old_row:
         old_val = old_row.get(col, "")
         widget_type = widget_types.get(col, "text_input")
         if widget_type == "text_area":
             kwargs = {"height":125}
+            i_widget = 1
+            key_name_field = f"{key_name}-{str(i_widget)}"
             val = st.text_area(col_labels.get(col), value=old_val, disabled=DISABLED, key=key_name_field, kwargs=kwargs)
         elif widget_type == "date_input":
             old_date_input = old_val.split("T")[0]
@@ -832,6 +836,8 @@ def ui_layout_form_fields(data,form_name,old_row,col,
                 val_date = datetime.strptime(old_date_input, "%Y-%m-%d")
             else:
                 val_date = datetime.now().date()
+            i_widget = 2
+            key_name_field = f"{key_name}-{str(i_widget)}"
             val = st.date_input(col_labels.get(col), value=val_date, disabled=DISABLED, key=key_name_field)
             val = datetime.strftime(val, "%Y-%m-%d")
         elif widget_type == "time_input":
@@ -840,6 +846,8 @@ def ui_layout_form_fields(data,form_name,old_row,col,
                 val_time = datetime.strptime(old_time_input.split(".")[0], "%H:%M:%S").time()
             else:
                 val_time = datetime.now().time()
+            i_widget = 3
+            key_name_field = f"{key_name}-{str(i_widget)}"
             val = st.time_input(col_labels.get(col), value=val_time, disabled=DISABLED, key=key_name_field)
         elif widget_type == "selectbox":
             # check if options is avail, otherwise display as text_input
@@ -848,10 +856,14 @@ def ui_layout_form_fields(data,form_name,old_row,col,
                     _options = SELECTBOX_OPTIONS.get(col,[])
                     old_val = old_row.get(col, BLANK_STR_VALUE)
                     _idx = _options.index(old_val)
+                    i_widget = 4
+                    key_name_field = f"{key_name}-{str(i_widget)}"
                     val = st.selectbox(col_labels.get(col), _options, index=_idx, key=key_name_field)
                 except ValueError:
                     val = old_row.get(col, "")
             else:
+                i_widget = 5
+                key_name_field = f"{key_name}-{str(i_widget)}"
                 val = st.text_input(col_labels.get(col), value=old_val, disabled=DISABLED, key=key_name_field)
         elif widget_type == "multiselect":
             # check if options is avail, otherwise display as text_input
@@ -859,13 +871,19 @@ def ui_layout_form_fields(data,form_name,old_row,col,
                 try:
                     _options = SELECTBOX_OPTIONS.get(col,[])
                     old_val = old_row.get(col, BLANK_STR_VALUE).split(",")
+                    i_widget = 6
+                    key_name_field = f"{key_name}-{str(i_widget)}"
                     val = st.multiselect(col_labels.get(col), _options, default=old_val, key=key_name_field)
                 except ValueError:
                     val = old_row.get(col, "")
             else:
+                i_widget = 7
+                key_name_field = f"{key_name}-{str(i_widget)}"
                 val = st.text_input(col_labels.get(col), value=old_val, disabled=DISABLED, key=key_name_field)
 
         else:
+            i_widget = 8
+            key_name_field = f"{key_name}-{str(i_widget)}"
             val = st.text_input(col_labels.get(col), value=old_val, disabled=DISABLED, key=key_name_field)
 
         if val != old_val:
@@ -874,9 +892,8 @@ def ui_layout_form_fields(data,form_name,old_row,col,
     return data
 
 
-def ui_layout_form(selected_row, table_name):
+def ui_layout_form(selected_row, table_name, form_name):
 
-    form_name = table_name
     COLUMN_DEFS = parse_column_props()
     COL_DEFS = COLUMN_DEFS[table_name]
     visible_columns = COL_DEFS["is_visible"]

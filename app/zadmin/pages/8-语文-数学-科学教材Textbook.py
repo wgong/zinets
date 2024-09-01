@@ -197,7 +197,7 @@ def main():
             st.image(img, caption=image_file, use_column_width=True)
     with c_left:
         # display form
-        ui_layout_form(selected_row, TABLE_NAME)
+        ui_layout_form(selected_row, TABLE_NAME, form_name=TABLE_NAME)
 
     st.image("images/ocean-surface.png", width=1200)
 

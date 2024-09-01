@@ -29,7 +29,7 @@ def main():
     with c3:
         search_type = st.selectbox("🔍Note Type", CFG["NOTE_TYPE"], index=CFG["NOTE_TYPE"].index(""), key=f"{KEY_PREFIX}_search_type")
     with c3_2:
-        search_status = st.selectbox("🔍Status Code", CFG["STATUS_CODE"], index=CFG["STATUS_CODE"].index("Others"), key=f"{KEY_PREFIX}_search_status")
+        search_status = st.selectbox("🔍Status Code", CFG["STATUS_CODE"], index=CFG["STATUS_CODE"].index(""), key=f"{KEY_PREFIX}_search_status")
     with c4:
         active = st.selectbox("🔍Active?", BI_STATES, index=BI_STATES.index("Y"), key=f"{KEY_PREFIX}_active")
 
@@ -82,15 +82,13 @@ def main():
                                    clickable_columns=["link_url"],
                                    selection_mode="single")
     selected_rows = grid_resp['selected_rows']
-    selected_row = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
-
-    # display form
-    ui_layout_form(selected_row, TABLE_NAME)
 
     # streamlit-aggrid==0.3.3
     # selected_row = selected_rows[0] if len(selected_rows) else None
     # streamlit-aggrid==1.0.5
     selected_row = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
+    # display form
+    ui_layout_form(selected_row, TABLE_NAME, form_name=TABLE_NAME)
 
     c_1, c_2 = st.columns([3,3])
     with c_1:
@@ -117,8 +115,6 @@ def main():
             {tag_str}
         """, unsafe_allow_html=True)
 
-    # display form
-    ui_layout_form(selected_row, TABLE_NAME)
 
 
 if __name__ == '__main__':

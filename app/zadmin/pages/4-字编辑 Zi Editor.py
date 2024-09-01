@@ -100,7 +100,7 @@ def main():
     selected_row = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
 
     # display form
-    ui_layout_form(selected_row, TABLE_NAME)
+    ui_layout_form(selected_row, TABLE_NAME, form_name=TABLE_NAME)
 
     # optional download
     with st.expander("Download CSV", expanded=False):
