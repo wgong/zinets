@@ -12,6 +12,18 @@ COLUMN_PROPS = {
         'widget_type': 'text_input',
         'label_text': '字  Zi'
         },
+    'baidu_url': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': True,
+        'datatype': 'text',
+        'form_column': 'COL_1-2',
+        'widget_type': 'text_input',
+        'label_text': 'Baidu URL'
+        },
+
     'pinyin': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
@@ -19,7 +31,7 @@ COLUMN_PROPS = {
         'is_editable': True,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_1-2',
+        'form_column': 'COL_1-4',
         'widget_type': 'text_input',
         'label_text': '拼音  Pinyin'
         },
@@ -30,20 +42,9 @@ COLUMN_PROPS = {
         'is_editable': True,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_1-3',
+        'form_column': 'COL_1-5',
         'widget_type': 'text_input',
         'label_text': '繁体  Traditional'
-        },
-    'alias': {'is_system_col': False,
-        'is_user_key': False,
-        'is_required': False,
-        'is_visible': True,
-        'is_editable': True,
-        'is_clickable': False,
-        'datatype': 'text',
-        'form_column': 'COL_1-4',
-        'widget_type': 'text_input',
-        'label_text': 'Alias'
         },
 
 
@@ -143,7 +144,7 @@ COLUMN_PROPS = {
         },
 
         # Col-4
-    'desc_cn': {'is_system_col': False,
+    'alias': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -151,6 +152,17 @@ COLUMN_PROPS = {
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_4-1',
+        'widget_type': 'text_input',
+        'label_text': 'Alias'
+        },
+    'desc_cn': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_4-2',
         'widget_type': 'text_area',
         'label_text': '解释  Explanation'
         },
@@ -161,7 +173,7 @@ COLUMN_PROPS = {
         'is_editable': True,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_4-2',
+        'form_column': 'COL_4-3',
         'widget_type': 'text_area',
         'label_text': 'Meaning'
         },
@@ -551,17 +563,6 @@ COLUMN_PROPS = {
     'widget_type': 'text_input',
     'label_text': 'Title'
     },
-    'note': {'is_system_col': False,
-    'is_user_key': False,
-    'is_required': False,
-    'is_visible': True,
-    'is_editable': True,
-    'is_clickable': False,
-    'datatype': 'text',
-    'form_column': 'COL_1-2',
-    'widget_type': 'text_area',
-    'label_text': 'Note'
-    },
     'link_url': {'is_system_col': False,
     'is_user_key': False,
     'is_required': False,
@@ -569,9 +570,20 @@ COLUMN_PROPS = {
     'is_editable': True,
     'is_clickable': True,
     'datatype': 'text',
-    'form_column': 'COL_1-3',
+    'form_column': 'COL_1-2',
     'widget_type': 'text_input',
     'label_text': 'URL'
+    },
+    'note': {'is_system_col': False,
+    'is_user_key': False,
+    'is_required': False,
+    'is_visible': True,
+    'is_editable': True,
+    'is_clickable': False,
+    'datatype': 'text',
+    'form_column': 'COL_1-3',
+    'widget_type': 'text_area',
+    'label_text': 'Note'
     },
     'status_code': {'is_system_col': False,
     'is_user_key': False,

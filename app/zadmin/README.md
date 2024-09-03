@@ -1,5 +1,12 @@
 ## 字子 ZiZi - 学子话字 xzhz
 
+project name: ACAP - A Character (Concept) A Page
+
+- Flashcard 
+- eBook
+- Mobile App
+- Website
+
 学子觉字
 
 ### AI App - ZiZi 
