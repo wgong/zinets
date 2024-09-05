@@ -75,7 +75,7 @@ def main():
                 , ifnull(is_picto, '') as is_picto
                 , ifnull(nstrokes, '') as nstrokes
                 , ifnull(category, '') as category
-                , ifnull(set_id, '') as set_id
+                , ifnull(cast(set_id as text), '') as set_id
                 , ifnull(layer, '') as layer
                 , ifnull(baidu_url, '') as baidu_url
                 , ifnull(desc_cn, '') as desc_cn

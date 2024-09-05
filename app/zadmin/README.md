@@ -6,6 +6,7 @@ project name: ACAP - A Character (Concept) A Page
 - eBook
 - Mobile App
 - Website
+- API
 
 学子觉字
 
@@ -93,7 +94,8 @@ streamlit run ZiZi.py
 
 - [Google Translate](https://translate.google.com/?sl=en&tl=zh-CN&text=ordinary%0A&op=translate)
 
-- [书同文学校](https://hanzi.unihan.com.cn) 
+- [书同文学校](https://hanzi.unihan.com.cn)
+     - (https://hanzi.unihan.com.cn/Signet)
 
 
 ### Emoji

@@ -182,8 +182,8 @@ SET_ID_SEARCH_SPEC = [
     "<=3000",
 ]
 
-SET_ID = [i for i in SET_ID_SEARCH_SPEC if "<=" not in i]
-
+SET_ID = [i.strip() for i in SET_ID_SEARCH_SPEC if "<=" not in i]
+# print(SET_ID)
 
 SELECTBOX_OPTIONS = {
     "is_active": BI_STATES,
@@ -382,7 +382,12 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
                 continue
             col_clause.append(col)
             col_val = escape_single_quote(val)
-            val_clause.append(f"'{col_val}'")
+
+            if table_name == "t_zi" and col in ["set_id"]:
+                # handle special numeric columns
+                val_clause.append(f" {col_val}")
+            else:
+                val_clause.append(f"'{col_val}'")
 
         if user_key_cols not in col_clause:
             col_clause.append(user_key_cols)
@@ -427,7 +432,11 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
                 continue
 
             col_val = escape_single_quote(val)
-            set_clause.append(f" {col} = '{col_val}'")
+            if table_name == "t_zi" and col in ["set_id"]:
+                # handle special numeric columns
+                set_clause.append(f" {col} = {col_val}")
+            else:
+                set_clause.append(f" {col} = '{col_val}'")
 
         if set_clause:
             upsert_sql = f"""
