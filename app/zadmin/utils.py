@@ -1020,20 +1020,24 @@ def ui_layout_form(selected_row, table_name, form_name):
         with c_save_btn:
             save_btn = st.form_submit_button(STR_SAVE)  
         with c_markdown:
-            val_zi = old_row.get("zi", "")
-            val_url = old_row.get("baidu_url", "")
-            md_text = f"[百度]({val_url})" if val_url  else ""
 
-            md_text += f""" 
-            | [汉典](https://www.zdic.net/hans/{val_zi})
-            | [汉字源](https://hanziyuan.net/#{val_zi})
-            | [维基字典](https://zh.wiktionary.org/zh-hans/{val_zi})
-            | [CUHK-漢語多功能字庫](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word={val_zi})
-            | [千篇字典](https://zidian.qianp.com/zi/{val_zi})
-            | [汉文学网](https://zd.hwxnet.com/search.do?keyword={val_zi})
-            """
-
+            if table_name == "t_zi":
+                val_zi = old_row.get("zi", "")
+                val_url = old_row.get("baidu_url", "")
+                md_text = f"[百度]({val_url})" if val_url  else ""
+                sep = "&nbsp;|&nbsp;"
+                md_text += f""" 
+                {sep} [汉典](https://www.zdic.net/hans/{val_zi})
+                {sep} [汉字源](https://hanziyuan.net/#{val_zi})
+                {sep} [维基字典](https://zh.wiktionary.org/zh-hans/{val_zi})
+                {sep} [CUHK-漢語多功能字庫](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word={val_zi})
+                {sep} [千篇字典](https://zidian.qianp.com/zi/{val_zi})
+                {sep} [汉文学网](https://zd.hwxnet.com/search.do?keyword={val_zi})
+                """
+            else:
+                md_text = ""
             st.markdown(md_text, unsafe_allow_html=True)
+            
         if save_btn:
             try:
                 delete_flag = data.get("delelte_record", False)
