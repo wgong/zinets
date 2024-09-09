@@ -18,13 +18,15 @@ def query_layer():
 
 def main():
 
-    c_zi, c2, c_cat, c_set_id, c_layer, c_active = st.columns([1,5,2,1,2,1])
+    c_zi, c2, c_cat, c_fib_num, c_set_id, c_layer, c_active = st.columns([1,4,2,1,2,2,1])
     with c_zi:
         search_term = st.text_input("🔍Search Zi:", key=f"{KEY_PREFIX}_search_term").strip()
     with c2:
-        search_others = st.text_input("🔍Free-form where-clause  (e.g.    cast(u_id as int) > 0,  zi = '佥'    ):", key=f"{KEY_PREFIX}_search_others").strip()
+        search_others = st.text_input("🔍Where-clause  (e.g. cast(u_id as int) > 0,  zi = '佥'    ):", key=f"{KEY_PREFIX}_search_others").strip()
     with c_cat:
         search_cat = st.selectbox("Category", CFG["ZI_CATEGORY"], index=CFG["ZI_CATEGORY"].index(BLANK_STR_VALUE), key=f"{KEY_PREFIX}_search_cat")
+    with c_fib_num:
+        search_fib_num = st.selectbox("Fibonacci #", FIBONACCI_NUMBERS, index=FIBONACCI_NUMBERS.index(BLANK_STR_VALUE), key=f"{KEY_PREFIX}_search_fib_num")
     with c_set_id:
         search_set_id = st.selectbox("Set ID", SET_ID_SEARCH_SPEC, index=SET_ID_SEARCH_SPEC.index(BLANK_STR_VALUE), key=f"{KEY_PREFIX}_search_set_id")
     with c_layer:
@@ -36,14 +38,16 @@ def main():
     where_clause += " " if not active else f" and is_active = '{active}' "
     where_clause += " " if not search_layer else f" and layer = '{search_layer}' "
     where_clause += " " if not search_cat else f" and category = '{search_cat}' "
+    where_clause += " " if not search_fib_num else f" and fib_num = '{search_fib_num}' "
 
     if not search_set_id:
         where_clause += " "
     elif "<=" in search_set_id:
-        search_set_id_new = search_set_id.replace("<=", "  ")
-        where_clause += f" and set_id <= '{search_set_id_new}' "
+        search_set_id_new = int(search_set_id.replace("<=", "  ").strip())
+        where_clause += f" and cast(set_id as int) <= {search_set_id_new} "
     else:
-        where_clause += f" and set_id = '{search_set_id}' "
+        search_set_id = int(search_set_id.strip())
+        where_clause += f" and cast(set_id as int) = {search_set_id} "
 
     if search_term:
         where_clause += f""" and (
@@ -76,6 +80,7 @@ def main():
                 , ifnull(nstrokes, '') as nstrokes
                 , ifnull(category, '') as category
                 , ifnull(cast(set_id as text), '') as set_id
+                , ifnull(fib_num, '') as fib_num
                 , ifnull(layer, '') as layer
                 , ifnull(baidu_url, '') as baidu_url
                 , ifnull(desc_cn, '') as desc_cn

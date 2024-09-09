@@ -46,6 +46,17 @@ COLUMN_PROPS = {
         'widget_type': 'text_input',
         'label_text': '繁体  Traditional'
         },
+    'unicode': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': False,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_1-6',
+        'widget_type': 'text_input',
+        'label_text': 'Unicode'
+        },
 
 
         # Col_2
@@ -108,6 +119,17 @@ COLUMN_PROPS = {
         'widget_type': 'multiselect',
         'label_text': '分类'
         },
+    'fib_num': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_3-1',
+        'widget_type': 'selectbox',
+        'label_text': 'Fibonacci #'
+        },
 
     'set_id': {'is_system_col': False,
         'is_user_key': False,
@@ -116,7 +138,7 @@ COLUMN_PROPS = {
         'is_editable': True,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_3-1',
+        'form_column': 'COL_3-2',
         'widget_type': 'selectbox',
         'label_text': 'Set ID'
         },
@@ -127,20 +149,9 @@ COLUMN_PROPS = {
         'is_editable': True,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_3-2',
+        'form_column': 'COL_3-3',
         'widget_type': 'selectbox',
         'label_text': 'Layer'
-        },
-    'unicode': {'is_system_col': False,
-        'is_user_key': False,
-        'is_required': False,
-        'is_visible': True,
-        'is_editable': False,
-        'is_clickable': False,
-        'datatype': 'text',
-        'form_column': 'COL_3-3',
-        'widget_type': 'text_input',
-        'label_text': 'Unicode'
         },
 
         # Col-4

@@ -185,6 +185,13 @@ SET_ID_SEARCH_SPEC = [
 SET_ID = [i.strip() for i in SET_ID_SEARCH_SPEC if "<=" not in i]
 # print(SET_ID)
 
+FIBONACCI_NUMBERS = [BLANK_STR_VALUE,
+    '0', '1', '2', '3', '5', '8', '13', '21', '34', '55', '89', 
+    '144', '233', '377', '610', '987', '1597', '2584', '4181', '6765',
+]
+
+
+
 SELECTBOX_OPTIONS = {
     "is_active": BI_STATES,
     "is_picto": TRI_STATES,
@@ -197,6 +204,7 @@ SELECTBOX_OPTIONS = {
     "category": CFG["ZI_CATEGORY"],
     "set_id": SET_ID,
     "layer": HSK_LAYERS,
+    "fib_num": FIBONACCI_NUMBERS,
 }
 
 
@@ -215,6 +223,7 @@ ZI_PART_COLS = [
     "ts",
     "caizi",
 ]
+
 
 def fix_None_val(v):
     return "" if v is None else v
@@ -1007,7 +1016,24 @@ def ui_layout_form(selected_row, table_name, form_name):
                     delete_flag = st.checkbox("Delelte Record?", value=False)
                     data.update({col: delete_flag})
 
-        save_btn = st.form_submit_button(STR_SAVE)  
+        c_save_btn, c_markdown = st.columns([2,6])
+        with c_save_btn:
+            save_btn = st.form_submit_button(STR_SAVE)  
+        with c_markdown:
+            val_zi = old_row.get("zi", "")
+            val_url = old_row.get("baidu_url", "")
+            md_text = f"[百度]({val_url})" if val_url  else ""
+
+            md_text += f""" 
+            | [汉典](https://www.zdic.net/hans/{val_zi})
+            | [汉字源](https://hanziyuan.net/#{val_zi})
+            | [维基字典](https://zh.wiktionary.org/zh-hans/{val_zi})
+            | [CUHK-漢語多功能字庫](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word={val_zi})
+            | [千篇字典](https://zidian.qianp.com/zi/{val_zi})
+            | [汉文学网](https://zd.hwxnet.com/search.do?keyword={val_zi})
+            """
+
+            st.markdown(md_text, unsafe_allow_html=True)
         if save_btn:
             try:
                 delete_flag = data.get("delelte_record", False)
