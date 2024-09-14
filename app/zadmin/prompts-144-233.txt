@@ -1,0 +1,8192 @@
+Working on the following 10 Characters ..........
+丁 丈 上 下 不 世 业 两 丫 中
+================ BATCH [1]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  丁
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) format the answer in valid json and ensure quotes are properly escaped to avoid double-quotes nested in doube-quotes
+(3) whenever possible, give 5 or more examples for the following attributes:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [1]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  丈
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [1]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  上
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [1]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  下
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [1]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  不
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [1]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  世
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [1]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  业
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [1]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  两
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [1]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  丫
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [1]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  中
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+丰 为 主 久 义 之 乌 乐 也 乡
+================ BATCH [2]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  丰
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [2]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  为
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [2]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  主
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [2]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  久
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [2]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  义
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [2]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  之
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [2]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  乌
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [2]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  乐
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [2]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  也
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [2]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  乡
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+书 了 亏 云 井 亡 产 亲 亿 仆
+================ BATCH [3]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  书
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [3]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  了
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [3]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  亏
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [3]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  云
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [3]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  井
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [3]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  亡
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [3]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  产
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [3]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  亲
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [3]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  亿
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [3]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  仆
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+今 仓 仙 住 体 作 兄 兆 光 公
+================ BATCH [4]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  今
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [4]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  仓
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [4]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  仙
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [4]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  住
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [4]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  体
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [4]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  作
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [4]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  兄
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [4]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  兆
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [4]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  光
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [4]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  公
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+兰 兵 内 写 农 冷 凡 出 刃 利
+================ BATCH [5]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  兰
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [5]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  兵
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [5]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  内
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [5]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  写
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [5]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  农
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [5]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  冷
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [5]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  凡
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [5]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  出
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [5]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  刃
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [5]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  利
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+加 勾 勿 包 匕 匹 升 卫 历 去
+================ BATCH [6]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  加
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [6]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  勾
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [6]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  勿
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [6]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  包
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [6]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  匕
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [6]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  匹
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [6]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  升
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [6]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  卫
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [6]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  历
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [6]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  去
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+叉 友 双 古 句 右 后 吾 和 品
+================ BATCH [7]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  叉
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [7]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  友
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [7]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  双
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [7]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  古
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [7]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  句
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [7]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  右
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [7]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  后
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [7]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  吾
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [7]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  和
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [7]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  品
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+圣 外 多 太 央 失 奴 字 学 宁
+================ BATCH [8]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  圣
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [8]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  外
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [8]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  多
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [8]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  太
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [8]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  央
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [8]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  失
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [8]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  奴
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [8]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  字
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [8]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  学
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [8]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  宁
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+它 安 对 少 尔 尺 屯 川 左 己
+================ BATCH [9]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  它
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [9]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  安
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [9]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  对
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [9]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  少
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [9]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  尔
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [9]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  尺
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [9]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  屯
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [9]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  川
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [9]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  左
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [9]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  己
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+币 市 平 年 幺 应 弟 当 文 斗
+================ BATCH [10]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  币
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [10]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  市
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [10]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  平
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [10]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  年
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [10]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  幺
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [10]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  应
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [10]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  弟
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [10]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  当
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [10]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  文
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [10]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  斗
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+无 时 星 有 朋 术 朱 机 杉 来
+================ BATCH [11]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  无
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [11]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  时
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [11]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  星
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [11]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  有
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [11]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  朋
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [11]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  术
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [11]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  朱
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [11]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  机
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [11]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  杉
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [11]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  来
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+杨 松 林 果 枝 柏 止 母 比 民
+================ BATCH [12]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  杨
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [12]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  松
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [12]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  林
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [12]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  果
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [12]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  枝
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [12]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  柏
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [12]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  止
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [12]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  母
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [12]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  比
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [12]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  民
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+永 求 法 父 玄 瓜 甘 电 界 矢
+================ BATCH [13]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  永
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [13]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  求
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [13]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  法
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [13]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  父
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [13]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  玄
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [13]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  瓜
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [13]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  甘
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [13]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  电
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [13]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  界
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [13]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  矢
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+知 秒 自 舟 色 艺 花 行 计 词
+================ BATCH [14]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  知
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [14]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  秒
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [14]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  自
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [14]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  舟
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [14]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  色
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [14]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  艺
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [14]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  花
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [14]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  行
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [14]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  计
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [14]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  词
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+谷 豆 运 近 远 采 里 长 青 音
+================ BATCH [15]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  谷
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [15]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  豆
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [15]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  运
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [15]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  近
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [15]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  远
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [15]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  采
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [15]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  里
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [15]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  长
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [15]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  青
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [15]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  音
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+风 飞 乎 乘 买 企 低 偶 兑 军
+================ BATCH [16]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  风
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [16]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  飞
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [16]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  乎
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [16]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  乘
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [16]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  买
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [16]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  企
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [16]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  低
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [16]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  偶
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [16]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  兑
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [16]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  军
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+减 前 卖 君 商 器 国 声 奇 妹
+================ BATCH [17]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  减
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [17]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  前
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [17]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  卖
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [17]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  君
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [17]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  商
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [17]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  器
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [17]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  国
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [17]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  声
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [17]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  奇
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [17]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  妹
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+姐 存 宇 宙 寻 将 尽 弗 弱 强
+================ BATCH [18]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  姐
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [18]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  存
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [18]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  宇
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [18]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  宙
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [18]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  寻
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [18]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  将
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [18]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  尽
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [18]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  弗
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [18]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  弱
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [18]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  强
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+情 数 易 晓 柳 树 根 每 润 灵
+================ BATCH [19]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  情
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [19]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  数
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [19]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  易
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [19]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  晓
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [19]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  柳
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [19]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  树
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [19]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  根
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [19]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  每
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [19]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  润
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [19]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  灵
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+热 画 省 矛 矣 短 神 禽 章 算
+================ BATCH [20]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  热
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [20]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  画
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [20]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  省
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [20]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  矛
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [20]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  矣
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [20]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  短
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [20]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  神
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [20]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  禽
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [20]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  章
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [20]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  算
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+紫 缶 老 者 臣 芽 茎 象 量 除
+================ BATCH [21]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  紫
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [21]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  缶
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [21]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  老
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [21]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  者
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [21]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  臣
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [21]   -- 6/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  芽
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [21]   -- 7/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  茎
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [21]   -- 8/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  象
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [21]   -- 9/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  量
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [21]   -- 10/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  除
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+Working on the following 10 Characters ..........
+饮 高 鹿 麦 黄
+================ BATCH [22]   -- 1/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  饮
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [22]   -- 2/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  高
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [22]   -- 3/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  鹿
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [22]   -- 4/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  麦
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+================ BATCH [22]   -- 5/10 =====================
+
+You are an expert in Chinese language, 
+
+can you generate a holistic view on this chinese character  黄
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
