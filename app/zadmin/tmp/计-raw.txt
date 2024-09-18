@@ -1,0 +1,1632 @@
+
+
+Start new chat
+Projects
+Starred
+Recents
+Comprehensive Analysis of Chinese Character "令"
+Creating a GitHub Repository from Local Folder
+Comprehensive Analysis of the Chinese Character '冬'
+Thoughtful Poem on Human-AI Collaboration
+The Meaning of "Education is Not Filling a Bucket"
+Costs of Bronze Bust Sculpture
+Streamlit App for Chinese Learning Resources
+Python script to flatten JSON to CSV
+View all
+Professional plan
+
+WG
+wen.g.gong@gmail.com
+Help & support
+WG
+
+
+Comprehensive Overview of the Chinese Character "计"
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  计
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是对汉字"计"的全面概述,包括含义、字形、读音、字源、常用词组、成语、例句、短故事、诗词、图片、音频、视频、电影、参考资料和有趣网站。内容以中文呈现,并采用 JSON 格式:
+
+{
+"含义": "数目;方法;策划;计算",
+"字形": "计",
+"读音": "jì",
+"字源": "从讠,从十。讠者,言语也;十者,数也。故凡与数目、计算有关的字,多从此会意。",
+"常用词组": [
+"计划",
+"计算机",
+"计算",
+"统计",
+"算计",
+"打算",
+"盘算",
+"设计",
+"记账",
+"测算"
+],
+"成语": [
+"三思而后行",
+"居心计深",
+"算无遗策",
+"一诺千金",
+"谋定而后动"
+],
+"例句": [
+"他正在计划下个月的旅行。",
+"这台电脑的计算能力很强。",
+"老师布置了一个统计报告的作业。",
+"你这么算计我,我可不会上当。",
+"出发前,我们必须仔细盘算一下费用。"
+],
+"短故事": [
+"有一个商人正在计划开设新店铺,他反复推敲各种方案,最终选择了一处地理位置优越的店址,不仅生意兴隆,还逐步扩张成为连锁店。",
+"一个工程师正在设计一款新型号的计算机,他先仔细计算出产品的各项指标,然后逐步完善方案,最终研发出一款功能强大、性价比高的产品,深受用户好评。"
+],
+"诗词": [
+{
+"title": "望洞庭",
+"author": "杜甫",
+"content": "湖光山色翠微暖,烟景日高云影寒。\n孤帆一叶纷纷去,白鹭飞来无计算。"
+},
+{
+"title": "夜登小阁",
+"author": "杜牧",
+"content": "月落乌啼霜满天,江枫渔火对愁眠。\n姑苏城外寒山寺,夜半钟声到客船。"
+}
+],
+"图片": [
+"https://example.com/calculator.jpg",
+"https://example.com/abacus.png",
+"https://example.com/planning.svg",
+"https://example.com/statistics.jpg",
+"https://example.com/strategy.png"
+],
+"音频": [
+"https://example.com/calculator-sound.mp3",
+"https://example.com/abacus-sound.wav",
+"https://example.com/planning-sound.ogg",
+"https://example.com/statistics-sound.flac",
+"https://example.com/strategy-sound.mp3"
+],
+"视频": [
+"https://example.com/calculator-tutorial.mp4",
+"https://example.com/abacus-demo.webm",
+"https://example.com/planning-process.avi",
+"https://example.com/statistics-analysis.mov",
+"https://example.com/strategy-game.mkv"
+],
+"电影": [
+"A Beautiful Mind",
+"The Imitation Game",
+"Moneyball",
+"Hidden Figures",
+"The Social Network"
+],
+"参考资料": [
+"https://zh.wikipedia.org/wiki/%E8%AE%A1",
+"https://baike.baidu.com/item/%E8%AE%A1",
+"https://www.zdic.net/hans/%E8%AE%A1",
+"https://ctext.org/dictionary.pl?if=en&id=5475",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=43"
+],
+"有趣网站": [
+"https://www.zhihu.com/question/20190576",
+"https://www.douban.com/group/topic/69695235/",
+"https://www.zhihu.com/topic/19550873",
+"https://www.guokr.com/article/443796/",
+"https://www.bilibili.com/video/BV1Kt411w7Rr"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  词
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是对汉字"词"的全面概述,包括含义、字形、读音、字源、常用词组、成语、例句、短故事、诗词、图片、音频、视频、电影、参考资料和有趣网站。内容以中文呈现,并采用 JSON 格式:
+
+{
+"含义": "语言的基本单位;詞語;語文文章",
+"字形": "词",
+"读音": "cí",
+"字源": "从言,从寸。言者,言语也;寸者,短小也。故凡与语言、短小有关的字,多从此会意。",
+"常用词组": [
+"词语",
+"词汇",
+"词典",
+"词源",
+"词组",
+"词句",
+"词意",
+"诗词",
+"散文词",
+"词曲"
+],
+"成语": [
+"花言巧语",
+"字字珠玑",
+"绘声绘色",
+"措辞得当",
+"慷慨激昂"
+],
+"例句": [
+"这个词语的意思我不太明白。",
+"这本词典收录了几万个汉语词汇。",
+"你的词句写得真动人。",
+"作为一名诗人,他的词作深受读者喜爱。",
+"这段散文词读起来优美动听。"
+],
+"短故事": [
+"一位作家苦心孤诣地创作了一篇优美动人的散文,通过精心选词造句,描绘出一幅生动入微的画面,引发读者共鸣。",
+"一位老师在课堂上耐心地为学生讲解词语的词源和用法,帮助学生掌握语言的基本单位,提高语文素养。"
+],
+"诗词": [
+{
+"title": "春望",
+"author": "杜甫",
+"content": "日出江花红胜火,春来江水绿如蓝。\n能不忆江南旧apt,终年壮年好景犹在。"
+},
+{
+"title": "题破山寺后禅院",
+"author": "Wang Wei",
+"content": "清晨入古寺,初日照高林。\n曲径通幽处,禅房花木深。"
+}
+],
+"图片": [
+"https://example.com/dictionary.jpg",
+"https://example.com/poetry.png",
+"https://example.com/calligraphy.svg",
+"https://example.com/writing.jpg",
+"https://example.com/language.png"
+],
+"音频": [
+"https://example.com/dictionary-pronunciation.mp3",
+"https://example.com/poetry-recitation.wav",
+"https://example.com/calligraphy-demonstration.ogg",
+"https://example.com/writing-tutorial.flac",
+"https://example.com/language-learning.mp3"
+],
+"视频": [
+"https://example.com/dictionary-usage.mp4",
+"https://example.com/poetry-analysis.webm",
+"https://example.com/calligraphy-workshop.avi",
+"https://example.com/writing-process.mov",
+"https://example.com/language-history.mkv"
+],
+"电影": [
+"The Last Emperor",
+"Farewell My Concubine",
+"Raise the Red Lantern",
+"Hero",
+"House of Flying Daggers"
+],
+"参考资料": [
+"https://zh.wikipedia.org/wiki/%E8%AF%8D",
+"https://baike.baidu.com/item/%E8%AF%8D",
+"https://www.zdic.net/hans/%E8%AF%8D",
+"https://ctext.org/dictionary.pl?if=en&id=5493",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=44"
+],
+"有趣网站": [
+"https://www.zhihu.com/question/19550849",
+"https://www.douban.com/group/topic/12937909/",
+"https://www.guokr.com/article/441576/",
+"https://www.bilibili.com/video/BV1wt411w7Rj",
+"https://www.chinasage.info/words.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+============== BATCH [15]   -- 1/10 =====================
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  谷
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是对汉字"谷"的全面概述,包括含义、字形、读音、字源、常用词组、成语、例句、短故事、诗词、图片、音频、视频、电影、参考资料和有趣网站。内容以中文呈现,并采用 JSON 格式:
+
+{
+"含义": "山间沟壑;粮食作物;声音",
+"字形": "谷",
+"读音": "gǔ",
+"字源": "从谷,从口。谷者,穀类之总称也;口者,言其有声音也。故凡与声音、穀类有关的字,多从此会意。",
+"常用词组": [
+"谷物",
+"谷仓",
+"谷雨",
+"谷地",
+"谷歌",
+"山谷",
+"稻谷",
+"麦谷",
+"谷声",
+"谷神"
+],
+"成语": [
+"沟通渠谷",
+"满谷生荣",
+"咫尺千里",
+"谷口遇虎",
+"瓮中捉鳖"
+],
+"例句": [
+"这片谷地非常适合种植稻谷。",
+"谷神庙里回荡着虔诚的祷告声。",
+"他在谷仓里整理着刚收获的麦谷。",
+"我们顺着山谷一路前行,终于到达目的地。",
+"科技公司谷歌的搜索引擎很有名。"
+],
+"短故事": [
+"一位农民辛勤耕作,从谷地里收获了丰富的稻谷。他将谷物贮存在谷仓中,度过了一个安康的冬季。第二年,他再次播种,收获更加丰硕,逐渐富裕起来。",
+"有一个僧人在一处幽静的山谷里修行,他虔诚地祷告,与自然融为一体。有一天,他听到谷中传来鸟儿的歌声,顿时心旷神怡,感受到大自然的宁静祥和。"
+],
+"诗词": [
+{
+"title": "春望",
+"author": "杜甫",
+"content": "春眠不觉晓,处处闻啼鸟。\n夜来风雨声,花落知多少。"
+},
+{
+"title": "登金陵凤凰台",
+"author": "李白",
+"content": "凤凰台上凤凰游,云销雨霁彩转舒。\n忽如遇见梅花现,飞入青云归远去。"
+}
+],
+"图片": [
+"https://example.com/rice-field.jpg",
+"https://example.com/grain-silo.png",
+"https://example.com/mountain-valley.svg",
+"https://example.com/google-logo.jpg",
+"https://example.com/temple-in-valley.png"
+],
+"音频": [
+"https://example.com/rice-harvest-sound.mp3",
+"https://example.com/grain-storage-sound.wav",
+"https://example.com/valley-ambience.ogg",
+"https://example.com/google-search-sound.flac",
+"https://example.com/temple-chant.mp3"
+],
+"视频": [
+"https://example.com/rice-farming-process.mp4",
+"https://example.com/grain-silo-tour.webm",
+"https://example.com/hiking-through-valley.avi",
+"https://example.com/google-search-engine-demo.mov",
+"https://example.com/temple-meditation-retreat.mkv"
+],
+"电影": [
+"Crouching Tiger, Hidden Dragon",
+"Spring, Summer, Fall, Winter... and Spring",
+"The Last Emperor",
+"Mulan",
+"The China Hustle"
+],
+"参考资料": [
+"https://zh.wikipedia.org/wiki/%E8%B0%B7",
+"https://baike.baidu.com/item/%E8%B0%B7",
+"https://www.zdic.net/hans/%E8%B0%B7",
+"https://ctext.org/dictionary.pl?if=en&id=6026",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=46"
+],
+"有趣网站": [
+"https://www.zhihu.com/question/20113893",
+"https://www.douban.com/group/topic/15298279/",
+"https://www.guokr.com/article/445276/",
+"https://www.bilibili.com/video/BV1QW411w7Rg",
+"https://www.chinasage.info/valleys.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  豆
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是对汉字"豆"的全面概述,包括含义、字形、读音、字源、常用词组、成语、例句、短故事、诗词、图片、音频、视频、电影、参考资料和有趣网站。内容以中文呈现,并采用 JSON 格式:
+
+{
+"含义": "豆类作物;一种圆形物品",
+"字形": "豆",
+"读音": "dòu",
+"字源": "从豆,从口,从丿。豆者,豆类之总称也;口者,言其可食也;丿者,言其形如弯钩也。故凡与豆类、圆形有关的字,多从此会意。",
+"常用词组": [
+"大豆",
+"毛豆",
+"豆芽",
+"豆油",
+"豆腐",
+"豆沙",
+"豆浆",
+"豆角",
+"豆类",
+"豆子"
+],
+"成语": [
+"豆蔻年华",
+"豆剖瓜分",
+"豆米之间",
+"豆粒般大",
+"豆塞莫开"
+],
+"例句": [
+"这片田地里种植了大量的大豆。",
+"我很喜欢吃妈妈做的酸辣豆角。",
+"她正在用豆沙馅给这些汤圆馅儿。",
+"我们在超市买了几袋各种类型的豆类。",
+"那个豆子大小刚刚好,非常适合种植。"
+],
+"短故事": [
+"一个小女孩帮助妈妈采摘鲜嫩的毛豆,她小心翼翼地把豆荚挑选出来,最后妈妈用这些豆制作了香甜可口的豆腐。女孩吃到妈妈做的美味豆腐,感到无比欣喜。",
+"有一位农民种植了很多大豆,他努力耕作,收获了丰富的豆类。他将这些豆子加工成豆油、豆浆等产品,不仅自己食用,还拿到集市上销售,过上了富足的生活。"
+],
+"诗词": [
+{
+"title": "闻官军收河南河北",
+"author": "杜甫",
+"content": "剑外忽传收蓟北,初闻涕泪满衣裳。\n却看妻子愁何在,漫卷诗书喜欲狂。"
+},
+{
+"title": "咏柳",
+"author": "柳宗元",
+"content": "碧玉妆成一树高,万条垂下绿丝绦。
+不知细叶谁裁出,二月春风似剪刀。"
+}
+],
+"图片": [
+"https://example.com/soybeans.jpg",
+"https://example.com/mung-beans.png",
+"https://example.com/tofu.svg",
+"https://example.com/soybean-oil.jpg",
+"https://example.com/bean-sprouts.png"
+],
+"音频": [
+"https://example.com/soybean-harvest-sound.mp3",
+"https://example.com/mung-bean-cooking-sound.wav",
+"https://example.com/tofu-making-sound.ogg",
+"https://example.com/soybean-oil-production-sound.flac",
+"https://example.com/bean-sprout-cultivation-sound.mp3"
+],
+"视频": [
+"https://example.com/soybean-farming-process.mp4",
+"https://example.com/mung-bean-cooking-tutorial.webm",
+"https://example.com/tofu-making-demonstration.avi",
+"https://example.com/soybean-oil-extraction.mov",
+"https://example.com/bean-sprout-cultivation-guide.mkv"
+],
+"电影": [
+"Eat Drink Man Woman",
+"The Wedding Banquet",
+"Shall We Dance?",
+"The Farewell",
+"Saving Face"
+],
+"参考资料": [
+"https://zh.wikipedia.org/wiki/%E8%B1%86",
+"https://baike.baidu.com/item/%E8%B1%86",
+"https://www.zdic.net/hans/%E8%B1%86",
+"https://ctext.org/dictionary.pl?if=en&id=5603",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=47"
+],
+"有趣网站": [
+"https://www.zhihu.com/question/20819666",
+"https://www.douban.com/group/topic/5298605/",
+"https://www.guokr.com/article/443220/",
+"https://www.bilibili.com/video/BV1vt411w7Rr",
+"https://www.chinasage.info/beans.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  运
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是对汉字"运"的全面概述,包括含义、字形、读音、字源、常用词组、成语、例句、短故事、诗词、图片、音频、视频、电影、参考资料和有趣网站。内容以中文呈现,并采用 JSON 格式:
+
+{
+"含义": "搬移;交通;机会;命运",
+"字形": "运",
+"读音": "yùn",
+"字源": "从辵,从云。辵者,行走也;云者,往来也。故凡与行动、抽象义有关的字,多从此会意。",
+"常用词组": [
+"运动",
+"运输",
+"运气",
+"运用",
+"运转",
+"运营",
+"调运",
+"搬运",
+"投资运作",
+"命运"
+],
+"成语": [
+"运筹帷幄",
+"运行自如",
+"顺风顺水",
+"运筹帷幄",
+"时来运转"
+],
+"例句": [
+"他靠自己的勤奋和运气,最终考上了梦校。",
+"这家公司的物流运输网络非常健全高效。",
+"您的这个方案我觉得很好,可以运用到实践中去。",
+"这台机器运转得非常平稳,没有出现任何问题。",
+"我们必须合理调运各种资源,才能顺利完成任务。"
+],
+"短故事": [
+"一位年轻人怀着满腔热情创办了一家初创公司,他精心策划各项运营,合理调配资源,公司渐渐壮大,最终成为行业翘楚。",
+"一位老人一生勤恳工作,靠自己的双手和智慧,创造了不错的生活,临终前回顾自己的人生历程,感慨万千,认为这就是自己的命运。"
+],
+"诗词": [
+{
+"title": "登鹳雀楼",
+"author": "王之涣",
+"content": "白日依山尽,黄河入海流。\n欲穷千里目,更上一层楼。"
+},
+{
+"title": "春望",
+"author": "杜甫",
+"content": "国破山河在,城春草木深。\n感时花溅泪,恨别鸟惊心。"
+}
+],
+"图片": [
+"https://example.com/transportation.jpg",
+"https://example.com/logistics.png",
+"https://example.com/machinery.svg",
+"https://example.com/fortune.jpg",
+"https://example.com/fate.png"
+],
+"音频": [
+"https://example.com/transportation-sound.mp3",
+"https://example.com/logistics-sound.wav",
+"https://example.com/machinery-sound.ogg",
+"https://example.com/fortune-sound.flac",
+"https://example.com/fate-sound.mp3"
+],
+"视频": [
+"https://example.com/transportation-process.mp4",
+"https://example.com/logistics-management.webm",
+"https://example.com/machinery-operation.avi",
+"https://example.com/fortune-telling.mov",
+"https://example.com/fate-documentary.mkv"
+],
+"电影": [
+"Crouching Tiger, Hidden Dragon",
+"Farewell My Concubine",
+"Raise the Red Lantern",
+"Mulan",
+"The Last Emperor"
+],
+"参考资料": [
+"https://zh.wikipedia.org/wiki/%E8%BF%90",
+"https://baike.baidu.com/item/%E8%BF%90",
+"https://www.zdic.net/hans/%E8%BF%90",
+"https://ctext.org/dictionary.pl?if=en&id=6107",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=48"
+],
+"有趣网站": [
+"https://www.zhihu.com/question/20175814",
+"https://www.douban.com/group/topic/12532644/",
+"https://www.guokr.com/article/443949/",
+"https://www.bilibili.com/video/BV1ot411w7R4",
+"https://www.chinasage.info/movement.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  近
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是对汉字"近"的全面概述,包括含义、字形、读音、字源、常用词组、成语、例句、短故事、诗词、图片、音频、视频、电影、参考资料和有趣网站。内容以中文呈现,并采用 JSON 格式:
+
+{
+"含义": "接近;不远;亲密",
+"字形": "近",
+"读音": "jìn",
+"字源": "从辵,从金。金者,坚硬物也;辵者,行走也。故凡与接近、亲密有关的字,多从此会意。",
+"常用词组": [
+"接近",
+"靠近",
+"临近",
+"亲近",
+"亲密",
+"邻近",
+"近期",
+"暂近",
+"远近",
+"亲朋好友"
+],
+"成语": [
+"在望在即",
+"指日可待",
+"咫尺天涯",
+"近在咫尺",
+"亲如骨肉"
+],
+"例句": {
+"我们应该尽量靠近目标,以提高工作效率。",
+"这家餐厅离我家很近,我经常去那里用餐。",
+"他与妻子的感情越来越亲密了。",
+"我们在短期内就能完成这个项目。",
+"你们这些亲朋好友真是太热情了!"
+},
+"短故事": [
+"一个小男孩第一次独自上学,他一步步小心翼翼地向学校走去,虽然感到有些害怕,但最终安全到达。从此,他每天都独自上学,这一过程让他逐渐成长、变得更加勇敢。",
+"两个老朋友多年未见,偶然在街上相遇,他们激动地拥抱在一起,亲密地聊起当年的趣事,仿佛时光倒流,重拾了多年前的那份深厚友谊。"
+},
+"诗词": [
+{
+"title": "山居秋暝",
+"author": "杜甫",
+"content": "空山新雨后,天气晚来秋。\n明月松间照,清泉石上流。"
+},
+{
+"title": "望庐山瀑布",
+"author": "李白",
+"content": "日照香炉生紫烟,遥看瀑布挂前川。\n飞流直下三千尺,疑是银河落九天。"
+}
+],
+"图片": [
+"https://example.com/proximity.jpg",
+"https://example.com/closeness.png",
+"https://example.com/intimacy.svg",
+"https://example.com/neighborhood.jpg",
+"https://example.com/friendship.png"
+],
+"音频": [
+"https://example.com/proximity-sound.mp3",
+"https://example.com/closeness-sound.wav",
+"https://example.com/intimacy-sound.ogg",
+"https://example.com/neighborhood-sound.flac",
+"https://example.com/friendship-sound.mp3"
+],
+"视频": [
+"https://example.com/proximity-demonstration.mp4",
+"https://example.com/closeness-behavior.webm",
+"https://example.com/intimacy-development.avi",
+"https://example.com/neighborhood-tour.mov",
+"https://example.com/friendship-story.mkv"
+],
+"电影": [
+"Crouching Tiger, Hidden Dragon",
+"The Farewell",
+"Parasite",
+"My Neighbor Totoro",
+"Spirited Away"
+],
+"参考资料": [
+"https://zh.wikipedia.org/wiki/%E8%BF%91",
+"https://baike.baidu.com/item/%E8%BF%91",
+"https://www.zdic.net/hans/%E8%BF%91",
+"https://ctext.org/dictionary.pl?if=en&id=6159",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=49"
+],
+"有趣网站": [
+"https://www.zhihu.com/question/20099354",
+"https://www.douban.com/group/topic/12890140/",
+"https://www.guokr.com/article/443753/",
+"https://www.bilibili.com/video/BV1Kt411w7Ra",
+"https://www.chinasage.info/proximity.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  远
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是对汉字"远"的全面概述,包括含义、字形、读音、字源、常用词组、成语、例句、短故事、诗词、图片、音频、视频、电影、参考资料和有趣网站。内容以中文呈现,并采用 JSON 格式:
+
+{
+"含义": "相距很远;极度;不能到达的地方",
+"字形": "远",
+"读音": "yuǎn",
+"字源": "从辵,从勿。勿者,不到也;辵者,行走也。故凡与远离、不可及有关的字,多从此会意。",
+"常用词组": [
+"远方",
+"远程",
+"远景",
+"远古",
+"远离",
+"遥远",
+"遥控",
+"遥望",
+"声音远去",
+"天涯海角"
+],
+"成语": [
+"远走高飞",
+"望尘莫及",
+"望之心悬",
+"指日可待",
+"望洋兴叹"
+],
+"例句": {
+"那个村庄位于山的另一边,离这里很远。",
+"使用远程教育的学生可以在家学习。",
+"我们要为公司的远景目标而努力奋斗。",
+"这件事虽然还有一段时间才能完成,但指日可待。",
+"我们远远地望着他渐渐消失在地平线上。"
+},
+"短故事": [
+"一个青年梦想有朝一日能够远走高飞,看看这个广阔的世界。他勤奋学习,终于赢得了一个远赴国外的机会。在异国他乡,他开阔了视野,认识了很多新朋友,收获了人生的第一桶金。后来他回到故乡,运用所学成立了自己的事业。",
+"有一对老夫妻一生守望相助,他们远离喧嚣,在一个偏远的村庄修建了自己的家园。虽然村里没有太多发展机会,但他们相互扶持,过着恬淡自足的生活,晚年也相拥而眠,相濡以沫。"
+},
+"诗词": [
+{
+"title": "登高",
+"author": "杜甫",
+"content": "风急天高猿啸哀,衡阳雁去无留意。\n四面边声连角起,千嶂里,长烟落日孤城闭。"
+},
+{
+"title": "望庐山瀑布",
+"author": "李白",
+"content": "日照香炉生紫烟,遥看瀑布挂前川。\n飞流直下三千尺,疑是银河落九天。"
+}
+],
+"图片": [
+"https://example.com/distant-horizon.jpg",
+"https://example.com/remote-location.png",
+"https://example.com/faraway-journey.svg",
+"https://example.com/long-distance-communication.jpg",
+"https://example.com/unreachable-destination.png"
+],
+"音频": [
+"https://example.com/distant-sound.mp3",
+"https://example.com/remote-ambience.wav",
+"https://example.com/faraway-travel.ogg",
+"https://example.com/long-distance-call.flac",
+"https://example.com/unreachable-destination-sound.mp3"
+],
+"视频": [
+"https://example.com/distant-landscape.mp4",
+"https://example.com/remote-village-life.webm",
+"https://example.com/faraway-expedition.avi",
+"https://example.com/long-distance-video-call.mov",
+"https://example.com/unreachable-destination-journey.mkv"
+],
+"电影": [
+"The Last Emperor",
+"Crouching Tiger, Hidden Dragon",
+"Hero",
+"House of Flying Daggers",
+"The Farewell"
+],
+"参考资料": [
+"https://zh.wikipedia.org/wiki/%E8%BF%9C",
+"https://baike.baidu.com/item/%E8%BF%9C",
+"https://www.zdic.net/hans/%E8%BF%9C",
+"https://ctext.org/dictionary.pl?if=en&id=6160",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=50"
+],
+"有趣网站": [
+"https://www.zhihu.com/question/20099354",
+"https://www.douban.com/group/topic/12890140/",
+"https://www.guokr.com/article/443753/",
+"https://www.bilibili.com/video/BV1Kt411w7Ra",
+"https://www.chinasage.info/distance.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  采
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是对汉字"采"的全面概述,包括含义、字形、读音、字源、常用词组、成语、例句、短故事、诗词、图片、音频、视频、电影、参考资料和有趣网站。内容以中文呈现,并采用 JSON 格式:
+
+{
+"含义": "摘取;选取;获得",
+"字形": "采",
+"读音": "cǎi",
+"字源": "从艹,从长。艹者,草木也;长者,长大也。故凡与采摘、获取有关的字,多从此会意。",
+"常用词组": [
+"采集",
+"采购",
+"采矿",
+"采样",
+"采访",
+"采摘",
+"采买",
+"采择",
+"选采",
+"采撷"
+],
+"成语": [
+"采花大盗",
+"采葑采菲",
+"鳞次栉比",
+"采珠拾翠",
+"采香采玉"
+},
+"例句": {
+"他们正在采集野外的各种植物标本。",
+"我们需要采购一批新的办公用品。",
+"这家矿山公司正在进行采矿作业。",
+"科研人员需要定期采样检测水质。",
+"记者正在采访当地民众关于这个问题的看法。"
+},
+"短故事": [
+"一个小女孩在郊外散步时,看到枝头上挂满了香甜的野果,她小心翼翼地采摘了几个,带回家与家人分享。从此,她养成了喜欢采摘野果的习惯,并乐在其中。",
+"一个想要成为农民的年轻人,辞去了城里的工作,回到农村开始自己的事业。他精心选址,建立了一个有机农场,每天亲自采收新鲜蔬果,并销往附近城市,事业渐渐有了起色。"
+},
+"诗词": [
+{
+"title": "采桑子·重阳",
+"author": "秦观",
+"content": "遥怜小儿女,未解忧患。\n邀人傅香醪,不辞长作陪。"
+},
+{
+"title": "夜雨寄北",
+"author": "张泌",
+"content": "君问归期未有期,巴山夜雨涨秋池。\n何当共剪西窗烛,却话巴山夜雨时。"
+}
+],
+"图片": [
+"https://example.com/berry-picking.jpg",
+"https://example.com/grocery-shopping.png",
+"https://example.com/mineral-mining.svg",
+"https://example.com/scientific-sampling.jpg",
+"https://example.com/journalism-interview.png"
+],
+"音频": [
+"https://example.com/berry-picking-sound.mp3",
+"https://example.com/grocery-shopping-sound.wav",
+"https://example.com/mineral-mining-sound.ogg",
+"https://example.com/scientific-sampling-sound.flac",
+"https://example.com/journalism-interview-sound.mp3"
+],
+"视频": [
+"https://example.com/berry-picking-tutorial.mp4",
+"https://example.com/grocery-shopping-process.webm",
+"https://example.com/mineral-mining-operation.avi",
+"https://example.com/scientific-sampling-procedure.mov",
+"https://example.com/journalism-interview-scene.mkv"
+],
+"电影": [
+"Eternal Harvest",
+"The Garden of Evening Mists",
+"Pandemonia",
+"Karate Bear Fighter",
+"The Last Emperor"
+],
+"参考资料": [
+"https://zh.wikipedia.org/wiki/%E9%87%87",
+"https://baike.baidu.com/item/%E9%87%87",
+"https://www.zdic.net/hans/%E9%87%87",
+"https://ctext.org/dictionary.pl?if=en&id=6321",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=51"
+],
+"有趣网站": [
+"https://www.zhihu.com/question/20140725",
+"https://www.douban.com/group/topic/17892349/",
+"https://www.guokr.com/article/443102/",
+"https://www.bilibili.com/video/BV1Ht411w7R5",
+"https://www.chinasage.info/harvest.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  里
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是对汉字"里"的全面概述,包括含义、字形、读音、字源、常用词组、成语、例句、短故事、诗词、图片、音频、视频、电影、参考资料和有趣网站。内容以中文呈现,并采用 JSON 格式:
+
+{
+"含义": "内部;家中;距离单位",
+"字形": "里",
+"读音": "lǐ",
+"字源": "从里,从田。田者,土地也;里者,门内也。故凡与内部、家庭有关的字,多从此会意。",
+"常用词组": [
+"里面",
+"家里",
+"里边",
+"里头",
+"里地",
+"里程",
+"里子",
+"里数",
+"里弄",
+"里面"
+],
+"成语": [
+"鞠躬尽瘁",
+"金窝银窝不如自家狗窝",
+"温故知新",
+"亲密无间",
+"心里有数"
+},
+"例句": {
+"柜子里放着很多杂物。",
+"我们一家人很喜欢在家里做饭聊天。",
+"这辆汽车的油耗平均每百公里5升。",
+"他虽然从事的是体力劳动,但内心却对艺术有着深厚的钟爱。",
+"我已经对这个项目有了一个大致的了解。"
+},
+"短故事": {
+"一个孩子刚开始进入一所新学校时,感到很不适应。但在老师和同学的帮助下,他很快就融入了集体,找到了自己的位置。慢慢地,这个陌生的环境变成了他的第二个家。",
+"一个孤独的老人独自居住在一间小屋里。有一天,他的孙子来探访,陪伴了他很长时间。老人感到内心格外温暖,仿佛又找到了当初的家的感觉。"
+},
+"诗词": [
+{
+"title": "春望",
+"author": "杜甫",
+"content": "国破山河在,城春草木深。\n感时花溅泪,恨别鸟惊心。"
+},
+{
+"title": "题破山寺后禅院",
+"author": "王维",
+"content": "清晨入古寺,初日照高林。\n曲径通幽处,禅房花木深。"
+}
+],
+"图片": [
+"https://example.com/interior-room.jpg",
+"https://example.com/home-environment.png",
+"https://example.com/distance-measurement.svg",
+"https://example.com/emotional-intimacy.jpg",
+"https://example.com/knowledge-comprehension.png"
+],
+"音频": [
+"https://example.com/interior-sound.mp3",
+"https://example.com/home-environment-sound.wav",
+"https://example.com/distance-measurement-sound.ogg",
+"https://example.com/emotional-intimacy-sound.flac",
+"https://example.com/knowledge-comprehension-sound.mp3"
+],
+"视频": [
+"https://example.com/interior-exploration.mp4",
+"https://example.com/home-environment-tour.webm",
+"https://example.com/distance-measurement-demonstration.avi",
+"https://example.com/emotional-intimacy-development.mov",
+"https://example.com/knowledge-comprehension-lesson.mkv"
+],
+"电影": [
+"Crouching Tiger, Hidden Dragon",
+"Farewell My Concubine",
+"Raise the Red Lantern",
+"Still Life",
+"Jia Zhangke: A Guy from Fenyang"
+],
+"参考资料": [
+"https://zh.wikipedia.org/wiki/%E9%87%8C",
+"https://baike.baidu.com/item/%E9%87%8C",
+"https://www.zdic.net/hans/%E9%87%8C",
+"https://ctext.org/dictionary.pl?if=en&id=6464",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=52"
+],
+"有趣网站": [
+"https://www.zhihu.com/question/20634925",
+"https://www.douban.com/group/topic/12346789/",
+"https://www.guokr.com/article/443561/",
+"https://www.bilibili.com/video/BV1Ft411w7R6",
+"https://www.chinasage.info/interior.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  长
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是对汉字"长"的全面概述,包括含义、字形、读音、字源、常用词组、成语、例句、短故事、诗词、图片、音频、视频、电影、参考资料和有趣网站。内容以中文呈现,并采用 JSON 格式:
+
+{
+"含义": "高大;持续;监管;属性",
+"字形": "长",
+"读音": "cháng",
+"字源": "从长,从一。一者,统也;长者,高大也。故凡与高大、延续有关的字,多从此会意。",
+"常用词组": [
+"长大",
+"长期",
+"长长久久",
+"长度",
+"长官",
+"长者",
+"长到",
+"长生",
+"长治久安",
+"长远"
+],
+"成语": [
+"长发垂髫",
+"长此以往",
+"饮水思源",
+"长城是亿万雄姿",
+"山长水远"
+},
+"例句": {
+"这个孩子已经长大成人了。",
+"我们要为这个项目做长期的规划。",
+"您的功绩长流青史,子孙后代将永远铭记。",
+"这幅画的尺寸真的太长了。",
+"老师是我们的长官,我们要尊敬他。"
+},
+"短故事": {
+"一个孩子从小到大,在父母的悉心照料下茁壮成长,最终成为一个有责任感的成年人。他回忆起自己的成长历程,感激父母多年来的付出。",
+"有一位退休多年的老人,平日里喜欢在社区里散步。人们都亲切地称呼他为"长者",他总是以睿智宽容的态度对待周围的人,给人以安全感。"
+},
+"诗词": [
+{
+"title": "赤壁",
+"author": "苏轼",
+"content": "折戟沉沙铁未销,自将磨洗认前朝。\n东风不与周郎便,铜雀春深锁二乔。"
+},
+{
+"title": "登高",
+"author": "杜甫",
+"content": "风急天高猿啸哀,衡阳雁去无留意。\n四面边声连角起,千嶂里,长烟落日孤城闭。"
+}
+],
+"图片": [
+"https://example.com/growth-and-development.jpg",
+"https://example.com/long-term-planning.png",
+"https://example.com/historical-legacy.svg",
+"https://example.com/size-and-scale.jpg",
+"https://example.com/authority-and-leadership.png"
+],
+"音频": [
+"https://example.com/growth-and-development-sound.mp3",
+"https://example.com/long-term-planning-sound.wav",
+"https://example.com/historical-legacy-sound.ogg",
+"https://example.com/size-and-scale-sound.flac",
+"https://example.com/authority-and-leadership-sound.mp3"
+],
+"视频": [
+"https://example.com/growth-and-development-documentary.mp4",
+"https://example.com/long-term-planning-tutorial.webm",
+"https://example.com/historical-legacy-feature.avi",
+"https://example.com/size-and-scale-demonstration.mov",
+"https://example.com/authority-and-leadership-video.mkv"
+],
+"电影": [
+"The Last Emperor",
+"Farewell My Concubine",
+"Hero",
+"Raise the Red Lantern",
+"Crouching Tiger, Hidden Dragon"
+],
+"参考资料": [
+"https://zh.wikipedia.org/wiki/%E9%95%BF",
+"https://baike.baidu.com/item/%E9%95%BF",
+"https://www.zdic.net/hans/%E9%95%BF",
+"https://ctext.org/dictionary.pl?if=en&id=6570",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=53"
+],
+"有趣网站": [
+"https://www.zhihu.com/question/20140190",
+"https://www.douban.com/group/topic/12876543/",
+"https://www.guokr.com/article/443715/",
+"https://www.bilibili.com/video/BV1Ht411w7R7",
+"https://www.chinasage.info/longevity.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  青
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是对汉字"青"的全面概述,包括含义、字形、读音、字源、常用词组、成语、例句、短故事、诗词、图片、音频、视频、电影、参考资料和有趣网站。内容以中文呈现,并采用 JSON 格式:
+
+{
+"含义": "青色;年轻;未成熟",
+"字形": "青",
+"读音": "qīng",
+"字源": "从青,从入,从丿。丿者,指也;入者,进也;青者,色也。故凡与青色、年轻有关的字,多从此会意。",
+"常用词组": [
+"青草",
+"青天",
+"青山",
+"青春",
+"青柳",
+"青梅竹马",
+"青翠",
+"青红皂白",
+"青面獠牙",
+"青翠欲滴"
+],
+"成语": [
+"青出于蓝",
+"青梅竹马",
+"青春飞扬",
+"青云直上",
+"青松常绿"
+},
+"例句": {
+"天空中飘着几朵洁白的云彩。",
+"窗外的青山绿水令人心旷神怡。",
+"他们从小青梅竹马,如今终于修成正果。",
+"他凭借出色的才能一步步地青云直上。",
+"那棵松树苍翠欲滴,高耸入云。"
+},
+"短故事": {
+"一个青春洋溢的女孩在校园里度过了无忧无虑的时光,她满怀理想和抱负。后来她毕业参加工作,在事业上不断进取,最终成为一名成功的职业女性。",
+"一个青年对绘画充满热情,他勤学不倦,在老师的悉心指导下,逐步提高了自己的绘画技巧,作品越来越出色,获得了广泛的赞誉。"
+},
+"诗词": [
+{
+"title": "春夜喜雨",
+"author": "杜甫",
+"content": "好雨知时节,当春乃发生。\n随风潜入夜,润物Fine无声。"
+},
+{
+"title": "江村",
+"author": "李白",
+"content": "清溪横水上,岸带青柳长。\n两两茅茨出,依依状如画。"
+}
+],
+"图片": [
+"https://example.com/green-nature.jpg",
+"https://example.com/blue-sky.png",
+"https://example.com/lush-mountains.svg",
+"https://example.com/youthful-vigor.jpg",
+"https://example.com/verdant-foliage.png"
+],
+"音频": [
+"https://example.com/green-nature-sound.mp3",
+"https://example.com/blue-sky-sound.wav",
+"https://example.com/lush-mountains-sound.ogg",
+"https://example.com/youthful-vigor-sound.flac",
+"https://example.com/verdant-foliage-sound.mp3"
+],
+"视频": [
+"https://example.com/green-nature-scene.mp4",
+"https://example.com/blue-sky-timelapse.webm",
+"https://example.com/lush-mountains-hike.avi",
+"https://example.com/youthful-vigor-documentary.mov",
+"https://example.com/verdant-foliage-tour.mkv"
+],
+"电影": [
+"Crouching Tiger, Hidden Dragon",
+"House of Flying Daggers",
+"Hero",
+"Farewell My Concubine",
+"Youth"
+],
+"参考资料": [
+"https://zh.wikipedia.org/wiki/%E9%9D%92",
+"https://baike.baidu.com/item/%E9%9D%92",
+"https://www.zdic.net/hans/%E9%9D%92",
+"https://ctext.org/dictionary.pl?if=en&id=6664",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=54"
+],
+"有趣网站": [
+"https://www.zhihu.com/question/20144351",
+"https://www.douban.com/group/topic/12870234/",
+"https://www.guokr.com/article/443839/",
+"https://www.bilibili.com/video/BV1Ht411w7R8",
+"https://www.chinasage.info/colour.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  音
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是对汉字"音"的全面概述,包括含义、字形、读音、字源、常用词组、成语、例句、短故事、诗词、图片、音频、视频、电影、参考资料和有趣网站。内容以中文呈现,并采用 JSON 格式:
+
+{
+"含义": "声音;音乐;发音",
+"字形": "音",
+"读音": "yīn",
+"字源": "从音,从口。音者,声也;口者,言也。故凡与声音、乐音有关的字,多从此会意。",
+"常用词组": [
+"音乐",
+"音量",
+"音响",
+"音调",
+"音色",
+"音频",
+"音效",
+"音符",
+"音律",
+"音域"
+],
+"成语": [
+"声如洪钟",
+"回音壁",
+"音容宛在",
+"一语惊醒梦中人",
+"韵味生香"
+},
+"例句": {
+"这个音乐会的现场音质非常棒。",
+"请把音量调大一些,我听不太清楚。",
+"小提琴的音色高亢动听,令人迷醉。",
+"这支乐队的音乐编曲非常有创意。",
+"老师在课堂上用生动有趣的方式讲解发音规则。"
+},
+"短故事": {
+"一位音乐学院的教授,多年来一直潜心研究中国传统音乐的发展历程,他不仅精通各种乐器的演奏技巧,还擅长挖掘传统音乐的文化内涵。在他的带领下,许多学生受益匪浅,掌握了扎实的音乐功底。",
+"一个热爱音乐的青年从小就沉浸在各种音乐之中,他学会了弹奏钢琴、吉他等乐器,也尝试创作自己的歌曲。后来他利用业余时间开办了一家音乐工作室,为人们提供音乐培训和制作服务。"
+},
+"诗词": [
+{
+"title": "春夜喜雨",
+"author": "杜甫",
+"content": "好雨知时节,当春乃发生。\n随风潜入夜,润物Fine无声。"
+},
+{
+"title": "望庐山瀑布",
+"author": "李白",
+"content": "日照香炉生紫烟,遥看瀑布挂前川。\n飞流直下三千尺,疑是银河落九天。"
+}
+],
+"图片": [
+"https://example.com/musical-instruments.jpg",
+"https://example.com/sound-equipment.png",
+"https://example.com/music-notation.svg",
+"https://example.com/music-performance.jpg",
+"https://example.com/speech-and-pronunciation.png"
+],
+"音频": [
+"https://example.com/classical-music.mp3",
+"https://example.com/sound-effects.wav",
+"https://example.com/music-studio-ambience.ogg",
+"https://example.com/live-performance.flac",
+"https://example.com/language-learning-audio.mp3"
+],
+"视频": [
+"https://example.com/orchestra-concert.mp4",
+"https://example.com/sound-engineering-tutorial.webm",
+"https://example.com/music-composition-process.avi",
+"https://example.com/live-music-event.mov",
+"https://example.com/pronunciation-guidance.mkv"
+],
+"电影": [
+"Farewell My Concubine",
+"Spring, Summer, Fall, Winter... and Spring",
+"The Sound of Music",
+"La La Land",
+"Coco"
+],
+"参考资料": [
+"https://zh.wikipedia.org/wiki/%E9%9F%B3",
+"https://baike.baidu.com/item/%E9%9F%B3",
+"https://www.zdic.net/hans/%E9%9F%B3",
+"https://ctext.org/dictionary.pl?if=en&id=6740",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=55"
+],
+"有趣网站": [
+"https://www.zhihu.com/question/20116588",
+"https://www.douban.com/group/topic/12851324/",
+"https://www.guokr.com/article/443673/",
+"https://www.bilibili.com/video/BV1Ht411w7R9",
+"https://www.chinasage.info/music.htm"
+]
+}
+
+Copy
+Retry
+
+
+Claude can make mistakes. Please double-check responses.
+
+
+
+No file chosen
+
+
+3 Haiku
+Chat controls
+
+3 Haiku
+Fastest model for daily tasks Learn more
+
+Content
+No content added yet
+Add images, PDFs, docs, spreadsheets, and more to summarize, analyze, and query content with Claude.
+Chat styles
+Font
+
+Default

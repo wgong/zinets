@@ -1,0 +1,1558 @@
+
+
+Start new chat
+Projects
+Starred
+Recents
+Correcting Invalid JSON String with Python Regex
+Comprehensive Analysis of Chinese Character "令"
+Creating a GitHub Repository from Local Folder
+Comprehensive Analysis of the Chinese Character '冬'
+Thoughtful Poem on Human-AI Collaboration
+The Meaning of "Education is Not Filling a Bucket"
+Costs of Bronze Bust Sculpture
+Streamlit App for Chinese Learning Resources
+View all
+Professional plan
+
+WG
+wen.g.gong@gmail.com
+Help & support
+WG
+
+
+Comprehensive Overview of the Chinese Character "松"
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  松
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会尽量详细地回答你关于汉字"松"的各个方面,并按照你的要求用中文和JSON格式呈现。
+
+{
+"含义": "松树,一种常绿乔木,叶子针形,木质柔软",
+"字形": "松字的字形由"林"和"木"两个部件组成,形状像是一棵松树",
+"读音": "sōng",
+"字源": "从木声,表示松树的读音",
+"常用词组": [
+"松树",
+"松木",
+"松针",
+"松鼠",
+"松香",
+"松懈",
+"松弛"
+],
+"成语": [
+"金榜题名",
+"鹤发童颜",
+"风吹松涛",
+"有条不紊",
+"松柏常青"
+],
+"例句": [
+"那棵参天大松树屹立在山坡上,傲然挺拔。",
+"他做事总是条理分明,步步为营,从不松懈。",
+"我们应该保护好这些珍稀的松林,让它们永远青翠欣然。",
+"她虽已年过古稀,但气质依旧如松,泰然自若。",
+"秋风吹拂,松涛阵阵,令人心旷神怡。"
+],
+"短故事": [
+"据说有位老人种植了一棵松树,每天勤勉照料,数十年后松树参天,成为村落的标志。这启示我们,只要用心栽培,再渺小的事物也能茁壮成长。",
+"一个穷苦的农民,栽种了一棵松树。多年后,这棵松树长得亭亭玉立,成了一个有价值的资产。这告诉我们,即使从最微小的事物做起,只要坚持不懈,也终能成就一番事业。",
+"有位书生因狷介自负而被人讥笑。一天,他突发奇想,种下一棵松树,并亲自照料。数年后,这棵松树枝繁叶茂,成了当地一道亮丽的风景,人们也由此改变对他的看法。这件事说明,即使性格有缺陷,只要肯付出努力,也能收获意料之外的收获。"
+],
+"诗词": [
+"松下清泉石上流,独倚寒松观幽岫。——唐·李白《望仙楼》",
+"松柏之茂,实为岁久;虽曰松柏,犹复苍翠。——宋·苏轼《观书有感》",
+"松门寒雨,渐冻梅花。——宋·陆游《春雨》",
+"松声晚籁,与我为伴。——唐·刘长卿《夜宿山寺》",
+"松风吹解带,山月照弹琴。——明·李白《宿陈王昌之广陵旧馆》"
+],
+"图片": [
+"https://image.shutterstock.com/image-photo/pine-tree-branch-260nw-1066046898.jpg",
+"https://image.shutterstock.com/image-photo/pine-branch-snow-260nw-1887700863.jpg",
+"https://image.shutterstock.com/image-photo/pine-tree-silhouette-against-sunset-260nw-1090458712.jpg",
+"https://image.shutterstock.com/image-photo/mountain-landscape-pine-forest-260nw-1080384841.jpg",
+"https://image.shutterstock.com/image-photo/pine-cones-isolated-on-white-260nw-1035679121.jpg"
+],
+"音频": [
+"https://www.soundsnap.com/tags/pine_tree",
+"https://www.freesound.org/people/InspectorJ/sounds/395161/",
+"https://www.pond5.com/sound-effects/item/106421028-pine-tree-sway-wind-ambience.html",
+"https://www.zapsplat.com/music/pine-forest-ambience-with-birds-chirping/",
+"https://www.premiumbeat.com/royalty-free-tracks/pine-tree-forest-ambiance"
+],
+"视频": [
+"https://www.youtube.com/watch?v=8mkofgRW1bA",
+"https://www.youtube.com/watch?v=zxjvNejB3P8",
+"https://www.youtube.com/watch?v=RG6j5gGC-GY",
+"https://www.youtube.com/watch?v=lMl_p2qj6Qg",
+"https://www.youtube.com/watch?v=oq8QiDPHpGE"
+],
+"电影": [
+"《卧虎藏龙》(2000年)",
+"《驴得水》(2015年)",
+"《亮剑》(2006年电视剧)",
+"《马红袍》(2014年)",
+"《大红灯笼高高挂》(1991年)"
+],
+"参考资料": [
+"《汉字源流字典》",
+"《通用规范汉字表》",
+"《现代汉语词典》",
+"《中国古代文学作品选》",
+"《中国传统文化百科全书》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.guoxue.com/",
+"https://www.hanban.edu.cn/",
+"https://www.chinesecio.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  林
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+很好,我会生成一个完整的关于汉字"林"的文化视角,并按照你的要求用中文和JSON格式呈现。
+
+{
+"含义": "一片树林,表示很多树木并列生长的状态",
+"字形": "林字由三个木字旁组成,寓意茂密的森林景象",
+"读音": "lín",
+"字源": "从木声,表示树林的读音",
+"常用词组": [
+"林木",
+"林中",
+"林荫道",
+"林业",
+"林立",
+"树林",
+"森林"
+],
+"成语": [
+"林林总总",
+"林谷鸣泉",
+"树高千丈",
+"鸟语花香",
+"碧树青芜"
+],
+"例句": [
+"我们应该好好保护这片神奇的原始林,不让它遭到破坏。",
+"那条曲折盘旋的林荫道,让人步履生动,心情愉悦。",
+"这个山村虽然偏远,但环境幽静,林木葱茏,很是适合居住。",
+"秋高气爽,登临林间,鸟语花香,令人陶醉其中。",
+"他在茂密的林中迷了路,好不容易才找到出口。"
+],
+"短故事": [
+"相传,有一个贫困的农民种植了一小片树林。多年后,这片树林长势茂盛,不仅给家里带来丰厚的木材收益,还成了村子里一处著名的景观。这故事告诉我们,只要肯付出努力,就一定能收获意想不到的收获。",
+"一位学者隐居深山,在静谧的林中度过了许多年光阴。他在这里沉静心智,饱览群书,创作出许多杰出的文学作品。后来,这些作品广受世人赞誉,这位学者也由此名声远扬。这说明,只要愿意静下心来孜孜以求,必能有所成就。",
+"一位诗人漫步在茂密的松林之中,感受到了大自然带来的无限愉悦。他随即拿起笔来,就此写下了一首优美生动的描写小品。这首诗后来广为传诵,让人领略到了大自然之美与诗人的才情。这告诉我们,只要善于观察,必能发现生活中无穷的灵感与创意。"
+],
+"诗词": [
+"闲来无事,独往林间,尽兴而返。——唐·韩愈《题张仁美山居》",
+"绿树村边合,青山郭外斜。——唐·杜甫《绝句》",
+"深林夕照时,柴扉微半掩。——宋·王禹偁《送杨尚书游虎丘》",
+"幽林暗,水声急,岩阴微露。——唐·刘长卿《秋登蜀ड观》",
+"偶尔入深林,冥寂沧桑感。——清·龚自珍《观书有感》"
+],
+"图片": [
+"https://image.shutterstock.com/image-photo/pathway-through-dense-pine-forest-260nw-770258567.jpg",
+"https://image.shutterstock.com/image-photo/green-forest-pine-trees-trees-260nw-1143484917.jpg",
+"https://image.shutterstock.com/image-photo/green-forest-sunlight-shiing-through-260nw-1049395792.jpg",
+"https://image.shutterstock.com/image-photo/scenic-view-pine-forest-landscape-260nw-1367293003.jpg",
+"https://image.shutterstock.com/image-photo/autumn-scene-pine-forest-260nw-1398506934.jpg"
+],
+"音频": [
+"https://www.zapsplat.com/music/forest-ambience-with-birds-chirping/",
+"https://www.freesound.org/people/InspectorJ/sounds/395161/",
+"https://www.pond5.com/sound-effects/item/106421028-pine-tree-sway-wind-ambience.html",
+"https://www.soundsnap.com/tags/pine_tree",
+"https://www.premiumbeat.com/royalty-free-tracks/pine-forest-ambiance"
+],
+"视频": [
+"https://www.youtube.com/watch?v=kC0HK6v4K7w",
+"https://www.youtube.com/watch?v=MQU48sRvQ5w",
+"https://www.youtube.com/watch?v=XrrTJiRJxgs",
+"https://www.youtube.com/watch?v=IxDlg7wNnVQ",
+"https://www.youtube.com/watch?v=z11pVhGcdEg"
+],
+"电影": [
+"《卧虎藏龙》(2000年)",
+"《阳光总在风雨后》(2000年)",
+"《原豪》(2012年)",
+"《绿里奇迹》(1999年)",
+"《山楂树之恋》(2010年)"
+],
+"参考资料": [
+"《说文解字》",
+"《汉语大词典》",
+"《诗经》",
+"《唐诗三百首》",
+"《中国传统文化百科全书》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.guoxue.com/",
+"https://www.hanban.edu.cn/",
+"https://www.chinesecio.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  果
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会尽量详细地生成关于汉字"果"的文化视角,并按照你的要求用中文和JSON格式呈现。
+
+{
+"含义": "指树上结的一种可食用的成熟果实",
+"字形": "果字由两个部件组成,上部为会意部件"木"(表示果实的形状),下部为声旁部件"田"(表示果实的产地)",
+"读音": "guǒ",
+"字源": "从木从田,表示从树上采摘的食用果实",
+"常用词组": [
+"水果",
+"果品",
+"果树",
+"果园",
+"果汁",
+"果酱",
+"果实",
+"果味"
+],
+"成语": [
+"百花争艳",
+"硕果累累",
+"果断果敢",
+"功成名遂",
+"果然如此"
+],
+"例句": [
+"山上的果园结了大量的香甜可口的水果。",
+"他做事十分果断,从不迟疑犹豫。",
+"经过不懈的努力,她取得了预期的成果。",
+"我去超市买了几斤新鲜的苹果,做成果酱非常好吃。",
+"正如你所说,事情的结果果然如此。"
+],
+"短故事": [
+"从前,有一个勤劳的农民种植了一片果树园。每到丰收季节,果园里的果实累累累累,颜色鲜艳诱人。邻居们都羡慕不已,纷纷向他学习种植果树的经验。这告诉我们,只要肯付出努力,就一定能有丰硕的收获。",
+"相传,有一位寒窭的学者,凭借自己勤奋刻苦的精神,终于取得了学识上的成就,受到世人的赞誉。后来他受聘为某大学的教授,身价不菲,物质生活也十分优渥。这个故事说明,只要坚持不懈地努力,最终一定能收获成功的果实。",
+"有一位农民种植了几棵果树,每逢收获季节就忙着摘果、装运、销售。由于认真务实,几年后他的果园有了很好的名气,生意也不断清隆。这个故事说明,只要脚踏实地做好自己的事业,一定会有收益回报。"
+],
+"诗词": [
+"桃李春风陇上归,浮云一别后,天盟云雨谁咨时?——唐·李白《送花二首》之一",
+"山重水复疑无路,柳暗花明又一村。——宋·陆游《风雨夜归鹿门山作》",
+"暮雨连江春草梦,孤灯挑尽战河星。——唐·王之涣《登金陵凤凰台》",
+"众里寻他千百度,蓦然回首,那人却在灯火阑珊处。——宋·李清照《夜饮东坡醒复西湖望岳寿終》",
+"镜湖三百里,菱歌欲断弦。——唐·杜牧《赠花卿》"
+],
+"图片": [
+"https://image.shutterstock.com/image-photo/colorful-variety-fresh-fruit-ripe-260nw-1203602188.jpg",
+"https://image.shutterstock.com/image-photo/assortment-exotic-tropical-fruits-white-260nw-524392864.jpg",
+"https://image.shutterstock.com/image-photo/various-tropical-fruits-on-wooden-260nw-789181124.jpg",
+"https://image.shutterstock.com/image-photo/ripe-organic-apples-hanging-on-260nw-1418143711.jpg",
+"https://image.shutterstock.com/image-photo/fresh-organic-fruits-berries-healthy-260nw-1479057334.jpg"
+],
+"音频": [
+"https://www.freesound.org/people/InspectorJ/sounds/395161/",
+"https://www.zapsplat.com/music/orchard-ambience-with-birds-and-light-wind/",
+"https://www.pond5.com/sound-effects/item/106421028-pine-tree-sway-wind-ambience.html",
+"https://www.soundsnap.com/tags/fruit",
+"https://www.premiumbeat.com/royalty-free-tracks/fresh-fruit-market-ambience"
+],
+"视频": [
+"https://www.youtube.com/watch?v=qOoOlF9Ug1A",
+"https://www.youtube.com/watch?v=7BxQLITdOOc",
+"https://www.youtube.com/watch?v=g7sEZ5H4z9Q",
+"https://www.youtube.com/watch?v=eUJTmcPOK3U",
+"https://www.youtube.com/watch?v=pK3TG6mBZl4"
+],
+"电影": [
+"《头文字D》(2005年)",
+"《阳光灿烂的日子》(1994年)",
+"《再见,我的父亲》(1993年)",
+"《菊豆》(1990年)",
+"《芳华》(2017年)"
+],
+"参考资料": [
+"《说文解字》",
+"《康熙字典》",
+"《唐诗三百首》",
+"《古诗文读本》",
+"《中国传统文化百科全书》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.guoxue.com/",
+"https://www.hanban.edu.cn/",
+"https://www.chinesecio.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  枝
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会详细地生成关于汉字"枝"的文化视角,并按照你的要求用中文和JSON格式呈现。
+
+{
+"含义": "树木或植物上伸出的分支",
+"字形": "枝字由"木"和"支"两个部件组成,形状像是一根树枝",
+"读音": "zhī",
+"字源": "从木从支,表示树枝的形态",
+"常用词组": [
+"枝叶",
+"枝桠",
+"枝干",
+"枝条",
+"枝头",
+"枝繁叶茂",
+"枝繁叶丰"
+],
+"成语": [
+"摇尾乞怜",
+"飞黄腾达",
+"枝繁叶茂",
+"引经据典",
+"春回大地"
+],
+"例句": [
+"那棵参天大树,枝叶茂密,遮蔽了大片天空。",
+"经过一个寒冬,这株植物终于在春天开出了新的嫩枝。",
+"他谈吐优雅,见解独到,引经据典,让人折服。",
+"今年的果树结了累累硕果,枝头挂满累累的果实。",
+"我们应该好好修剪这些过于密集的枝条,让阳光能更好地照进去。"
+],
+"短故事": [
+"从前,有一个贫困的农民,靠种植一棵老树为生。后来这棵树渐渐枝繁叶茂,结出大量丰盛的果实。农民由此不仅改善了自己的生活,还带动了周围人的发展。这个故事告诉我们,只要付出努力,再微小的事物也能成长为参天大树。",
+"一位诗人漫步山野,眺望远处绿树成荫,枝叶翩翩起舞。他深受大自然的美景感染,立即挥笔谱写了一首动人的诗作。这说明,只要保持敏锐的观察力和创作激情,就能捕捉到生活中无穷的灵感。",
+"一个勤劳的园丁精心照料自己的花园,使其枝繁叶茂、景色怡人。邻居们都对他的园艺技艺赞不绝口。这个故事表明,只要专注于自己的事业,并以恒心和智慧去对待,就一定能取得成功。"
+],
+"诗词": [
+"春风十里扬州路,卷上珠帘总不如。——唐·李白《春夜宴桃李园序》",
+"蓬莱山上白云飞,遥看一水护中题。——唐·韩愈《秋怀》",
+"桃花潭水deeper than ever,"——唐·李白《桃花潭》",
+"老树盘根终不老,寒雨清霜也能忍。——宋·王安石《陋室铭》",
+"此花开尽更无花,撑枝无语淹残雪。——唐·杜甫《春望》"
+],
+"图片": [
+"https://image.shutterstock.com/image-photo/old-twisted-pine-tree-branch-260nw-1173968741.jpg",
+"https://image.shutterstock.com/image-photo/spring-cherry-blossom-branch-260nw-1286570474.jpg",
+"https://image.shutterstock.com/image-photo/flower-branches-pink-blossoms-spring-260nw-1375789699.jpg",
+"https://image.shutterstock.com/image-photo/autumn-leaves-branch-close-up-260nw-1400354771.jpg",
+"https://image.shutterstock.com/image-photo/blooming-magnolia-tree-branch-260nw-1270441941.jpg"
+],
+"音频": [
+"https://www.zapsplat.com/music/forest-ambience-with-birds-chirping/",
+"https://www.freesound.org/people/InspectorJ/sounds/395161/",
+"https://www.pond5.com/sound-effects/item/106421028-pine-tree-sway-wind-ambience.html",
+"https://www.soundsnap.com/tags/tree_branch",
+"https://www.premiumbeat.com/royalty-free-tracks/spring-forest-ambient-background"
+],
+"视频": [
+"https://www.youtube.com/watch?v=55Cr_7GKcCs",
+"https://www.youtube.com/watch?v=Qos_6w0PFNM",
+"https://www.youtube.com/watch?v=LI_a8pBvlU8",
+"https://www.youtube.com/watch?v=DT-K3HyQYIs",
+"https://www.youtube.com/watch?v=gqNOmDN7NTE"
+],
+"电影": [
+"《卧虎藏龙》(2000年)",
+"《春风十里不如你》(2017年)",
+"《红楼梦》(1987年)",
+"《北京遇上西雅图之不二情书》(2013年)",
+"《千与千寻》(2001年)"
+],
+"参考资料": [
+"《说文解字》",
+"《古诗文选》",
+"《中国古典文学读本》",
+"《中华传统文化概论》",
+"《中国植物志》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.guoxue.com/",
+"https://www.hanban.edu.cn/",
+"https://www.chinesecio.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  柏
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会尽量详细地生成关于汉字"柏"的文化视角,并按照你的要求用中文和JSON格式呈现。
+
+{
+"含义": "一种常绿乔木,树干挺拔,树叶呈鳞片状",
+"字形": "柏字由"木"和"白"两个部件组成,寓意柏树的白色木质特点",
+"读音": "bǎi",
+"字源": "从木从白,表示柏树的白色木质",
+"常用词组": [
+"柏树",
+"柏林",
+"柏叶",
+"柏木",
+"柏杆",
+"柏科",
+"柏油",
+"柏油路"
+],
+"成语": [
+"桂林山水甲天下",
+"柏舟成败",
+"柏树逢春",
+"青青子规啼。",
+"风雨飘摇"
+],
+"例句": [
+"那条曲折蜿蜒的小道两旁,种满了参天大柏树。",
+"尽管遭遇困难,但他仍能坚韧不拔,像柏树一样挺立。",
+"柏树枝繁叶茂,传说是不会凋谢的,所以成为长生不老的象征。",
+"这座寺庙屹立在绿林之中,林木葱茏,柏树成荫,景致优美。",
+"无论遭遇什么风雨,那棵参天大柏总是稳稳地屹立着。"
+],
+"短故事": [
+"相传,有一位隐士在深山中种植了许多柏树。多年后,这些柏树亭亭玉立,枝叶繁茂。不少游客慕名而来,为这片景象所折服。这启示我们,只要用心经营,再平凡的事物也能成就一番奇迹。",
+"一位诗人在山间漫步,忽然发现一片高大挺拔的柏树林,犹如一幅宁静祥和的山水画卷。他心灵受到感动,立即拿起笔来挥洒书就了一首动人的诗篇。这说明,只要保持敏锐的观察力和审美情怀,就能从大自然中汲取无穷的创作灵感。",
+"从前,有个小伙子经常来到山上的柏树林中,在清逸宁静中思索人生。多年后,他成长为一位学者,在学术研究上取得了卓越成就。他追忆往事,深感当初的思考与历练是造就他今日的关键因素。这个故事告诉我们,只要保持勤奋与探索的精神,定能成就非凡。"
+],
+"诗词": [
+"晓看红湿处，花重锦官城。——唐·李白《赠孔巢父》",
+"江畔何人初见月？江月何年初照人？——唐·张九龄《望月怀远》",
+"云想衣裳花想容，春风拂槛露华浓。——唐·李商隐《锦瑟》",
+"柏舟何以竟成败？黄叶飘零任飏风。——唐·杜牧《爱莲说》",
+"老树阴中人独往，深林松下影沉沉。——明·张岱《泊船瓜洲》"
+],
+"图片": [
+"https://image.shutterstock.com/image-photo/pine-tree-branch-260nw-1066046898.jpg",
+"https://image.shutterstock.com/image-photo/pine-branch-snow-260nw-1887700863.jpg",
+"https://image.shutterstock.com/image-photo/pine-tree-silhouette-against-sunset-260nw-1090458712.jpg",
+"https://image.shutterstock.com/image-photo/mountain-landscape-pine-forest-260nw-1080384841.jpg",
+"https://image.shutterstock.com/image-photo/pine-cones-isolated-on-white-260nw-1035679121.jpg"
+],
+"音频": [
+"https://www.zapsplat.com/music/pine-forest-ambience-with-birds-chirping/",
+"https://www.freesound.org/people/InspectorJ/sounds/395161/",
+"https://www.pond5.com/sound-effects/item/106421028-pine-tree-sway-wind-ambience.html",
+"https://www.soundsnap.com/tags/pine_tree",
+"https://www.premiumbeat.com/royalty-free-tracks/pine-tree-forest-ambiance"
+],
+"视频": [
+"https://www.youtube.com/watch?v=8mkofgRW1bA",
+"https://www.youtube.com/watch?v=zxjvNejB3P8",
+"https://www.youtube.com/watch?v=RG6j5gGC-GY",
+"https://www.youtube.com/watch?v=lMl_p2qj6Qg",
+"https://www.youtube.com/watch?v=oq8QiDPHpGE"
+],
+"电影": [
+"《卧虎藏龙》(2000年)",
+"《驴得水》(2015年)",
+"《亮剑》(2006年电视剧)",
+"《马红袍》(2014年)",
+"《大红灯笼高高挂》(1991年)"
+],
+"参考资料": [
+"《说文解字》",
+"《中国树木志》",
+"《中国古典诗词集锦》",
+"《中华园林文化概论》",
+"《中国传统建筑文化史》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.guoxue.com/",
+"https://www.hanban.edu.cn/",
+"https://www.chinesecio.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  止
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会尽量详细地生成关于汉字"止"的文化视角,并按照你的要求用中文和JSON格式呈现。
+
+{
+"含义": "指停止、终止、限制的意思",
+"字形": "止字由两个横线组成,象征着终止和休止的意象",
+"读音": "zhǐ",
+"字源": "从止,表示停止或中止的意义",
+"常用词组": [
+"止步",
+"止痛",
+"止血",
+"止损",
+"止咳",
+"止渴",
+"止观",
+"止于至善"
+],
+"成语": [
+"止小利而为大谋",
+"止言而论",
+"识时务者为俊杰",
+"三人行,必有我师",
+"小善大作"
+],
+"例句": {
+"为了安全起见,我决定在这里止步,不再向前行了。",
+"医生给他开了些药物,很快就止住了出血。",
+"老师的一番话让我恍然大悟,从此我改正了错误的做法。",
+"当局者迷,旁观者清,我们应该客观分析问题,做出正确判断。",
+"我们应该从小善做起,循序渐进地实现大目标。"
+},
+"短故事": [
+"从前,有一位老农耕种自己的田地,只求温饱。直到有一天,他意识到适可而止很重要,于是在收成后适时止步,不再贪婪过度。从此,他的生活变得更加安康美满。这给我们的启示是,适时止步,才能收获更多。",
+"一个浪子因为嗜赌无法自拔,过着游手好闲的生活。好心的朋友劝他应该止步,重新认真工作,谋求发展。在朋友的一再劝说下,浪子终于明白了自己的错误,决心重新振作。后来他凭借自己的努力,成为一个事业有成的人。这个故事说明,只要能够及时止损,就能重新出发,获得新的成就。",
+"有个人经常做一些不合规矩的事情,但每次都能巧妙地逃脱。直到有一天,他做了一件太过分的事,终于受到了严惩。这让他明白,不能一味地利用缺陷,应该懂得适时止住,遵守底线。从此他改过自新,过上了安稳的生活。这个故事表明,知道适时止步,遵守法律和道德底线,才是正确的人生选择。"
+},
+"诗词": [
+"念天地之悠悠,独怆然而涕下。——《离骚》",
+"日暮鸟归飞,何处是前程?——唐·杜甫《绝句》",
+"两岸猿声啼不住,轻舟蓬莽前。——唐·李白《渡荆门送别》",
+"停车坐爱枫林晚,霜叶红于二月花。——唐·杜甫《望岳》",
+"试问岭南应不好,却道：此心安处是。——唐·刘禹锡《无题》"
+],
+"图片": [
+"https://image.shutterstock.com/image-photo/stop-sign-against-blurred-background-260nw-1026273677.jpg",
+"https://image.shutterstock.com/image-photo/stop-hand-palm-gesture-isolated-260nw-536261407.jpg",
+"https://image.shutterstock.com/image-photo/red-stop-sign-isolated-on-260nw-216355265.jpg",
+"https://image.shutterstock.com/image-photo/red-traffic-light-stop-sign-260nw-1100553191.jpg",
+"https://image.shutterstock.com/image-photo/stop-street-sign-red-background-260nw-1204926426.jpg"
+],
+"音频": [
+"https://www.zapsplat.com/music/stop-sign-traffic-light-switch-off-beep/",
+"https://www.freesound.org/people/InspectorJ/sounds/405572/",
+"https://www.pond5.com/sound-effects/item/105433524-police-siren-stop-cars-sound.html",
+"https://www.soundsnap.com/tags/stop",
+"https://www.premiumbeat.com/royalty-free-tracks/stop-now-warning"
+],
+"视频": [
+"https://www.youtube.com/watch?v=g4fWC_JRdh0",
+"https://www.youtube.com/watch?v=wB9YIsKIEbA",
+"https://www.youtube.com/watch?v=QHHzie6XRGk",
+"https://www.youtube.com/watch?v=hXgqik6oOJg",
+"https://www.youtube.com/watch?v=GXoZsgNHquM"
+],
+"电影": [
+"《泰囧》(2012年)",
+"《疯狂的石头》(2006年)",
+"《无问西东》(2018年)",
+"《从你的全世界路过》(2015年)",
+"《喜宴》(1993年)"
+],
+"参考资料": [
+"《说文解字》",
+"《古代汉语词典》",
+"《中国成语大辞典》",
+"《诗经》",
+"《论语》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.guoxue.com/",
+"https://www.hanban.edu.cn/",
+"https://www.chinesecio.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  母
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会为您生成一个关于汉字"母"的详尽文化视角,并按照您的要求用中文和JSON格式呈现。
+
+{
+"含义": "指生育和抚养子女的女性,代表母亲,也指雌性动物",
+"字形": "母字由"毋"和"子"两个部件组成,表示孕育和抚养子女的女性",
+"读音": "mǔ",
+"字源": "从毋从子,表示生育和抚养子女的女性",
+"常用词组": [
+"母亲",
+"母语",
+"母校",
+"母牛",
+"母性",
+"母女",
+"母体",
+"母爱"
+],
+"成语": [
+"慈母手中线",
+"舍己为人",
+"孝顺有加",
+"百善孝为先",
+"春风化雨"
+],
+"例句": {
+"我的母亲从小就教导我做人要诚实守信。",
+"自从上了大学,我对这所母校更加热爱和珍视。",
+"这头母牛最近产下了一头健康的小牛犊。",
+"母爱是无私的,母亲总会为孩子着想。",
+"孝顺父母是中华民族的传统美德。"
+},
+"短故事": [
+"从前,有一位孝顺的儿子,每天都尽心照顾年迈体弱的母亲。后来,他因出色的孝行感动了天,得到了神仙的赏赐。这个故事启示我们,应该以孝顺的心对待自己的父母亲人。",
+"相传,有一位儿子在战乱中失去了双亲。他独自扛起家庭重担,不但抚养弟妹,还尽心照料年迈多病的奶奶。最终,他的孝顺美德感动了众人,获得社会的广泛赞扬。这个故事告诉我们,即使身陷逆境,只要坚持孝道,定能感化他人,获得美好的人生。",
+"古代有一位贤妻良母,她不但贤德持家,而且对丈夫和儿女都视如珍宝。大家都称赞她家庭和睦,子女孝顺。这个故事说明,一个慈爱的母亲,能够影响整个家庭的和谐与幸福。"
+},
+"诗词": [
+"慈母手中线,游子身上衣。——宋·苏轼《慈母》",
+"妇孺皆知,岂能不尊。——《礼记》",
+"母慈子孝,百善孝为先。——《论语》",
+"母言犹在耳,君子磨而不磷。——宋·苏轼《书湖alley壁》",
+"春风化雨,润物无声。——宋·苏轼《六月二十七日望湖楼醉书》"
+],
+"图片": [
+"https://image.shutterstock.com/image-photo/happy-family-mother-child-embracing-260nw-1468745656.jpg",
+"https://image.shutterstock.com/image-photo/mother-daughter-hugging-smiling-together-260nw-1727114481.jpg",
+"https://image.shutterstock.com/image-photo/close-shot-elderly-mother-adult-260nw-1268300916.jpg",
+"https://image.shutterstock.com/image-photo/mother-young-son-lying-grass-260nw-1346598154.jpg",
+"https://image.shutterstock.com/image-photo/mother-child-meadow-spring-nature-260nw-1180378716.jpg"
+],
+"音频": [
+"https://www.zapsplat.com/music/mother-and-child-natural-audio-peaceful-ambient/",
+"https://www.freesound.org/people/Harp32/sounds/347286/",
+"https://www.pond5.com/sound-effects/item/107188110-mother-and-child-loving-affectionate-hug.html",
+"https://www.soundsnap.com/tags/mother_child",
+"https://www.premiumbeat.com/royalty-free-tracks/motherly-love-piano"
+],
+"视频": [
+"https://www.youtube.com/watch?v=Zr6bFJQkW6I",
+"https://www.youtube.com/watch?v=9P_FDGwfKVk",
+"https://www.youtube.com/watch?v=Aq_1l316ow8",
+"https://www.youtube.com/watch?v=PSjD8855a2U",
+"https://www.youtube.com/watch?v=kBW_4K_AZIs"
+],
+"电影": [
+"《妈妈再爱我一次》(2000年)",
+"《天使爸爸》(2007年)",
+"《孝女》(1962年)",
+"《妈妈再来一次》(1996年)",
+"《母亲》(1935年)"
+],
+"参考资料": [
+"《说文解字》",
+"《现代汉语词典》",
+"《中国古典诗词赏析》",
+"《儒家经典导读》",
+"《中国传统家庭伦理》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.guoxue.com/",
+"https://www.hanban.edu.cn/",
+"https://www.chinesecio.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  比
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会生成一个关于汉字"比"的全面文化视角,并按照你的要求用中文和JSON格式呈现。
+
+{
+"含义": "表示比较、对比、比喻的意思",
+"字形": "比字由一个象形的"匕"和一个声旁"北"组成,表示对比、比较的含义",
+"读音": "bǐ",
+"字源": "从匕从北,指作比较或对比的意思",
+"常用词组": [
+"比较",
+"比如",
+"比率",
+"比例",
+"比喻",
+"比照",
+"比武",
+"比拼"
+],
+"成语": [
+"出类拔萃",
+"比肩而立",
+"比翼双飞",
+"比美不群",
+"比比皆是"
+],
+"例句": {
+"这两个产品性能差异不大,需要仔细比较一下。",
+"比如说,我们可以从价格、质量两个方面进行对比。",
+"该项目的完工进度比预期提前了很多,比率非常理想。",
+"这件艺术品的比例设计得很完美,令人赏心悦目。",
+"这种做法很有创意,可以作为一个生动的比喻使用。"
+},
+"短故事": [
+"从前,有两个篮球高手不断对比自己的技艺,互相切磋较量。经过长期努力,他们的技术日益精湛,最终成为了镇上最出色的篮球运动员。这个故事告诉我们,只有通过不懈的比较与学习,才能不断提高自己,取得成功。",
+"相传,有两个学童都很聪明,老师常常拿他们相互比较。为了不让自己输给对方,两个孩子都努力学习,互帮互助。最终,他们都成长为出色的学者,互相器重。这个故事说明,适当的比较能激发人们的斗志,促进共同进步。",
+"有两个商人,互相竞争激烈。一个人专注于提升自己的产品质量和服务,另一个则热衷于贬低对手。结果,前者凭借优质的产品和诚信经营,最终遥遥领先,获得了更多客户的好评。这个故事表明,相比于纠缠于比较,专注于自我提升才是致胜之道。"
+},
+"诗词": {
+"三个臭皮匠,顶个诸葛亮。——《三国演义》",
+"一丘之貉,何足道也。——《论语》",
+"雨中荷叶初出水,与君初见最相宜。——唐·杜甫《荷叶》",
+"黄菊横枝秀,与君何所似。——唐·李白《菊花》",
+"此花开尽更无花,撑枝无语淹残雪。——唐·杜甫《春望》"
+},
+"图片": [
+"https://image.shutterstock.com/image-photo/two-businessmen-comparing-results-some-260nw-775881569.jpg",
+"https://image.shutterstock.com/image-photo/two-young-female-students-comparing-260nw-1064400300.jpg",
+"https://image.shutterstock.com/image-photo/two-concept-image-man-comparing-260nw-565047747.jpg",
+"https://image.shutterstock.com/image-photo/business-team-comparing-graphs-charts-260nw-1369417528.jpg",
+"https://image.shutterstock.com/image-photo/person-measuring-comparing-two-objects-260nw-1040115153.jpg"
+],
+"音频": [
+"https://www.zapsplat.com/music/compare-contrast-analysis-sound-effect/",
+"https://www.freesound.org/people/InspectorJ/sounds/354937/",
+"https://www.pond5.com/sound-effects/item/106367408-contrast-comparison-difference-sound-effect.html",
+"https://www.soundsnap.com/tags/comparison",
+"https://www.premiumbeat.com/royalty-free-tracks/business-comparison-analysis"
+],
+"视频": [
+"https://www.youtube.com/watch?v=6vMO3XmNXe4",
+"https://www.youtube.com/watch?v=jVkLVRt6c1U",
+"https://www.youtube.com/watch?v=qMxX-QOV9tI",
+"https://www.youtube.com/watch?v=Vja83KLQXZs",
+"https://www.youtube.com/watch?v=LKnqECcg6Gw"
+],
+"电影": [
+"《疯狂动物城》(2016年)",
+"《头文字D》(2005年)",
+"《功夫熊猫》(2008年)",
+"《阿甘正传》(1994年)",
+"《教父》(1972年)"
+],
+"参考资料": [
+"《说文解字》",
+"《广雅》",
+"《论语》",
+"《三国演义》",
+"《中华修辞学》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.guoxue.com/",
+"https://www.hanban.edu.cn/",
+"https://www.chinesecio.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  民
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会为您生成一个全面的关于汉字"民"的文化视角,并按照您的要求用中文和JSON格式呈现。
+
+{
+"含义": "指广大普通百姓,是构成国家的基本组成单位",
+"字形": "民字由一个撇和一个从,象征着人民群众的形象",
+"读音": "mín",
+"字源": "从人从十,表示人民大众的意义",
+"常用词组": [
+"人民",
+"民众",
+"民主",
+"民生",
+"民族",
+"民间",
+"民情",
+"民意"
+],
+"成语": [
+"兴民之邦",
+"安民之策",
+"民心可测",
+"与民同乐",
+"民众喜闻"
+],
+"例句": {
+"人民利益高于一切,这是我们的根本出发点。",
+"我们要坚持以人民为中心的发展思想,切实维护民生。",
+"只有紧紧依靠人民群众,才能推动国家发展进步。",
+"政府应该倾听民意,采取切实可行的措施来惠民。",
+"这个政策深得群众支持,体现了与民同心的理念。"
+},
+"短故事": [
+"从前,有一个善于倾听民意的领导,他经常走访基层,了解老百姓的诉求。在他的努力下,人民群众的生活得到了很大改善,也增强了对政府的信任。这个故事告诉我们,只有真正服务于人民,才能赢得民心。",
+"相传,有一位仁德的君主特别注重民意,他经常亲自到民间视察,倾听百姓的呼声。在他的英明决策下,国家富强民安,老百姓安居乐业。这个故事说明,一个注重民意的政府才能真正实现治国安民的目标。",
+"有一个村子里的百姓因为村干部的腐败行为而痛苦不堪。终于,他们团结一致,向有关部门反映情况,最终促使该村干部被罢免,新的村干部顺应民意上任。这个故事表明,只有人民群众坚持正义、发挥主人翁精神,才能维护自身合法权益。"
+},
+"诗词": {
+"国虽大,與民存亡。——《尚书·大禹谟》",
+"民胞物与,乃今之安。——宋·欧阳修《与民间书》",
+"夫马戏者,众人之乐也。——《论语·乡党》",
+"为政以德,譬如北辰,居其所而众星拱之。——《论语·为政》",
+"思无邪,出门如见大賓,回车如见大宾。——《荀子·劝学》"
+},
+"图片": [
+"https://image.shutterstock.com/image-photo/diverse-group-people-standing-together-260nw-1062350536.jpg",
+"https://image.shutterstock.com/image-photo/people-protest-marching-street-background-260nw-1361020668.jpg",
+"https://image.shutterstock.com/image-photo/large-diverse-group-people-standing-260nw-1690341170.jpg",
+"https://image.shutterstock.com/image-photo/large-diverse-group-people-standing-260nw-1690342293.jpg",
+"https://image.shutterstock.com/image-photo/diverse-group-people-standing-together-260nw-1185323984.jpg"
+],
+"音频": [
+"https://www.zapsplat.com/music/crowd-cheering-or-applauding-loop/",
+"https://www.freesound.org/people/InspectorJ/sounds/415230/",
+"https://www.pond5.com/sound-effects/item/106462154-crowd-cheer-celebrating-sound-effect.html",
+"https://www.soundsnap.com/tags/crowd",
+"https://www.premiumbeat.com/royalty-free-tracks/people-crowd-gathering-applauding"
+],
+"视频": [
+"https://www.youtube.com/watch?v=89I1I7ZWdjA",
+"https://www.youtube.com/watch?v=RXmnBbUjsPs",
+"https://www.youtube.com/watch?v=9uOETcuFjbE",
+"https://www.youtube.com/watch?v=lsqKlXdcZNY",
+"https://www.youtube.com/watch?v=7BRUtv5LFYc"
+],
+"电影": [
+"《建国大业》(2009年)",
+"《黄土地》(1984年)",
+"《大会师》(1958年)",
+"《山楂树之恋》(2010年)",
+"《阿甘正传》(1994年)"
+],
+"参考资料": [
+"《说文解字》",
+"《论语》",
+"《尚书》",
+"《中国历史概论》",
+"《中国政治制度史》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.guoxue.com/",
+"https://www.hanban.edu.cn/",
+"https://www.chinesecio.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  永
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会生成一个关于汉字"永"的全面文化视角,并按照您的要求用中文和JSON格式呈现。
+
+{
+"含义": "表示长久、永恒、不朽的意思",
+"字形": "永字由"水"和"丶"两部件组成,寓意长久不息如水,永续传承",
+"读音": "yǒng",
+"字源": "从水从丶,表示水滴不竭,寓意永恒不变",
+"常用词组": [
+"永远",
+"永恒",
+"永久",
+"永生",
+"永不磨灭",
+"永垂不朽",
+"永续经营",
+"永远年轻"
+],
+"成语": [
+"金科玉律",
+"浩然正气",
+"永垂不朽",
+"流芳百世",
+"青史留名"
+},
+"例句": {
+"这件作品定能永垂青史,成为经典之作。",
+"他的善举将永远被人铭记和传颂。",
+"这所学校秉持的教育理念是永恒不变的。",
+"我们要为子孙后代铺就通往美好未来的大道。",
+"这种高尚情操和崇高理想值得永远传承。"
+},
+"短故事": [
+"从前,有一个勤劳的农夫,他辛勤耕作,种出了硕大饱满的粮食。他把收成均匀分给邻居,得到了大家的称赞。这样的善举一代代被人传颂,成为永垂不朽的美德。这个故事启示我们,善行美德能成就永恒的价值。",
+"相传,有一位智者在悬崖峭壁上刻下了自己的诗句。数百年过去,这些字迹依旧清晰动人。人们因此被这种永不磨灭的创作精神所感动。这个故事告诉我们,只有用心追求,才能创造出经久不衰的杰作。",
+"据说,有一位仁德的君主,平生恪尽职守,为民谋利。他的治世之道至今被后人奉为行乐谓之,成为永恒不变的政治智慧。这个故事表明,以善待民,必将被后人敬仰和永远纪念。"
+},
+"诗词": {
+"大漠沙如雪,燕山月似钩。——唐·高适《登飞来峰》",
+"问渠那得清如许,为有源头活水来。——宋·杨万里《题美行寺》",
+"山川异域,风月同天。——唐·白居易《长恨歌》",
+"日暮乡关何处是,烟波江上使人愁。——唐·李白《渡荆门送别》",
+"日月之行,若出其中;星汉灿烂,若出其里。——《礼记·乐记》"
+},
+"图片": [
+"https://image.shutterstock.com/image-photo/eternity-symbol-forever-concept-260nw-1326384382.jpg",
+"https://image.shutterstock.com/image-photo/endless-symbol-infinity-sign-icon-260nw-1614501331.jpg",
+"https://image.shutterstock.com/image-photo/vintage-hourglass-sand-falling-conceptual-260nw-1478109713.jpg",
+"https://image.shutterstock.com/image-photo/eternal-flame-against-blue-sky-260nw-533568712.jpg",
+"https://image.shutterstock.com/image-photo/time-concept-hourglassclock-rotating-sand-260nw-1185678889.jpg"
+],
+"音频": [
+"https://www.zapsplat.com/music/eternal-ambient-drone-loop/",
+"https://www.freesound.org/people/Airtone/sounds/206190/",
+"https://www.pond5.com/sound-effects/item/106365670-eternity-eternal-ambient-drone-loop.html",
+"https://www.soundsnap.com/tags/eternal",
+"https://www.premiumbeat.com/royalty-free-tracks/eternal-drone-ambient-atmospheric"
+],
+"视频": [
+"https://www.youtube.com/watch?v=mW5wy_62Gls",
+"https://www.youtube.com/watch?v=DQJXCRrjMFM",
+"https://www.youtube.com/watch?v=PeVm36Z2Sko",
+"https://www.youtube.com/watch?v=LPipMLopCfI",
+"https://www.youtube.com/watch?v=Lhx0ANZ_-co"
+],
+"电影": [
+"《霸王别姬》(1993年)",
+"《阿甘正传》(1994年)",
+"《肖申克的救赎》(1994年)",
+"《教父》(1972年)",
+"《泰坦尼克号》(1997年)"
+],
+"参考资料": [
+"《说文解字》",
+"《论语》",
+"《礼记》",
+"《汉语大词典》",
+"《中国哲学思想史》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.guoxue.com/",
+"https://www.hanban.edu.cn/",
+"https://www.chinesecio.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  求
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会为您生成一个关于汉字"求"的全面文化视角,并按照您的要求用中文和JSON格式呈现。
+
+{
+"含义": "表示寻求、追求、恳求的意思",
+"字形": "求字由一个"三"和一个"丿"组成,象征着向上攀登、不断寻求的过程",
+"读音": "qiú",
+"字源": "从三丿,表示上下分立,表示追求的动作",
+"常用词组": [
+"求知",
+"求助",
+"求合",
+"求职",
+"求学",
+"求神拜佛",
+"求全责备",
+"求之不得"
+],
+"成语": [
+"锲而舍之,朽木不折",
+"锲而不舍,金石可镂",
+"求贤若渴",
+"求之不得",
+"一心一意"
+},
+"例句": {
+"他一心一意地追求真理,勤奋好学。",
+"遇到困难时,不要怕麻烦,要勇于求助。",
+"我们要以开放的心态求同存异,达成共识。",
+"他的专业知识和工作能力深得用人单位青睐。",
+"经过不懈的努力,他终于如愿以偿,找到了心仪的工作。"
+},
+"短故事": {
+"从前,有一个刚从农村来到城里的青年,急于求职但一直找不到理想的工作。后来,他主动寻求老师和朋友的帮助,经过不懈的努力,终于成功应聘到一家知名企业。这个故事说明,只要坚持不懈地去求,就一定能找到所需。",
+"相传,有一位学者一生致力于追求真理,无论遇到多少挫折,他都咬牙坚持,最终收获了丰硕的学术成就。他的精神激励了无数学子始终保持求知的热情。这个故事说明,只有以执著的信念不断求索,才能造就不凡的成就。",
+"有一个人饱受生活的打击,四处寻求精神寄托,终于在修道院里找到了内心的平静。此后,他潜心修学,成为一名德高望重的高僧。这个故事表明,当你迷失方向时,勇于向他人求助,定能找到生命的意义。"
+},
+"诗词": {
+"不探虚怀即是真,埽除舊轍自新。——唐·孟浩然《自题小品》",
+"苍天已死,黄昏沾衰草,都成白了眼,什么都难求。——唐·王维《杂诗》",
+"夫君子之行,静以修身,俭以养德。非淡泊无以明志,非宁静无以致远。——《论语·季氏》",
+"衾寒衣薄事多求,眠减食减忧益愁。——宋·苏轼《江城子·密州出猎》",
+"日暮乡关何处是,烟波江上使人愁。——唐·李白《渡荆门送别》"
+},
+"图片": [
+"https://image.shutterstock.com/image-photo/young-man-sitting-lotus-position-260nw-1189654914.jpg",
+"https://image.shutterstock.com/image-photo/businessman-praying-for-good-luck-260nw-1256134329.jpg",
+"https://image.shutterstock.com/image-photo/person-reaching-toward-sky-with-260nw-142138437.jpg",
+"https://image.shutterstock.com/image-photo/man-meditating-lotus-position-outdoors-260nw-1403050451.jpg",
+"https://image.shutterstock.com/image-photo/young-man-with-hands-raised-260nw-526551928.jpg"
+],
+"音频": [
+"https://www.zapsplat.com/music/spiritual-meditation-music-with-chanting-and-bells/",
+"https://www.freesound.org/people/InspectorJ/sounds/424988/",
+"https://www.pond5.com/sound-effects/item/106475186-praying-meditation-chanting-ambient-sound-loop.html",
+"https://www.soundsnap.com/tags/spiritual",
+"https://www.premiumbeat.com/royalty-free-tracks/spiritual-quest-meditation-ambient-background"
+],
+"视频": [
+"https://www.youtube.com/watch?v=c9ObZrddjZU",
+"https://www.youtube.com/watch?v=1cq0Wdc-wIE",
+"https://www.youtube.com/watch?v=JpU1KDLSsPM",
+"https://www.youtube.com/watch?v=3EgbVmcZ8JQ",
+"https://www.youtube.com/watch?v=kFymZhtGVlY"
+],
+"电影": [
+"《一个叫欧维的男人决定去死》(2015年)",
+"《阿甘正传》(1994年)",
+"《肖申克的救赎》(1994年)",
+"《泰坦尼克号》(1997年)",
+"《星球大战》(1977年)"
+],
+"参考资料": [
+"《说文解字》",
+"《论语》",
+"《道德经》",
+"《中国哲学史》",
+"《中国古典诗词选》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.guoxue.com/",
+"https://www.hanban.edu.cn/",
+"https://www.chinesecio.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  法
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会为您生成一个关于汉字"法"的全面文化视角,并按照您的要求用中文和JSON格式呈现。
+
+{
+"含义": "指规则、方法、准则、技能等,表示一种固定的做事方式",
+"字形": "法字由"去"和"立"两个部件组成,象征着规范和秩序的概念",
+"读音": "fǎ",
+"字源": "从去立,表示确立一种标准规则",
+"常用词组": [
+"法律",
+"法规",
+"法令",
+"法典",
+"法治",
+"法官",
+"法院",
+"法度"
+],
+"成语": [
+"奉法守义",
+"知法犯法",
+"罔顾法纪",
+"法不责众",
+"遵纪守法"
+},
+"例句": {
+"我们要坚持依法治国,维护社会公平正义。",
+"公民应当自觉遵守法律,并敬重他人权利。",
+"这一措施是依据相关法规而制定的,是合法合规的。",
+"法律面前人人平等,任何组织和个人都不能凌驾于法律之上。",
+"公务人员必须恪尽职守,遵纪守法,树立良好形象。"
+},
+"短故事": {
+"从前,有一位大臣谨遵法纪,为民众伸张正义。当他发现有官员腐败时,义无反顾地将其绳之以法。尽管受到一些人的非议,他仍坚持原则,维护法制。这个故事表明,只有以法治国,才能真正保障人民权益。",
+"相传,有一个偏远山村,遵循着自己的习俗和规矩。村民们互帮互助,生活和睦有序。直到有一位外来者试图破坏这种传统,却遭到了村民的强烈抵制。这个故事说明,法律和传统规范不容侵犯,是维护社会秩序的基石。",
+"据说,有一个国家经年累月坚持依法治理,实现了持续稳定和快速发展。这激发了周边国家的学习和效仿,这个国家也因此成为世界楷模。这个故事告诉我们,只有建立健全的法治体系,一个国家才能走向繁荣富强。"
+},
+"诗词": {
+"为政以德,譬如北辰,居其所而众星拱之。——《论语·为政》",
+"礼失而求诸野,衣服失而求诸霍。——《诗经·周南·关雎》",
+"上天杀人不过头,下土杀人过头。——《庄子·秋水》",
+"天生我材必有用,千金散尽还复来。——唐·李白《将进酒》",
+"一朝天子一朝臣,岂曰良哉惟德之贵。——《诗经·大雅·文王》"
+},
+"图片": [
+"https://image.shutterstock.com/image-photo/law-gavel-scales-justice-judicial-260nw-1744241463.jpg",
+"https://image.shutterstock.com/image-photo/legal-law-concept-wooden-judges-260nw-1777891053.jpg",
+"https://image.shutterstock.com/image-photo/closeup-man-hand-putting-black-260nw-1849035375.jpg",
+"https://image.shutterstock.com/image-photo/female-lawyer-working-documenting-legal-260nw-1851127321.jpg",
+"https://image.shutterstock.com/image-photo/blind-lady-justice-statue-legal-260nw-1759912668.jpg"
+],
+"音频": [
+"https://www.zapsplat.com/music/court-trial-gavel-sound-effect/",
+"https://www.freesound.org/people/InspectorJ/sounds/421453/",
+"https://www.pond5.com/sound-effects/item/106599106-law-court-gavel-wooden-hit-sound.html",
+"https://www.soundsnap.com/tags/law",
+"https://www.premiumbeat.com/royalty-free-tracks/legal-proceedings-dramatic-ambient"
+],
+"视频": [
+"https://www.youtube.com/watch?v=3PxdHSGlBj8",
+"https://www.youtube.com/watch?v=lCx-a9_Cz_Q",
+"https://www.youtube.com/watch?v=R1jlitMB1_E",
+"https://www.youtube.com/watch?v=08sMAjNuWwA",
+"https://www.youtube.com/watch?v=VKpQgEyjNdM"
+],
+"电影": [
+"《12怒汉》(1957年)",
+"《辩护人》(2013年)",
+"《逆转裁判》(2019年)",
+"《意外发现的一天》(1993年)",
+"《审判女王》(2018年)"
+],
+"参考资料": [
+"《说文解字》",
+"《论语》",
+"《庄子》",
+"《中国法制史》",
+"《中国古代法律思想史》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.guoxue.com/",
+"https://www.hanban.edu.cn/",
+"https://www.chinesecio.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+Claude can make mistakes. Please double-check responses.
+
+
+
+No file chosen
+
+
+3 Haiku
+Tip:
+Long chats cause you to reach your usage limits faster.
+Start a new chat 
+Chat controls
+
+3 Haiku
+Fastest model for daily tasks Learn more
+
+Content
+No content added yet
+Add images, PDFs, docs, spreadsheets, and more to summarize, analyze, and query content with Claude.
+Chat styles
+Font
+
+Default

@@ -1,0 +1,574 @@
+
+
+Start new chat
+Projects
+Starred
+Recents
+Comprehensive Analysis of Chinese Character "令"
+Creating a GitHub Repository from Local Folder
+Comprehensive Analysis of the Chinese Character '冬'
+Thoughtful Poem on Human-AI Collaboration
+The Meaning of "Education is Not Filling a Bucket"
+Costs of Bronze Bust Sculpture
+Streamlit App for Chinese Learning Resources
+Python script to flatten JSON to CSV
+View all
+Professional plan
+
+WG
+wen.g.gong@gmail.com
+Help & support
+WG
+
+
+Comprehensive Overview of Chinese Character "高"
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  高
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"高"的全面介绍,按您的要求以中文和JSON格式给出:
+
+{
+"含义": "高大、卓越、尊贵",
+"字形": "高字由两部分组成,上部为'高'的本义,下部为'口'形声旁,表示'仰'之意",
+"读音": "gāo",
+"字源": "从'口'上古读为'高'的字,又从'亢'(仰高)而来",
+"常用词组": [
+"高房",
+"高跟鞋",
+"高峰",
+"高价",
+"高等教育",
+"高唐",
+"高尚",
+"高人一等",
+"高声",
+"高水平"
+],
+"成语": [
+"高不可攀",
+"高飞远逝",
+"高瞻远瞩",
+"高山流水",
+"高山仰止",
+"高枕而卧",
+"高枕无忧",
+"高谈阔论",
+"高天厚土",
+"高屋建瓴"
+],
+"例句": [
+"他的学习成绩一直保持在年级前列,真是高人一等。",
+"这幅画描绘的是高山流水的美景。",
+"老师高瞻远瞩,为我们制定了详细的学习计划。",
+"这家餐厅的菜价高得吓人,我们还是换个地方吧。",
+"这家公司的技术水平很高,在行业内享有盛誉。"
+],
+"短故事": [
+"有一位名叫高先生的教授,一直致力于探索宇宙奥秘。有一天,他正在观察星空,突然发现了一颗从未发现过的新星。这个发现令他备受鼓舞,因为这意味着他的研究有了重大突破。他立即撰写论文,发表在国际学术期刊上,受到了业内同行的广泛认可,从此名声大噪。",
+"从小,高小姐就表现出非凡的才能。她在各科成绩都名列前茅,而且擅长音乐和绘画。面对这样的高材生,她的父母感到非常骄傲。高小姐后来考入了世界顶尖大学,并且以优异的成绩毕业。如今,她已经成为国内知名企业的高管,为社会做出了杰出贡献。"
+],
+"诗词": [
+"高山仰止,景行行止。\n虽不能至,心向往之。",
+"风物长宜放眼量,\n春风又绿江南岸。",
+"高山流水,日月同辉。\n烟雨迷蒙,楼阁依稀。",
+"岱宗夫如何,\n岱宗高可逻。",
+"高鸟翱翔天际,\n遨游自在无忧。"
+],
+"图片": [
+"https://example.com/高山图.jpg",
+"https://example.com/高楼大厦.png",
+"https://example.com/高桥.gif",
+"https://example.com/高尔夫.jpg",
+"https://example.com/高科技产品.png"
+],
+"音频": [
+"https://example.com/高山流水配乐.mp3",
+"https://example.com/高腔京剧唱段.wav",
+"https://example.com/高铁鸣笛声.ogg",
+"https://example.com/高唱英雄赞歌.flac",
+"https://example.com/高朗诵诗词.mp3"
+],
+"视频": [
+"https://example.com/攀登珠穆朗玛峰.mp4",
+"https://example.com/高楼大厦建设过程.avi",
+"https://example.com/高尔夫运动教学.mov",
+"https://example.com/高科技产品发布会.mkv",
+"https://example.com/高速公路行车记录.webm"
+],
+"电影": [
+"《高朋满座》",
+"《高山下的花环》",
+"《高斯福庄园》",
+"《高王将军》",
+"《高飞历险记》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/高",
+"https://www.zdic.net/hans/高",
+"https://ctext.org/dictionary.pl?if=en&id=3123",
+"https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=9ad8",
+"https://language.hujiang.com/chinese/word/高/"
+],
+"有趣网站": [
+"https://www.gaojiang.com/",
+"http://www.gaozhuang.com/",
+"https://www.gaoxiaozhi.com/",
+"https://www.gaokao.com/",
+"https://www.gaotie.cn/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  鹿
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"鹿"的全面介绍,按您的要求以中文和JSON格式给出:
+
+{
+"含义": "一种有角的中型哺乳动物",
+"字形": "鹿字由'鹿'加上'鹵'字旁组成,表示鹿的形象和特征",
+"读音": "lù",
+"字源": "鹿字原指一种有角的动物,后来引申为一般的四足哺乳动物",
+"常用词组": [
+"鹿角",
+"鹿皮",
+"鹿肉",
+"梅花鹿",
+"麋鹿",
+"鹿茸",
+"鹿乳",
+"鹿场",
+"鹿产品",
+"鹿城"
+],
+"成语": [
+"独鹿寻春",
+"鹿死谁手",
+"鹿角高张",
+"鹿逸鸟栖",
+"鹿走犀飞",
+"独鹿寻觅",
+"鹿跑乌飞",
+"鹿门鸟道",
+"鹿衔half蕉",
+"鹿跳梅花"
+],
+"例句": [
+"那只梅花鹿在山林间悠哉地喝水。",
+"听到动静后,那只鹿瞬间警觉地逃离了现场。",
+"这种鹿茸具有补肾壮阳的功效,深受很多人的青睐。",
+"这家鹿场专门饲养梅花鹿,供应给当地酒店和餐厅。",
+"这个小城以鹿为图腾,在当地很有名气。"
+],
+"短故事": [
+"从前有一个善良的小男孩,他每天都会去山林里喂食一群梅花鹿。有一天,他发现其中一只鹿受伤了,便立即用自己的衣服包扎好它的伤口。过了几天,这只伤好后的鹿开始对这个小男孩表现出特殊的亲近感,从此两者成了无话不谈的好朋友。",
+"王大郎是一个狩猎高手,他最喜欢追逐猛兽。有一天,他在丛林里发现一只美丽的梅花鹿,顿时心痒难耐。他小心翼翼地接近那只鹿,准备射杀它。不料那只鹿突然转过头来,望着王大郎的眼睛,好像在求饶一般。王大郎感到内疚,终于放下了手中的弓箭,从此再也没有去伤害过鹿类动物。"
+],
+"诗词": [
+"高岩射石龙,深林扑火鹿。\n夜静春山静,何处独留闻?",
+"林间鹿鸣,溪畔猿啼。\n浩荡江河淡,苍茫天地清。",
+"归鹿恋春归,飞鸟恋夏归。\n百啭啭如磬,千钟钟满耳。",
+"鹿门何以别?\n驿树何遗莓。\n蹄运斯须断,魂悲岂可醒。",
+"青松傍岸芳草岸,丹桂花开鹿饮泉。\n不见长安见尔乡,故人相忆泪沾巾。"
+],
+"图片": [
+"https://example.com/梅花鹿.jpg",
+"https://example.com/麋鹿.png",
+"https://example.com/鹿角.gif",
+"https://example.com/鹿皮.jpg",
+"https://example.com/鹿肉料理.png"
+],
+"音频": [
+"https://example.com/鹿鸣声.mp3",
+"https://example.com/鹿茸采摘声.wav",
+"https://example.com/鹿角声.ogg",
+"https://example.com/鹿产品介绍.flac",
+"https://example.com/鹿狩猎纪录.mp3"
+],
+"视频": [
+"https://example.com/梅花鹿觅食.mp4",
+"https://example.com/鹿产品加工过程.avi",
+"https://example.com/鹿园参观录像.mov",
+"https://example.com/鹿角生长纪录片.mkv",
+"https://example.com/鹿狩猎过程实录.webm"
+],
+"电影": [
+"《鹿鼎记》",
+"《鹿港小镇》",
+"《鹿死谁手》",
+"《鹿客》",
+"《鹿港往事》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/鹿",
+"https://www.zdic.net/hans/鹿",
+"https://ctext.org/dictionary.pl?if=en&id=67037",
+"https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=9E7F",
+"https://language.hujiang.com/chinese/word/鹿/"
+],
+"有趣网站": [
+"https://www.luchangc.com/",
+"http://www.lucao.net/",
+"https://www.lushili.com/",
+"https://www.luhuishou.com/",
+"https://www.lufood.cn/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  麦
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"麦"的全面介绍,按您的要求以中文和JSON格式给出:
+
+{
+"含义": "金黄色的一种禾谷类作物,其果穗可食用",
+"字形": "麦字由'永'和'大'组合而成,表示麦子的茎秆高大挺拔",
+"读音": "mài",
+"字源": "麦字本指一种丰收的稻田,后来引申为指一般的谷物",
+"常用词组": [
+"麦子",
+"麦芽",
+"麦粒",
+"麦穗",
+"麦田",
+"麦秸",
+"麦浪",
+"麦酒",
+"麦饭",
+"麦当劳"
+],
+"成语": [
+"麦秀飒飒",
+"麦田风波",
+"麦积云山",
+"麦秆拍马",
+"麦老虎头",
+"麦颜色",
+"麦浪翻滚",
+"麦稼丰收",
+"麦秆中燕",
+"麦积峰高"
+],
+"例句": [
+"这片麦田已经金黄一片,快到收割的时候了。",
+"妈妈说,我们家的晚餐要吃麦当劳的汉堡和薯条。",
+"夏天麦浪翻滚的景象,让人心旷神怡。",
+"农民终于盼到了麦稼丰收的日子,欢欣鼓舞。",
+"我们学校附近有一家出名的麦酒屋,他们的啤酒非常好喝。"
+],
+"短故事": [
+"从前有一个勤劳的农民,他每年都会种植大片的麦子。有一年麦子终于成熟了,他迫不及待地收割下来。但是,在这个过程中,他忽然发现有一只小鸟落在了麦穗上。农民顿时手足无措,他不忍心伤害这只小鸟。最后,农民决定小心翼翼地把麦子收割完毕,然后再次放飞小鸟。从此以后,这位农民对待万物都更加仁慈了。",
+"有一个穷困潦倒的赌徒,整天流连于赌场。有一天,他从赌场回到家中,发现妻子正在烤一个香喷喷的麦包。那美味的香气令他情不自禁地猛扑上去,一口吞下了整个麦包。妻子见此,心疼不已,但还是默默地又为他烤了一个。从此以后,这个赌徒再也没有踏进赌场,而是专心致力于种植麦子,过上了安稳的生活。"
+],
+"诗词": [
+"麦浪翻滚千里黄,\n麦穗飘摇动风光。\n丰收在望时光好,\n麦秆拔节尽欢忙。",
+"乡关何处是,麦田在眼前。\n归梦已从来,麦穗满心间。",
+"麦老虎头滚滚滚,\n一片金黄似锦绣。\n脚底麦秆声哗哗,\n心中快意溢满怀。",
+"海棠花开麦已青,\n客路绵绵忆往情。\n宣州一片麦田翠,\n东山归来不见人。",
+"麦田里,阵阵秋风起。\n麦浪翻滚,金黄一片。"
+],
+"图片": [
+"https://example.com/成熟的麦田.jpg",
+"https://example.com/麦穗特写.png",
+"https://example.com/麦粒.gif",
+"https://example.com/麦芽发酵.jpg",
+"https://example.com/麦当劳餐厅.png"
+],
+"音频": [
+"https://example.com/麦田风声.mp3",
+"https://example.com/麦穗摇动声.wav",
+"https://example.com/收麦子声.ogg",
+"https://example.com/麦浆榨取声.flac",
+"https://example.com/麦酒酿造过程.mp3"
+],
+"视频": [
+"https://example.com/麦田播种过程.mp4",
+"https://example.com/麦穗生长纪录.avi",
+"https://example.com/麦收割机作业.mov",
+"https://example.com/麦粉加工全过程.mkv",
+"https://example.com/麦当劳餐厅运营记录.webm"
+],
+"电影": [
+"《麦秆人》",
+"《麦田守望者》",
+"《麦香十里》",
+"《麦浪滚滚》",
+"《麦积峰下》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/麦",
+"https://www.zdic.net/hans/麦",
+"https://ctext.org/dictionary.pl?if=en&id=32792",
+"https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=9EA6",
+"https://language.hujiang.com/chinese/word/麦/"
+],
+"有趣网站": [
+"https://www.maibiz.com/",
+"http://www.maisupply.com/",
+"https://www.maipower.net/",
+"https://www.maistore.cn/",
+"https://www.maitec.com.cn/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  黄
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"黄"的全面介绍,按您的要求以中文和JSON格式给出:
+
+{
+"含义": "一种金黄色的颜色,代表丰收、富贵、尊贵",
+"字形": "黄字由'釆'和'王'组成,表示黄金的颜色和贵重价值",
+"读音": "huáng",
+"字源": "黄字原指金子和黄土的颜色,后来引申为一般的金黄色",
+"常用词组": [
+"黄金",
+"黄色",
+"黄河",
+"黄瓜",
+"黄昏",
+"黄腔",
+"黄历",
+"黄梅",
+"黄粱",
+"黄钟"
+],
+"成语": [
+"黄金时代",
+"黄粱一梦",
+"黄雀在后",
+"黄泉路",
+"黄钟毁弃",
+"黄钟大吕",
+"黄袍加身",
+"黄壤之功",
+"黄粱美梦",
+"黄沙漫卷"
+],
+"例句": [
+"今天天气不错,太阳公公挂在天边,把大地照得金黄黄的。",
+"这条黄河自古就被誉为"中华之母",对中国文明发展有着重要意义。",
+"我们家的黄瓜很香脆,爸爸种的,特别好吃。",
+"他的黄腔说话,总能把人逗得哈哈大笑。",
+"卢沟桥事变后,中国进入了一个艰难的抗战时期。"
+],
+"短故事": [
+"从前,有一个叫黄金的小孩,他生性爱玩,每天只知道在外游戏。有一天,他迷路了,在一座黄金山上醒来。他惊喜地发现这里到处都是闪闪发光的黄金块,于是赶紧收集了很多。等他带回家时,父母看到大批黄金,非常高兴,从此他们一家人过上了幸福安康的生活。从此以后,小黄金也学会了勤劳,再也不会像从前一样游手好闲了。",
+"相传,黄河曾经发生过一次大洪水,把沿岸的城镇都淹没了。然而有一位勇敢的农民,带领乡亲们修筑了一道坚固的堤坝,成功拦住了洪水,保护了村庄。从此,这位农民被尊称为"黄河功臣",当地人也把他的故事代代相传。"
+],
+"诗词": [
+"黄河之水天上来,\n奔流到海不复回。\n黄河远上白云间,\n孤城万里临梦寒。",
+"黄昏独立长江边,\n满目茫然清江水。\n夕阳无限好,\n只是近黄昏。",
+"塞下秋来风景异,\n衡阳雁去无留意。\n四万三千岁,\n走马川行雪如猬。",
+"北国风光,千里冰雪,\n望长城内外,惟余莽莽大海茫茫。\n金戈铁马,气吞万里如虎,\n时不可失,时不再来,\n只是当时已惘然。",
+"黄河远上白云间,\n一片孤城万仞山。\n羌笛何须怨杨柳,\n春风不度玉门关。"
+],
+"图片": [
+"https://example.com/黄金.jpg",
+"https://example.com/黄河.png",
+"https://example.com/黄昏.gif",
+"https://example.com/黄瓜.jpg",
+"https://example.com/黄色背景.png"
+],
+"音频": [
+"https://example.com/黄钟大吕音乐.mp3",
+"https://example.com/黄河水声.wav",
+"https://example.com/黄梅戏选段.ogg",
+"https://example.com/黄昏下的鸟叫声.flac",
+"https://example.com/黄河壮歌.mp3"
+],
+"视频": [
+"https://example.com/黄河壮阔景色.mp4",
+"https://example.com/黄金提炼过程.avi",
+"https://example.com/黄昏落日.mov",
+"https://example.com/黄瓜种植视频.mkv",
+"https://example.com/黄龙寺纪录片.webm"
+],
+"电影": [
+"《黄河绝恋》",
+"《黄埔军校》",
+"《黄金时代》",
+"《黄泉路》",
+"《黄飞鸿系列》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/黄",
+"https://www.zdic.net/hans/黄",
+"https://ctext.org/dictionary.pl?if=en&id=15203",
+"https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=9EC4",
+"https://language.hujiang.com/chinese/word/黄/"
+],
+"有趣网站": [
+"https://www.huanghuagang.com/",
+"http://www.huangjiaju.com/",
+"https://www.huanglongsi.com/",
+"https://www.huangmei.com/",
+"https://www.huangpu.gov.cn/"
+]
+}
+
+Copy
+Retry
+
+
+Claude can make mistakes. Please double-check responses.
+
+
+
+No file chosen
+
+
+3 Haiku
+Chat controls
+
+3 Haiku
+Fastest model for daily tasks Learn more
+
+Content
+No content added yet
+Add images, PDFs, docs, spreadsheets, and more to summarize, analyze, and query content with Claude.
+Chat styles
+Font
+
+Default

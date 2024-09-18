@@ -1,0 +1,86 @@
+{
+
+"character": "文",
+"meaning": "文字、文化、文学、文艺",
+"shape": "一文之下有一亻",
+"pronunciation": "wén",
+"origin": "从一、从文,表示文字、文化的意思",
+"common_phrases": [
+"文字",
+"文艺",
+"文化",
+"文学",
+"文明"
+],
+"idioms": [
+"文采飞扬",
+"文人雅士",
+"文质彬彬",
+"博文约礼",
+"文房四宝"
+],
+"example_sentences": [
+"他擅长各种文字创作,文笔非常出色。",
+"这位作家擅长文学创作,是当代著名的文坛新秀。",
+"我们要加强对中华文化的宣传和推广。",
+"这件文物充分展现了古代中国的文明水平。",
+"这位老师是一位文人雅士,为人和蔼可亲。"
+],
+"short_stories": [
+"春秋时期,孔子在《论语》中说:"有文而不武,则吾恐不足以自行也。"强调文武并重的重要性。",
+"唐代诗人李白在《将进酒》中抒发了他追求自由、不羁的文人精神:"天生我材必有用,千金散尽还复来。"",
+"宋代理学家朱熹在《四书章句集注》中提出"格物致知"的思想,强调学习文化知识的重要性。",
+"明代文学家李贽在《藏书》中提出"文以载道"的观点,认为文学应该传播道德思想。",
+"现代作家鲁迅在《狂人日记》中用文字描述了社会的黑暗面,"我发现了一件可怕的事情,那就是人们吃人!"这反映了他对文学的社会责任感。"
+],
+"poems": [
+"《将进酒》李白: "天生我材必有用,千金散尽还复来。",
+"《春望》杜甫: "感时花溅泪,恨别鸟惊心。",
+"《水调歌头》苏轼: "明月几时有?把酒问青天。",
+"《绝句》杜甫: "两个黄鹂鸣翠柳,一行白鹭上青天。",
+"《登岳阳楼》李白: "吴楚东南坡,乾坤日夜浮。"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Ancient_Chinese_calligraphy.jpg/1024px-Ancient_Chinese_calligraphy.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Chinese_painting_of_landscape.jpg/1024px-Chinese_painting_of_landscape.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Chinese_painting_of_flowers_and_birds.jpg/1024px-Chinese_painting_of_flowers_and_birds.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Chinese_opera_masks.jpg/1024px-Chinese_opera_masks.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Chinese_bronze_ding.jpg/1024px-Chinese_bronze_ding.jpg"
+],
+"audio": [
+"https://upload.wikimedia.org/wikipedia/commons/a/a5/Zh-w%C3%A9n.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/1/19/Traditional_Chinese_music.wav",
+"https://upload.wikimedia.org/wikipedia/commons/3/36/Guqin_music_sample.wav",
+"https://upload.wikimedia.org/wikipedia/commons/6/66/Pipa_music_sample.wav",
+"https://upload.wikimedia.org/wikipedia/commons/9/9a/Chinese_opera_singing.wav"
+],
+"videos": [
+"https://www.youtube.com/watch?v=SuBPwLrSFRo",
+"https://www.youtube.com/watch?v=GNadXaKSlWU",
+"https://www.youtube.com/watch?v=5lqOhiCEoQA",
+"https://www.youtube.com/watch?v=5l-wE9Tn3hI",
+"https://www.youtube.com/watch?v=8enjBEHFnZA"
+],
+"movies": [
+"霸王别姬",
+"阮玲玉",
+"孔雀",
+"活着",
+"颜色"
+],
+"references": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国古代文学史》",
+"《中国哲学思想史》",
+"《中国传统文化概论》"
+],
+"websites": [
+"https://baike.baidu.com/item/%E6%96%87/99091",
+"https://www.zhihu.com/topic/19550946",
+"https://www.chinaculture.org/gb/en_madeinchina/2004-06/15/content_55321.htm",
+"http://www.chiculture.net/0305/html/0305-06.html",
+"https://www.douban.com/group/topic/217901148/"
+]
+
+}

@@ -1,0 +1,1529 @@
+
+
+Start new chat
+Projects
+Starred
+Recents
+Creating a GitHub Repository from Local Folder
+Comprehensive Analysis of Chinese Character "令"
+Comprehensive Analysis of the Chinese Character '冬'
+Thoughtful Poem on Human-AI Collaboration
+The Meaning of "Education is Not Filling a Bucket"
+Costs of Bronze Bust Sculpture
+Streamlit App for Chinese Learning Resources
+Python script to flatten JSON to CSV
+View all
+Professional plan
+
+WG
+wen.g.gong@gmail.com
+Help & support
+WG
+
+
+Comprehensive Analysis of the Chinese Character "宁"
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  宁
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"宁"的详细信息,以中文展示,并采用JSON格式:
+
+{
+"含义": "安静、平静、静止、平安",
+"字形": "宁",
+"读音": "níng",
+"字源": "从宀(屋宅之部首)、从京(古代京城之意)。",
+"常用词组": [
+"宁静",
+"宁愿",
+"宁可",
+"宁养性",
+"宁死不屈"
+],
+"成语": [
+"宁折不弯",
+"宁为鸡口,毋为牛后",
+"宁为玉碎,不为瓦全",
+"宁静致远",
+"宁缺毋滥"
+],
+"例句": [
+"宁可直接了当地拒绝,也不愿意含糊其辞。",
+"在生活中,有时候宁可选择一个较小的舒适圈,也不要盲目追求那些自己无法承受的东西。",
+"他宁愿孤独终老,也不愿意委身于不喜欢的人。",
+"她宁可辛苦一点,也不愿意让别人帮忙。",
+"生活中,有时宁可选择一条平凡的道路,也不要追求那些让自己痛苦的事物。"
+],
+"短故事": [
+"有一位老农,他一生都在默默耕耘,过着简单而恬静的生活。当别人问他为什么不去城里发展时,他总是淡淡地说:"宁可在这里安静地工作,也不愿被城市的喧嚣所困扰。"这种从容不迫、知足常乐的态度,让人感受到生活的美好与可贵。",
+"从前有个叫宁远的小村庄,村民们都很宁静安康,过着自给自足的生活。有一天,一个外来商人来到这里,想要把这里发展成一个大城市。但村民们坚持"宁可保留简单的生活,也不愿改变眼下的宁静",最终没有同意这个提议。后来,这个小村庄反而成为了一处让人向往的宁静之地。"
+],
+"诗词": [
+"宁可碎心而带血,不能全碎而无痕。——苏轼《水调歌头》",
+"宁可独彷徨,不愿同苍茫。——李白《宣州谣》",
+"宁可枯藤老树昏鸦,不愿鸟在无枝可栖。——柳道明《庭竹》",
+"宁可独上西楼,也不愿同行。——纳兰性德《声声慢》",
+"宁可独在异乡为异客,不可在家乡为知己。——辛弃疾《水龙吟》"
+],
+"图片": [
+"https://example.com/宁.jpg",
+"https://example.com/宁静.jpg",
+"https://example.com/宁可.jpg",
+"https://example.com/宁养性.jpg",
+"https://example.com/宁死不屈.jpg"
+],
+"音频": [
+"https://example.com/宁.mp3",
+"https://example.com/宁静的声音.mp3",
+"https://example.com/宁愿的读音.mp3",
+"https://example.com/宁养性的发音.mp3",
+"https://example.com/宁死不屈的朗诵.mp3"
+],
+"视频": [
+"https://example.com/宁静的自然风光.mp4",
+"https://example.com/宁愿舍弃的纪录片.mp4",
+"https://example.com/宁为玉碎的电影片段.mp4",
+"https://example.com/宁缺毋滥的教学视频.mp4",
+"https://example.com/宁静致远的短片.mp4"
+],
+"电影": [
+"《宁静的春天》",
+"《宁可孤独》",
+"《宁为玉碎》",
+"《宁缺毋滥》",
+"《宁静如海》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/宁",
+"https://www.zdic.net/hans/宁",
+"https://hanyu.baidu.com/zici/s?wd=宁",
+"https://www.guoxuedashi.com/zibu/宁.html",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterInput=宁"
+],
+"有趣网站": [
+"https://www.zhihu.com/topic/19551419/hot",
+"https://www.guoxue.com/jinbu/jingdian/zishuo/zishuo_001.htm",
+"https://www.pinterest.com/search/pins/?q=宁",
+"https://www.douban.com/group/topic/12345678/",
+"https://www.instagram.com/explore/tags/宁/"
+]
+}
+
+Copy
+Retry
+
+
+Claude does not have internet access. Links provided may not be accurate or up to date.
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  它
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"它"的详细信息,以中文展示,并采用JSON格式:
+
+{
+"含义": "指代不特指的人或物,或用来指代前面提到的东西",
+"字形": "它",
+"读音": "tā",
+"字源": "从人旁,从也。表示指代第三人称单数",
+"常用词组": [
+"它是",
+"它们",
+"它自己",
+"它本身",
+"它所"
+],
+"成语": [
+"它山之石可以攻玉",
+"含蓄若它",
+"无所不包罗万象",
+"乘机而动",
+"循循善诱"
+],
+"例句": [
+"这本书很好,我想把它借给你看。",
+"猫咪慵懒地躺在窗台上,它正享受着阳光的温暖。",
+"这件事对他影响很大,它改变了他的人生轨迹。",
+"不要小看它,它可能会给你带来意想不到的收获。",
+"我们应该尊重它,不应该轻易地去改变它。"
+],
+"短故事": [
+"从前有个小男孩,他很喜欢一只小狗,总是把它当作最好的朋友。有一天,小狗不小心受了伤,男孩非常难过。他决定好好照顾它,直到它完全康复。这件事让男孩学会了如何对待自己珍爱的事物,他从此变得更加善良和体贴。",
+"有一次,一位老奶奶在家中迷路了,她终于找到了自己的眼镜,却发现它已经被压坏了。老奶奶不禁落泪,因为那是她唯一的一副眼镜。邻居们听说了这件事,纷纷伸出援手,最终帮助老奶奶买到了一副新的眼镜。老奶奶由衷地感谢他们,她明白人与人之间的关爱是何等珍贵。"
+],
+"诗词": [
+"它山之石可以攻玉,焉知非池中之物。——苏轼《徐霞客游记》",
+"它自安之,不知其数。——苏轼《水调歌头·明月几时有》",
+"它自与我为徒,不如无之则优。——陆游《题临安邸》",
+"它山之石,可以攻玉。——《论语·尧曰》",
+"它山之石,可以攻玉,焉知非池中之物。——欧阳修《与歙公权书》"
+],
+"图片": [
+"https://example.com/它.jpg",
+"https://example.com/它们.jpg",
+"https://example.com/它自己.jpg",
+"https://example.com/它本身.jpg",
+"https://example.com/它所.jpg"
+],
+"音频": [
+"https://example.com/它的发音.mp3",
+"https://example.com/它们的读法.mp3",
+"https://example.com/它自己的念法.mp3",
+"https://example.com/它本身的语调.mp3",
+"https://example.com/它所的读音.mp3"
+],
+"视频": [
+"https://example.com/它的使用教程.mp4",
+"https://example.com/它们的区别解析.mp4",
+"https://example.com/它自己的故事.mp4",
+"https://example.com/它本身的定义分析.mp4",
+"https://example.com/它所的词语运用.mp4"
+],
+"电影": [
+"《它来了》",
+"《它们》",
+"《它的秘密》",
+"《它本身》",
+"《它所》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/它",
+"https://www.zdic.net/hans/它",
+"https://hanyu.baidu.com/zici/s?wd=它",
+"https://www.guoxuedashi.com/zibu/它.html",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterInput=它"
+],
+"有趣网站": [
+"https://www.zhihu.com/topic/19551420/hot",
+"https://www.guoxue.com/jinbu/jingdian/zishuo/zishuo_002.htm",
+"https://www.pinterest.com/search/pins/?q=它",
+"https://www.douban.com/group/topic/12345679/",
+"https://www.instagram.com/explore/tags/它/"
+]
+}
+
+Copy
+Retry
+
+
+Claude does not have internet access. Links provided may not be accurate or up to date.
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  安
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"安"的详细信息,以中文展示,并采用JSON格式:
+
+{
+"含义": "安全、平安、安稳、安宁、安详",
+"字形": "安",
+"读音": "ān",
+"字源": "从宀(屋宅之部首),从女(表示安静、安宁之意)。",
+"常用词组": [
+"安全",
+"安静",
+"安家",
+"安居乐业",
+"安排"
+],
+"成语": [
+"安居乐业",
+"安如泰山",
+"安之若素",
+"安居正室",
+"安步当车"
+],
+"例句": [
+"经过一番辛苦劳动,他终于安家落户了。",
+"这个小城给人一种安逸祥和的感觉,让人感到格外安宁。",
+"在经历了那么多风风雨雨后,她终于能安心地生活了。",
+"他是一个安分守己的人,从不惹是生非。",
+"这件事虽然很麻烦,但只要有充足的时间和耐心,定能安排得当。"
+],
+"短故事": [
+"从前有个人一直过着安贫乐道的生活,他拥有一间小房子和几亩田地,每天安安静静地耕作、读书,过得很自在。有一天,他的朋友劝他去城里发展,可以赚更多的钱。但他只是微笑着说:"我虽然没有很多财富,但内心却很安宁,这就是我想要的生活。"他的平静与安逸让人羡慕不已。",
+"一个贫穷的农民在贫瘠的土地上辛苦耕作,但他从不抱怨。每天回到自己的小木屋,他总会说:"我已经很安康了,不需要奢华的生活。"邻居们都诧异于他的知足常乐,纷纷赞叹他内心的安详和宁静。后来,这个农民虽然并未致富,但他的安逸生活反而成为了周围人向往的样子。"
+],
+"诗词": [
+"安能摧眉折腰事权贵,使我不得开心颜。——苏轼《定风波》",
+"安得广厦千万间,大庇天下寒士俱归安。——杜甫《茅屋为秋风所破歌》",
+"安知不为林栖者 ,也复何妨。——陶渊明《归田园居》",
+"安得倚天抽宝剑,把这乱世从头斩。——李白《将进酒》",
+"安得与君相决绝,天涯海角寻行役。——李煜《虞美人》"
+],
+"图片": [
+"https://example.com/安全.jpg",
+"https://example.com/安静.jpg",
+"https://example.com/安家.jpg",
+"https://example.com/安居乐业.jpg",
+"https://example.com/安排.jpg"
+],
+"音频": [
+"https://example.com/安.mp3",
+"https://example.com/安全的发音.mp3",
+"https://example.com/安静的读法.mp3",
+"https://example.com/安家的念法.mp3",
+"https://example.com/安排的语调.mp3"
+],
+"视频": [
+"https://example.com/安全教育.mp4",
+"https://example.com/安静生活.mp4",
+"https://example.com/安家置业.mp4",
+"https://example.com/安居乐业的典型.mp4",
+"https://example.com/安排工作.mp4"
+],
+"电影": [
+"《安乐窝》",
+"《安息日》",
+"《安全感》",
+"《安妮的日记》",
+"《安阳往事》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/安",
+"https://www.zdic.net/hans/安",
+"https://hanyu.baidu.com/zici/s?wd=安",
+"https://www.guoxuedashi.com/zibu/安.html",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterInput=安"
+],
+"有趣网站": [
+"https://www.zhihu.com/topic/19551421/hot",
+"https://www.guoxue.com/jinbu/jingdian/zishuo/zishuo_003.htm",
+"https://www.pinterest.com/search/pins/?q=安",
+"https://www.douban.com/group/topic/12345680/",
+"https://www.instagram.com/explore/tags/安/"
+]
+}
+
+Copy
+Retry
+
+
+Claude does not have internet access. Links provided may not be accurate or up to date.
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  对
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"对"的详细信息,以中文展示,并采用JSON格式:
+
+{
+"含义": "相对、相符、相应、匹配、正确、对比、对待",
+"字形": "对",
+"读音": "duì",
+"字源": "从寸(量度单位),从兀(相对之意)。",
+"常用词组": [
+"对待",
+"对比",
+"对应",
+"对方",
+"对话"
+],
+"成语": [
+"对症下药",
+"对簿公堂",
+"对牛弹琴",
+"对口相声",
+"对号入座"
+],
+"例句": [
+"他对老师的教诲高度重视,认真对待每一次学习机会。",
+"我们应该以平等和尊重的态度对待每一个人。",
+"这两件商品的价格对比起来差别很大。",
+"这个问题没有标准的答案,不同人会有不同的对应观点。",
+"我们需要就这个问题进行深入的对话交流。"
+],
+"短故事": [
+"从前有个老师,他对待每一个学生都特别耐心和细心。有一次,一个成绩较差的学生找到他寻求帮助,老师耐心地为他一一解答疑惑,并给出了对症下药的建议。这件事让学生深受感动,从此他对学习有了更大的热情和决心。这位老师的教诲一直影响着他的人生。",
+"有一家餐厅的老板对待顾客非常周到,总是热情地与他们攀谈,询问他们的需求。有一天,一名顾客来到餐厅用餐时感到非常高兴,因为老板热情地对他说:"欢迎您光临,请问您需要点些什么吗?"这让这名顾客感受到被重视和受关注,从此他成了这家餐厅的常客。"
+],
+"诗词": [
+"对食柴桑下,飞鸟与人俱。——刘禹锡《春望》",
+"对酒当歌,人生几何。——李白《将进酒》",
+"对酒论字,相与
+
+绕陌徘徊。——苏轼《水调歌头》",
+"对月斋醒醺,披衣起步趋。——杜甫《梦李白》",
+"对影成三人,惟家当目前。——王维《山居秋暝》"
+],
+"图片": [
+"https://example.com/对待.jpg",
+"https://example.com/对比.jpg",
+"https://example.com/对应.jpg",
+"https://example.com/对方.jpg",
+"https://example.com/对话.jpg"
+],
+"音频": [
+"https://example.com/对.mp3",
+"https://example.com/对待的读音.mp3",
+"https://example.com/对比的发音.mp3",
+"https://example.com/对应的念法.mp3",
+"https://example.com/对话的语调.mp3"
+],
+"视频": [
+"https://example.com/如何对待他人.mp4",
+"https://example.com/对比分析的方法.mp4",
+"https://example.com/对应关系的解释.mp4",
+"https://example.com/对方交流技巧.mp4",
+"https://example.com/对话的艺术.mp4"
+],
+"电影": [
+"《对号入座》",
+"《对簿公堂》",
+"《对症下药》",
+"《对口相声》",
+"《对视》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/对",
+"https://www.zdic.net/hans/对",
+"https://hanyu.baidu.com/zici/s?wd=对",
+"https://www.guoxuedashi.com/zibu/对.html",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterInput=对"
+],
+"有趣网站": [
+"https://www.zhihu.com/topic/19551422/hot",
+"https://www.guoxue.com/jinbu/jingdian/zishuo/zishuo_004.htm",
+"https://www.pinterest.com/search/pins/?q=对",
+"https://www.douban.com/group/topic/12345681/",
+"https://www.instagram.com/explore/tags/对/"
+]
+}
+
+Copy
+Retry
+
+
+Claude does not have internet access. Links provided may not be accurate or up to date.
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  少
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"少"的详细信息,以中文展示,并采用JSON格式:
+
+{
+"含义": "不多、缺乏、减少、年轻",
+"字形": "少",
+"读音": "shǎo",
+"字源": "从小,从丿。表示量少的意思。",
+"常用词组": [
+"少数",
+"少许",
+"少年",
+"少量",
+"少不更事"
+],
+"成语": [
+"少中更优",
+"少而精",
+"少壮不努力,老大徒伤悲",
+"宁缺毋滥",
+"少见多怪"
+],
+"例句": [
+"这件衣服颜色太少了,我更喜欢鲜艳一点的。",
+"这个人虽然年纪轻,但却非常有才华。",
+"我只要一点点盐就够了,不需要太多。",
+"即使身边的朋友很少,但只要相处融洽就足够了。",
+"你不要总是逞强,少一点骄傲也是好的。"
+],
+"短故事": [
+"从前有个小村落,人口虽然不多,但大家都过着安康幸福的生活。有一天,一个外来商人来到这里,看到村里的人少而精,感觉这里太简单了,便劝他们要扩大规模,增加人口。然而,村民们却坚持保持现状,他们说:"宁可少而精,不愿多而滥。"这种知足常乐的生活方式反而令外地人羡慕不已。",
+"有一个少年,从小学习勤奋,虽然身边的朋友不多,却能专注地做好自己的事情。他一心一意地钻研学习,终于取得了优异的成绩。周围的人都很惊讶,纷纷询问他的秘诀。少年淡淡地说:"少一些无谓的社交,多一些专注学习,就能取得很好的进步。"从此,他成为大家学习的榜样。"
+],
+"诗词": [
+"少年听雨歌楼上,红了天外荷花零落成泥碾。——杜甫《茅屋为秋风所破歌》",
+"少壮不努力,老大徒伤悲。——陆游《冬夜读书示子聿》",
+"少年易老学难成,一寸光阴不可轻。——Edgar·Allan·Poe《A Dream Within A Dream》",
+"寥落古行宫,宫花寂寞红。白头宫女在,闲坐说玄宗。——杜甫《登高》",
+"少年佳客,衣带渐宽终不悔,为伊消得人憔悴。——钱锺书《高阳台》"
+],
+"图片": [
+"https://example.com/少数.jpg",
+"https://example.com/少许.jpg",
+"https://example.com/少年.jpg",
+"https://example.com/少量.jpg",
+"https://example.com/少不更事.jpg"
+],
+"音频": [
+"https://example.com/少.mp3",
+"https://example.com/少数的读音.mp3",
+"https://example.com/少许的发音.mp3",
+"https://example.com/少年的念法.mp3",
+"https://example.com/少量的语调.mp3"
+],
+"视频": [
+"https://example.com/少数族裔的生活.mp4",
+"https://example.com/少许就够了.mp4",
+"https://example.com/少年的成长历程.mp4",
+"https://example.com/少量食用的好处.mp4",
+"https://example.com/少不更事的教育.mp4"
+],
+"电影": [
+"《少年PI的奇幻漂流》",
+"《少年歌行》",
+"《少年派》",
+"《少年陈》",
+"《少年时代》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/少",
+"https://www.zdic.net/hans/少",
+"https://hanyu.baidu.com/zici/s?wd=少",
+"https://www.guoxuedashi.com/zibu/少.html",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterInput=少"
+],
+"有趣网站": [
+"https://www.zhihu.com/topic/19551423/hot",
+"https://www.guoxue.com/jinbu/jingdian/zishuo/zishuo_005.htm",
+"https://www.pinterest.com/search/pins/?q=少",
+"https://www.douban.com/group/topic/12345682/",
+"https://www.instagram.com/explore/tags/少/"
+]
+}
+
+Copy
+Retry
+
+
+Claude does not have internet access. Links provided may not be accurate or up to date.
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  尔
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"尔"的详细信息,以中文展示,并采用JSON格式:
+
+{
+"含义": "你、你们、这个、这样",
+"字形": "尔",
+"读音": "ěr",
+"字源": "从八,从十。表示个人、特定的人或事物。",
+"常用词组": [
+"尔后",
+"尔等",
+"尔姓",
+"尔乃",
+"尔曹"
+],
+"成语": [
+"尔虞我诈",
+"尔虞我诈",
+"尔食我饡",
+"尔面尔背",
+"尔雅"
+],
+"例句": [
+"尔后我们要好好商量一下这件事。",
+"尔等同学都表现很出色,老师很欣慰。",
+"尔姓张,可能是祖先是张姓吧。",
+"尔乃是我最好的朋友,我会一直支持你。",
+"尔曹世人,俱成三昧。"
+],
+"短故事": [
+"从前有一个村子,村里的人都互相尊重,和睦相处。有一天,一个心中充满嫉妒的人来到这里,开始在村民之间制造矛盾,挑拨尔虞我诈。起初村民并没有发觉,但慢慢地他们开始互相猜忌,不再信任对方。最终,这个村庄变得鸡犬不宁。后来,村民们意识到自己被蛊惑了,决定重拾过去的友善,尊重彼此,和睦相处。",
+"有一个名叫尔的少年,他很聪明,但总是独来独往,不爱与人交谈。有一天,他遇到了一个善良的老人,老人耐心地与他交流,尊重他的独特个性。尔渐渐敞开心扉,开始主动与他人互动。从此,尔变得更加自信,他开始关注他人,用同理心对待周围的人。这件事让他意识到,尊重和关怀是维系人际关系的基础。"
+],
+"诗词": [
+"尔乃我同参,三五上下意中开。——杜甫《赠汪伦》",
+"尔曹人与尔,相煎何太急?——陆游《书愤》",
+"尔有残荷满地还生,尔无清影独
+
+倚春。——温庭筠《忆江南》",
+"尔虽贫贱,吾亦乐之。——司马迁《报任安书》",
+"尔其与我言,不亦善夫。——孔子《论语·里仁》"
+],
+"图片": [
+"https://example.com/尔后.jpg",
+"https://example.com/尔等.jpg",
+"https://example.com/尔姓.jpg",
+"https://example.com/尔乃.jpg",
+"https://example.com/尔曹.jpg"
+],
+"音频": [
+"https://example.com/尔.mp3",
+"https://example.com/尔后的读音.mp3",
+"https://example.com/尔等的发音.mp3",
+"https://example.com/尔姓的念法.mp3",
+"https://example.com/尔乃的语调.mp3"
+],
+"视频": [
+"https://example.com/尔虞我诈的故事.mp4",
+"https://example.com/尔食我饡的历史.mp4",
+"https://example.com/尔面尔背的行为.mp4",
+"https://example.com/尔雅学习方法.mp4",
+"https://example.com/尔曹世人的生活.mp4"
+],
+"电影": [
+"《尔虞我诈》",
+"《尔后》",
+"《尔等》",
+"《尔姓》",
+"《尔乃》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/尔",
+"https://www.zdic.net/hans/尔",
+"https://hanyu.baidu.com/zici/s?wd=尔",
+"https://www.guoxuedashi.com/zibu/尔.html",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterInput=尔"
+],
+"有趣网站": [
+"https://www.zhihu.com/topic/19551424/hot",
+"https://www.guoxue.com/jinbu/jingdian/zishuo/zishuo_006.htm",
+"https://www.pinterest.com/search/pins/?q=尔",
+"https://www.douban.com/group/topic/12345683/",
+"https://www.instagram.com/explore/tags/尔/"
+]
+}
+
+Copy
+Retry
+
+
+Claude does not have internet access. Links provided may not be accurate or up to date.
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  尺
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"尺"的详细信息,以中文展示,并采用JSON格式:
+
+{
+"含义": "长度单位,约等于33.33厘米,常用于测量",
+"字形": "尺",
+"读音": "chǐ",
+"字源": "从刀,从寸。表示一种长度单位。",
+"常用词组": [
+"尺度",
+"尺寸",
+"尺量",
+"尺子",
+"尺码"
+],
+"成语": [
+"寸土寸金",
+"尺有所短,寸有所长",
+"一尺竹,万木春",
+"以尺度人",
+"量体裁衣"
+],
+"例句": [
+"这件衣服的尺码有点小了,建议你换大一号的。",
+"我们需要测量一下这个房间的尺寸,好决定家具的摆放。",
+"请用这把尺子帮我量一下这幅画的长度和宽度。",
+"对于一个好的建筑设计来说,合理的尺度很关键。",
+"这家店的服装都是根据顾客的尺寸定做的,品质很好。"
+],
+"短故事": [
+"从前有个老师教学生做木工,他常常强调"以尺度人"的重要性。有一次,一个学生做了一把椅子,但尺寸有点偏差。老师耐心地指出问题所在,并请学生重新测量、调整。最终,学生做出了一把完美的椅子。这件事让学生明白,掌握好尺度是做好任何事情的基础。从此以后,他在学习和工作中都更加注重细节,取得了不错的成绩。",
+"有位老农,种了很多果树。每当有人来参观时,他总是拿出自制的尺子,细心地为客人测量树干的周长和枝叶的长度。他说:"每一棵树都有自己的尺度,只有了解了它的尺度,才能妥善照料。"他的做法让客人们对种植技艺有了全新的认识,纷纷表示敬佩。"
+],
+"诗词": [
+"寸土寸金,何用身为退逐人。——欧阳修《题李凝幽居》",
+"尺有所短,寸有所长,自当存乎其中。——佚名《尺有所短,寸有所长》",
+"一尺竹,万木春,春风吹又生。——刘禹锡《春词》",
+"万寿无疆,寸阴难再续。——陆游《示儿》",
+"人生得意须尽欢,莫使金樽空对月。——李白《将进酒》"
+],
+"图片": [
+"https://example.com/尺度.jpg",
+"https://example.com/尺寸.jpg",
+"https://example.com/尺量.jpg",
+"https://example.com/尺子.jpg",
+"https://example.com/尺码.jpg"
+],
+"音频": [
+"https://example.com/尺.mp3",
+"https://example.com/尺度的读音.mp3",
+"https://example.com/尺寸的发音.mp3",
+"https://example.com/尺量的念法.mp3",
+"https://example.com/尺子的语调.mp3"
+],
+"视频": [
+"https://example.com/尺有所短,寸有所长的解释.mp4",
+"https://example.com/以尺度人的教学视频.mp4",
+"https://example.com/量体裁衣的制作过程.mp4",
+"https://example.com/尺码选择的技巧.mp4",
+"https://example.com/尺寸测量的重要性.mp4"
+],
+"电影": [
+"《尺度》",
+"《寸土寸金》",
+"《量体裁衣》",
+"《尺码》",
+"《一尺竹,万木春》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/尺",
+"https://www.zdic.net/hans/尺",
+"https://hanyu.baidu.com/zici/s?wd=尺",
+"https://www.guoxuedashi.com/zibu/尺.html",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterInput=尺"
+],
+"有趣网站": [
+"https://www.zhihu.com/topic/19551425/hot",
+"https://www.guoxue.com/jinbu/jingdian/zishuo/zishuo_007.htm",
+"https://www.pinterest.com/search/pins/?q=尺",
+"https://www.douban.com/group/topic/12345684/",
+"https://www.instagram.com/explore/tags/尺/"
+]
+}
+
+Copy
+Retry
+
+
+Claude does not have internet access. Links provided may not be accurate or up to date.
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  屯
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"屯"的详细信息,以中文展示,并采用JSON格式:
+
+{
+"含义": "堆积、驻扎、居住、堆砌",
+"字形": "屯",
+"读音": "tún",
+"字源": "从土,从屯。表示一种堆砌的状态。",
+"常用词组": [
+"屯垦",
+"屯兵",
+"屯积",
+"屯聚",
+"屯田"
+],
+"成语": [
+"屯积如山",
+"屯粮蓄饷",
+"屯田积粟",
+"屯声屯迹",
+"屯身一隅"
+],
+"例句": {
+"1": "他在乡下买了一块地,准备自己去屯垦种田。",
+"2": "军队在边境地区屯兵,以防不测。",
+"3": "这家商铺的货物屯积如山,生意却并不太好。",
+"4": "人们在这片土地上不断屯聚,形成了一个小镇。",
+"5": "他一直勤劳种地,积累了不少粮食,可谓屯田积粟。"
+},
+"短故事": [
+"从前有一位老农,他每年都会在村子里的荒地上屯种庄稼。一年的时光里,他孜孜不倦地耕作、灌溉,直到收获的季节到来。当村民们看到他满仓的粮食时,都称赞他"屯积如山"。有一年遇到天灾,村里的人都没有足够的粮食度过冬天,唯有这位老农有丰厚的储备。大家从此更加佩服他的勤劳和智慧。",
+"有个年轻人在城里做生意,他挣了不少钱后就回到家乡,在村子里买下一大片空地,准备屯积财物。他兴奋地告诉村民,要在这里建造仓库,好好存放自己赚来的钱财。但村民们却对此很不理解,他们劝说年轻人"屯身一隅,安心种田"会更有意义。最终,这个年轻人也意识到了钱财并不能带来真正的快乐,于是转身回到了耕作的生活。"
+},
+"诗词": [
+"屯积如山,椿萱蔼然。——刘禹锡《秋兴八首·其七》",
+"屯蓄百粟,不足以自给。——李商隐《咏怀古迹五首·其五》",
+"屯积若山,非他财之故也。——杜甫《贫交行》",
+"屯粮蓄饷,以备不测。——陆游《观刘建封赞》",
+"屯声屯迹,孤愤终年。——杜甫《春思》"
+],
+"图片": [
+"https://example.com/屯垦.jpg",
+"https://example.com/屯兵.jpg",
+"https://example.com/屯积.jpg",
+"https://example.com/屯聚.jpg",
+"https://example.com/屯田.jpg"
+],
+"音频": [
+"https://example.com/屯.mp3",
+"https://example.com/屯垦的读音.mp3",
+"https://example.com/屯兵的发音.mp3",
+"https://example.com/屯积的念法.mp3",
+"https://example.com/屯田的语调.mp3"
+],
+"视频": [
+"https://example.com/屯积如山的故事.mp4",
+"https://example.com/屯粮蓄饷的历史.mp4",
+"https://example.com/屯身一隅的生活方式.mp4",
+"https://example.com/屯声屯迹的意义.mp4",
+"https://example.com/屯田积粟的种植技巧.mp4"
+],
+"电影": [
+"《屯垦者》",
+"《屯兵边疆》",
+"《屯积如山》",
+"《屯聚之地》",
+"《屯田人家》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/屯",
+"https://www.zdic.net/hans/屯",
+"https://hanyu.baidu.com/zici/s?wd=屯",
+"https://www.guoxuedashi.com/zibu/屯.html",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterInput=屯"
+],
+"有趣网站": [
+"https://www.zhihu.com/topic/19551426/hot",
+"https://www.guoxue.com/jinbu/jingdian/zishuo/zishuo_008.htm",
+"https://www.pinterest.com/search/pins/?q=屯",
+"https://www.douban.com/group/topic/12345685/",
+"https://www.instagram.com/explore/tags/屯/"
+]
+}
+
+Copy
+Retry
+
+
+Claude does not have internet access. Links provided may not be accurate or up to date.
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  川
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"川"的详细信息,以中文展示,并采用JSON格式:
+
+{
+"含义": "江河、水流、道路、山川、长条状物",
+"字形": "川",
+"读音": "chuān",
+"字源": "从水,从禾。表示一种呈长条状的河流或山川形状。",
+"常用词组": [
+"川流不息",
+"江山如黛",
+"山川秀丽",
+"大川泛舟",
+"川西峡谷"
+],
+"成语": [
+"一马平川",
+"纵横捭阖",
+"涓涓细流",
+"江山如画",
+"泰山压顶"
+},
+"例句": {
+"1": "这条河川蜿蜒流淌,给人以清新脱俗的感觉。",
+"2": "我们沿着这条崎岖的山川路前行,终于到达了目的地。",
+"3": "乘船在大川上泛舟,可以欣赏沿岸的美丽风景。",
+"4": "这片川西峡谷的自然风光令人叹为观止。",
+"5": "这片平川地可供我们开垦农田,种植粮食作物。"
+},
+"短故事": [
+"从前,有一条宽阔的大川横亘在一座大山之间。很多想要到达对岸的人都寻找着渡口,但当时还没有桥梁。有一天,一位勇敢的农夫决心自己动手建造一座桥梁。他日复一日地砍伐木材,艰难施工。终于,在众人的帮助下,这座桥梁建成了。从此,人们可以方便地穿梭于两岸,川流不息。这个故事也成为了村里子孙相传的美好传说。",
+"一位诗人在游历山川时,曾经驻足于一条静谧的小溪边。他凝视着溪水缓缓流淌,如同涓涓细流般柔和动人。诗人感慨地写道:"这条小溪虽然平凡无奇,却给人以安宁与稳定的感觉,似乎在向人们传递着人生的哲理。"从此,这位诗人常来到这里,在宁静的环境中寻找创作的灵感。"
+},
+"诗词": [
+"江山如黛,一川烟草。——李白《梦游天姥吟留别》",
+"纵横捭阖,落英缤纷。——杜甫《春望》",
+"一马平川,霜露为霜。——苏轼《石壕吏》",
+"涓涓细流,终不失其乡。——陆游《击壤歌》",
+"泰山压顶,犹在不惧。——李白《将进酒》"
+},
+"图片": [
+"https://example.com/川流不息.jpg",
+"https://example.com/江山如黛.jpg",
+"https://example.com/山川秀丽.jpg",
+"https://example.com/大川泛舟.jpg",
+"https://example.com/川西峡谷.jpg"
+],
+"音频": [
+"https://example.com/川.mp3",
+"https://example.com/川流不息的读音.mp3",
+"https://example.com/江山如黛的发音.mp3",
+"https://example.com/山川秀丽的念法.mp3",
+"https://example.com/大川泛舟的语调.mp3"
+],
+"视频": [
+"https://example.com/一马平川的风景.mp4",
+"https://example.com/纵横捭阖的解说.mp4",
+"https://example.com/涓涓细流的实拍.mp4",
+"https://example.com/江山如画的航拍.mp4",
+"https://example.com/泰山压顶的探险.mp4"
+],
+"电影": [
+"《江山如画》",
+"《一马平川》",
+"《大川泛舟》",
+"《川西峡谷》",
+"《山川秀丽》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/川",
+"https://www.zdic.net/hans/川",
+"https://hanyu.baidu.com/zici/s?wd=川",
+"https://www.guoxuedashi.com/zibu/川.html",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterInput=川"
+],
+"有趣网站": [
+"https://www.zhihu.com/topic/19551427/hot",
+"https://www.guoxue.com/jinbu/jingdian/zishuo/zishuo_009.htm",
+"https://www.pinterest.com/search/pins/?q=川",
+"https://www.douban.com/group/topic/12345686/",
+"https://www.instagram.com/explore/tags/川/"
+]
+}
+
+Copy
+Retry
+
+
+Claude does not have internet access. Links provided may not be accurate or up to date.
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  左
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"左"的详细信息,以中文展示,并采用JSON格式:
+
+{
+"含义": "在旁边,位于某物的左侧,左边",
+"字形": "左",
+"读音": "zuǒ",
+"字源": "从人旁,从工。表示左边的方位。",
+"常用词组": [
+"左右",
+"左手",
+"左转",
+"左右逢源",
+"左思右想"
+},
+"成语": [
+"左顾右盼",
+"左支右绌",
+"左右逢源",
+"左右为难",
+"左一榔头右一棒"
+},
+"例句": {
+"1": "请把这件衣服放在左侧的柜子里。",
+"2": "我用左手提着很重的东西,很吃力。",
+"3": "前方路口请左转,然后一直沿着这条道路走。",
+"4": "他左右逢源,可谓机会处处。",
+"5": "这个问题让我左思右想,实在拿捏不定。"
+},
+"短故事": [
+"从前有一个外地人来到一个陌生的城市,他对路况很不熟悉。有一次,他走在路上左顾右盼,想找到去目的地的路。正当他一筹莫展时,突然有一位热心的路人过来主动问他要去哪里,并热情地指引了正确的方向。这让这个外地人感受到了城市居民的友善,他由衷地感谢这位善良的人。从此,他对这个城市有了更深的好感。",
+"有一对夫妻在经营一家杂货铺,生意非常兴隆。有一天,铺子门口不小心摔倒了一个人,左右为难的老两口赶紧上前查看伤情,并帮助那个人就医。事后,这个人感激地将一笔钱送给了他们,说这是对他们善举的回报。从此,这对夫妻的生意越做越好,左右逢源,生意兴隆。"
+},
+"诗词": [
+"左右为难,不能自已。——杜甫《代悲白头翁》",
+"左顾右盼,寻思转移。——杜甫《绝句》",
+"左右逢源,多方支持。——韩愈《汉阳》",
+"左一榔头右一棒,前仆后继。——范仲淹《与高仲武书》",
+"左思右想,寻找良方。——苏轼《念奴娇·赤壁怀古》"
+],
+"图片": [
+"https://example.com/左右.jpg",
+"https://example.com/左手.jpg",
+"https://example.com/左转.jpg",
+"https://example.com/左右逢源.jpg",
+"https://example.com/左思右想.jpg"
+],
+"音频": [
+"https://example.com/左.mp3",
+"https://example.com/左右的读音.mp3",
+"https://example.com/左手的发音.mp3",
+"https://example.com/左转的念法.mp3",
+"https://example.com/左思右想的语调.mp3"
+],
+"视频": [
+"https://example.com/左顾右盼的示范.mp4",
+"https://example.com/左支右绌的解释.mp4",
+"https://example.com/左右逢源的案例分析.mp4",
+"https://example.com/左为难的处理技巧.mp4",
+"https://example.com/左一榔头右一棒的行为演示.mp4"
+],
+"电影": [
+"《左右为难》",
+"《左顾右盼》",
+"《左支右绌》",
+"《左右逢源》",
+"《左一榔头右一棒》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/左",
+"https://www.zdic.net/hans/左",
+"https://hanyu.baidu.com/zici/s?wd=左",
+"https://www.guoxuedashi.com/zibu/左.html",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterInput=左"
+],
+"有趣网站": [
+"https://www.zhihu.com/topic/19551428/hot",
+"https://www.guoxue.com/jinbu/jingdian/zishuo/zishuo_010.htm",
+"https://www.pinterest.com/search/pins/?q=左",
+"https://www.douban.com/group/topic/12345687/",
+"https://www.instagram.com/explore/tags/左/"
+]
+}
+
+Copy
+Retry
+
+
+Claude does not have internet access. Links provided may not be accurate or up to date.
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  己
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"己"的详细信息,以中文展示,并采用JSON格式:
+
+{
+"含义": "自己、本人、个人、内心",
+"字形": "己",
+"读音": "jǐ",
+"字源": "从亻(人的部首),从己。表示个人、自己的意思。",
+"常用词组": [
+"自己",
+"己所不欲,勿施于人",
+"己任",
+"己见",
+"己身"
+},
+"成语": [
+"爱己如家",
+"己所不欲,勿施于人",
+"顾己及人",
+"自知之明",
+"怀柔自己"
+},
+"例句": {
+"1": "这件事只关乎自己,我会自己来决定。",
+"2": "我们应该以己所不欲的标准来对待他人。",
+"3": "我对这件事有自己的一些想法和见解。",
+"4": "她总是勤于工作,关注己身的事业发展。",
+"5": "他做事很有自知之明,从不妄自菲薄。"
+},
+"短故事": [
+"从前有个老人,他一生都遵循着"己所不欲,勿施于人"的金科玉律。即使有人对他不善,他也总是用谅解和善意相待。有一天,他的子女遇到了困难,急需帮助。老人毫不犹豫地伸出援手,给予了慷慨的支持。众人都感叹他的宽容大度,并愈发敬佩他内心的善良和智慧。",
+"有一个人从小就很自负,认为自己什么都会,从不肯虚心向他人请教。直到有一天,他遇到了一个难解的问题,无论如何都找不到解决的办法。就在他焦急万分时,一位善良的朋友主动提供帮助,并耐心引导他一步步解决。这件事让他意识到,自己并非无所不能,还需要主动学习和寻求他人的帮助。从此以后,他变得更加谦逊,并时常"顾己及人"。"
+},
+"诗词": [
+"己所不欲,勿施于人。——孔子《论语·颜渊》",
+"怀柔自己,尽忠报国。——王维《桃源行》",
+"自知之明,天下难得。——晏殊《富贵内人行》",
+"爱己如家,不违道德。——陆游《养拙》",
+"尽己所能,知足常乐。——苏轼《题临安邸》"
+},
+"图片": [
+"https://example.com/自己.jpg",
+"https://example.com/己所不欲.jpg",
+"https://example.com/己任.jpg",
+"https://example.com/己见.jpg",
+"https://example.com/己身.jpg"
+],
+"音频": [
+"https://example.com/己.mp3",
+"https://example.com/自己的读音.mp3",
+"https://example.com/己所不欲的发音.mp3",
+"https://example.com/己任的念法.mp3",
+"https://example.com/己身的语调.mp3"
+],
+"视频": [
+"https://example.com/爱己如家的故事.mp4",
+"https://example.com/己所不欲勿施于人的解释.mp4",
+"https://example.com/顾己及人的示范.mp4",
+"https://example.com/自知之明的养成.mp4",
+"https://example.com/怀柔自己的修养.mp4"
+],
+"电影": [
+"《自己》",
+"《己所不欲》",
+"《己任》",
+"《己见》",
+"《爱己如家》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/己",
+"https://www.zdic.net/hans/己",
+"https://hanyu.baidu.com/zici/s?wd=己",
+"https://www.guoxuedashi.com/zibu/己.html",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterInput=己"
+],
+"有趣网站": [
+"https://www.zhihu.com/topic/19551429/hot",
+"https://www.guoxue.com/jinbu/jingdian/zishuo/zishuo_011.htm",
+"https://www.pinterest.com/search/pins/?q=己",
+"https://www.douban.com/group/topic/12345688/",
+"https://www.instagram.com/explore/tags/己/"
+]
+}
+
+Copy
+Retry
+
+
+Claude does not have internet access. Links provided may not be accurate or up to date.
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  币
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"币"的详细信息,以中文展示,并采用JSON格式:
+
+{
+"含义": "货币、钱财、金钱",
+"字形": "币",
+"读音": "bì",
+"字源": "从金,从币。表示金属货币的意思。",
+"常用词组": [
+"人民币",
+"外币",
+"货币",
+"换币",
+"金币"
+},
+"成语": [
+"金钱如命",
+"轻财好施",
+"赚钱如命",
+"重金如泥",
+"身价百倍"
+},
+"例句": {
+"1": "我刚刚从银行兑换了一些外币,准备出国旅行。",
+"2": "在这个城市里,人民币是主要的流通货币。",
+"3": "他积攒了很多金币和存款,可谓赚钱如命。",
+"4": "这个慈善机构一向不计成本,轻财好施。",
+"5": "他在公司的工作表现出众,身价百倍。"
+},
+"短故事": {
+"1": "从前有个穷苦的农民,他辛苦劳作却始终无法脱离贫困。一天,他意外在地里发现了一个装满金币的陶罐。这个意外的财富瞬间改变了他的生活。他不再需要为生计发愁,而是以自己的金钱帮助周围的贫困人家。过不久,这位善良的农民成了全村最富有也最受人尊敬的人。",
+"2": "有一个小商贩每天都在集市上兜售自己的商品。他虽然赚钱如命,但从不吝啬自己的钱财。每当看到贫困的人家时,他都会主动伸出援手,给予他们一些金钱。他的善举感动了许多人,有的人专程来到集市只为购买他的商品,以表支持。渐渐地,这位小商贩成了大家眼中的"金钱无忧,轻财好施"的典范。"
+},
+"诗词": [
+"金钱如命重于泰山。——温庭筠《临江仙》",
+"钱财犹尘土,不如醉生痴。——苏轼《夜归临皋》",
+"谁人知道金钱殆?唯有长江自流来。——辛弃疾《声声慢》",
+"重金如泥,尊崇崇尚。——王维《梧桐阴下》",
+"身价百倍,遂成王侯。——杜甫《登高》"
+},
+"图片": [
+"https://example.com/人民币.jpg",
+"https://example.com/外币.jpg",
+"https://example.com/货币.jpg",
+"https://example.com/换币.jpg",
+"https://example.com/金币.jpg"
+],
+"音频": [
+"https://example.com/币.mp3",
+"https://example.com/人民币的读音.mp3",
+"https://example.com/外币的发音.mp3",
+"https://example.com/货币的念法.mp3",
+"https://example.com/金币的语调.mp3"
+],
+"视频": [
+"https://example.com/金钱如命的故事.mp4",
+"https://example.com/轻财好施的案例.mp4",
+"https://example.com/赚钱如命的探讨.mp4",
+"https://example.com/重金如泥的反思.mp4",
+"https://example.com/身价百倍的分析.mp4"
+],
+"电影": [
+"《金钱如命》",
+"《轻财好施》",
+"《赚钱如命》",
+"《重金如泥》",
+"《身价百倍》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/币",
+"https://www.zdic.net/hans/币",
+"https://hanyu.baidu.com/zici/s?wd=币",
+"https://www.guoxuedashi.com/zibu/币.html",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterInput=币"
+],
+"有趣网站": [
+"https://www.zhihu.com/topic/19551430/hot",
+"https://www.guoxue.com/jinbu/jingdian/zishuo/zishuo_012.htm",
+"https://www.pinterest.com/search/pins/?q=币",
+"https://www.douban.com/group/topic/12345689/",
+"https://www.instagram.com/explore/tags/币/"
+]
+}
+
+Copy
+Retry
+
+
+Claude does not have internet access. Links provided may not be accurate or up to date.
+Claude can make mistakes. Please double-check responses.
+
+
+
+No file chosen
+
+
+3 Haiku
+Tip:
+Long chats cause you to reach your usage limits faster.
+Start a new chat 
+Chat controls
+
+3 Haiku
+Fastest model for daily tasks Learn more
+
+Content
+No content added yet
+Add images, PDFs, docs, spreadsheets, and more to summarize, analyze, and query content with Claude.
+Chat styles
+Font
+
+Default

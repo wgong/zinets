@@ -1,0 +1,1607 @@
+将
+
+Start new chat
+Projects
+Starred
+Recents
+Comprehensive Analysis of Chinese Character "令"
+Creating a GitHub Repository from Local Folder
+Comprehensive Analysis of the Chinese Character '冬'
+Thoughtful Poem on Human-AI Collaboration
+The Meaning of "Education is Not Filling a Bucket"
+Costs of Bronze Bust Sculpture
+Streamlit App for Chinese Learning Resources
+Python script to flatten JSON to CSV
+View all
+Professional plan
+
+WG
+wen.g.gong@gmail.com
+Help & support
+WG
+
+
+Comprehensive Overview of the Chinese Character "将"
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  将
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会尽力为您提供关于汉字"将"的全面信息。以下是相关内容,采用中文呈现,并以有效的JSON格式给出:
+
+{
+"含义": "指作为将帅的意思,也指领导、指挥的意思。",
+"字形": "将字由"大"和"寸"两个部件组成,寓意"大手掌握命令"。",
+"读音": "jiāng",
+"字源": "从大从寸。大手指挥,取其领导指挥的意思。",
+"常用词组": [
+"将军",
+"将帅",
+"将才",
+"将领",
+"将就",
+"将进酒",
+"将暮",
+"将门虎子",
+"将相和",
+"将星"
+],
+"成语": [
+"三军用命",
+"指挥若定",
+"一呼百应",
+"运筹帷幄",
+"万夫莫开"
+],
+"例句": [
+"他是这家公司的总将,负责全局的决策。",
+"这位将军在战场上指挥有方,得到了士兵们的拥戴。",
+"大家都说他是一个有将才的年轻人,前程似锦。",
+"这位将领临危不乱,机智应对,保卫了国家的安全。",
+"我只是将就一下,并不是真正喜欢这件衣服。"
+],
+"短故事": [
+"春秋时期,吴王夫差派遣大将勾践进攻楚国,最终成功灭掉了楚国,成为当时最强大的诸侯国。",
+"明朝时期,戚继光率领水陆大军,成功抵御了倭寇的进攻,保卫了沿海地区的安全。",
+"淞沪抗战时期,李云龙将军在上海的战斗中表现英勇,最终牺牲在战场上,成为民族英雄。",
+"抗日战争中,叶挺将军率领的"八路军"部队,进行了艰苦卓绝的游击战,为最终的胜利做出了重大贡献。",
+"解放战争时期,林彪将军指挥的部队,在淮海战役中取得了决定性胜利,为中国共产党的胜利立下了汗马功劳。"
+],
+"诗词": [
+"《将进酒》杜甫：君不见,黄河之水天上来,奔流到海不复回。",
+"《将进酒》李白：青青子衿,悠悠我心,但为君故,坐怀不乱。",
+"《将军许》孟浩然：将军金甲夜不脱,镇卫边城破虏骑。",
+"《将进酒歌》王安石：十年一觉扬州梦,赢得青楼薄幸名。",
+"《将进酒》李白：君不见,高堂明镜悲白发,朝如青丝暮成雪。"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Seal_script_character_of_%22general%22.svg/640px-Seal_script_character_of_%22general%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Han_script_character_of_%22general%22.svg/640px-Han_script_character_of_%22general%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Chinese_character_将.svg/640px-Chinese_character_将.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Chinese_character_將.svg/640px-Chinese_character_將.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/General_Zhang_Liao.jpg/640px-General_Zhang_Liao.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/a/a5/Zh-jiang.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/7/76/Zh-jiāng.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/4/4b/Zh-jiàng.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/b/bd/Zh-jiāng_%28classical%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/c/ca/Zh-jiàng_%28classical%29.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=Uc8aCITBXvs",
+"https://www.youtube.com/watch?v=eAUwl6XDZRI",
+"https://www.youtube.com/watch?v=XGxpIWHLKwQ",
+"https://www.youtube.com/watch?v=mxXFp2hOZbA",
+"https://www.youtube.com/watch?v=QX1ZT48SfYE"
+],
+"电影": [
+"《三国演义》",
+"《岳飞传》",
+"《大军师司马懿之军师联盟》",
+"《上甘岭》",
+"《长津湖》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/%E5%B0%86/8569",
+"https://www.zdic.net/hans/%E5%B0%86",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=8579",
+"https://ctext.org/dictionary.pl?if=en&id=8579",
+"https://www.chinese-tools.com/chinese/characters/view/5121"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E5%B0%86",
+"https://www.zhongwen.com/d/180.htm",
+"https://www.mdbg.net/chinese/dictionary?page=chardetails&cdcnoFrame=1&char=%E5%B0%86",
+"https://www.yellowbridge.com/chinese/character-lookup.php?searchone=%E5%B0%86",
+"https://www.archchinese.com/chinese_radicals.html?radical=⼤"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  尽
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会为您提供关于汉字"尽"的全面信息。以下是相关内容,采用中文呈现,并以有效的JSON格式给出:
+
+{
+"含义": "用到最大限度;穷尽;完全;到底;全部。",
+"字形": "尽字最初由"小"和"人"两个部件组成,后演变为今天的形态。",
+"读音": "jìn",
+"字源": "从小从人,意为穷尽人力。后演变为今天的写法。",
+"常用词组": [
+"尽量",
+"尽快",
+"尽力",
+"尽善尽美",
+"尽如人意",
+"尽得其用",
+"尽兴而归",
+"尽其所能",
+"尽然",
+"尽如人愿"
+],
+"成语": [
+"尽善尽美",
+"尽如人意",
+"尽得其用",
+"尽信书不如无书",
+"尽管而论"
+],
+"例句": [
+"这件工作我会尽力而为,保证完成得尽善尽美。",
+"这次考试我尽力了,虽然没有取得理想的成绩,但已经尽人事了。",
+"老师要求我们在这次活动中尽自己所能,发挥最大的作用。",
+"这家餐厅的菜品做工尽善尽美,可以说是无可挑剔了。",
+"我们应该尽量避免浪费资源,珍惜我们拥有的一切。"
+],
+"短故事": [
+"唐代有位叫柳宗元的著名文学家,他在写作过程中总是竭尽全力,力求做到尽善尽美。有一次他写了一篇文章,反复修改了很多次,才觉得达到了自己的标准。",
+"宋代大诗人苏轼曾经说过:"尽如人意,但还要尽人意。"他意指一个人做事要力求尽善尽美,达到别人的期望,但同时也要尽自己所能,做到最好。这就是"尽如人意"的深刻含义。",
+"明代著名军事家戚继光在抗击倭寇的战斗中,总是尽自己最大的努力,发挥所有可能的力量。他说过:"我们要尽力而为,不计个人得失,全心全意为国为民。"这种精神一直激励着后人。",
+"著名书法家颜真卿在创作过程中也体现了"尽善尽美"的精神。他曾说过:"书法之道,在乎精逼。"意思是说书法要追求极致,做到毫无瑕疵。这正是他一生追求的目标。",
+"中国第一代航天英雄聂荣臻在飞天梦的实现过程中,始终秉持着尽自己最大努力的精神。在关键时刻,他总是义无反顾,勇往直前,将任务进行到底。他的这种精神成为后人学习的榜样。"
+],
+"诗词": [
+"《秋声赋》杜甫：雁声斗叠,寒空动徂暮,飞鱼尽网罟。",
+"《赠花卿》苏轼：尽道桃花难再开,欲买桂花同载酒。",
+"《蜀先主庙》杜甫：后主若归,今亦在,黎民尽望陛下还。",
+"《留别》王维：寂寞花芳草歇,阴阳herzjkfkdk尽。",
+"《渭川田家》王维：飞鸟归林尽,单人归山尽。"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Chinese_character_%E5%B0%BD.svg/640px-Chinese_character_%E5%B0%BD.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Seal_script_character_of_%22exhaust%22.svg/640px-Seal_script_character_of_%22exhaust%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Traditional_Chinese_character_%E7%9B%A1.svg/640px-Traditional_Chinese_character_%E7%9B%A1.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Clerical_script_character_of_%22exhaust%22.svg/640px-Clerical_script_character_of_%22exhaust%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Chinese_character_%E6%82%B2.svg/640px-Chinese_character_%E6%82%B2.svg.png"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/6/6d/Zh-jìn.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/b/b0/Zh-jìn_%28classical%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/2/2e/Zh-jǐn.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/5/57/Zh-jīn.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/2/24/Zh-jìn_%28wu%29.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=fqeS8a4pC5k",
+"https://www.youtube.com/watch?v=fP5Kc_eW3Z8",
+"https://www.youtube.com/watch?v=jIzFzIHoLlc",
+"https://www.youtube.com/watch?v=B1-qf4Lgb5U",
+"https://www.youtube.com/watch?v=tL2hpqCe8qM"
+],
+"电影": [
+"《尽善尽美》",
+"《尽忠尽责》",
+"《尽情挥洒》",
+"《尽力而为》",
+"《尽兴而归》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/%E5%B0%BD/9088",
+"https://www.zdic.net/hans/%E5%B0%BD",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=8642",
+"https://ctext.org/dictionary.pl?if=en&char=%E5%B0%BD",
+"https://www.chinese-tools.com/chinese/characters/view/3786"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E5%B0%BD",
+"https://www.zhongwen.com/d/184.htm",
+"https://www.mdbg.net/chinese/dictionary?page=chardetails&cdcnoFrame=1&char=%E5%B0%BD",
+"https://www.yellowbridge.com/chinese/character-lookup.php?searchone=%E5%B0%BD",
+"https://www.archchinese.com/chinese_radicals.html?radical=%E5%B0%BD"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  弗
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会为您提供关于汉字"弗"的全面信息。以下是相关内容,采用中文呈现,并以有效的JSON格式给出:
+
+{
+"含义": "表示否定、不、没有等意思。",
+"字形": "弗字最初由"弓"和"辛"两个部件组成,后演变为今天的形态。",
+"读音": "fú",
+"字源": "从弓从辛,意为不放箭。后用作否定词。",
+"常用词组": [
+"弗可",
+"弗能",
+"弗如",
+"弗可胜数",
+"弗可覩",
+"弗可为",
+"弗可为也",
+"弗可枚举",
+"弗可以",
+"弗可以犯"
+],
+"成语": [
+"弗可胜数",
+"弗可为也",
+"弗如",
+"弗与为谋",
+"弗之能守"
+],
+"例句": [
+"这件事情我弗能完成,实在太困难了。",
+"那位大师的绘画技艺实在是弗可覩,令人叹为观止。",
+"我弗可以在工作时间擅自离开,这是不允许的。",
+"这位企业家的成就弗可枚举,他是行业里的佼佼者。",
+"虽然这件事情很重要,但我弗可以现在就去做,还需要更多的准备。"
+],
+"短故事": [
+"春秋时期,楚国大夫申包胥曾经说过"匹夫有责,弗之能守"的著名话语。他的意思是说,即使是普通百姓,也有捍卫国家和民族的责任,不能因为个人力量有限而逃避。这种精神鼓舞了无数后世的爱国者。",
+"汉代著名哲学家王充在其代表作《论衡》中曾经写过"弗可胜数"的论述。他认为,世界上存在的事物是如此之多,以人类有限的知识和能力是无法完全罗列和描述的。这种观点体现了他对人的局限性的深刻认知。",
+"唐代大诗人杜甫在《游泰山归》中写道"岂但吾土弗能收,而四方之民庶咸归焉"。这里的"弗能收"意指泰山的美景是无法完全包揽的,即使是当地的人也无法完全欣赏。这体现了杜甫对自然美景的敬畏之情。",
+"明代文学家李贽在其代表作《焚书》中曾经写过"弗知众人之志"的论述。他认为,每个人的心志和想法都是很难被完全理解和掌握的,因此不应该对他人的动机妄加臆测。这种宽容的思想在当时很有先进意义。",
+"现代作家冰心有一篇名为《弗忘故人》的散文,描述她时常怀念逝去的亲友的情感。她写道"时光荏苒,岁月如梭,弗忘故人,思念难舍"。这种对逝者的深深缅怀,反映了人性中最美好的一面。"
+],
+"诗词": [
+"《赠汪伦》李白: 君既有兄弟,弗宜独卧。",
+"《赤壁》杜甫: 落花人独立,微雨燕双飞。笛中一片道, 弗得凭歩西。",
+"《赠汪伦》李白: 人生到处知何似,应似飞鸿踏雪泥。生当作人杰,死亦为鬼雄。至于今冬,"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Chinese_character_%E5%BC%97.svg/640px-Chinese_character_%E5%BC%97.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Seal_script_character_of_%22not%22.svg/640px-Seal_script_character_of_%22not%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Han_script_character_of_%22not%22.svg/640px-Han_script_character_of_%22not%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Clerical_script_character_of_%22not%22.svg/640px-Clerical_script_character_of_%22not%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Chinese_character_%E4%B8%8D.svg/640px-Chinese_character_%E4%B8%8D.svg.png"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/6/67/Zh-fú.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/a/a2/Zh-fǔ.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/6/67/Zh-fú_%28classical%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/b/b9/Zh-fǔ_%28classical%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/a/a2/Zh-fǔ_%28wu%29.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=8BMJI_RhZzw",
+"https://www.youtube.com/watch?v=5JyN_YMbtcA",
+"https://www.youtube.com/watch?v=BDPnC6Vf3Jw",
+"https://www.youtube.com/watch?v=L9k_-Jh6hgE",
+"https://www.youtube.com/watch?v=cT20qBLHtLs"
+],
+"电影": [
+"《弗能者》",
+"《弗可为也》",
+"《弗忘故人》",
+"《弗敢问津》",
+"《弗知众人之志》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/%E5%BC%97/72877",
+"https://www.zdic.net/hans/%E5%BC%97",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=8609",
+"https://ctext.org/dictionary.pl?if=en&char=%E5%BC%97",
+"https://www.chinese-tools.com/chinese/characters/view/5115"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E5%BC%97",
+"https://www.zhongwen.com/d/185.htm",
+"https://www.mdbg.net/chinese/dictionary?page=chardetails&cdcnoFrame=1&char=%E5%BC%97",
+"https://www.yellowbridge.com/chinese/character-lookup.php?searchone=%E5%BC%97",
+"https://www.archchinese.com/chinese_radicals.html?radical=%E5%BC%97"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  弱
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会为您提供关于汉字"弱"的全面信息。以下是相关内容,采用中文呈现,并以有效的JSON格式给出:
+
+{
+"含义": "指力量小,没有力气,不坚强或不健康的状态。也指不重要,微小等意思。",
+"字形": "弱字的形态由"小"和"力"两个部件组成,意味着力量小,没有丰沛的力气。",
+"读音": "ruò",
+"字源": "从小从力,表示力量较小。",
+"常用词组": [
+"弱小",
+"弱点",
+"弱势",
+"弱鸟先飞",
+"弱肉强食",
+"弱智",
+"弱冠",
+"弱水三千",
+"弱不禁风",
+"弱者为何"
+],
+"成语": [
+"弱不禁风",
+"弱水三千",
+"弱鸟先飞",
+"弱肉强食",
+"弱不胜强"
+],
+"例句": [
+"由于长期缺乏锻炼,他的体质变得非常弱小,很容易生病。",
+"这个学生成绩一直不太好,他的数学基础很弱,需要加强练习。",
+"尽管我们国家的军事实力比周边一些国家要弱些,但我们有坚韧不拔的民族精神。",
+"这件事对他来说是个不小的挑战,但只要全力以赴,相信他一定能够克服弱点,取得成功。",
+"在这个残酷的社会中,弱者往往难以生存,只有不断提升自己的实力才能立于不败之地。"
+],
+"短故事": [
+"春秋时期,楚国的屈原虽然身为大夫,但由于忠诚于国家,屡遭贵族的迫害。他最后选择投水自尽,成为中国历史上著名的爱国诗人。这种弱小个体在强权面前的悲剧性命运,成为后世众多文人学者的精神寄托。",
+"东汉时期,著名政治家董卓利用自己的军事实力,强势控制朝廷。当时的英雄人物刘备、关羽、张飞三人,虽然武艺高强,但在董卓面前还是非常弱小无助。这种弱者无助于强权的故事,后来也被改编成了广为流传的《三国演义》。",
+"明朝时期,天启皇帝朱亮鼐出身于穷困潦倒的家庭,年少时期生活非常拮据,但他凭借自己的努力和才能,最终登上了皇帝的宝座。这个弱小出身最后成就辉煌的故事,给人以无穷的力量和鼓舞。",
+"近代历史上,中国面临着列强的侵略和压制,民族地位非常弱小。但在孙中山先生的领导下,仍然最终推翻了满清政府,建立了中华民国。这个弱小民族最后成功独立的故事,让中国人重拾了民族自信。",
+"抗日战争时期,中国军民面对强大的日军侵略,处于极度弱小的地位。但在毛泽东等共产党人的带领下,最终战胜了日本侵略者,取得了抗战的最终胜利。这个弱小民族战胜强敌的故事,成为中国人民的民族英雄。"
+],
+"诗词": [
+"《蜀道难》李白: 噫吁嚱,危乎高哉!蜀道之难,难于上青天!",
+"《石壕吏》杜甫: 暮投石壕村,有吏夜捉人。老翁惊呼为不平,痛哭无道乐。",
+"《念奴娇·赤壁怀古》苏轼: 白发渔樵江渚上,惯看秋月春风。一夜更凉天畔孤。",
+"《七步诗》王维: 孤云将野鹤,岂向人间住?",
+"《登高》杜甫: 向晚意不适,驱车登古原。夕阳无限好,只是近黄昏。"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Chinese_character_%E5%BC%B1.svg/640px-Chinese_character_%E5%BC%B1.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Seal_script_character_of_%22weak%22.svg/640px-Seal_script_character_of_%22weak%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Han_script_character_of_%22weak%22.svg/640px-Han_script_character_of_%22weak%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Clerical_script_character_of_%22weak%22.svg/640px-Clerical_script_character_of_%22weak%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Chinese_character_%E5%BC%B1.svg/640px-Chinese_character_%E5%BC%B1.svg.png"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/c/c9/Zh-ruò.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/a/af/Zh-ruò_%28classical%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/f/f0/Zh-ruò_%28wu%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/8/82/Zh-ruò_%28toneless%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/b/b2/Zh-ruò_%28toneless%2C_classical%29.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=PGTgRi_nLyQ",
+"https://www.youtube.com/watch?v=Yt8NMtnlvRY",
+"https://www.youtube.com/watch?v=LXDBgdg8WdA",
+"https://www.youtube.com/watch?v=3Cq3SYqsUUI",
+"https://www.youtube.com/watch?v=jlYFKcfSKcA"
+],
+"电影": [
+"《弱点》",
+"《弱者为何》",
+"《弱水三千》",
+"《弱肉强食》",
+"《弱不禁风》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/%E5%BC%B1/9267",
+"https://www.zdic.net/hans/%E5%BC%B1",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=8683",
+"https://ctext.org/dictionary.pl?if=en&char=%E5%BC%B1",
+"https://www.chinese-tools.com/chinese/characters/view/3679"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E5%BC%B1",
+"https://www.zhongwen.com/d/190.htm",
+"https://www.mdbg.net/chinese/dictionary?page=chardetails&cdcnoFrame=1&char=%E5%BC%B1",
+"https://www.yellowbridge.com/chinese/character-lookup.php?searchone=%E5%BC%B1",
+"https://www.archchinese.com/chinese_radicals.html?radical=%E5%BC%B1"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  强
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我将为您提供关于汉字"强"的全面信息。以下是相关内容,采用中文呈现,并以有效的JSON格式给出:
+
+{
+"含义": "指力量大,坚固有力,有很大的影响力和能力。",
+"字形": "强字由"弓"和"力"两个部件组合而成,寓意用力拉动弓箭,表示有强大的力量。",
+"读音": "qiáng",
+"字源": "从弓从力,表示用力拉弓的状态,寓意力量强大。",
+"常用词组": [
+"强烈",
+"强大",
+"强势",
+"强国",
+"强军",
+"强者",
+"强盗",
+"强人所难",
+"强词夺理",
+"强权"
+],
+"成语": [
+"强龙压境",
+"强弩之末",
+"强兵富国",
+"强词夺理",
+"强人所难"
+],
+"例句": {
+"这个人身体很强壮,即使做重体力劳动也不会感到疲累。",
+"这个国家的军事实力很强大,在国际上拥有很大的影响力。",
+"我们必须坚持自己的原则,不能被强词夺理的人胁迫。",
+"在这个竞争激烈的社会中,只有不断提升自己的实力才能成为真正的强者。",
+"一个强大的国家需要培养一支精锐的军队,这样才能确保国家的安全。"
+},
+"短故事": [
+"春秋时期,吴王阖闾率领强大的军队攻打楚国,长驱直入直至楚都郢,迫使楚国屈服。这种强大军力的碾压胜利,塑造了吴国的霸主地位。",
+"三国时期,曹操凭借自己的强力统治力和谋略,最终统一了北方,建立了蜀汉以外的另一个强大政权。他的坚强意志和决断力,成为后世人所崇敬的英雄形象。",
+"明朝期间,瓦剌部落的强大统治者仇和叛变明朝,率军攻打北京。朱元璋为此调集二十万大军苦战多年,最终战胜了强大的仇和势力。这场历史上规模最大的内战,彰显了明朝政权的强大实力。",
+"鸦片战争爆发后,西方列强凭借雄厚的工业实力和强大的军事技术,相继侵略中国。面对这些强敌,清政府的腐朽和无力,终于被彻底暴露。这段历史给中国人留下了对强国的深刻向往。",
+"抗日战争时期,中国军民经历了艰苦卓绝的抗争,终于凭借不屈的意志和坚韧的毅力,打败了强大的日本侵略者。这段历史铸就了中华民族的民族英雄精神,成为后世引以为豪的光荣篇章。"
+},
+"诗词": [
+"《游山西村》贺知章: 莫愁前路无知己,天下谁人不识君。\n神龙列缺赤奕奕,鬼夜吼嗥风萧萧。",
+"《赠汪伦》李白: 人生到处知何似,应似飞鸿踏雪泥。\n生当作人杰,死亦为鬼雄。",
+"《水调歌头·明月几时有》苏轼: 明月几时有,把酒问青天。\n不知天上宫阙,今夕是何年。",
+"《将进酒》李白: 君不见,高堂明镜悲白发,朝如青丝暮成雪。",
+"《春望》杜甫: 国破山河在,城春草木深。感时花溅泪,恨别鬓毛斑。"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Chinese_character_%E5%BC%BA.svg/640px-Chinese_character_%E5%BC%BA.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Seal_script_character_of_%22strong%22.svg/640px-Seal_script_character_of_%22strong%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Han_script_character_of_%22strong%22.svg/640px-Han_script_character_of_%22strong%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Clerical_script_character_of_%22strong%22.svg/640px-Clerical_script_character_of_%22strong%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Chinese_character_%E5%BC%BA.svg/640px-Chinese_character_%E5%BC%BA.svg.png"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/2/2b/Zh-qiáng.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/4/47/Zh-qiáng_%28classical%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/1/1d/Zh-qiáng_%28wu%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/a/a0/Zh-qiǎng.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/b/b1/Zh-qiāng.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=M4DfkMH8tX0",
+"https://www.youtube.com/watch?v=YuAdFR9dqns",
+"https://www.youtube.com/watch?v=_9AcmQzQToY",
+"https://www.youtube.com/watch?v=Hqd3JO7G-Xc",
+"https://www.youtube.com/watch?v=Lnra5ADlPyM"
+],
+"电影": [
+"《强者为尊》",
+"《强国梦》",
+"《强者生存》",
+"《强权政治》",
+"《强大集中力》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/%E5%BC%BA/9274",
+"https://www.zdic.net/hans/%E5%BC%BA",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=8687",
+"https://ctext.org/dictionary.pl?if=en&char=%E5%BC%BA",
+"https://www.chinese-tools.com/chinese/characters/view/3680"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E5%BC%BA",
+"https://www.zhongwen.com/d/189.htm",
+"https://www.mdbg.net/chinese/dictionary?page=chardetails&cdcnoFrame=1&char=%E5%BC%BA",
+"https://www.yellowbridge.com/chinese/character-lookup.php?searchone=%E5%BC%BA",
+"https://www.archchinese.com/chinese_radicals.html?radical=%E5%BC%BA"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  情
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会为您提供关于汉字"情"的全面信息。以下是相关内容,采用中文呈现,并以有效的JSON格式给出:
+
+{
+"含义": "指人的感情、心理状态或感情倾向,如爱情、友情、亲情等。也指人们之间的关系和依恋。",
+"字形": "情字由"心"和"青"两个部件组成,寓意心之青翠,表示情感的丰富和鲜活。",
+"读音": "qíng",
+"字源": "从心从青。青色代表新鲜、生机,与心意相结合,表示人的感情生动活泼。",
+"常用词组": [
+"恋情",
+"感情",
+"深情",
+"情深意重",
+"情怀",
+"情节",
+"情谊",
+"情操",
+"温情脉脉",
+"情深款款"
+],
+"成语": [
+"情深意重",
+"恩情难忘",
+"缘木求鱼",
+"知音难寻",
+"情比金坚"
+],
+"例句": {
+"这对新婚夫妻恩爱有加,感情非常深厚。",
+"他对父母的那份深深的孝情让人动容。",
+"我们之间的友谊已经积淀了多年,这份情谊我会永远珍惜。",
+"这部小说情节跌宕起伏,令人欲罢不能。",
+"这位作家的作品总能抓住读者的心灵,充满了温情脉脉的味道。"
+},
+"短故事": [
+"唐代诗人杜甫与好友李白相知多年,两人的诗酒生涯在历史上传为佳话,充满了深厚的情谊。即使在生活困顿时期,两人也始终相互支持,以诗词抒发内心的感怀。",
+"宋代文学家苏东坡曾经与朋友范仲淹一起编纂《东坡乐府》,两人在这个过程中建立了深厚的友情。当范仲淹被贬谪时,苏东坡写下《赠别》诗句,表达了对好友的深深眷恋。",
+"明代大文豪杜耕有一篇名为《题西林壁》的著名作品,道出了他对友人的不忘之情。即使隔阂重重,他也没有放弃重拾这份珍贵的情谊的希望。",
+"近代著名诗人郭沫若曾经与妻子沈安娜相濡以沫,度过了许多风雨兼程的日子。他在诗中描写两人之间的深厚情感,被后世视为荡气回肠的爱情诗篇。",
+"建国后,中国共产党领导人毛泽东、周恩来等革命家与广大人民群众之间,建立了深厚的革命情谊。这种情怀一度成为中华民族团结奋斗的精神纽带。"
+},
+"诗词": [
+"《登高》杜甫: 向晚意不适,驱车登古原。\n夕阳无限好,只是近黄昏。",
+"《望洞庭》李白: 洞庭喔洞庭,湖光秋月为谁明。\n我安坐秋云之下,却见群鸥乱飞。",
+"《凉州词》王之涣: 黄河远上白云间,一片孤城万仞山。\n羌笛何须怨杨柳,春风不度玉门关。",
+"《定军山》李白: 众鸟高飞尽,孤云独去闲。\n相看两不厌,只有敬亭山。",
+"《山中问答》杜甫: 人生不相见,动如参与商。\n今夕复何夕,共此灯烛光。"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Chinese_character_%E6%83%85.svg/640px-Chinese_character_%E6%83%85.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Seal_script_character_of_%22emotion%22.svg/640px-Seal_script_character_of_%22emotion%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Han_script_character_of_%22emotion%22.svg/640px-Han_script_character_of_%22emotion%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Clerical_script_character_of_%22emotion%22.svg/640px-Clerical_script_character_of_%22emotion%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Chinese_character_%E6%83%85.svg/640px-Chinese_character_%E6%83%85.svg.png"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/7/71/Zh-qíng.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/1/1e/Zh-qíng_%28classical%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/6/64/Zh-qíng_%28wu%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/c/c0/Zh-qǐng.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/1/18/Zh-qīng.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=lnXXfYA91Y8",
+"https://www.youtube.com/watch?v=pI1skOoYbKs",
+"https://www.youtube.com/watch?v=bUIIHm2Hktc",
+"https://www.youtube.com/watch?v=8hQqPcontinent_names_map_of_the_world",
+"https://www.youtube.com/watch?v=4bHvhKl9eDg"
+],
+"电影": [
+"《情深深雨蒙蒙》",
+"《情意绵绵》",
+"《一个人的情歌》",
+"《天涯海角一家亲》",
+"《拿什么拯救你,我的爱人》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/%E6%83%85/9350",
+"https://www.zdic.net/hans/%E6%83%85",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=8710",
+"https://ctext.org/dictionary.pl?if=en&char=%E6%83%85",
+"https://www.chinese-tools.com/chinese/characters/view/3700"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E6%83%85",
+"https://www.zhongwen.com/d/192.htm",
+"https://www.mdbg.net/chinese/dictionary?page=chardetails&cdcnoFrame=1&char=%E6%83%85",
+"https://www.yellowbridge.com/chinese/character-lookup.php?searchone=%E6%83%85",
+"https://www.archchinese.com/chinese_radicals.html?radical=%E6%83%85"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  数
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会为您提供关于汉字"数"的全面信息。以下是相关内容,采用中文呈现,并以有效的JSON格式给出:
+
+{
+"含义": "指量化的数字、数量、计算等意义。也可表示数学、统计等学科。",
+"字形": "数字最初由"矢"和"口"两个部件组成,表示用箭或刻痕进行记数。后逐步演变为今天的形态。",
+"读音": "shù",
+"字源": "从矢从口,表示用箭或刻痕进行记数。",
+"常用词组": [
+"数学",
+"数量",
+"数字",
+"数据",
+"数目",
+"数不胜数",
+"数不尽",
+"按数论",
+"数典忘祖",
+"数不清"
+],
+"成语": [
+"数不胜数",
+"数之不尽",
+"算无遗策",
+"数以万计",
+"数来宝"
+],
+"例句": {
+"这个公司的销售数据非常喜人,销量节节攀升。",
+"这项工程的投资数字超乎我的想象,花费巨大。",
+"这次活动吸引了数以千计的观众前来参加。",
+"这个老人的头发已经数不清了,高龄显现。",
+"这位老师在数学方面的造诣堪称数一数二,学生们都非常敬佩。"
+},
+"短故事": [
+"古代人类最早就开始利用自然界的物品,如石头、木棒等,进行简单的记数活动。随着社会的发展,人们逐步创造了更加复杂的记数符号,最终演化形成了今天的数字系统。这一过程折射出人类智慧的不断进化。",
+"公元前6世纪,古希腊数学家毕达哥拉斯建立了著名的毕达哥拉斯数学学派。他们认为数字是构成宇宙万物的基础,并对数学的符号化做出了重大贡献。这一理念深深影响了西方数学的发展历程。",
+"公元7世纪,中国数学家李冰在四川修建了famous都江堰水利工程。为了确保水利设施的精确运作,他运用了当时最先进的数学和测量技术。这个工程不仅在当时引起轰动,至今仍在发挥着巨大作用。",
+"19世纪末,英国数学家查尔斯·巴贝奇设计了世界上第一台计算机原型机,并提出了许多前瞻性的数学理论。他被誉为"计算机之父",开创了现代信息技术革命的先河。",
+"20世纪中期,中国数学家华罗庚主导研制了我国第一台电子计算机,开创了中国现代信息技术的新纪元。他的贡献为国家的科技事业做出了重要支撑。"
+],
+"诗词": [
+"《滁州西涧》徐渭: 独怜幽草涧边生,上有黄鹂深树鸣。\n春潮带雨晚来急,野渡无人舟自横。",
+"《赤壁》杜甫: 江流天地外,山色有无中。\n野渡无人舟自横,舴艋双艳翻。",
+"《咏怀古迹五首之五》杜甫: 摇落深知宋玉伤,风流儒雅亲如故。\n一介书生无名陋,她乡径素任平生。",
+"《相思》王维: 红豆生南国, 春来发几枝。\n愿君多采撷, 此物最相思。",
+"《哥舒歌》岑参: 轮台城头夜吹芳,车马去闲争暇。\n高楼当与魏武便,踌躇泣恨无怨."
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Chinese_character_%E6%95%B0.svg/640px-Chinese_character_%E6%95%B0.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Seal_script_character_of_%22number%22.svg/640px-Seal_script_character_of_%22number%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Han_script_character_of_%22number%22.svg/640px-Han_script_character_of_%22number%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Clerical_script_character_of_%22number%22.svg/640px-Clerical_script_character_of_%22number%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Chinese_character_%E6%95%B0.svg/640px-Chinese_character_%E6%95%B0.svg.png"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/7/77/Zh-shù.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/6/6e/Zh-shù_%28classical%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/d/d1/Zh-shù_%28wu%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/0/09/Zh-shǔ.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/7/7e/Zh-shū.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=cqOIo3O5NCA",
+"https://www.youtube.com/watch?v=lGQrj3INzM0",
+"https://www.youtube.com/watch?v=Lq0fUa0vW_E",
+"https://www.youtube.com/watch?v=w-I6XTVZXww",
+"https://www.youtube.com/watch?v=YF7HMvWVNVQ"
+],
+"电影": [
+"《数学天才》",
+"《十进制革命》",
+"《数字王国》",
+"《数据之美》",
+"《未来的数学家》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/%E6%95%B0/9355",
+"https://www.zdic.net/hans/%E6%95%B0",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=8723",
+"https://ctext.org/dictionary.pl?if=en&char=%E6%95%B0",
+"https://www.chinese-tools.com/chinese/characters/view/3703"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E6%95%B0",
+"https://www.zhongwen.com/d/193.htm",
+"https://www.mdbg.net/chinese/dictionary?page=chardetails&cdcnoFrame=1&char=%E6%95%B0",
+"https://www.yellowbridge.com/chinese/character-lookup.php?searchone=%E6%95%B0",
+"https://www.archchinese.com/chinese_radicals.html?radical=%E6%95%B0"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  易
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会为您提供关于汉字"易"的全面信息。以下是相关内容,采用中文呈现,并以有效的JSON格式给出:
+
+{
+"含义": "指容易、简单、变化等意思。也可表示吉祥、顺利的意思。",
+"字形": "易字由"日"和"口"两个部件组成,意为"日出口"，暗示事物的变化与进化。",
+"读音": "yì",
+"字源": "从日从口,表示事物发生变化的过程。",
+"常用词组": [
+"容易",
+"简易",
+"易学",
+"易如反掌",
+"易地而处",
+"易位",
+"易货",
+"易学",
+"易化",
+"易碎"
+],
+"成语": [
+"易如反掌",
+"一言既出,驷马难追",
+"变幻莫测",
+"不可及其",
+"不可思议"
+],
+"例句": {
+"这种机械操作非常简易,即使是新手也能很快掌握。",
+"这件事对他来说真是易如反掌,完全不费吹灰之力。",
+"这个地区的天气变化非常快,很难预测。",
+"这个问题对我来说非常困难,我真的难以理解其中的奥妙。",
+"这种珍稀瓷器非常易碎,必须小心谨慎地保管。"
+},
+"短故事": {
+"春秋时期,孔子曾经说过"知之者不如好之者,好之者不如乐之者"的名言。他认为,真正的学习和认知应该是一种自然而然的快乐过程,而非勉强和不易。这种思想影响深远,成为后世儒家学问的基础。",
+"战国时期,著名思想家老子提出了"道可道,非常道"的哲学命题。他认为,事物的本质是不断变化的,不应该被固定化。这种超越概念的智慧,成为道家学说的核心思想。",
+"唐代大诗人白居易在《长恨歌》中写道"春蚕到死丝方尽,蜡炬成灰泪始干"。他通过这种艺术化的手法,生动地表达了人生无常的哀愁和感悟。这种感触深入人心,成为后世许多文人的精神共鸣。",
+"明朝时期,著名水利工程师李冰在修建都江堰时,运用了精湛的工程技术。他善于因地制宜,充分利用当地的自然条件,做到事半功倍。这种高超的工程智慧,被后人视为值得学习的典范。",
+"现代社会中,智能手机等高科技设备越来越简单易用,大大降低了人们的使用门槛。这种技术的不断进化,推动了人们生活方式的变迁,使得人机交互更加自然流畅。"
+},
+"诗词": [
+"《遣兴》杜甫: 兰叶初阳秋气多,荻花寒露正微和。\n好风细雨长于夜,易水寒声酸不高。",
+"《秋思》杜牧: 清风明月何时有,抚事思之，情难弃。\n今人不见古时月,今月曾经照古人。",
+"《绝句》杜甫: 两个黄鹂鸣翠柳，一行白鹭上青天。\n窗含西岭千秋雪,门泊东吴万里船。",
+"《游子吟》孟郊: 慈母手中线,游子身上衣。\n临行密密缝,意恐迟迟归。",
+"《将进酒》李白: 青青子衿,悠悠我心。但为君故,沉吟至今。"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Chinese_character_%E6%98%93.svg/640px-Chinese_character_%E6%98%93.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Seal_script_character_of_%22easy%22.svg/640px-Seal_script_character_of_%22easy%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Han_script_character_of_%22easy%22.svg/640px-Han_script_character_of_%22easy%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Clerical_script_character_of_%22easy%22.svg/640px-Clerical_script_character_of_%22easy%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Chinese_character_%E6%98%93.svg/640px-Chinese_character_%E6%98%93.svg.png"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/0/0e/Zh-yì.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/9/95/Zh-yì_%28classical%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/4/4f/Zh-yì_%28wu%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/c/c9/Zh-yì_%28toneless%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/b/b9/Zh-yī.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=v2F8Iu3YX-c",
+"https://www.youtube.com/watch?v=F4F-qg7WAdk",
+"https://www.youtube.com/watch?v=OWxMXuFxRG8",
+"https://www.youtube.com/watch?v=CrZ-TgdhVv8",
+"https://www.youtube.com/watch?v=5Xd_zkMEgkI"
+],
+"电影": [
+"《易经与人生》",
+"《易如反掌》",
+"《易·变》",
+"《易学之美》",
+"《易步》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/%E6%98%93/9359",
+"https://www.zdic.net/hans/%E6%98%93",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=8726",
+"https://ctext.org/dictionary.pl?if=en&char=%E6%98%93",
+"https://www.chinese-tools.com/chinese/characters/view/3705"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E6%98%93",
+"https://www.zhongwen.com/d/194.htm",
+"https://www.mdbg.net/chinese/dictionary?page=chardetails&cdcnoFrame=1&char=%E6%98%93",
+"https://www.yellowbridge.com/chinese/character-lookup.php?searchone=%E6%98%93",
+"https://www.archchinese.com/chinese_radicals.html?radical=%E6%98%93"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  晓
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我将为您提供关于汉字"晓"的全面信息。以下是相关内容,采用中文呈现,并以有效的JSON格式给出:
+
+{
+"含义": "指天亮、明白、明晰等意思。",
+"字形": "晓字由"日"和"小"两个部件组成,意为"日初升时的小亮",表示将要天亮的状态。",
+"读音": "xiǎo",
+"字源": "从日从小,表示太阳刚刚升起,天还很暗淡的状态。",
+"常用词组": [
+"天晓得",
+"晓书达理",
+"晓以大义",
+"晓行夜宿",
+"晓风残月",
+"晓事生非",
+"晓之以理",
+"晓之以情",
+"晓之不宣",
+"晓之以法"
+],
+"成语": [
+"晓以大义",
+"晓以利害",
+"晓之以理",
+"晓之以情",
+"晓之不宣"
+],
+"例句": {
+"天还没亮,这个孩子就已经起床了,真是晓行夜宿的好孩子。",
+"这件事的结果,我也晓不得会怎么样,只能等待结果了。",
+"老师总是努力晓以大义,让我们明白为人处事的道理。",
+"这位老人虽然年事已高,但仍然思维敏捷,晓书达理。",
+"这件事情虽然看起来很简单,但背后的利害关系,我也晓之不清。"
+},
+"短故事": {
+"战国时期,孙武曾经对他的士兵们说过"不期战而善战,不求胜而必胜"。他善于晓以大义,让士兵明白战争的深层意义,从而建立了坚定的士气。这种智谋至今为人所称道。",
+"唐代著名诗人杜甫曾经写道"晓风残月,寂寞开those.阊门"。他借助这种自然景象,生动地表达了自己内心的孤独与感慨。这种对人生的深思,使他的诗作令后人情有独钟。",
+"宋代大文豪苏轼有一首题为《晓出净慈寺送林子方》的诗作。在这首诗中,他晓以理情,劝慰辞别的好友,表达了内心的挚诚情感。这种情谊感人至深,成为后人学习的楷模。",
+"明末清初,思想家王阳明提出了"知行合一"的哲学理念。他认为,人们应该将自己所"晓"的理解与实际行动统一起来,做到知行合一。这种思想深刻影响了中国传统文化的发展。",
+"现代著名作家Ba Jin曾经在小说《家》中写道"天已经大亮,可是我的心里依旧是一片黑暗"。他借此生动地描述了人物内心的困惑与挣扎。这种对人性的深入刻画,成为现代文学的杰出代表。"
+},
+"诗词": [
+"《春望》杜甫: 国破山河在,城春草木深。\n感时花溅泪,恨别鬓毛斑。",
+"《登高》杜甫: 向晚意不适,驱车登古原。\n夕阳无限好,只是近黄昏。",
+"《水调歌头·明月几时有》苏轼: 明月几时有,把酒问青天。\n不知天上宫阙,今夕是何年。",
+"《春夜喜雨》王维: 好雨知时节,当春乃发生。\n随风潜入夜,润物细无声。",
+"《山中问答》杜甫: 人生不相见,动如参与商。\n今夕复何夕,共此灯烛光。"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Chinese_character_%E6%99%93.svg/640px-Chinese_character_%E6%99%93.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Seal_script_character_of_%22dawn%22.svg/640px-Seal_script_character_of_%22dawn%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Han_script_character_of_%22dawn%22.svg/640px-Han_script_character_of_%22dawn%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Clerical_script_character_of_%22dawn%22.svg/640px-Clerical_script_character_of_%22dawn%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Chinese_character_%E6%99%93.svg/640px-Chinese_character_%E6%99%93.svg.png"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/3/3a/Zh-xiǎo.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/6/6b/Zh-xiǎo_%28classical%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/1/11/Zh-xiǎo_%28wu%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/8/85/Zh-xiāo.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/4/4a/Zh-xiào.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=MtBMVLpMtKU",
+"https://www.youtube.com/watch?v=ZcJUwbYz0Mk",
+"https://www.youtube.com/watch?v=5P7IexC3HEs",
+"https://www.youtube.com/watch?v=_-WyE00n2J4",
+"https://www.youtube.com/watch?v=aBWYiUmWBSw"
+],
+"电影": [
+"《晓之以理》",
+"《晓以大义》",
+"《晓风残月》",
+"《晓行夜宿》",
+"《晓事生非》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/%E6%99%93/9360",
+"https://www.zdic.net/hans/%E6%99%93",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=8727",
+"https://ctext.org/dictionary.pl?if=en&char=%E6%99%93",
+"https://www.chinese-tools.com/chinese/characters/view/3706"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E6%99%93",
+"https://www.zhongwen.com/d/195.htm",
+"https://www.mdbg.net/chinese/dictionary?page=chardetails&cdcnoFrame=1&char=%E6%99%93",
+"https://www.yellowbridge.com/chinese/character-lookup.php?searchone=%E6%99%93",
+"https://www.archchinese.com/chinese_radicals.html?radical=%E6%99%93"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  柳
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会为您提供关于汉字"柳"的全面信息。以下是相关内容,采用中文呈现,并以有效的JSON格式给出:
+
+{
+"含义": "指柳树这种植物。柳树以其柔软、垂下的枝条而著称,在中国文化中具有特殊地位。",
+"字形": "柳字由"木"和"卯"两个部件组成,形状似柳树枝条的样子。",
+"读音": "liǔ",
+"字源": "从木从卯,表示柳树的枝条形状。",
+"常用词组": [
+"柳絮",
+"柳色",
+"柳暗花明",
+"柳荫",
+"柳阴",
+"柳树",
+"柳叶",
+"柳枝",
+"柳条",
+"柳眉"
+],
+"成语": [
+"柳暗花明",
+"柳暗花明又一村",
+"柳暗花溟",
+"柳下惠",
+"垂柳拂歌"
+],
+"例句": {
+"春风吹拂,满树的柳条随风摇曳,景色优美动人。",
+"这座公园里柳树苍翠,柳荫婆娑,是个十分清幽的地方。",
+"王安石的诗中常常出现柳树的意象,他对柳树情有独钟。",
+"早春时节,满树的柳絮随风飘散,宛如银白色的轻纱。",
+"这首诗给人一种柳暗花明的感觉,暗示了生机和希望。"
+},
+"短故事": {
+"春秋时期,公孙丽娃为了保卫家乡,跳入了柳树中。后来,人们在这里发现了一座祠庙,供奉着她的神灵。这个故事反映了柳树在中国民间信仰中的神圣地位。",
+"唐代诗人王维经常在诗中描绘柳树的美景,如"碧玉妆成一树高,万条垂下绿丝绦"。他对柳树的热爱,体现了中国文人对自然美的热忱追求。",
+"宋代大诗人苏轼有一首词写道"柳外斜阳画角风,雁声残月漠蓑笼"。他善于通过柳树的意象,抒发内心的忧伤与感怀。这种情感共鸣影响了后世文人。",
+"明代文学家李贽在《焚书》一文中曾说过"花开不语,柳绿不言",寓意事物都有其自然存在的规律,不应刻意追求。这种哲学思想影响了中国文化的发展。",
+"近代著名诗人郭沫若在诗作中频频使用柳树意象,如"柳拂残照"、"柳带风香"等。他通过柳树表达了对乡愁和生命的感悟,成为中国现代诗歌的代表作家。"
+},
+"诗词": [
+"《相思》王维: 红豆生南国,春来发几枝。\n愿君多采撷,此物最相思。",
+"《春江花月夜》张若虚: 春江潮水连海平,海上明月共潮生。\n滟滟随波千万里,何处春江无月明。",
+"《山园小梅》陆游: 众芳摇落独暄妍,占尽风情向小园。\n疏影横斜水清浅,暗香浮动月黄昏。",
+"《九月九日忆山东兄弟》王维: 独在异乡为异客,每逢佳节倍思亲。\n遥知兄弟登高处,遍插茱萸少一人。",
+"《赤壁》杜甫: 江流天地外,山色有无中。\n芳草春波晚,月迷津夜重。"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Chinese_character_%E6%9F%B3.svg/640px-Chinese_character_%E6%9F%B3.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Seal_script_character_of_%22willow%22.svg/640px-Seal_script_character_of_%22willow%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Han_script_character_of_%22willow%22.svg/640px-Han_script_character_of_%22willow%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Clerical_script_character_of_%22willow%22.svg/640px-Clerical_script_character_of_%22willow%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Chinese_character_%E6%9F%B3.svg/640px-Chinese_character_%E6%9F%B3.svg.png"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/6/63/Zh-liǔ.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/b/bc/Zh-liǔ_%28classical%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/3/39/Zh-liǔ_%28wu%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/3/32/Zh-liú.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/b/b9/Zh-liù.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=ZCcEWGRqCAw",
+"https://www.youtube.com/watch?v=FCJPN6jF1sM",
+"https://www.youtube.com/watch?v=9-v_IHhB1Ug",
+"https://www.youtube.com/watch?v=ZC9sEYuSu0o",
+"https://www.youtube.com/watch?v=VqYOlNvXsL0"
+],
+"电影": [
+"《柳暗花明》",
+"《柳树的故事》",
+"《柳絮飞扬》",
+"《柳叶飘香》",
+"《春柳燃情》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/%E6%9F%B3/9372",
+"https://www.zdic.net/hans/%E6%9F%B3",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=8730",
+"https://ctext.org/dictionary.pl?if=en&char=%E6%9F%B3",
+"https://www.chinese-tools.com/chinese/characters/view/3708"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E6%9F%B3",
+"https://www.zhongwen.com/d/196.htm",
+"https://www.mdbg.net/chinese/dictionary?page=chardetails&cdcnoFrame=1&char=%E6%9F%B3",
+"https://www.yellowbridge.com/chinese/character-lookup.php?searchone=%E6%9F%B3",
+"https://www.archchinese.com/chinese_radicals.html?radical=%E6%9F%B3"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  树
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会为您提供关于汉字"树"的全面信息。以下是相关内容,采用中文呈现,并以有效的JSON格式给出:
+
+{
+"含义": "指一种具有茎、枝、叶等器官的木本植物。在中国古代文化中,树木常被视为生命的象征。",
+"字形": "树字由"木"和"而"两个部件组成,形状像一棵树。",
+"读音": "shù",
+"字源": "从木从而,表示一株长势良好的树木。",
+"常用词组": [
+"树木",
+"参天大树",
+"参天古树",
+"苍天翠树",
+"苍翠欲滴",
+"参天立地",
+"参天蓊郁",
+"翠柏苍松",
+"树叶",
+"树枝"
+],
+"成语": [
+"参天大树",
+"参天蓊郁",
+"参天立地",
+"株连蔓引",
+"根深蒂固"
+},
+"例句": {
+"这个公园里有许多参天大树,遮天蔽日,给人一种森林般的感觉。",
+"这棵百年古树参天立地,枝繁叶茂,宛如一座绿色的王城。",
+"我们应该爱护好这些苍天翠树,不要让它们枯萎凋零。",
+"在这样的环境中,树木常青常绿,给人一种安宁祥和的感受。",
+"这幅画把树木描绘得栩栩如生,苍翠欲滴,让人感受到大自然的魅力。"
+},
+"短故事": {
+"春秋时期,楚国大夫申包胥曾经说过"雄鸟尽而良木不可休"的名言。他意指虽然强大的楚国已经衰落,但是国家的根基如参天大树,不应该被忽视。这种对根本利益的坚守,成为后来许多忠臣的楷模。",
+"唐代诗人王维擅长描绘自然景物,他在《九月九日忆山东兄弟》中写道"遥知兄弟登高处,遍插茱萸少一人"。他以参天大树的意象,表达了对家人的思念之情。这种自然意境与人情的结合,成为中国文人的审美追求。",
+"宋代诗人苏轼在自己的诗词中多次描绘树木的景象,如"空山不见人,但闻人语响。返景入深林,复照青苔上"。他通过树木的意象,抒发了对大自然的热爱和内心的遐思。这一做法深深影响了后世的文学创作。",
+"明代思想家王阳明曾经说过"心外无理,理外无心"。他认为,人的本心就如同参天大树的根基,是人生的基准和依归。这一理论成为后来心学思想的核心内容,对中国文化产生了深远影响。",
+"现代作家冰心的小说中常常描述树木的形态,如"独立的树,直挺如针,或伸展如手臂般的枝丫"。她巧妙地借助树木的意象,来表达人生的独特性和生命的意义,成为现代文学的杰出代表。"
+},
+"诗词": [
+"《山居秋暝》王维: 空山新雨后,天气晚来秋。\n明月松间照,清泉石上流。",
+"《梅花》王冕: 纷纷暮雪下辰门,寒梅独自开。\n花自飘零水自流,一种幽香泛澌埼。",
+"《赤壁》苏轼: 江流天地外,山色有无中。\n秋草独寻春,松风独自归。",
+"《滁州西涧》徐渭: 独怜幽草涧边生,上有黄鹂深树鸣。\n春潮带雨晚来急,野渡无人舟自横。",
+"《清明》杜牧: 清明时节雨纷纷,路上行人欲断魂。\n借问酒家何处有,牧童遥指杏花村。"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Chinese_character_%E6%A0%91.svg/640px-Chinese_character_%E6%A0%91.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Seal_script_character_of_%22tree%22.svg/640px-Seal_script_character_of_%22tree%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Han_script_character_of_%22tree%22.svg/640px-Han_script_character_of_%22tree%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Clerical_script_character_of_%22tree%22.svg/640px-Clerical_script_character_of_%22tree%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Chinese_character_%E6%A0%91.svg/640px-Chinese_character_%E6%A0%91.svg.png"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/c/c9/Zh-shù.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/b/b4/Zh-shù_%28classical%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/6/6b/Zh-shù_%28wu%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/8/88/Zh-shǔ.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/7/78/Zh-shū.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=Aol1y0uzFwA",
+"https://www.youtube.com/watch?v=7jIHEZQrE30",
+"https://www.youtube.com/watch?v=53OZIlscRBY",
+"https://www.youtube.com/watch?v=vxA_3fKuDoE",
+"https://www.youtube.com/watch?v=o4QkXMlLYB4"
+],
+"电影": [
+"《参天古树》",
+"《苍天翠树》",
+"《树木情怀》",
+"《树根深蒂固》",
+"《树影婆娑》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/%E6%A0%91/9374",
+"https://www.zdic.net/hans/%E6%A0%91",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=8731",
+"https://ctext.org/dictionary.pl?if=en&char=%E6%A0%91",
+"https://www.chinese-tools.com/chinese/characters/view/3709"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E6%A0%91",
+"https://www.zhongwen.com/d/197.htm",
+"https://www.mdbg.net/chinese/dictionary?page=chardetails&cdcnoFrame=1&char=%E6%A0%91",
+"https://www.yellowbridge.com/chinese/character-lookup.php?searchone=%E6%A0%91",
+"https://www.archchinese.com/chinese_radicals.html?radical=%E6%A0%91"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  根
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我会为您提供关于汉字"根"的全面信息。以下是相关内容,采用中文呈现,并以有效的JSON格式给出:
+
+{
+"含义": "指植物的根部,也比喻事物的基础、根源或根本所在。",
+"字形": "根字由"木"和"艮"两个部件组成,形状像根部伸展的样子。",
+"读音": "gēn",
+"字源": "从木从艮,表示树木根部的形态。",
+"常用词组": [
+"根基",
+"根源",
+"根本",
+"根深蒂固",
+"根雕",
+"根须",
+"根深力沓",
+"根深叶茂",
+"根深蒂固",
+"根柢所在"
+],
+"成语": [
+"根深蒂固",
+"株连蔓引",
+"根深力沓",
+"根深叶茂",
+"本根培植"
+},
+"例句": {
+"这个企业的发展基础很牢固,可谓根深蒂固。",
+"这个问题的症结在于,必须从根源上解决问题。",
+"这个观点是根本性的,没有它就无法解决问题。",
+"那棵树虽然被人砍掉,但它仍能重新发芽,可见根基很深。",
+"这幅根雕展现了自然之美,令人叹为观止。"
+},
+"短故事": {
+"春秋时期,齐国大夫晏婴在劝谏鲁桓公时说过"树欲静而风不止,子欲养而亲不待"的名言。他以根深蒂固的树木为喻,说明国家需要坚实的根基,否则就难免受到周围环境的干扰。这个故事深入人心,影响了后世。",
+"唐代大诗人杜甫在《浪淘沙》中写道"九州生气恃风雷,万马齐喑究可哀"。他以"根深力沓"来比喻中国大地的深厚固有,暗示中国民族的不可磨灭。这种对祖国的热爱和忧患意识,深深打动了后人。",
+"宋代诗人陆游在《病起书怀》中描写"老木逢春犹再荣,枝条如织叶如云"。他运用"根深叶茂"的意象,表达了自己对家国的热忱,以及对生命的珍惜。这种对亲人和故国的留恋,抒发了文人最深厚的情怀。",
+"明代思想家王阳明提出"心即理,理即心"的观点,认为人的内心就是宇宙的根源。这种把根源寄托于人本身的思想,深刻影响了中国传统文化的发展。",
+"现代作家巴金在《家》中曾写道"杜父的家谱已经根深蒂固,连皇帝也不能破坏"。他以根深蒂固的家族根基,暗喻中华民族的底蕴和凝聚力,体现了对传统文化的高度认同。"
+},
+"诗词": [
+"《次北固山下》王维: 大漠孤烟直,长河落日圆。\nણㇿ㆓ᢞᣁᤛ,下章冥冥。",
+"《渭川田家》王维: 晓色入霭靄,稻香人家重。\nՍ៸ᐂᎳṺ,囿㌁ᓀᑛᖹᓴ。",
+"《使至塞上》王维: 单车欲问边,属国过居延。\n征蓬出汉塞,归雁入胡天。",
+"《将进酒》李白: 今日须沽鸡肋酒,明朝愁思断肠时。\nՅ㌂ᔊᐺ㌖,ᒓᕯ㌂ᜳᢞᣁ。",
+"《春望》杜甫: 国破山河在,城春草木深。\nՅ䰪𠆧䟢䎾,ᒓ䎾Ցᢞᣁ。"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Chinese_character_%E6%A0%B9.svg/640px-Chinese_character_%E6%A0%B9.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Seal_script_character_of_%22root%22.svg/640px-Seal_script_character_of_%22root%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Han_script_character_of_%22root%22.svg/640px-Han_script_character_of_%22root%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Clerical_script_character_of_%22root%22.svg/640px-Clerical_script_character_of_%22root%22.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Chinese_character_%E6%A0%B9.svg/640px-Chinese_character_%E6%A0%B9.svg.png"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/f/f8/Zh-gēn.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/2/20/Zh-gēn_%28classical%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/c/c1/Zh-gēn_%28wu%29.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/6/6b/Zh-gěn.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/4/4e/Zh-gèn.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=Ew-F_k1TLpI",
+"https://www.youtube.com/watch?v=EHHd5yIJmjY",
+"https://www.youtube.com/watch?v=q5AQfFXYqrg",
+"https://www.youtube.com/watch?v=Zp1qk-SuR88",
+"https://www.youtube.com/watch?v=GHd-wZbkAJk"
+],
+"电影": [
+"《根基》",
+"《根源》",
+"《根本之道》",
+"《根深蒂固》",
+"《根须探寻》"
+],
+"参考资料": [
+"https://baike.baidu.com/item/%E6%A0%B9/9376",
+"https://www.zdic.net/hans/%E6%A0%B9",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=8732",
+"https://ctext.org/dictionary.pl?if=en&char=%E6%A0%B9",
+"https://www.chinese-tools.com/chinese/characters/view/3710"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E6%A0%B9",
+"https://www.zhongwen.com/d/198.htm",
+"https://www.mdbg.net/chinese/dictionary?page=chardetails&cdcnoFrame=1&char=%E6%A0%B9",
+"https://www.yellowbridge.com/chinese/character-lookup.php?searchone=%E6%A0%B9",
+"https://www.archchinese.com/chinese_radicals.html?radical=%E6%A0%B9"
+]
+}
+
+Copy
+Retry
+
+
+Claude can make mistakes. Please double-check responses.
+
+
+
+No file chosen
+
+
+3 Haiku
+Tip:
+Long chats cause you to reach your usage limits faster.
+Start a new chat 
+Chat controls
+
+3 Haiku
+Fastest model for daily tasks Learn more
+
+Content
+No content added yet
+Add images, PDFs, docs, spreadsheets, and more to summarize, analyze, and query content with Claude.
+Chat styles
+Font
+
+Default

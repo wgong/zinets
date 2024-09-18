@@ -1,0 +1,1609 @@
+
+
+Start new chat
+Projects
+Starred
+Recents
+Comprehensive Analysis of Chinese Character "令"
+Creating a GitHub Repository from Local Folder
+Comprehensive Analysis of the Chinese Character '冬'
+Thoughtful Poem on Human-AI Collaboration
+The Meaning of "Education is Not Filling a Bucket"
+Costs of Bronze Bust Sculpture
+Streamlit App for Chinese Learning Resources
+Python script to flatten JSON to CSV
+View all
+Professional plan
+
+WG
+wen.g.gong@gmail.com
+Help & support
+WG
+
+
+Comprehensive Overview of the Chinese Character "风"
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  风
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"风"的全面信息:
+
+{
+"含义": "1. 自然界中产生的气流运动。2. 事物的状况或情势的变化。3. 风格、风尚。4. 风度、气派。",
+"字形": "风字的基本结构是一个象形字,上边是一个表示气流的部件'凡',下边是一个表示扇子的部件'巳'。",
+"读音": "fēng",
+"字源": "从'凡'和'巳'组成。'凡'表示气流,而'巳'表示扇子,故'风'字意为'以扇子掀动气流'。",
+"常用词组": [
+"大风",
+"微风",
+"起风了",
+"顺风而行",
+"逆风而行"
+],
+"成语": [
+"风和日丽",
+"无风不起浪",
+"风雨同舟",
+"顺风耳",
+"风声鹤唳"
+],
+"例句": [
+"大树在狂风中摇摆不定。",
+"这件事有些反常风潮,大家要提高警惕。",
+"他文章的风格非常独特,常常引领时代潮流。",
+"她举止优雅,气质非凡,给人一种高尚的风度。",
+"乘风破浪,扬帆远航!"
+],
+"短故事": [
+"从前有一个农夫,他的牛群经常被狂风卷走。有一天,他看见一棵柳树在狂风中依然屹立不倒,便将自己的牛群系在了柳树上。结果牛群都安全度过了那场大风。从此,农夫明白了顺应自然的力量,才能保护好自己的财产。",
+"唐朝有一位诗人叫杜甫,他经常在诗中描述风的变化。有一次他流落他乡,遇到大风暴袭击,他写下了著名的诗句'安得广厦千万间,大庇天下寒士俱欢颜'。这首诗表达了他对能让天下穷人都笑开颜的理想居所的向往。"
+],
+"诗词": [
+"《登鹳雀楼》杜甫: "白日依山尽,黄河入海流。欲穷千里目,更上一层楼。"",
+"《望洞庭》刘禹锡: "黄山四皓练,洞庭七百家。坐观垂钓者,每逐飞来鸦。"",
+"《春望》杜甫: "国破山河在,城春草木深。感时花溅泪,恨别鸟惊心。""
+],
+"图片": [
+"https://www.example.com/picture1.jpg",
+"https://www.example.com/picture2.jpg",
+"https://www.example.com/picture3.jpg",
+"https://www.example.com/picture4.jpg",
+"https://www.example.com/picture5.jpg"
+],
+"音频": [
+"https://www.example.com/audio1.mp3",
+"https://www.example.com/audio2.mp3",
+"https://www.example.com/audio3.mp3",
+"https://www.example.com/audio4.mp3",
+"https://www.example.com/audio5.mp3"
+],
+"视频": [
+"https://www.example.com/video1.mp4",
+"https://www.example.com/video2.mp4",
+"https://www.example.com/video3.mp4",
+"https://www.example.com/video4.mp4",
+"https://www.example.com/video5.mp4"
+],
+"电影": [
+"《射雕英雄传》",
+"《卧虎藏龙》",
+"《冰川时代》",
+"《功夫熊猫》",
+"《阿甘正传》"
+],
+"参考资料": [
+"《说文解字》",
+"《古汉语常用字字典》",
+"《中华文化典籍大系》",
+"《中国古典文学作品选》",
+"《中国文化常识》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.chineseetymology.org/",
+"https://www.guoxue.com/",
+"https://www.chinese-poems.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  飞
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"飞"的全面信息:
+
+{
+"含义": "1. 凭借自身或借助外力在空中移动。2. 迅速移动、逃离。3. 某事物迅速展开或进行。",
+"字形": "飞字的基本结构是一个会意字,上边是一个表示鸟类的部件'羽',下边是一个表示移动的部件'非'。",
+"读音": "fēi",
+"字源": "从'羽'和'非'组成。'羽'表示鸟类,而'非'表示移动,故'飞'字意为'鸟类以羽翼在空中移动'。",
+"常用词组": [
+"飞鸟",
+"飞船",
+"飞驰",
+"飞快",
+"飞翔"
+],
+"成语": [
+"凤舞九天",
+"鸿鹄志",
+"凤冠霞帔",
+"金鳞凤体",
+"凤毛麟角"
+],
+"例句": [
+"雄鹰高飞,展翅翱翔。",
+"他的事业蒸蒸日上,飞速发展。",
+"她的心思飞快地转动,很快就找到了解决方案。",
+"这件事必须火速行动,不能拖泥带水。",
+"我们要树立远大理想,志存高远,奋飞不息。"
+],
+"短故事": [
+"在古代,有一位叫卫青的将军,他勇猛善战,武艺超群。有一次,他遇到了强大的匈奴军队,大军压境,形势十分危急。卫青想了一个绝妙的计策,他率领一支精锐骑兵,迅速从敌后绕到敌军背后,猛烈出击,使敌军措手不及,最终取得大胜。人们为他的机智勇武赞叹不已,誉为"飞将军"。",
+"唐朝诗人李白著名诗句"飞流直下三千尺,疑是银河落九天"描绘了飞瀑的壮美景象。这首诗借鉴了道家思想,寓意人生追求应当像瀑布一样,不断向前,勇往直前,永不止步。"
+],
+"诗词": [
+"《望庐山瀑布》李白: "飞流直下三千尺,疑是银河落九天。"",
+"《春夜洛城闻笛》李白: "月照宫阙金睛炽,星挂夜空珠梦飞。"",
+"《望天门山》李白: "天生我材必有用,千金散尽还复来。""
+],
+"图片": [
+"https://www.example.com/picture1.jpg",
+"https://www.example.com/picture2.jpg",
+"https://www.example.com/picture3.jpg",
+"https://www.example.com/picture4.jpg",
+"https://www.example.com/picture5.jpg"
+],
+"音频": [
+"https://www.example.com/audio1.mp3",
+"https://www.example.com/audio2.mp3",
+"https://www.example.com/audio3.mp3",
+"https://www.example.com/audio4.mp3",
+"https://www.example.com/audio5.mp3"
+],
+"视频": [
+"https://www.example.com/video1.mp4",
+"https://www.example.com/video2.mp4",
+"https://www.example.com/video3.mp4",
+"https://www.example.com/video4.mp4",
+"https://www.example.com/video5.mp4"
+],
+"电影": [
+"《飞越疯人院》",
+"《阿甘正传》",
+"《肖申克的救赎》",
+"《飞越疯人院》",
+"《泰坦尼克号》"
+],
+"参考资料": [
+"《说文解字》",
+"《古汉语常用字字典》",
+"《中华文化典籍大系》",
+"《中国古典文学作品选》",
+"《中国文化常识》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.chineseetymology.org/",
+"https://www.guoxue.com/",
+"https://www.chinese-poems.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  乎
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"乎"的全面信息:
+
+{
+"含义": "1. 疑问助词,表示发问或表示疑问。2. 感叹助词,表示感叹。3. 语气助词,表达语气。",
+"字形": "乎字的基本结构是一个会意字,上边是一个表示人的部件'人',下边是一个表示疑问的部件'乎'。",
+"读音": "hū",
+"字源": "从'人'和'乎'组成。'人'表示人类,而'乎'表示疑问,故'乎'字意为'人类表达疑问'。",
+"常用词组": [
+"不知所云乎？",
+"如何如何乎？",
+"何必如此乎？",
+"东施效颦乎？",
+"复何如乎？"
+],
+"成语": [
+"问道于盱乎",
+"长乎不可长",
+"兼爱非攻乎",
+"知难行则易乎",
+"穷则变,变则通,通则久乎"
+],
+"例句": {
+"人生苦短,何必如此乎？",
+"这道题真难,你能解答一下吗乎？",
+"你的想法很有趣,我们是否可以深入探讨一下乎？",
+"明月几时有,把酒问青天乎？",
+"子曰:'学而时习之,不亦说乎?'"
+},
+"短故事": [
+"春秋时期,有位哲人叫子贡,他经常向孔子问道:"孔子先生,天下有道则无为乎?"孔子沉思片刻后说:"天下有道,则一言以蔽之:'信乎,从善如登,受之宜,执之用'。天下无道,则一言以蔽之:'慎终如始,则无所悔'。"子贡听后恍然大悟,深深领会到了人生的真谛。",
+"宋代诗人范仲淹写下著名的"居蝼蟥之室,与鸡芒共椽"的诗句,他感慨人生无常,起起伏伏乎?"
+],
+"诗词": [
+"《前赤壁赋》苏轼:"顺风而呼,水澜生，菡萏旋渡,霞光灩灩乎!"
+"《前赤壁赋》苏轼:"举壮观乎江汉,而知生命之不易也。",
+"《水调歌头》苏轼:"玉阶生白露,错综宿草,岐路标黄鸟,何岁今朝乎?"
+],
+"图片": [
+"https://www.example.com/picture1.jpg",
+"https://www.example.com/picture2.jpg",
+"https://www.example.com/picture3.jpg",
+"https://www.example.com/picture4.jpg",
+"https://www.example.com/picture5.jpg"
+],
+"音频": [
+"https://www.example.com/audio1.mp3",
+"https://www.example.com/audio2.mp3",
+"https://www.example.com/audio3.mp3",
+"https://www.example.com/audio4.mp3",
+"https://www.example.com/audio5.mp3"
+],
+"视频": [
+"https://www.example.com/video1.mp4",
+"https://www.example.com/video2.mp4",
+"https://www.example.com/video3.mp4",
+"https://www.example.com/video4.mp4",
+"https://www.example.com/video5.mp4"
+],
+"电影": [
+"《无问西东》",
+"《活着》",
+"《孔子》",
+"《天下》",
+"《盗梦空间》"
+],
+"参考资料": [
+"《说文解字》",
+"《古汉语常用字字典》",
+"《中华文化典籍大系》",
+"《中国古典文学作品选》",
+"《中国文化常识》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.chineseetymology.org/",
+"https://www.guoxue.com/",
+"https://www.chinese-poems.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  乘
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"乘"的全面信息:
+
+{
+"含义": "1. 利用或占用某事物。2. 包含、容纳某事物。3. 趁某种状况、机会来做某事。",
+"字形": "乘字的基本结构是一个会意字,上边是一个表示车辆的部件'車',下边是一个表示人的部件'亻'。",
+"读音": "chéng",
+"字源": "从'車'和'亻'组成。'車'表示车辆,而'亻'表示人,故'乘'字意为'人乘载车辆'。",
+"常用词组": [
+"乘车",
+"乘船",
+"乘机",
+"乘势",
+"乘胜"
+],
+"成语": [
+"乘胜追击",
+"乘势而起",
+"乘虚而入",
+"乘风破浪",
+"乘兴而来"
+],
+"例句": {
+"我们乘车外出游玩,欣赏沿途的美景。",
+"乘着良好的机遇,他一举成为了公司的总经理。",
+"你看,乘着这阵风,帆船竟然如此迅捷。",
+"乘着这股热情,我们一定能完成这项艰巨的任务。",
+"乘着胜势,军队迅速攻占了敌军重要据点。"
+},
+"短故事": [
+"在春秋战国时期,著名战略家吴起曾经说过一句话:"乘时则昌,逆时则亡"。他强调要顺应时势,把握机遇,方能成就大事。后来,他根据这个理念,制定了许多精明的战略,终于帮助楚国成为当时的霸主。人们把这种顺应时势、把握机遇的做法称为"乘势而上"。",
+"唐代大诗人李白曾经有一首著名的诗作《望庐山瀑布》,描述了瀑布奔腾的壮丽景象。诗中有一句"飞流直下三千尺,疑是银河落九天"。这句诗生动形象地表达了"乘势而上"的意义,即顺应大自然的力量,才能创造出令人惊叹的成就。"
+],
+"诗词": [
+"《望庐山瀑布》李白: "飞流直下三千尺,疑是银河落九天。",
+"《登高》杜甫: "风急天高猿啸哀,渚清沙白鸟飞回。无边落木萧萧下,不尽长江滚滚来。",
+"《登乐游原》孟浩然: "莫等闲,白了少年头,空悲切。"
+],
+"图片": [
+"https://www.example.com/picture1.jpg",
+"https://www.example.com/picture2.jpg",
+"https://www.example.com/picture3.jpg",
+"https://www.example.com/picture4.jpg",
+"https://www.example.com/picture5.jpg"
+],
+"音频": [
+"https://www.example.com/audio1.mp3",
+"https://www.example.com/audio2.mp3",
+"https://www.example.com/audio3.mp3",
+"https://www.example.com/audio4.mp3",
+"https://www.example.com/audio5.mp3"
+],
+"视频": [
+"https://www.example.com/video1.mp4",
+"https://www.example.com/video2.mp4",
+"https://www.example.com/video3.mp4",
+"https://www.example.com/video4.mp4",
+"https://www.example.com/video5.mp4"
+],
+"电影": [
+"《乘风破浪》",
+"《乘胜狙击》",
+"《乘风归去》",
+"《乘风破浪的姐姐》",
+"《乘风破浪会有时》"
+],
+"参考资料": [
+"《说文解字》",
+"《古汉语常用字字典》",
+"《中华文化典籍大系》",
+"《中国古典文学作品选》",
+"《中国文化常识》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.chineseetymology.org/",
+"https://www.guoxue.com/",
+"https://www.chinese-poems.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  买
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"买"的全面信息:
+
+{
+"含义": "1. 以金钱或其他物品交换货物或服务。2. 获得、购得、获取。",
+"字形": "买字的基本结构是一个会意字,上边是一个表示钱财的部件'貝',下边是一个表示人的部件'亻'。",
+"读音": "mǎi",
+"字源": "从'貝'和'亻'组成。'貝'表示钱财,而'亻'表示人,故'买'字意为'人用钱财购买'。",
+"常用词组": [
+"买东西",
+"买票",
+"买保险",
+"买房子",
+"买单"
+],
+"成语": [
+"买椟还珠",
+"买时犹豫,卖时无憾",
+"买官卖爵",
+"买凶下手",
+"买一送一"
+],
+"例句": {
+"我今天去超市买了一些蔬菜和水果。",
+"你想什么时候去买电影票?早订票的话会更便宜。",
+"这件事关系重大,我们必须谨慎地买单。",
+"他花了大价钱买下了那幅名画。",
+"别急于做决定,慢慢来权衡一下买卖的得失。"
+},
+"短故事": [
+"在一个古老的市集上,一位老翁正在兜售一件陈旧的雕刻品。突然,一位年轻人路过,仔细地观察着这件雕刻品,并询问老人要价。老人说："这件东西很普通,你出十文钱就好。"那年轻人听后大吃一惊,他认出这件雕刻品价值连城,连忙出高价把它买下。人们称这种以低价买到珍品的行为为"买椟还珠"。",
+"有一个商人每次去买菜都很谨慎,不急于做出决定。有人问他为什么。他说："买卖做得好坏,决定的那一刻很关键。我从不急于做决定,而是耐心地比较选择,等做好充分的准备后再付款。这样做,我即使亏本,也不会有任何遗憾。""
+],
+"诗词": [
+"《问刘十九》杜甫: "绝代有佳人,幽居在空谷。自云良家子,卓尔又不群。",
+"《远过庐山》李白: "转朱阁,低绮户,照无眠。",
+"《春望》杜甫: "国破山河在,城春草木深。感时花溅泪,恨别鸟惊心。"
+],
+"图片": [
+"https://www.example.com/picture1.jpg",
+"https://www.example.com/picture2.jpg",
+"https://www.example.com/picture3.jpg",
+"https://www.example.com/picture4.jpg",
+"https://www.example.com/picture5.jpg"
+],
+"音频": [
+"https://www.example.com/audio1.mp3",
+"https://www.example.com/audio2.mp3",
+"https://www.example.com/audio3.mp3",
+"https://www.example.com/audio4.mp3",
+"https://www.example.com/audio5.mp3"
+],
+"视频": [
+"https://www.example.com/video1.mp4",
+"https://www.example.com/video2.mp4",
+"https://www.example.com/video3.mp4",
+"https://www.example.com/video4.mp4",
+"https://www.example.com/video5.mp4"
+],
+"电影": [
+"《卖房子的人》",
+"《消费主义》",
+"《华尔街之狼》",
+"《辛德勒的名单》",
+"《百年孤独》"
+],
+"参考资料": [
+"《说文解字》",
+"《古汉语常用字字典》",
+"《中华文化典籍大系》",
+"《中国古典文学作品选》",
+"《中国文化常识》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.chineseetymology.org/",
+"https://www.guoxue.com/",
+"https://www.chinese-poems.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  企
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"企"的全面信息:
+
+{
+"含义": "1. 站立、矗立、伫立。2. 策划、筹划、企图。3. 指事物或活动的发起和开展。",
+"字形": "企字的基本结构是一个会意字,左边是一个表示人的部件'亻',右边是一个表示高大的部件'止'。",
+"读音": "qǐ",
+"字源": "从'亻'和'止'组成。'亻'表示人,而'止'表示高大,故'企'字意为'人站立高大'。",
+"常用词组": [
+"企图",
+"企业",
+"企盼",
+"企及",
+"企划"
+],
+"成语": [
+"志气凌云",
+"怀鸿鹄之志",
+"抱负远大",
+"运筹帷幄",
+"望洋兴叹"
+],
+"例句": {
+"他企图出山,重新投入到政治斗争中去。",
+"这家新兴企业正在飞速发展。",
+"我一直企盼能有机会出国学习深造。",
+"经过精心的企划,这次庆祝活动定能圆满成功。",
+"这个计划虽然很有野心,但最终是否能顺利实施还需进一步审慎考虑。"
+},
+"短故事": [
+"在中华民族的历史上,有一位杰出的政治家名叫诸葛亮。他出身寒微,却立志成为一代名相。当时的天下纷乱,诸葛亮企图凭借自己的智慧和诚信,帮助刘备创造一个太平盛世。虽然最终未能如愿,但是他那种敢于负重前行、百折不挠的奋斗精神,为后世留下了宝贵的精神财富。",
+"在古代,有一位书生叫范仲淹,他怀有强烈的爱国胸怀和改革志向。他曾说过一句著名的话:"先天下之忧而忧,后天下之乐而乐。"这反映了他那种为国为民、矢志报国的伟大情怀。尽管他最后未能如愿,但他那种企图改变现状、追求理想的高尚精神,无疑令后人敬仰不已。"
+],
+"诗词": [
+"《岳阳楼记》范仲淹: "先天下之忧而忧,后天下之乐而乐。",
+"《蜀道难》李白: "噫吁嚱,危乎高哉!蜀道之难,难于上青天。",
+"《登高》杜甫: "风急天高猿啸哀,渚清沙白鸟飞回。"
+],
+"图片": [
+"https://www.example.com/picture1.jpg",
+"https://www.example.com/picture2.jpg",
+"https://www.example.com/picture3.jpg",
+"https://www.example.com/picture4.jpg",
+"https://www.example.com/picture5.jpg"
+],
+"音频": [
+"https://www.example.com/audio1.mp3",
+"https://www.example.com/audio2.mp3",
+"https://www.example.com/audio3.mp3",
+"https://www.example.com/audio4.mp3",
+"https://www.example.com/audio5.mp3"
+],
+"视频": [
+"https://www.example.com/video1.mp4",
+"https://www.example.com/video2.mp4",
+"https://www.example.com/video3.mp4",
+"https://www.example.com/video4.mp4",
+"https://www.example.com/video5.mp4"
+],
+"电影": [
+"《狂飙》",
+"《芳华》",
+"《太阳照常升起》",
+"《我们诞生在中国》",
+"《1921》"
+],
+"参考资料": [
+"《说文解字》",
+"《古汉语常用字字典》",
+"《中华文化典籍大系》",
+"《中国古典文学作品选》",
+"《中国文化常识》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.chineseetymology.org/",
+"https://www.guoxue.com/",
+"https://www.chinese-poems.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  低
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"低"的全面信息:
+
+{
+"含义": "1. 不高,在下方。2. 减弱,降低。3. 微小,次等。4. 谦逊,谦卑。",
+"字形": "低字的基本结构是一个会意字,上边是一个表示头的部件'亻',下边是一个表示底部的部件'氐'。",
+"读音": "dī",
+"字源": "从'亻'和'氐'组成。'亻'表示人,而'氐'表示底部,故'低'字意为'人的头低在底部'。",
+"常用词组": [
+"低头",
+"低价",
+"低音",
+"低调",
+"低垂"
+],
+"成语": [
+"低眉顺眼",
+"低眉垂眼",
+"低声下气",
+"低风下风",
+"低三下四"
+],
+"例句": {
+"他低头道歉,态度诚恳。",
+"我们要积极寻找低价的采购渠道。",
+"请你调到低音区域演奏这段乐曲。",
+"他为人低调,不喜欢张扬自己。",
+"她低垂着头,显得很是沮丧。"
+},
+"短故事": [
+"在《论语》中记载了一个关于孔子的故事:有一天,孔子进入一个小村庄,看到几个农民正在劳作。孔子主动走上前,向那些农民鞠躬问候。农民们见到这位尊贵的学者主动低头行礼,都很受感动。从此,孔子被人们称为"低眉顺眼"的圣贤。这一事件生动地体现了孔子心中无论地位高低,都应该以谦逊和诚恳的态度对待他人。",
+"有一位书法家常常用"低眉垂眼,柔情似水"来形容他的创作状态。他解释说,在创作时,他总是尽量保持低调谦逊的心态,专注地观察并捕捉生活中的细微美好,用笔墨去细腻地书写内心的柔情感受。正是这种低调而深入的创作态度,让他的作品充满了独特的韵味。"
+],
+"诗词": {
+"《渡荆门送别》李白: "青山横北郭,白水绕东城。此地一为别,孤蓬万里征。",
+"《饮酒》李白: "举杯邀明月,对影成三人。",
+"《长歌行》屈原: "蒙羞被好惭,吾道窒亦哀,对揆此冀远,谁解我心怀。"
+},
+"图片": [
+"https://www.example.com/picture1.jpg",
+"https://www.example.com/picture2.jpg",
+"https://www.example.com/picture3.jpg",
+"https://www.example.com/picture4.jpg",
+"https://www.example.com/picture5.jpg"
+],
+"音频": [
+"https://www.example.com/audio1.mp3",
+"https://www.example.com/audio2.mp3",
+"https://www.example.com/audio3.mp3",
+"https://www.example.com/audio4.mp3",
+"https://www.example.com/audio5.mp3"
+],
+"视频": [
+"https://www.example.com/video1.mp4",
+"https://www.example.com/video2.mp4",
+"https://www.example.com/video3.mp4",
+"https://www.example.com/video4.mp4",
+"https://www.example.com/video5.mp4"
+],
+"电影": [
+"《低头族》",
+"《低俗小说》",
+"《低风》",
+"《低头不见抬头见》",
+"《低调》"
+],
+"参考资料": [
+"《说文解字》",
+"《古汉语常用字字典》",
+"《中华文化典籍大系》",
+"《中国古典文学作品选》",
+"《中国文化常识》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.chineseetymology.org/",
+"https://www.guoxue.com/",
+"https://www.chinese-poems.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  偶
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"偶"的全面信息:
+
+{
+"含义": "1. 表示单独、个别、随意。2. 偶像、人偶。3. 遇到、碰到、发生。",
+"字形": "偶字的基本结构是一个形声字,左边是一个表示人的部件'亻',右边是一个表示双之意的部件'耦'。",
+"读音": "ǒu",
+"字源": "从'亻'和'耦'组成。'亻'表示人,而'耦'表示两个,故'偶'字意为'单独的一个人'。",
+"常用词组": [
+"偶尔",
+"偶像",
+"偶然",
+"偶合",
+"偶像崇拜"
+],
+"成语": [
+"偶然相遇",
+"偶像泰斗",
+"偶然之举",
+"机缘巧合",
+"天公作美"
+],
+"例句": {
+"我偶尔会去散散步,欣赏一下城市的夜景。",
+"这个歌手在年轻人中间是一位很受欢迎的偶像。",
+"这次考试成绩是我偶然获得的优异成绩。",
+"我们的相遇纯属一种偶合,但却让我感到十分高兴。",
+"这部电影的成功,很大程度上要归功于导演的偶然灵感。"
+},
+"短故事": {
+"在唐代,有一位叫郭子仪的大将军,他平时低调谦逊,不喜自夸,但战场上却英勇无比。有一次,他带领部队遭遇敌军,经过激烈战斗,最终取得了胜利。胜利后,郭子仪毫无架子地亲自为士兵们准备饭食,这让士兵们备受感动。后人评价他"偶然成就,低调处世"。这种谦逊有礼的气质,让郭子仪成为当时的军事奇才。",
+"有一次,一个孩子在公园里偶然发现了一件古玩,经鉴定原来是一件价值连城的文物。于是他兴奋地拿回去告诉父母,父母也对这次偶然的发现感到很惊讶。从此,这个孩子对古玩文化产生了浓厚的兴趣,最后也成为了一名著名的收藏家。这就是一个偶然发现改变人生轨迹的有趣故事。"
+},
+"诗词": {
+"《梦游天姥吟留别》李白: "何日平胸迭,却下向人间。",
+"《古朗月行》李白: "小舟从此逝,江海寄余生。",
+"《相见欢》李白: "无情最是台城柳,依旧烟笼十里楼。"
+},
+"图片": [
+"https://www.example.com/picture1.jpg",
+"https://www.example.com/picture2.jpg",
+"https://www.example.com/picture3.jpg",
+"https://www.example.com/picture4.jpg",
+"https://www.example.com/picture5.jpg"
+],
+"音频": [
+"https://www.example.com/audio1.mp3",
+"https://www.example.com/audio2.mp3",
+"https://www.example.com/audio3.mp3",
+"https://www.example.com/audio4.mp3",
+"https://www.example.com/audio5.mp3"
+],
+"视频": [
+"https://www.example.com/video1.mp4",
+"https://www.example.com/video2.mp4",
+"https://www.example.com/video3.mp4",
+"https://www.example.com/video4.mp4",
+"https://www.example.com/video5.mp4"
+],
+"电影": [
+"《偶然他来敲门》",
+"《偶遇》",
+"《偶然决定》",
+"《偶像》",
+"《偶像的诞生》"
+],
+"参考资料": [
+"《说文解字》",
+"《古汉语常用字字典》",
+"《中华文化典籍大系》",
+"《中国古典文学作品选》",
+"《中国文化常识》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.chineseetymology.org/",
+"https://www.guoxue.com/",
+"https://www.chinese-poems.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  兑
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"兑"的全面信息:
+
+{
+"含义": "1. 兑换、兑现。2. 履行承诺、实现目标。3. 确认、证实。",
+"字形": "兑字的基本结构是一个形声字,左边是一个表示人的部件'人',右边是一个表示完成之意的部件'毈'。",
+"读音": "duì",
+"字源": "从'人'和'毈'组成。'人'表示人,而'毈'表示完成,故'兑'字意为'人完成某事'。",
+"常用词组": [
+"兑换",
+"兑现",
+"兑付",
+"兑奖",
+"兑现诺言"
+],
+"成语": [
+"言而有信",
+"兑现承诺",
+"兑换券",
+"兑换到期",
+"信而有征"
+],
+"例句": {
+"我想到银行兑换一些外币。",
+"他承诺在期限内兑现这笔投资。",
+"我们公司为客户兑付了所有应付款项。",
+"抽奖活动结果出来了,快去兑奖吧!",
+"他说到做到,兑现了自己的诺言。"
+},
+"短故事": {
+"在历史上,有位名臣韩信曾经做过一件非常有信誉的事。有一次,韩信被人诬陷,关进了监狱。他当时很有机会逃脱,但是他还是选择自己遵守诺言,坚持被囚三年。三年后,真相大白,韩信不但获得了释放,还被封为大将军。这件事成为后人评价他"言而有信"的经典事例。",
+"有一位企业家创办了一家互联网公司,他曾经在创业初期承诺,只要公司发展好,就会给所有参与创业的人分红。几年后,公司确实有了不错的业绩,他兑现了当初的诺言,让所有创业者都获得了丰厚的回报。这不仅体现了他的诚信,也培养了员工的高度认同感,有助于公司的长远发展。"
+},
+"诗词": {
+"《望庐山瀑布》李白: "飞流直下三千尺,疑是银河落九天。",
+"《春望》杜甫: "国破山河在,城春草木深。感时花溅泪,恨别鸟惊心。",
+"《望天门山》李白: "天生我材必有用,千金散尽还复来。"
+},
+"图片": [
+"https://www.example.com/picture1.jpg",
+"https://www.example.com/picture2.jpg",
+"https://www.example.com/picture3.jpg",
+"https://www.example.com/picture4.jpg",
+"https://www.example.com/picture5.jpg"
+],
+"音频": [
+"https://www.example.com/audio1.mp3",
+"https://www.example.com/audio2.mp3",
+"https://www.example.com/audio3.mp3",
+"https://www.example.com/audio4.mp3",
+"https://www.example.com/audio5.mp3"
+],
+"视频": [
+"https://www.example.com/video1.mp4",
+"https://www.example.com/video2.mp4",
+"https://www.example.com/video3.mp4",
+"https://www.example.com/video4.mp4",
+"https://www.example.com/video5.mp4"
+],
+"电影": [
+"《兑换》",
+"《兑付》",
+"《兑现》",
+"《兑换时刻》",
+"《诚信兑换》"
+],
+"参考资料": [
+"《说文解字》",
+"《古汉语常用字字典》",
+"《中华文化典籍大系》",
+"《中国古典文学作品选》",
+"《中国文化常识》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.chineseetymology.org/",
+"https://www.guoxue.com/",
+"https://www.chinese-poems.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  军
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"军"的全面信息:
+
+{
+"含义": "1. 武装力量,包括陆军、海军、空军等。2. 有组织的团体或集团。3. 大量、众多。",
+"字形": "军字的基本结构是一个会意字,上边是一个表示人的部件'人',下边是一个表示武器的部件'冋'。",
+"读音": "jūn",
+"字源": "从'人'和'冋'组成。'人'表示人,而'冋'表示武器,故'军'字意为'持有武器的人们'。",
+"常用词组": [
+"军队",
+"军人",
+"军事",
+"陆军",
+"海军"
+],
+"成语": [
+"三军统帅",
+"文武兼备",
+"金戈铁马",
+"万军压境",
+"引兵夺关"
+],
+"例句": {
+"这支军队战斗力很强,在战争中屡立功勋。",
+"他从军多年,如今已成为一名杰出的军官。",
+"近年来,国家大力发展军事科技。",
+"我国陆军是世界上最强大的军事力量之一。",
+"这次海军演习展示了我国海军的强大实力。"
+},
+"短故事": {
+"在三国时期,有一位著名的军事家诸葛亮,他不仅谋略高明,而且也是一位出色的军事家。曾经有一次,他的军队遭到了敌人的偷袭,形势十分严峻。诸葛亮冷静分析形势,立即制定了应对措施,最终取得大胜。这件事充分展示了他"三军统帅"的能力,成为后人经典的军事故事。",
+"唐代有一位杰出的君主叫唐太宗,他不仅在政治和文化方面成就卓越,也是一位出色的军事家。有一次,他亲自率领大军攻打高句丽,在激烈的战斗中大显身手,最终取得了胜利。唐太宗这种"文武兼备"的气质,使他成为中国历史上最伟大的皇帝之一。"
+},
+"诗词": {
+"《蜀道难》李白: "噫吁嚱,危乎高哉!蜀道之难,难于上青天。",
+"《将进酒》李白: "君不见,黄河之水天上来,奔流到海不复回。",
+"《登高》杜甫: "风急天高猿啸哀,渚清沙白鸟飞回。"
+},
+"图片": [
+"https://www.example.com/picture1.jpg",
+"https://www.example.com/picture2.jpg",
+"https://www.example.com/picture3.jpg",
+"https://www.example.com/picture4.jpg",
+"https://www.example.com/picture5.jpg"
+],
+"音频": [
+"https://www.example.com/audio1.mp3",
+"https://www.example.com/audio2.mp3",
+"https://www.example.com/audio3.mp3",
+"https://www.example.com/audio4.mp3",
+"https://www.example.com/audio5.mp3"
+],
+"视频": [
+"https://www.example.com/video1.mp4",
+"https://www.example.com/video2.mp4",
+"https://www.example.com/video3.mp4",
+"https://www.example.com/video4.mp4",
+"https://www.example.com/video5.mp4"
+],
+"电影": [
+"《一把青》",
+"《亮剑》",
+"《血战湘江》",
+"《长津湖》",
+"《我为军人我骄傲》"
+],
+"参考资料": [
+"《说文解字》",
+"《古汉语常用字字典》",
+"《中华文化典籍大系》",
+"《中国古典文学作品选》",
+"《中国文化常识》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.chineseetymology.org/",
+"https://www.guoxue.com/",
+"https://www.chinese-poems.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  减
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"减"的全面信息:
+
+{
+"含义": "1. 减少、降低、缩小。2. 除去、删减、省略。3. 分散、削减。",
+"字形": "减字的基本结构是一个形声字,左边是一个表示人的部件'亻',右边是一个表示减少之意的部件'监'。",
+"读音": "jiǎn",
+"字源": "从'亻'和'監'组成。'亻'表示人,'監'表示监督、管理,故'减'字意为'人监督减少'。",
+"常用词组": [
+"减少",
+"减价",
+"减肥",
+"减免",
+"减产"
+],
+"成语": [
+"节衣缩食",
+"精打细算",
+"量入为出",
+"削减开支",
+"节俭持家"
+],
+"例句": {
+"这件商品最近有了大幅减价,你要不要买一件?",
+"为了减肥,他开始严格控制饮食并坚持健身。",
+"政府决定对低收入群体减免部分税收。",
+"由于市场环境不佳,公司不得不减产来削减成本。",
+"这一政策的出台,将大幅减少能源消耗。"
+},
+"短故事": {
+"在中国古代,有一位著名的政治家和哲学家叫范仲淹。他为人节俭,不喜奢靡,始终保持简朴的生活方式。有一次,他看到有人在宴会上浪费食物,立即批评道:"君子进退有度,中饱私囊非其道也。"他提倡"节俭持家"的生活理念,也成为后世人们学习的榜样。",
+"明清时期,有一位大臣叫徐有贞。他非常重视节约,对自己的开支十分审慎。一次宴会上,有人请他多吃一些,他笑着说:"我向来'量入为出'。"后来,他辅佐皇帝治理国家,始终保持清廉,带头过节俭的生活,受到皇帝和百姓的广泛赞誉。"
+},
+"诗词": {
+"《登高》杜甫: "风急天高猿啸哀,渚清沙白鸟飞回。",
+"《闻官军收河南河北》杜甫: "剑外忽传收蓟北,初闻涕泪满衣裳。",
+"《月夜》杜甫: "银汉西流几千里,美人何处教吹箫。"
+},
+"图片": [
+"https://www.example.com/picture1.jpg",
+"https://www.example.com/picture2.jpg",
+"https://www.example.com/picture3.jpg",
+"https://www.example.com/picture4.jpg",
+"https://www.example.com/picture5.jpg"
+],
+"音频": [
+"https://www.example.com/audio1.mp3",
+"https://www.example.com/audio2.mp3",
+"https://www.example.com/audio3.mp3",
+"https://www.example.com/audio4.mp3",
+"https://www.example.com/audio5.mp3"
+],
+"视频": [
+"https://www.example.com/video1.mp4",
+"https://www.example.com/video2.mp4",
+"https://www.example.com/video3.mp4",
+"https://www.example.com/video4.mp4",
+"https://www.example.com/video5.mp4"
+],
+"电影": [
+"《减肥女孩》",
+"《减法人生》",
+"《减负》",
+"《爱减则加》",
+"《节俭时代》"
+],
+"参考资料": [
+"《说文解字》",
+"《古汉语常用字字典》",
+"《中华文化典籍大系》",
+"《中国古典文学作品选》",
+"《中国文化常识》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.chineseetymology.org/",
+"https://www.guoxue.com/",
+"https://www.chinese-poems.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  前
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"前"的全面信息:
+
+{
+"含义": "1. 在某物或某事物的前面。2. 在时间上先于某事。3. 先前的、以前的。",
+"字形": "前字的基本结构是一个会意字,左边是一个表示头的部件'刂',右边是一个表示在前的部件'前'。",
+"读音": "qián",
+"字源": "从'刂'和'前'组成。'刂'表示头部,'前'表示前面,故'前'字意为'头部在前面'。",
+"常用词组": [
+"前面",
+"前进",
+"以前",
+"向前",
+"前景"
+],
+"成语": [
+"前程似锦",
+"前仆后继",
+"前人种树,后人乘凉",
+"前车之覆,后车之鉴",
+"前事不忘,后事之师"
+],
+"例句": {
+"请你走在前面带路,我跟在后面。",
+"别再原地踏步了,现在是时候大步向前了。",
+"以前我们经常一起吃午餐,现在都很少见到了。",
+"我们要向前看,不要被过去的挫折所束缚。",
+"这个学校的前景非常不错,值得投资。"
+},
+"短故事": {
+"在古代,有一位名叫范仲淹的大臣,他为人正直、勇敢,常常冒险为国出谋划策。有一次,他率领部队准备越过一座险峻的山谷,前面的关卡守军凶猛强悍,大军望而却步。就在这时,范仲淹挺身而出,高呼"前人种树,后人乘凉",带头冲锋,最终打败了敌军。这种"前仆后继"的精神,让范仲淹成为后世众多英雄的楷模。",
+"在宋朝,有一位名叫寇准的大臣,他为人清廉,对于政治前景十分关注。有一次,他写了一篇《岳阳楼记》,提出"先天下之忧而忧,后天下之乐而乐"的思想,反映了他对国家前景的深远远谋。这种"前事不忘,后事之师"的睿智,使他成为一位独具慧眼的政治家。"
+},
+"诗词": {
+"《前赤壁赋》苏轼: "顺风而呼,水澜生,菡萏旋渡,霞光灩灩乎!",
+"《水调歌头》苏轼: "玉阶生白露,错综宿草,岐路标黄鸟,何岁今朝乎?",
+"《长歌行》屈原: "蒙羞被好惭,吾道窒亦哀,对揆此冀远,谁解我心怀。"
+},
+"图片": [
+"https://www.example.com/picture1.jpg",
+"https://www.example.com/picture2.jpg",
+"https://www.example.com/picture3.jpg",
+"https://www.example.com/picture4.jpg",
+"https://www.example.com/picture5.jpg"
+],
+"音频": [
+"https://www.example.com/audio1.mp3",
+"https://www.example.com/audio2.mp3",
+"https://www.example.com/audio3.mp3",
+"https://www.example.com/audio4.mp3",
+"https://www.example.com/audio5.mp3"
+],
+"视频": [
+"https://www.example.com/video1.mp4",
+"https://www.example.com/video2.mp4",
+"https://www.example.com/video3.mp4",
+"https://www.example.com/video4.mp4",
+"https://www.example.com/video5.mp4"
+],
+"电影": [
+"《前程似锦》",
+"《前路漫漫》",
+"《前尘往事》",
+"《前景不明》",
+"《前所未有》"
+],
+"参考资料": [
+"《说文解字》",
+"《古汉语常用字字典》",
+"《中华文化典籍大系》",
+"《中国古典文学作品选》",
+"《中国文化常识》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.chineseetymology.org/",
+"https://www.guoxue.com/",
+"https://www.chinese-poems.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  卖
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于中文字符"卖"的全面信息:
+
+{
+"含义": "1. 以金钱作为交换条件出售某物。2. 为了获利而出售、处置。3. 出让、转让。",
+"字形": "卖字的基本结构是一个会意字,左边是一个表示人的部件'人',右边是一个表示交易之意的部件'冂'。",
+"读音": "mài",
+"字源": "从'人'和'冂'组成。'人'表示人,而'冂'表示出售,故'卖'字意为'人进行出售交易'。",
+"常用词组": [
+"卖出",
+"买卖",
+"卖场",
+"卖家",
+"卖价"
+],
+"成语": [
+"大卖特卖",
+"卖国求荣",
+"卖官鬻爵",
+"卖弄风骚",
+"卖身葬父"
+],
+"例句": {
+"他在网上卖出了自己收藏多年的古董。",
+"这次买卖让我赚到了不少钱。",
+"今天商场举办打折促销活动,快去看看有没有感兴趣的商品。",
+"这件商品的卖家给出了很优惠的价格。",
+"我们公司正在以较低的卖价出售这批库存商品。"
+},
+"短故事": {
+"在古代有一位书生叫李广,他天资聪颖,但因家贫无力继续读书。有一天,他遇到一位富商,想要买下他家的一处宅院。李广考虑再三,最终为了家人的利益,决定以低价卖掉这处房产。这件事后来被人们称为"卖身葬父"的典型故事,体现了当时人们为家人做出巨大牺牲的精神。",
+"明清时期,有一些官员为了追求权势和金钱,不惜背弃国家利益,被人们称为"卖国求荣"。其中有一个著名的例子就是张作霖,他为了获得日本人的支持,居然卖掉了东北的领土,给中国带来严重损失。这种出卖国家利益的行为,遭到了历史的严厉谴责。"
+},
+"诗词": {
+"《次北固山下》王湾: "客路青春号角寒,与君离别是天涯。",
+"《登高》杜甫: "风急天高猿啸哀,渚清沙白鸟飞回。",
+"《望天门山》李白: "天生我材必有用,千金散尽还复来。"
+},
+"图片": [
+"https://www.example.com/picture1.jpg",
+"https://www.example.com/picture2.jpg",
+"https://www.example.com/picture3.jpg",
+"https://www.example.com/picture4.jpg",
+"https://www.example.com/picture5.jpg"
+],
+"音频": [
+"https://www.example.com/audio1.mp3",
+"https://www.example.com/audio2.mp3",
+"https://www.example.com/audio3.mp3",
+"https://www.example.com/audio4.mp3",
+"https://www.example.com/audio5.mp3"
+],
+"视频": [
+"https://www.example.com/video1.mp4",
+"https://www.example.com/video2.mp4",
+"https://www.example.com/video3.mp4",
+"https://www.example.com/video4.mp4",
+"https://www.example.com/video5.mp4"
+],
+"电影": [
+"《卖房子的人》",
+"《卖血》",
+"《卖春》",
+"《卖炭翁》",
+"《卖假洋鬼子》"
+],
+"参考资料": [
+"《说文解字》",
+"《古汉语常用字字典》",
+"《中华文化典籍大系》",
+"《中国古典文学作品选》",
+"《中国文化常识》"
+],
+"有趣网站": [
+"https://www.zdic.net/",
+"https://www.chineseetymology.org/",
+"https://www.guoxue.com/",
+"https://www.chinese-poems.com/",
+"https://www.chinaculture.org/"
+]
+}
+
+Copy
+Retry
+
+
+Claude can make mistakes. Please double-check responses.
+
+
+
+No file chosen
+
+
+3 Haiku
+Tip:
+Long chats cause you to reach your usage limits faster.
+Start a new chat 
+Chat controls
+
+3 Haiku
+Fastest model for daily tasks Learn more
+
+Content
+No content added yet
+Add images, PDFs, docs, spreadsheets, and more to summarize, analyze, and query content with Claude.
+Chat styles
+Font
+
+Default

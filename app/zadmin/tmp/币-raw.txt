@@ -1,0 +1,1540 @@
+
+
+Start new chat
+Projects
+Starred
+Recents
+Creating a GitHub Repository from Local Folder
+Comprehensive Analysis of Chinese Character "令"
+Comprehensive Analysis of the Chinese Character '冬'
+Thoughtful Poem on Human-AI Collaboration
+The Meaning of "Education is Not Filling a Bucket"
+Costs of Bronze Bust Sculpture
+Streamlit App for Chinese Learning Resources
+Python script to flatten JSON to CSV
+View all
+Professional plan
+
+WG
+wen.g.gong@gmail.com
+Help & support
+WG
+
+
+Comprehensive Overview of the Chinese Character "币"
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  币
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+{
+"character": "币",
+"meaning": "钱; 货币",
+"shape": "一宀之下有一金字",
+"pronunciation": "bì",
+"origin": "古文字"币"源自商周时期的货币形态",
+"common_phrases": [
+"货币",
+"金钱",
+"通货",
+"钞票",
+"硬币"
+],
+"idioms": [
+"财源广进",
+"白银通达",
+"钱多人不怕",
+"挥金如土",
+"财帛如命"
+],
+"example_sentences": [
+"这家银行兑换各种外币。",
+"他赚了一大笔钱,囊中羞涩。",
+"这位富商慷慨解囊,捐款支持公益事业。",
+"老板给了我一大笔年终奖,我可以自由支配了。",
+"他们拼命工作,就是为了积攒更多的钱。"
+],
+"short_stories": [
+"唐朝诗人李贺被誉为"小李杜",他在《春宵》中写道:"谁家年少争春色,对花笑语偏多钱。"这反映了唐代社会金钱的价值日益突出。",
+"明朝大文豪李时珍在《本草纲目》中记录道:"钱,天下之通用,故谓之通货也。"这句话生动地概括了钱的地位。",
+"清代思想家梁启超曾说过:"吾国之将富强,则必自此[教育]始。"这突出了教育在国家富强中的重要性,而教育又需要大量资金投入。",
+"近代诗人郭沫若在《诗草》中写道:"黄金换黄金,银子换银子,贫穷的人,只有血汗换不到。"这表达了普通百姓对金钱的渴望。",
+"当代作家路遥在《平凡的世界》中写到:"钱,是人生的命根。没有钱,就什么都不是。"这深刻地阐述了金钱在现代社会的重要地位。"
+],
+"poems": [
+"《春望》杜甫: "白头宫女在,闲坐说玄宗。','青门酒肆中,");
+"几家欢笑谈钱",
+"《咏怀古迹五首·其五》杜牧: "银烛秋光冷画屏,轻罗小扇in风";
+"《赤壁怀古》苏轼: "江汉自由无闲田,加泳不足下鱼船。";
+"《望岳》杜甫: "会当凌绝顶,一览众山小。",
+"《春宵》李贺: "谁家年少争春色,对花笑语偏多钱。"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Chinese_character_coin.jpg/800px-Chinese_character_coin.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/2_Chinese_Dollars.jpg/800px-2_Chinese_Dollars.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Chinese_One_Yuan_Coin.jpg/800px-Chinese_One_Yuan_Coin.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Chinese_banknotes.jpg/800px-Chinese_banknotes.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Chinese_cash_coins.jpg/800px-Chinese_cash_coins.jpg"
+],
+"audio": [
+"https://upload.wikimedia.org/wikipedia/commons/b/be/Zh-b%C3%AC.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/c/c5/Chinese_Currency_Sounds.wav",
+"https://upload.wikimedia.org/wikipedia/commons/d/d9/Chinese_Coin_Sounds.wav",
+"https://upload.wikimedia.org/wikipedia/commons/1/1f/Chinese_Money_Exchange.wav",
+"https://upload.wikimedia.org/wikipedia/commons/c/c2/Chinese_Cash_Counting.wav"
+],
+"videos": [
+"https://www.youtube.com/watch?v=_3p2S_6tcNA",
+"https://www.youtube.com/watch?v=Zr9eAswBCXc",
+"https://www.youtube.com/watch?v=XQu8TTBmGhA",
+"https://www.youtube.com/watch?v=3nA9Qf-NrQE",
+"https://www.youtube.com/watch?v=hNZlhg-xmzY"
+],
+"movies": [
+"葡萄酒：爱在中国",
+"富贵劫",
+"钱学森传",
+"致富经",
+"大富翁"
+],
+"references": [
+"《说文解字》",
+"《汉语大词典》",
+"《中华文化知识读本》",
+"《中国货币史》",
+"《中国经济史》"
+],
+"websites": [
+"https://www.zhihu.com/topic/19550899",
+"https://baike.baidu.com/item/%E5%B8%81/12157",
+"https://www.chinaculture.org/gb/cn_traditions/2005-07/26/content_70846.htm",
+"http://www.chnmoney.com/",
+"https://www.chinesemoney.guru/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  市
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+{
+"character": "市",
+"meaning": "集市,城市",
+"shape": "一夕之间为此城",
+"pronunciation": "shì",
+"origin": "从尔、用土声",
+"common_phrases": [
+"市场",
+"城市",
+"集市",
+"商场",
+"超市"
+],
+"idioms": [
+"井蛙不可复值于海",
+"市侩之徒",
+"市井之人",
+"三足鼎立",
+"登堂入室"
+],
+"example_sentences": [
+"这家超市的商品种类很全。",
+"老城区的集市非常热闹。",
+"我最喜欢逛大商场,那里应有尽有。",
+"这个城市被誉为"商都"。",
+"我们要在市面上多做调研,了解消费者需求。"
+],
+"short_stories": [
+"唐代诗人白居易在《长恨歌》中描绘了长安繁华的市井景象:"金市鳞戏柳，东市买骏马。"这生动地展现了当时长安城市的活力。",
+"宋代大文豪苏轼有诗云:"日入红市尘埃起,风摇绿㶽晓钟鸣。"这再次刻画了集市上人声鼎沸的场景。",
+"明代小说家罗贯中在《三国演义》中写到:"孙权得势于吴,不务农桑,汲汲营营於市井之利。"这反映了当时一些人只追逐市井之利的现象。",
+"清代思想家潘菽在《理学十书》中说:"日用三餐,坐食于市。"突出了百姓生活中依赖市场生存的日常性。",
+"现代作家鲁迅在《孔乙己》中写道:"孔乙己似乎并不领会那三十个铜板的代价,专顾得意地在市门里逛着。"生动地描述了小人物的细微心理。"
+],
+"poems": [
+"《长恨歌》白居易: "金市鳞戏柳,东市买骏马。",
+"《登乐游原》杜甫: "出游从之,若登临春台。",
+"《郑谢长城》王维: "野旷天清秋,风日静狭斜。",
+"《登岳阳楼》李白: "青溪之上,白帝城前。",
+"《望江南》苏轼: "日入红市尘埃起,风摇绿㶽晓钟鸣。"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Zhangxiaoquan_Street%2C_Xinye%2C_Henan.jpg/1024px-Zhangxiaoquan_Street%2C_Xinye%2C_Henan.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/View_of_the_old_city_of_Xizhou%2C_China.jpg/1024px-View_of_the_old_city_of_Xizhou%2C_China.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Lijiang_old_town_market.jpg/1024px-Lijiang_old_town_market.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Beijing_Panjiayuan_market.jpg/1024px-Beijing_Panjiayuan_market.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Datong_market.jpg/1024px-Datong_market.jpg"
+],
+"audio": [
+"https://upload.wikimedia.org/wikipedia/commons/c/c4/Zh-sh%C3%ACspokenn.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/b/bd/Ambient_sounds_of_Chinese_market.wav",
+"https://upload.wikimedia.org/wikipedia/commons/2/2d/Chinese_market_vendors_calling.wav",
+"https://upload.wikimedia.org/wikipedia/commons/4/43/Chinese_market_haggling.wav",
+"https://upload.wikimedia.org/wikipedia/commons/a/a3/Chinese_market_crowd_sounds.wav"
+],
+"videos": [
+"https://www.youtube.com/watch?v=Ov5Jgw_Nwx4",
+"https://www.youtube.com/watch?v=6RlxySFrkIM",
+"https://www.youtube.com/watch?v=nY2AqO0vVQY",
+"https://www.youtube.com/watch?v=hfyOuquckAo",
+"https://www.youtube.com/watch?v=h4B1wMYImXs"
+],
+"movies": [
+"霸王别姬",
+"活着",
+"一个都不能少",
+"非常完美",
+"烈火青春"
+],
+"references": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国古代经济史》",
+"《中国城市发展史》",
+"《中国市场经济史》"
+],
+"websites": [
+"https://baike.baidu.com/item/%E5%B8%82/8986",
+"https://www.chinaculture.org/gb/en_madeinchina/2003-09/24/content_36876.htm",
+"http://www.chiculture.net/0305/html/0305-08.html",
+"https://www.zhihu.com/topic/19550946",
+"https://www.chinacity.org.cn/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  平
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+{
+"character": "平",
+"meaning": "平坦、平均、平和",
+"shape": "一横一立,形如天地二字",
+"pronunciation": "píng",
+"origin": "从一,立声。一横一立象征天地,故表示"平"的意思。",
+"common_phrases": [
+"平面",
+"平衡",
+"平均",
+"平等",
+"平和"
+],
+"idioms": [
+"一平二调",
+"平步青云",
+"平地一声雷",
+"平心静气",
+"平生无求"
+],
+"example_sentences": [
+"这张桌子上面很平整,适合放电脑。",
+"通过调节水平仪,可以使台面达到水平。",
+"政府一直在推行贫富差距的平衡政策。",
+"孩子们在游戏中学会了互相尊重,做到了平等。",
+"她面对困难保持平和的态度,从不急躁。"
+],
+"short_stories": [
+"古代哲学家老子在《道德经》中说:"天地不仁,以万物为刍狗。圣人不仁,以百姓为刍狗。"这突出了平等原则的重要性。",
+"宋代诗人苏轼在《赤壁怀古》中写道:"故物之相反而相成者,水火、刚柔、阴阳、方圆、动静、推移,皆今古之定理,不可破者也。"展现了自然界万物的平衡。",
+"明代思想家王守仁主张"格物致知",认为通过平等学习与实践,可以获得对事物本质的明白认识。",
+"清代小说家曹雪芹在《红楼梦》中描写"天下之事,不外乎仁义礼智信,此六者,天地人事之本也。"充分体现了儒家的平和思想。",
+"现代作家鲁迅在《伤仲永》一文中写到:"我们要用真诚和平等的态度对待每个人,这样才能促进社会进步。"阐述了平等的重要性。"
+],
+"poems": [
+"《石钟山》杨万里: "天与大地,平似镜中景。天与水际,平同远云横。",
+"《寒夜》杜牧: "月落乌啼霜满天,江枫渔市上西楼。""风一更,雪一更,霜满地,
+江上平樯,人初传照。",
+"《闻官军收河南河北》陆游: "心中自有百草平",
+"《夜雨寄北》李白: "江洲何处无金鸡,岁华各尽天地平。",
+"《春夜喜雨》王安石: "春来花谢人无恙,洒落满地无痕迹。"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Ginkgo_biloba_leaf_on_water.jpg/1024px-Ginkgo_biloba_leaf_on_water.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Lake_Geneva%2C_Switzerland.jpg/1024px-Lake_Geneva%2C_Switzerland.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Pebble_beach_in_Lofoten%2C_Norway.jpg/1024px-Pebble_beach_in_Lofoten%2C_Norway.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Savannah%2C_Georgia%2C_USA.jpg/1024px-Savannah%2C_Georgia%2C_USA.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Plain_landscape.jpg/1024px-Plain_landscape.jpg"
+],
+"audio": [
+"https://upload.wikimedia.org/wikipedia/commons/0/0b/Zh-p%C3%ADng.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/9/90/Nature_Soundscape_-_Lake_and_Wind.wav",
+"https://upload.wikimedia.org/wikipedia/commons/c/cb/Gentle_Wind.wav",
+"https://upload.wikimedia.org/wikipedia/commons/6/64/Calm_Ocean_Waves.wav",
+"https://upload.wikimedia.org/wikipedia/commons/0/0d/Raindrops_on_Leaves.wav"
+],
+"videos": [
+"https://www.youtube.com/watch?v=xWH1Szq3BIo",
+"https://www.youtube.com/watch?v=1ZYbU82GVz4",
+"https://www.youtube.com/watch?v=X-4tIs00NvM",
+"https://www.youtube.com/watch?v=7WX_D3S2-KI",
+"https://www.youtube.com/watch?v=JQg6uv7PbXA"
+],
+"movies": [
+"活着",
+"无problem",
+"太阳照常升起",
+"生活万岁",
+"普通的一天"
+],
+"references": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国古代思想史》",
+"《中国文化概论》",
+"《中国哲学史》"
+],
+"websites": [
+"https://baike.baidu.com/item/%E5%B9%B3/10164",
+"https://www.zhihu.com/topic/19550943",
+"http://www.chiculture.net/0305/html/0305-01.html",
+"https://www.chinaculture.org/focus/2019-09/11/content_1438893.htm",
+"https://www.douban.com/group/topic/212834580/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  年
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+{
+"character": "年",
+"meaning": "一年的周期,表示时间",
+"shape": "从禾,丿为年",
+"pronunciation": "nián",
+"origin": "古文字"年"的形状似禾苗,后发展为表示一年的周期",
+"common_phrases": [
+"新年",
+"生日",
+"日历",
+"纪念日",
+"春节"
+],
+"idioms": [
+"一年之计在于spring",
+"年年有余",
+"春风得意马蹄疾",
+"物换星移",
+"人生几何"
+],
+"example_sentences": [
+"过了这个年就到我生日了。",
+"新的一年要开始规划未来的目标。",
+"公司每年的年终考核都很严格。",
+"这款手机从问世到现在已经过去好几个年头了。",
+"祝你新的一年工作顺利,身体健康!"
+],
+"short_stories": [
+"春秋时期的孔子曾说:"吾十有五而志于学,三十而立,四十而不惑,五十而知天命,六十而耳顺,七十而从心所欲,不逾矩。"这充分反映了人生的不同阶段。",
+"唐代大诗人杜甫在《春望》中写道:"感时花溅泪,恨别鸟惊心。""春眠不觉晓,处处闻啼鸟。"表达了他对时光匆匆的感慨。",
+"宋代大文豪苏轼在《水调歌头》中写道:"明月几时有?把酒问青天。"表达了对往事的怀念。",
+"清代作家曹雪芹在《红楼梦》中刻画了贾府人物在二十多年中的起起伏伏,生动展现了人生的喜怒哀乐。",
+"近代文学大师鲁迅在《祝福》中写道:"我们只是在不断的生、老、病、死的循环中打转,而未能真正完整地活着。"反映了对人生短暂的感叹。"
+],
+"poems": [
+"《春望》杜甫: "感时花溅泪,恨别鸟惊心。",
+"《水调歌头》苏轼: "明月几时有?把酒问青天。",
+"《赋得古原草送别》杜甫: "离离原上草,一岁一枯荣。",
+"《长相思》李白: "秋风萧瑟天気凉,草木摇落露为霜。",
+"《己亥杂诗》龚自珍: "杨柳青青江水平,闻郎江上唱歌声。"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Chinese_New_Year_decorations.jpg/1024px-Chinese_New_Year_decorations.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lunar_New_Year_banquet_in_Hong_Kong.jpg/1024px-Lunar_New_Year_banquet_in_Hong_Kong.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chinese_New_Year.jpg/1024px-Chinese_New_Year.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Chinese_Lunar_New_Year_2021.jpg/1024px-Chinese_Lunar_New_Year_2021.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lunar_New_Year_Parade_in_San_Francisco.jpg/1024px-Lunar_New_Year_Parade_in_San_Francisco.jpg"
+],
+"audio": [
+"https://upload.wikimedia.org/wikipedia/commons/b/b4/Zh-nian.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/1/10/Chinese_New_Year_Countdown.wav",
+"https://upload.wikimedia.org/wikipedia/commons/6/6a/Chinese_New_Year_Fireworks.wav",
+"https://upload.wikimedia.org/wikipedia/commons/2/22/Chinese_New_Year_Lion_Dance.wav",
+"https://upload.wikimedia.org/wikipedia/commons/4/42/Chinese_New_Year_Parade_Sounds.wav"
+],
+"videos": [
+"https://www.youtube.com/watch?v=lIk3X3dOlOE",
+"https://www.youtube.com/watch?v=1Ek5BnyhLqU",
+"https://www.youtube.com/watch?v=bAWUqvqP0o8",
+"https://www.youtube.com/watch?v=PvFxeZAX-Y4",
+"https://www.youtube.com/watch?v=dVkK36KOcqs"
+],
+"movies": [
+"大红灯笼高高挂",
+"春节联欢晚会",
+"阿甘正传",
+"狮子王",
+"泰坦尼克号"
+],
+"references": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国历史文化概论》",
+"《中国节庆风俗史》",
+"《中国古代文学发展史》"
+],
+"websites": [
+"https://baike.baidu.com/item/%E5%B9%B4/5980",
+"https://www.chinaculture.org/focus/2020-01/09/content_1436115.htm",
+"https://www.zhihu.com/topic/19550945",
+"http://www.chiculture.net/0305/html/0305-02.html",
+"https://www.travelchinaguide.com/essential/holidays/spring-festival.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  幺
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+{
+"character": "幺",
+"meaning": "最小,最少",
+"shape": "从幺,大字旁",
+"pronunciation": "yāo",
+"origin": "从大字旁,表示最小、最少的意思",
+"common_phrases": [
+"幺鸡",
+"幺妹",
+"幺儿",
+"幺弟",
+"幺女"
+],
+"idioms": [
+"幺蛾子",
+"独当一面",
+"孤芳自赏",
+"寥寥无几",
+"寥寥可数"
+],
+"example_sentences": [
+"这件衣服的码数太小了,我要找幺码的。",
+"我家的幺妹最最可爱了。",
+"店里最便宜的商品就是这件幺产品了。",
+"公司里只剩下幺几个员工了。",
+"我们班就剩下幺几个人参加了毕业晚会。"
+],
+"short_stories": [
+"唐代诗人李白曾说:"长风破浪会有时,直挂云帆济沧海。"这体现了一个人追求梦想和独当一面的精神,虽然"寥寥无几"但也要坚持。",
+"宋代理学家朱熹在《四书章句集注》中提出"格物致知"的思想,认为通过对事物的深入探究,可以达到最微小本原的知识,这说明也要从"幺弟"做起。",
+"明代思想家王守仁主张"心即理,理即心"的学说,强调个人内心修养的重要性,这与"孤芳自赏"的理念不谋而合。",
+"清代作家曹雪芹在《红楼梦》中塑造了如贾宝玉、林黛玉等个性鲜明的人物,尽管他们"寥寥可数",却成为中国古典文学的经典形象。",
+"现代文学大师鲁迅在《狂人日记》中写道:"我要造反,我要杀人!……总之,我要革命!"体现了他不畏艰难,勇于追求改变的精神,即使只剩下"幺几个"人支持也在所不惜。"
+],
+"poems": [
+"《水调歌头》苏轼: "一片孤城万仞山,羸筋骨更奇蜂雀散。",
+"《次北固山下》王安石: "客舍青青柳色新,劝君更进一杯酒,西出阳关无故人。",
+"《过故人庄》杜甫: "寥落古柏横窗骨，惊咽瞳孔无晴авгur。",
+"《清平乐·村居》李清照: "茅檐长扫净无苔,花木成畦手自栽。",
+"《己亥杂诗》龚自珍: "古今横绝恨难平,幺蛾儿女成今古。"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Tatsuta-jinja%2C_one_of_the_oldest_shrines_in_Japan.jpg/1024px-Tatsuta-jinja%2C_one_of_the_oldest_shrines_in_Japan.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Moss_covered_tree_trunk.jpg/1024px-Moss_covered_tree_trunk.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Lone_tree_in_field.jpg/1024px-Lone_tree_in_field.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Old_Hut.jpg/1024px-Old_Hut.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Lone_house_in_field.jpg/1024px-Lone_house_in_field.jpg"
+],
+"audio": [
+"https://upload.wikimedia.org/wikipedia/commons/4/44/Zh-y%C4%81o.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/e/e2/Lone_Bird_Chirping.wav",
+"https://upload.wikimedia.org/wikipedia/commons/6/6a/Gentle_Wind_Blowing.wav",
+"https://upload.wikimedia.org/wikipedia/commons/2/27/Flowing_Stream_Ambience.wav",
+"https://upload.wikimedia.org/wikipedia/commons/8/87/Crickets_at_Night.wav"
+],
+"videos": [
+"https://www.youtube.com/watch?v=kRh1zXFKC_o",
+"https://www.youtube.com/watch?v=CEjUMQh2KSY",
+"https://www.youtube.com/watch?v=H2-1u8xvk54",
+"https://www.youtube.com/watch?v=bFRj2u-ueaM",
+"https://www.youtube.com/watch?v=Hhc8YpP9XKg"
+],
+"movies": [
+"乡村爱情",
+"一个人的村庄",
+"秋天的童话",
+"天之蓝",
+"春光乍泄"
+],
+"references": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国传统文化概论》",
+"《中国文学史》",
+"《中国古代思想史》"
+],
+"websites": [
+"https://baike.baidu.com/item/%E5%B9%BA/22342",
+"https://www.zhihu.com/topic/19550950",
+"https://www.chinaculture.org/gb/en_madeinchina/2004-06/15/content_55323.htm",
+"http://www.chiculture.net/0305/html/0305-07.html",
+"https://www.douban.com/group/topic/154696163/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  应
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+{
+"character": "应",
+"meaning": "符合、回应",
+"shape": "从立,从心",
+"pronunciation": "yìng",
+"origin": "从心从立,表示符合、回应的意思",
+"common_phrases": [
+"应答",
+"应对",
+"应征",
+"应聘",
+"应者"
+],
+"idioms": [
+"应接不暇",
+"应运而生",
+"应时而动",
+"应机立断",
+"应声虫"
+],
+"example_sentences": [
+"他能够应对各种突发情况,很有应变能力。",
+"这份工作报酬丰厚,我决定应聘。",
+"我们不仅要解决当下问题,还要应对未来需求。",
+"在面试时,你要根据问题灵活应答。",
+"他总是能应时而动,很有警觉性。"
+],
+"short_stories": [
+"唐代大诗人李白在《将进酒》中写道:"天生我材必有用,千金散尽还复来。"表达了他对自己能力的坚信,时刻准备应对任何挑战。",
+"北宋大儒程颐有言:"知行合一,方能致用。"强调理论与实践相结合,方能应运而生,发挥才能。",
+"明代思想家王阳明提出"良知"理论,认为人人都有善的本性,只要能应机立断,做出正确选择。",
+"清代文学家曹雪芹在《红楼梦》中塑造了多个性格鲜明的人物,他们都能应时而动,反应灵敏。",
+"现代作家鲁迅在《狂人日记》中写道:"我要革命,我要杀人!"体现了他敢于应对现实,勇于改变的决心。"
+],
+"poems": [
+"《春夜喜雨》王安石: "春来花谢人无恙,洒落满地无痕迹。",
+"《赤壁怀古》苏轼: "月落乌啼霜满天,江枫渔市上西楼。",
+"《望庐山瀑布》李白: "飞流直下三千尺,疑是银河落九天。",
+"《叹秋怀》杜甫: "霜满地，草枯死,寒飕飕。",
+"《定风波》苏轼: "人生自古谁无死,留取丹心照汗青。"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Raining_in_Dubai.jpg/1024px-Raining_in_Dubai.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Stormy_Sky_over_Landscape.jpg/1024px-Stormy_Sky_over_Landscape.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Thunderstorm_in_Boston.jpg/1024px-Thunderstorm_in_Boston.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Foggy_autumn_landscape.jpg/1024px-Foggy_autumn_landscape.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Dramatic_sky.jpg/1024px-Dramatic_sky.jpg"
+],
+"audio": [
+"https://upload.wikimedia.org/wikipedia/commons/e/e1/Zh-y%C3%ACng.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/5/55/Rain_on_a_tin_roof.wav",
+"https://upload.wikimedia.org/wikipedia/commons/c/c1/Thunderstorm_Ambience.wav",
+"https://upload.wikimedia.org/wikipedia/commons/d/d7/Wind_Howling.wav",
+"https://upload.wikimedia.org/wikipedia/commons/2/2a/Heavy_Rain.wav"
+],
+"videos": [
+"https://www.youtube.com/watch?v=_jFq63_sCaI",
+"https://www.youtube.com/watch?v=qzuM2XTnpSA",
+"https://www.youtube.com/watch?v=qsV8tXdT2Ew",
+"https://www.youtube.com/watch?v=7Ql8u2GQzCs",
+"https://www.youtube.com/watch?v=6Saj0i4iZx0"
+],
+"movies": [
+"风雨哈佛路",
+"无问西东",
+"云图",
+"秒速5厘米",
+"叶问"
+],
+"references": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国古代哲学思想史》",
+"《中国文学史》",
+"《中国文化概论》"
+],
+"websites": [
+"https://baike.baidu.com/item/%E5%BA%94/7804",
+"https://www.zhihu.com/topic/19550942",
+"https://www.chinaculture.org/gb/en_madeinchina/2004-06/15/content_55320.htm",
+"http://www.chiculture.net/0305/html/0305-03.html",
+"https://www.douban.com/group/topic/208973165/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  弟
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+{
+"character": "弟",
+"meaning": "兄弟, 表示年龄次于或晚于某人的亲属关系",
+"shape": "从弓下有一人, 表示弟弟的意思",
+"pronunciation": "dì",
+"origin": "古文字"弟"的形状似一个人在弓下,表示弟弟",
+"common_phrases": [
+"兄弟",
+"小弟",
+"弟子",
+"师弟",
+"幺弟"
+],
+"idioms": [
+"兄弟相称",
+"弟子规",
+"师出同门",
+"同气连枝",
+"鼓励有加"
+],
+"example_sentences": [
+"这位小弟读书很刻苦,前程似锦。",
+"我的幺弟今年18岁,正值青春年华。",
+"这位师弟在学习和工作上都很有天赋。",
+"作为大哥,我要好好照顾弟弟妹妹。",
+"在师长面前,弟子要恭敬有礼。"
+],
+"short_stories": [
+"《孟子》中有云:"仁者乐山,智者乐水。"这说明了兄弟之间应当相互学习,取长补短。",
+"《论语》记载孔子称:"吾十五而志于学,三十而立,四十而不惑"。这突出了学习的重要性,弟子应当虚心求教。",
+"唐代大诗人李白在《将进酒》中写道:"人生得意须尽欢,莫使金樽空对月。"这体现了他崇尚自由,畅快淋漓的人生追求。",
+"宋代教育家朱熹倡导"小学"的理念,主张从小积累知识,养成良好品德,这启发了弟子应当虚心向师。",
+"现代作家鲁迅在《狂人日记》中写道:"我要革命,我要杀人!"这展现了他作为一代文豪的担当精神,值得后辈弟子学习。"
+],
+"poems": [
+"《将进酒》李白: "人生得意须尽欢,莫使金樽空对月。",
+"《登科后》杜甫: "弟登高才上第,兄此时忧有违。",
+
+"《寒食》杜牧: "青山隐隐水迢迢,秋尽江南草未凋。",
+"《次北固山下》王安石: "艰难苦恨繁霜鬓,潦倒新停浊酒杯。",
+"《赤壁怀古》苏轼: "月落乌啼霜满天,江枫渔市上西楼。"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Brothers_walking_together.jpg/1024px-Brothers_walking_together.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Brother_and_sister_in_garden.jpg/1024px-Brother_and_sister_in_garden.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Siblings_Playing.jpg/1024px-Siblings_Playing.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Two_brothers_sitting_on_bench.jpg/1024px-Two_brothers_sitting_on_bench.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Siblings_Embracing.jpg/1024px-Siblings_Embracing.jpg"
+],
+"audio": [
+"https://upload.wikimedia.org/wikipedia/commons/1/10/Zh-d%C3%AC.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/0/0a/Children_Playing_Outside.wav",
+"https://upload.wikimedia.org/wikipedia/commons/3/3e/Family_Laughter.wav",
+"https://upload.wikimedia.org/wikipedia/commons/6/6b/Children_Chatting.wav",
+"https://upload.wikimedia.org/wikipedia/commons/f/f6/Siblings_Arguing.wav"
+],
+"videos": [
+"https://www.youtube.com/watch?v=BXJpubZLyag",
+"https://www.youtube.com/watch?v=lNBNMrKXdfU",
+"https://www.youtube.com/watch?v=lrqSzTRSGkM",
+"https://www.youtube.com/watch?v=mMkGSIgzYd4",
+"https://www.youtube.com/watch?v=9zAK8f6k380"
+],
+"movies": [
+"黄土地",
+"活着",
+"聊斋",
+"荆棘",
+"大约在冬季"
+],
+"references": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国传统家庭伦理观》",
+"《中国教育思想史》",
+"《中国文化概论》"
+],
+"websites": [
+"https://baike.baidu.com/item/%E5%BC%9F/10235",
+"https://www.zhihu.com/topic/19550944",
+"https://www.chinaculture.org/gb/en_madeinchina/2004-06/15/content_55321.htm",
+"http://www.chiculture.net/0305/html/0305-04.html",
+"https://www.douban.com/group/topic/207290009/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  当
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+{
+"character": "当",
+"meaning": "适当,恰当,正合适",
+"shape": "从矢下有一人, 表示人当受矢时的状态",
+"pronunciation": "dāng",
+"origin": "从矢下有一人, 表示人当受矢时的状态",
+"common_phrases": [
+"当前",
+"当下",
+"当时",
+"当代",
+"当天"
+],
+"idioms": [
+"当机立断",
+"应时而动",
+"恰逢其会",
+"不可或缺",
+"恰如其分"
+],
+"example_sentences": [
+"当前形势下,我们需要做出正确的决策。",
+"在面试时,要根据面试官的问题当场回答。",
+"这件事非常紧急,我们需要当下就去处理。",
+"这位名人在当时备受推崇。",
+"这个问题你回答得很当,很有见地。"
+],
+"short_stories": [
+"春秋时期,孔子在《论语》中说:"不患寡而患不均,不患贫而患不安。"这说明关键在于当下的处世智慧。",
+"唐代大诗人李白在《将进酒》中写道:"天生我材必有用,千金散尽还复来。"表达了他对自己当下能力的坚信。",
+"宋代理学家朱熹在《四书章句集注》中提出"格物致知"的思想,认为只有当下用功,才能真正达到知识的极致。",
+"清代作家曹雪芹在《红楼梦》中塑造了多个性格鲜明的人物,他们都能当机立断,应对各种变化。",
+"现代作家鲁迅在《狂人日记》中写道:"我要革命,我要杀人!"他在当下勇于直视现实,果敢付诸行动。"
+],
+"poems": [
+"《长恨歌》白居易: "日照香炉生紫烟,遥看瀑布挂前川。",
+"《绝句》杜甫: "两个黄鹂鸣翠柳,一行白鹭上青天。",
+"《木兰辞》佚名: "唧唧复唧唧,木兰当户织。",
+"《赤壁怀古》苏轼: "月落乌啼霜满天,江枫渔市上西楼。",
+"《题西林壁》刘禹锡: "横看成岭侧成峰,远近高低各不同。"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Soldiers_in_camouflage.jpg/1024px-Soldiers_in_camouflage.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Office_Meeting.jpg/1024px-Office_Meeting.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Firefighters_in_action.jpg/1024px-Firefighters_in_action.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Paramedics_working.jpg/1024px-Paramedics_working.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Police_officers_arresting_a_suspect.jpg/1024px-Police_officers_arresting_a_suspect.jpg"
+],
+"audio": [
+"https://upload.wikimedia.org/wikipedia/commons/7/7c/Zh-d%C4%81ng.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/0/0b/Firefighters_Responding.wav",
+"https://upload.wikimedia.org/wikipedia/commons/6/69/Police_Siren.wav",
+"https://upload.wikimedia.org/wikipedia/commons/c/c0/Ambulance_Siren.wav",
+"https://upload.wikimedia.org/wikipedia/commons/b/ba/Military_Marching.wav"
+],
+"videos": [
+"https://www.youtube.com/watch?v=L3WZMqkTgc4",
+"https://www.youtube.com/watch?v=KxYM4KE3igE",
+"https://www.youtube.com/watch?v=Iq1DsxLb7Tw",
+"https://www.youtube.com/watch?v=oCsBqmZY7a8",
+"https://www.youtube.com/watch?v=cGKZ2AvNT9I"
+],
+"movies": [
+"起跑线",
+"唐山大地震",
+"白鹿原",
+"老炮儿",
+"建国大业"
+],
+"references": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国古代哲学思想史》",
+"《中国文学史》",
+"《中国文化概论》"
+],
+"websites": [
+"https://baike.baidu.com/item/%E5%BD%93/7685",
+"https://www.zhihu.com/topic/19550935",
+"https://www.chinaculture.org/gb/en_madeinchina/2004-06/15/content_55323.htm",
+"http://www.chiculture.net/0305/html/0305-05.html",
+"https://www.douban.com/group/topic/212790886/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  文
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+{
+"character": "文",
+"meaning": "文字、文化、文学、文艺",
+"shape": "一文之下有一亻",
+"pronunciation": "wén",
+"origin": "从一、从文,表示文字、文化的意思",
+"common_phrases": [
+"文字",
+"文艺",
+"文化",
+"文学",
+"文明"
+],
+"idioms": [
+"文采飞扬",
+"文人雅士",
+"文质彬彬",
+"博文约礼",
+"文房四宝"
+],
+"example_sentences": [
+"他擅长各种文字创作,文笔非常出色。",
+"这位作家擅长文学创作,是当代著名的文坛新秀。",
+"我们要加强对中华文化的宣传和推广。",
+"这件文物充分展现了古代中国的文明水平。",
+"这位老师是一位文人雅士,为人和蔼可亲。"
+],
+"short_stories": [
+"春秋时期,孔子在《论语》中说:"有文而不武,则吾恐不足以自行也。"强调文武并重的重要性。",
+"唐代诗人李白在《将进酒》中抒发了他追求自由、不羁的文人精神:"天生我材必有用,千金散尽还复来。"",
+"宋代理学家朱熹在《四书章句集注》中提出"格物致知"的思想,强调学习文化知识的重要性。",
+"明代文学家李贽在《藏书》中提出"文以载道"的观点,认为文学应该传播道德思想。",
+"现代作家鲁迅在《狂人日记》中用文字描述了社会的黑暗面,"我发现了一件可怕的事情,那就是人们吃人!"这反映了他对文学的社会责任感。"
+],
+"poems": [
+"《将进酒》李白: "天生我材必有用,千金散尽还复来。",
+"《春望》杜甫: "感时花溅泪,恨别鸟惊心。",
+"《水调歌头》苏轼: "明月几时有?把酒问青天。",
+"《绝句》杜甫: "两个黄鹂鸣翠柳,一行白鹭上青天。",
+"《登岳阳楼》李白: "吴楚东南坡,乾坤日夜浮。"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Ancient_Chinese_calligraphy.jpg/1024px-Ancient_Chinese_calligraphy.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Chinese_painting_of_landscape.jpg/1024px-Chinese_painting_of_landscape.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Chinese_painting_of_flowers_and_birds.jpg/1024px-Chinese_painting_of_flowers_and_birds.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Chinese_opera_masks.jpg/1024px-Chinese_opera_masks.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Chinese_bronze_ding.jpg/1024px-Chinese_bronze_ding.jpg"
+],
+"audio": [
+"https://upload.wikimedia.org/wikipedia/commons/a/a5/Zh-w%C3%A9n.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/1/19/Traditional_Chinese_music.wav",
+"https://upload.wikimedia.org/wikipedia/commons/3/36/Guqin_music_sample.wav",
+"https://upload.wikimedia.org/wikipedia/commons/6/66/Pipa_music_sample.wav",
+"https://upload.wikimedia.org/wikipedia/commons/9/9a/Chinese_opera_singing.wav"
+],
+"videos": [
+"https://www.youtube.com/watch?v=SuBPwLrSFRo",
+"https://www.youtube.com/watch?v=GNadXaKSlWU",
+"https://www.youtube.com/watch?v=5lqOhiCEoQA",
+"https://www.youtube.com/watch?v=5l-wE9Tn3hI",
+"https://www.youtube.com/watch?v=8enjBEHFnZA"
+],
+"movies": [
+"霸王别姬",
+"阮玲玉",
+"孔雀",
+"活着",
+"颜色"
+],
+"references": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国古代文学史》",
+"《中国哲学思想史》",
+"《中国传统文化概论》"
+],
+"websites": [
+"https://baike.baidu.com/item/%E6%96%87/99091",
+"https://www.zhihu.com/topic/19550946",
+"https://www.chinaculture.org/gb/en_madeinchina/2004-06/15/content_55321.htm",
+"http://www.chiculture.net/0305/html/0305-06.html",
+"https://www.douban.com/group/topic/217901148/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  斗
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+{
+"character": "斗",
+"meaning": "容量单位,量器,斗争",
+"shape": "一个竖体,左边一止右边三立",
+"pronunciation": "dòu",
+"origin": "从一止三立,表示一种容量单位的器具",
+"common_phrases": [
+"斗量",
+"斗争",
+"斗胆",
+"斗气",
+"斗志"
+],
+"idioms": [
+"斗转星移",
+"一斗九winnow",
+"三斗两斗",
+"八面玲珑",
+"勇往直前"
+],
+"example_sentences": [
+"这块地可以种出一斗谷子。",
+"面对困难,我们要保持必胜的斗志。",
+"他斗胆向老板提出了合理化建议。",
+"兄弟俩之间有些小斗气,但感情还是很好。",
+"这支球队在激烈的比赛中斗志昂扬,最终赢得了胜利。"
+],
+"short_stories": [
+"战国时期,孙武在《孙子兵法》中说:"知彼知己,百战不殆。"这体现了在斗争中必须全面认识对方的重要性。",
+"唐代诗人杜甫在《春望》中写道:"感时花溅泪,恨别鸟惊心。"反映了他对动荡时局的无奈感慨。",
+"宋代文学家苏轼在《赤壁怀古》中感叹道:"物换星移,人事休休。"揭示了时间带来的变迁。",
+"明代思想家王守仁主张"格物致知",认为通过不懈斗争可以获得对事物本质的明白认识。",
+"现代作家鲁迅在《狂人日记》中写道:"我发现了一件可怕的事情,那就是人们吃人!"反映了他对社会黑暗面的担忧。"
+],
+"poems": [
+"《咏怀古迹五首·其五》杜牧: "遥望一处攒云堆,竟是君王阙,",
+"《赤壁怀古》苏轼: "日月之行,若出其中；星汉灿烂,若出其里。",
+"《望庐山瀑布》李白: "飞流直下三千尺,疑是银河落九天。",
+"《长恨歌》白居易: "春草本无主,归谁之园田?",
+"《绝句》杜甫: "两个黄鹂鸣翠柳,一行白鹭上青天。"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Chinese_grain_measuring_containers.jpg/1024px-Chinese_grain_measuring_containers.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Farmers_harvesting_rice.jpg/1024px-Farmers_harvesting_rice.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Chinese_wooden_bucket.jpg/1024px-Chinese_wooden_bucket.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Chinese_rice_paddy.jpg/1024px-Chinese_rice_paddy.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Grain_silos.jpg/1024px-Grain_silos.jpg"
+],
+"audio": [
+"https://upload.wikimedia.org/wikipedia/commons/5/57/Zh-d%C3%B2u.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/2/2b/Grain_being_shoveled.wav",
+"https://upload.wikimedia.org/wikipedia/commons/c/c5/Rice_harvesting_sounds.wav",
+"https://upload.wikimedia.org/wikipedia/commons/8/83/Grain_mill_sounds.wav",
+"https://upload.wikimedia.org/wikipedia/commons/4/4a/Farmers_working_in_the_field.wav"
+],
+"videos": [
+"https://www.youtube.com/watch?v=QLlBOHKkvnE",
+"https://www.youtube.com/watch?v=kRFGblAWYPo",
+"https://www.youtube.com/watch?v=J8DsDmzqTxA",
+"https://www.youtube.com/watch?v=QT82R_7Woa8",
+"https://www.youtube.com/watch?v=cjK_cAZcb6E"
+],
+"movies": [
+"黄河绝恋",
+"秋收起义",
+"让子弹飞",
+"大决战",
+"邰丽华"
+],
+"references": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国农业经济史》",
+"《中国农民斗争史》",
+"《中国战略思想史》"
+],
+"websites": [
+"https://baike.baidu.com/item/%E6%96%97/57677",
+"https://www.zhihu.com/topic/19550941",
+"https://www.chinaculture.org/gb/en_madeinchina/2004-06/15/content_55322.htm",
+"http://www.chiculture.net/0305/html/0305-08.html",
+"https://www.douban.com/group/topic/212790896/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  无
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+{
+"character": "无",
+"meaning": "没有,不存在,没什么",
+"shape": "一个木字下面带一个亻",
+"pronunciation": "wú",
+"origin": "从一木之下有人,表示无所有",
+"common_phrases": [
+"无价",
+"无事",
+"无所不为",
+"无所谓",
+"无穷无尽"
+],
+"idioms": [
+"无中生有",
+"无计可施",
+"无孔不入",
+"无所不至",
+"无出其右"
+],
+"example_sentences": [
+"这件艺术品价值无价,不能用金钱衡量。",
+"我现在无事可做,有点闲着无聊。",
+"他无所不为地想方设法解决这个问题。",
+"这件事我无所谓,你来决定吧。",
+"这位学者的知识无穷无尽,令人敬佩。"
+],
+"short_stories": [
+"春秋时期,孔子在《论语》中说:"知者无惑,仁者无忧。"这体现了他对内心从容和平的追求。",
+"唐代诗人李白在《将进酒》中写道:"天生我材必有用,千金散尽还复来。"表达了他不为名利所驱的人生观。",
+"宋代理学家朱熹在《四书章句集注》中提出"格物致知"的思想,认为要通过主动求知才能获得智慧。",
+"明代文学家李贽在《藏书》中提出"文以载道"的观点,认为文学应该传播道德思想,这与"无中生有"的理念相呼应。",
+"现代作家鲁迅在《狂人日记》中描述了社会的黑暗面,他说"我发现了一件可怕的事情,那就是人们吃人!"表达了对人性的担忧。"
+],
+"poems": [
+"《将进酒》李白: "天生我材必有用,千金散尽还复来。",
+"《赤壁怀古》苏轼: "日月之行,若出其中;星汉灿烂,若出其里。",
+"《绝句》杜甫: "两个黄鹂鸣翠柳,一行白鹭上青天。",
+"《望庐山瀑布》李白: "飞流直下三千尺,疑是银河落九天。",
+"《春望》杜甫: "感时花溅泪,恨别鸟惊心。"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Emptiness.jpg/1024px-Emptiness.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Empty_street.jpg/1024px-Empty_street.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Empty_school_classroom.jpg/1024px-Empty_school_classroom.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Empty_beach.jpg/1024px-Empty_beach.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Empty_workspace.jpg/1024px-Empty_workspace.jpg"
+],
+"audio": [
+"https://upload.wikimedia.org/wikipedia/commons/a/aa/Zh-w%C3%BA.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/3/39/Ambient_silence.wav",
+"https://upload.wikimedia.org/wikipedia/commons/c/cf/Empty_room_ambience.wav",
+"https://upload.wikimedia.org/wikipedia/commons/6/69/Quiet_countryside.wav",
+"https://upload.wikimedia.org/wikipedia/commons/a/a0/Empty_office_ambience.wav"
+],
+"videos": [
+"https://www.youtube.com/watch?v=zKAuHnbfMnQ",
+"https://www.youtube.com/watch?v=J9P6Q3Z9tIo",
+"https://www.youtube.com/watch?v=MMQJkIjnDDA",
+"https://www.youtube.com/watch?v=9dSlg4Cq3bE",
+"https://www.youtube.com/watch?v=DyoXrbOd5R0"
+],
+"movies": [
+"天脉传奇",
+"色即是空",
+"无为",
+"无问东西",
+"一个都不能少"
+],
+"references": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国哲学思想史》",
+"《中国古代文学作品赏析》",
+"《中国传统文化概论》"
+],
+"websites": [
+"https://baike.baidu.com/item/%E6%97%A0/4190",
+"https://www.zhihu.com/topic/19550940",
+"https://www.chinaculture.org/gb/en_madeinchina/2004-06/15/content_55323.htm",
+"http://www.chiculture.net/0305/html/0305-07.html",
+"https://www.douban.com/group/topic/217901988/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  时
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+{
+"character": "时",
+"meaning": "时间,节点,机会",
+"shape": "从日从寸,表示时间的长短",
+"pronunciation": "shí",
+"origin": "从日从寸,表示时间的长短",
+"common_phrases": [
+"时间",
+"时代",
+"时机",
+"时刻",
+"时势"
+],
+"idioms": [
+"时来运转",
+"因时制宜",
+"顺应时势",
+"时过境迁",
+"时不我待"
+],
+"example_sentences": [
+"我们要合理利用手头的时间。",
+"这是一个充满活力的时代,充满机遇。",
+"我们要抓住合适的时机实施改革。",
+"在这个关键时刻,我们要保持谨慎。",
+"我们要顺应时势,做出正确选择。"
+],
+"short_stories": [
+"春秋时期,孔子在《论语》中说:"温故知新,可以为师。"这强调了时间的重要性,只有不断学习和总结才能进步。",
+"唐代诗人王维在《相思》中写道:"山中相送罢,清渠常作客。"表达了对时光流逝的无奈感。",
+"宋代大文豪苏轼在《水调歌头》中写道:"明月几时有?把酒问青天。"抒发了对逝去时光的追思。",
+"明代思想家王阳明提出"良知"理论,强调在时势变迁中保持内心的良知。",
+"现代作家鲁迅在《狂人日记》中写道:"我要革命,我要杀人!"反映了在特定时代背景下他的思想变革。"
+],
+"poems": [
+"《相思》王维: "山中相送罢,清渠常作客。",
+"《水调歌头》苏轼: "明月几时有?把酒问青天。",
+"《登岳阳楼》李白: "寥落古柏横窗语,（恰似）江山如画。",
+"《春望》杜甫: "感时花溅泪,恨别鸟惊心。",
+"《赤壁怀古》苏轼: "天地一沙鸥鼓翼,风尘满楼花雪落。"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Hourglass_on_old_books.jpg/1024px-Hourglass_on_old_books.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Clock_face.jpg/1024px-Clock_face.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Sundial.jpg/1024px-Sundial.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Pocket_watch.jpg/1024px-Pocket_watch.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Time_passing_by.jpg/1024px-Time_passing_by.jpg"
+],
+"audio": [
+"https://upload.wikimedia.org/wikipedia/commons/a/ad/Zh-sh%C3%AD.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/f/f0/Clock_ticking.wav",
+"https://upload.wikimedia.org/wikipedia/commons/8/82/Pendulum_clock_ticking.wav",
+"https://upload.wikimedia.org/wikipedia/commons/5/53/Metronome.wav",
+"https://upload.wikimedia.org/wikipedia/commons/6/61/Hourly_chime.wav"
+],
+"videos": [
+"https://www.youtube.com/watch?v=bxjswS6a7OQ",
+"https://www.youtube.com/watch?v=m1RUfL9lR0g",
+"https://www.youtube.com/watch?v=5d5eBn21N9c",
+"https://www.youtube.com/watch?v=fFAY-BqmdRs",
+"https://www.youtube.com/watch?v=TYtHhJiTfQ0"
+],
+"movies": [
+"时光机",
+"时间规划局",
+"辛德勒的名单",
+"教父",
+"上帝之城"
+],
+"references": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国古代思想史》",
+"《中国文学发展史》",
+"《中国传统文化概论》"
+],
+"websites": [
+"https://baike.baidu.com/item/%E6%97%B6/7404",
+"https://www.zhihu.com/topic/19550939",
+"https://www.chinaculture.org/gb/en_madeinchina/2004-06/15/content_55320.htm",
+"http://www.chiculture.net/0305/html/0305-09.html",
+"https://www.douban.com/group/topic/207290609/"
+]
+}
+
+Copy
+Retry
+
+
+Claude can make mistakes. Please double-check responses.
+
+
+
+No file chosen
+
+
+3 Haiku
+Tip:
+Long chats cause you to reach your usage limits faster.
+Start a new chat 
+Chat controls
+
+3 Haiku
+Fastest model for daily tasks Learn more
+
+Content
+No content added yet
+Add images, PDFs, docs, spreadsheets, and more to summarize, analyze, and query content with Claude.
+Chat styles
+Font
+
+Default

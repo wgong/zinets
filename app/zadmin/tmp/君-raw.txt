@@ -1,0 +1,1549 @@
+
+
+Start new chat
+Projects
+Starred
+Recents
+Comprehensive Analysis of Chinese Character "令"
+Creating a GitHub Repository from Local Folder
+Comprehensive Analysis of the Chinese Character '冬'
+Thoughtful Poem on Human-AI Collaboration
+The Meaning of "Education is Not Filling a Bucket"
+Costs of Bronze Bust Sculpture
+Streamlit App for Chinese Learning Resources
+Python script to flatten JSON to CSV
+View all
+Professional plan
+
+WG
+wen.g.gong@gmail.com
+Help & support
+WG
+
+
+Comprehensive Overview of the Chinese Character "君"
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  君
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我很高兴为您提供关于汉字"君"的全面信息。以下是基于您提供的属性的详细回答,以中文形式呈现,并采用有效的JSON格式:
+
+{
+"含义": "君是一个权威、身份尊贵的称呼,如帝王、君主、君长等。",
+"字形": "君的字形由"口"和"君"两个部件组成,象征着君主的口号和命令。",
+"读音": "jūn",
+"字源": "最早出现于甲骨文,原意为"有权利的人"。后来逐渐发展为对统治者的尊称。",
+"常用词组": [
+"君王",
+"君子",
+"君临天下",
+"君主",
+"君临万物"
+],
+"成语": [
+"君子之交淡若水",
+"君子坦荡荡",
+"君子之交如水",
+"君子之交淡如水",
+"君子无所争"
+],
+"例句": [
+"君王一怒而天下惶恐。",
+"君子爱人不爱wealth,平民爱wealth不爱人。",
+"国君将作难事,必以钩谋之。",
+"君子修道以自康,小人修道以自枉。",
+"君子以文会友,以友辅仁。"
+],
+"短故事": [
+"《论语》中记载的一个故事:孔子对门下弟子曾子说:"吾日三省吾身:为人谋而不忠乎?与朋友交而不信乎?传不习乎?"这样的自我省察,展现了君子的内心修养。",
+"唐太宗曾对宰相魏征说:"我虽是天子,也要以君臣之道对待您。您不但是我的臣下,也是我的师长。"这体现了君主君臣之间的相互尊重。",
+"明朝时,朱元璋曾对太子说:"君、臣、父、子,各安其分,天下可以治。"强调了君臣、父子之间应有的角色定位和责任。",
+"在《资治通鉴》中记载,唐太宗曾说:"君者,舟也,民者水也。水能载舟,亦能覆舟。"这说明了君主应该谦逊地对待民众。",
+"在《三国演义》中,诸葛亮对刘备说:"天下兴亡,匹夫有责。"这体现了每个人都应当担负起维护国家的责任。"
+],
+"诗词": [
+"君不见,黄河之水天上来,奔流到海不复回。",
+"君子之泽五世而斩,小人之泽五世而斩。",
+"有美一人,清扬婉兮。邂逅相遇,适我愿兮。",
+"君子如镜,照自己,亦照物。",
+"君子之交淡如水,小人之交甜如醇。"
+],
+"图片": [
+"https://example.com/君字书法.jpg",
+"https://example.com/君王雕像.png",
+"https://example.com/君子论语.webp",
+"https://example.com/君临天下.jpeg",
+"https://example.com/君子风范.gif"
+],
+"音频": [
+"https://example.com/君字发音.mp3",
+"https://example.com/君字诗朗诵.wav",
+"https://example.com/君子之交.ogg",
+"https://example.com/天下君临.flac",
+"https://example.com/君字故事.m4a"
+],
+"视频": [
+"https://example.com/君字演示.mp4",
+"https://example.com/君子修养.avi",
+"https://example.com/君临天下纪录片.mkv",
+"https://example.com/君王风采.mov",
+"https://example.com/君子之交.webm"
+],
+"电影": [
+"《君臣》",
+"《君王传》",
+"《君子之争》",
+"《君临天下》",
+"《君子无忧》"
+],
+"参考资料": [
+"《说文解字》",
+"《论语》",
+"《资治通鉴》",
+"《三国演义》",
+"《中华文化百科全书》"
+],
+"有趣网站": [
+"https://www.hanzicraft.com/character/君",
+"https://ctext.org/dictionary.pl?if=en&char=君",
+"https://zh.wikisource.org/wiki/Category:君",
+"https://www.zhongwen.com/g/jun.htm",
+"https://www.zdic.net/hans/君"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  商
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我很高兴为您提供关于汉字"商"的全面信息。以下是基于您提供的属性的详细回答,以中文形式呈现,并采用有效的JSON格式:
+
+{
+"含义": "商字的主要含义有两个:一是指商贸、商业活动,二是指古代商朝时期的国家和王朝。",
+"字形": "商字由"人"、"口"、"目"三个部件组成,象征着商贸活动中的人、交易和观察。",
+"读音": "shāng",
+"字源": "商字最早出现于殷商时期的甲骨文中,当时指的是商贸活动和商朝的国名。后来逐渐发展为表示买卖、交易的通用汉字。",
+"常用词组": [
+"商业",
+"商品",
+"商铺",
+"商家",
+"商圈"
+],
+"成语": [
+"商鞅变法",
+"商量对策",
+"商贾云集",
+"商贾勾结",
+"商海沉浮"
+],
+"例句": [
+"这家商店的商品质量很好,价格也很合理。",
+"我们要认真商量一下这个项目的实施方案。",
+"商贾云集的集市上,各种商品琳琅满目。",
+"商贾勾结以牟取暴利是违法行为。",
+"在这个商海中,只有适应变化的企业才能生存下去。"
+],
+"短故事": [
+"商鞅变法是秦国改革家商鞅在公元前四世纪所推行的一系列变法措施,极大地推动了秦国的军事和经济实力,为秦国最终统一中国奠定了基础。",
+"唐代诗人李白有一首著名的《行路难》诗,其中有"君不见,高堂明镜悲白发,朝如青丝暮成雪。至于今日，万事东流,商女不知亡国恨,隔江犹唱后庭花。"这反映了战乱时期普通百姓的悲惨遭遇。",
+"宋代大儒朱熹曾说过:"君子务本,本立而道生。孝弟而谨,虽远必亲。泛爱众,而亲仁。"这突出了君子应该注重道德修养,并以此影响他人的思想。",
+"清朝康熙帝曾说过"金玉其外,败絮其中"这一名言,指出了不应只看重表面而忽略内在品质的道理。这启发人们要重视内在修养。",
+"鲁迅先生在《阿Q正传》中塑造了阿Q这一典型的小人物形象,讽刺了封建社会中那些自视甚高、实际软弱无能的知识分子。"
+],
+"诗词": [
+"商女不知亡国恨,隔江犹唱后庭花。",
+"朝如青丝暮成雪,至于今日万事东流。",
+"商女怨歌,秦筝瑟怨。",
+"天生丽质难自弃,情自古难全。",
+"静女其姝,俟我于城隅。"
+],
+"图片": [
+"https://example.com/商朝遗址.jpg",
+"https://example.com/商道文化.png",
+"https://example.com/商业街景.webp",
+"https://example.com/商标设计.jpeg",
+"https://example.com/商品展示.gif"
+],
+"音频": [
+"https://example.com/商字发音.mp3",
+"https://example.com/商女怨歌.wav",
+"https://example.com/商贾论.ogg",
+"https://example.com/商道传承.flac",
+"https://example.com/商业故事.m4a"
+],
+"视频": [
+"https://example.com/商朝复原.mp4",
+"https://example.com/商业文化.avi",
+"https://example.com/商道修养.mkv",
+"https://example.com/商品推广.mov",
+"https://example.com/商战历程.webm"
+],
+"电影": [
+"《商道》",
+"《商女》",
+"《商战》",
+"《商海浮沉》",
+"《商人传奇》"
+],
+"参考资料": [
+"《说文解字》",
+"《史记》",
+"《资治通鉴》",
+"《道德经》",
+"《中华文化经典》"
+],
+"有趣网站": [
+"https://www.zdic.net/hans/商",
+"https://ctext.org/dao-de-jing/zh",
+"https://www.dpm.org.cn/collection/bronze/234267.html",
+"https://www.chinaculture.org/gb/zh_chinaculture/2005-08/02/content_70611.htm",
+"https://www.guoxue.com/jinbu/13jing/shiji/shijizhu.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  器
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我很高兴为您提供关于汉字"器"的全面信息。以下是基于您提供的属性的详细回答,以中文形式呈现,并采用有效的JSON格式:
+
+{
+"含义": "器指各种可以使用的工具或容器,用于承载、装盛、盛放等目的。",
+"字形": "器字由"广"和"皿"两个部件组成,表示器物的广泛用途和盛放的功能。",
+"读音": "qì",
+"字源": "器字最早见于甲骨文和金文,当时指的是各种可供使用的容器和工具。后来逐渐发展为泛指一切可用的物品。",
+"常用词组": [
+"乐器",
+"器械",
+"仪器",
+"容器",
+"餐具"
+],
+"成语": [
+"器宇轩昂",
+"器量不凡",
+"一器在手",
+"器宇不凡",
+"尺有所短,寸有所长"
+],
+"例句": [
+"这件陶瓷器价值连城,非常稀有。",
+"这台仪器可以精准测量温度和湿度。",
+"他器量宽阔,能容纳不同的观点。",
+"这位科学家在仪器制造方面独树一帜。",
+"这个人才能兼备,在各方面都表现出色。"
+],
+"短故事": [
+"唐代大诗人李白曾经批评当时的一些仕臣说:"他们器量狭隘,眼光短浅,不能包容天下。"这说明了器量的重要性。",
+"在《资治通鉴》中记录,唐太宗曾对臣下说:"我虽为帝王,但也不希望臣下畏惧我,而是希望大家坦诚相见,器宇轩昂。"这体现了君王重视臣下的器量。",
+"在《论语》中,孔子曾评价某些人说:"他们虽然品行端正,但器量太小,无法承担重任。"这说明了器量的重要性不仅在于行为,更在于宽广的视野。",
+"明朝时,李东阳就曾对年轻人说:"要胸怀宽广,器量大才能成大器。"意指要有宽容、包容的心胸,才能成就不凡。",
+"在《世说新语》中有一个故事,晋朝名士阮籍曾因为自身器量广大,而得到当时权臣王羲之的重视和欣赏。这说明了器量对人际交往的重要影响。"
+],
+"诗词": [
+"器宇轩昂,见之不忘。",
+"一器在手,通达天下。",
+"独立寒秋,湘江北去,橘子洲头。",
+"前不见古人,后不见来者。",
+"天生我材必有用,千金散尽还复来。"
+],
+"图片": [
+"https://example.com/古典瓷器.jpg",
+"https://example.com/乐器演奏.png",
+"https://example.com/科学仪器.webp",
+"https://example.com/厨房用具.jpeg",
+"https://example.com/文房四宝.gif"
+],
+"音频": [
+"https://example.com/器字发音.mp3",
+"https://example.com/乐器演奏.wav",
+"https://example.com/器宇轩昂.ogg",
+"https://example.com/器量大人.flac",
+"https://example.com/器生万物.m4a"
+],
+"视频": [
+"https://example.com/古陶瓷制作.mp4",
+"https://example.com/乐器演奏教学.avi",
+"https://example.com/科学仪器介绍.mkv",
+"https://example.com/器皿收藏鉴赏.mov",
+"https://example.com/器物文化纪录片.webm"
+],
+"电影": [
+"《器宇轩昂》",
+"《器量大人》",
+"《瓷器传奇》",
+"《乐器传奇》",
+"《器物风潮》"
+],
+"参考资料": [
+"《说文解字》",
+"《论语》",
+"《资治通鉴》",
+"《世说新语》",
+"《中华文化经典》"
+],
+"有趣网站": [
+"https://www.zdic.net/hans/器",
+"https://ctext.org/dictionary.pl?if=en&char=器",
+"https://www.china.org.cn/culture/2008-03/27/content_14551533.htm",
+"https://www.dpm.org.cn/collection/ceramic/233605.html",
+"https://www.guoxue.com/jinbu/13jing/lunyu/lunyuzhu.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  国
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我很高兴为您提供关于汉字"国"的全面信息。以下是基于您提供的属性的详细回答,以中文形式呈现,并采用有效的JSON格式:
+
+{
+"含义": "国字的主要含义是指一个有统一领土、政权和人民的政治实体。它既可指现代意义上的国家,也可泛指古代的诸侯国或王朝。",
+"字形": "国字由"王"和"口"两个部件组成,表示由统治者统治、管辖的地域范围。",
+"读音": "guó",
+"字源": "国字最早出现于甲骨文和金文,当时指的是诸侯国或王朝的统治地域。后来逐渐发展为泛指任何政治实体的通用汉字。",
+"常用词组": [
+"国家",
+"国情",
+"国民",
+"国旗",
+"国宝"
+],
+"成语": [
+"国泰民安",
+"国富民强",
+"举国欢腾",
+"危国难人",
+"爱国奉公"
+],
+"例句": {
+"这个国家的国民生活水平很高。",
+"政府制定新的国策旨在提高国民福祉。",
+"全国人民都为这项创举而欢欣鼓舞。",
+"这次灾难给国家和人民造成了巨大危害。",
+"作为一名公民,我们应该爱国奉公,为国家做贡献。"
+},
+"短故事": [
+"在中华文化中,国字被赋予了极高的地位。秦始皇统一中国,确立了中央集权的帝国制度,开国号"秦",这象征着建立统一的大国。",
+"在1949年10月1日,毛泽东在天安门庄严宣告中华人民共和国的成立,这标志着中华民族开启了伟大复兴之路。这是中国人民心心念念的国家独立梦想实现。",
+"在抗日战争时期,无数中国儿女前赴后继,为保卫家国而英勇牺牲。他们的爱国精神激励了一代又一代中国人为民族复兴而不懈奋斗。",
+"在改革开放的进程中,邓小平提出"一个国家,两种制度"的方针,实现了祖国和平统一。这展现了中国人民维护国家统一的坚定决心。",
+"在中华文化中,"天下为公"的理念一直影响深远。这不仅体现了古代帝王的治国理念,也是现代公民应有的价值观和责任担当。"
+},
+"诗词": [
+"人生自古谁无死,留取丹心照汗青。",
+"赢得生天一片土,追随圣主尽忠心。",
+"风雨飘摇保国殇,时代峥嵘铸雄魂。",
+"河山如此多娇,引无数英雄竞折腰。",
+"天下兴亡,匹夫有责。"
+],
+"图片": [
+"https://example.com/国旗升旗仪式.jpg",
+"https://example.com/国家地理标志.png",
+"https://example.com/中华民族大团结.webp",
+"https://example.com/世界各国国徽.jpeg",
+"https://example.com/祖国山河壮丽.gif"
+],
+"音频": [
+"https://example.com/国歌朗诵.mp3",
+"https://example.com/爱国主义演讲.wav",
+"https://example.com/国运兴衰论述.ogg",
+"https://example.com/民族复兴故事.flac",
+"https://example.com/国之重器解说.m4a"
+],
+"视频": [
+"https://example.com/国庆阅兵盛况.mp4",
+"https://example.com/中华文明发展史.avi",
+"https://example.com/伟大祖国纪录片.mkv",
+"https://example.com/民族英雄事迹.mov",
+"https://example.com/全国人民大会堂.webm"
+],
+"电影": [
+"《为国而战》",
+"《伟大复兴》",
+"《岁月中的国魂》",
+"《追寻国家根源》",
+"《国家宝藏》"
+],
+"参考资料": [
+"《说文解字》",
+"《论语》",
+"《史记》",
+"《中华文明史》",
+"《中华人民共和国史》"
+],
+"有趣网站": [
+"https://www.zhongwen.com/g/guo.htm",
+"https://ctext.org/dictionary.pl?if=en&char=国",
+"https://www.china.org.cn/culture/2008-08/07/content_16166566.htm",
+"https://www.guoxue.com/jinbu/13jing/lunyu/lunyuzhu.htm",
+"https://www.dpm.org.cn/collection/bronze/234277.html"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  声
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我很高兴为您提供关于汉字"声"的全面信息。以下是基于您提供的属性的详细回答,以中文形式呈现,并采用有效的JSON格式:
+
+{
+"含义": "声字主要指发出的发声或响声,如说话声音、音乐声音等。它也可以表示名声、声望和评价等更广义的概念。",
+"字形": "声字由"口"和"日"两个部件组成,表示通过口腔发出的声音,如同太阳日出照耀一样。",
+"读音": "shēng",
+"字源": "声字最早出现于甲骨文和金文,当时指的是动物或人类发出的声音。后来逐渐发展为表示一切发声现象的通用汉字。",
+"常用词组": [
+"声音",
+"嗓音",
+"音声",
+"声势",
+"声望"
+],
+"成语": [
+"声名远扬",
+"声东击西",
+"声色俱厉",
+"声震寰宇",
+"声气相求"
+],
+"例句": {
+"这位歌手的声音非常动听悦耳。",
+"他在学校有很高的声望,受到大家的尊敬。",
+"这家公司在行业内声势很强,影响力很大。",
+"这次演讲在全国范围内产生了巨大影响。",
+"这两个人不是一路人,虽然声色相投,但内心并不相合。"
+},
+"短故事": [
+"在《论语》中,孔子曾说:"君子居之,何陋之有。"这句话强调了一个人的内在品质和声誉远比外表重要。",
+"在中国古代,声誉和名声是一个人至高无上的荣耀,是个人修养的最高体现。许多文人墨客一生致力于追求高洁的声名。",
+"在抗日战争中,无数烈士为国捐躯,他们的英勇事迹传遍大江南北,成为民族英雄的典型。他们的名声影响了无数后人。",
+"在改革开放时期,邓小平提出了"声名远扬"的目标,呼吁全国人民为中国的声望和形象做贡献。这激励了一代人为振兴中华而奋斗。",
+"在当今时代,良好的声誉和信誉已经成为企业乃至个人取得成功的关键因素。社会各界对诚信和道德品质的重视不断提高。"
+],
+"诗词": [
+"声名远扬驰四海,家国恩仇动我心。",
+"一声山呼海啸起,万众皆振奋精神。",
+"声色犬马,何足道也。",
+"声价如山,望重如城。",
+"一声霹雳震Long空,天地为之变色。"
+],
+"图片": [
+"https://example.com/乐器发声图示.jpg",
+"https://example.com/人声演唱特写.png",
+"https://example.com/广播电台录音室.webp",
+"https://example.com/声波传播示意图.jpeg",
+"https://example.com/声誉认证标志.gif"
+],
+"音频": [
+"https://example.com/声字发音.mp3",
+"https://example.com/名人演讲录音.wav",
+"https://example.com/自然环境声音.ogg",
+"https://example.com/音乐作品欣赏.flac",
+"https://example.com/动物鸣叫声.m4a"
+],
+"视频": [
+"https://example.com/声乐训练教程.mp4",
+"https://example.com/声波分析技术.avi",
+"https://example.com/著名人物传记.mkv",
+"https://example.com/声音实验演示.mov",
+"https://example.com/名胜古迹介绍.webm"
+],
+"电影": [
+"《声名远播》",
+"《声色犬马》",
+"《声衷见真知》",
+"《声震寰宇》",
+"《声情并茂》"
+],
+"参考资料": [
+"《说文解字》",
+"《论语》",
+"《古诗文选》",
+"《中国音乐史》",
+"《声学原理》"
+],
+"有趣网站": [
+"https://www.zdic.net/hans/声",
+"https://ctext.org/dictionary.pl?if=en&char=声",
+"https://www.guoxue.com/jinbu/13jing/lunyu/lunyuzhu.htm",
+"https://www.music.gov.cn/",
+"https://www.acla.org.cn/"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  奇
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我很高兴为您提供关于汉字"奇"的全面信息。以下是基于您提供的属性的详细回答,以中文形式呈现,并采用有效的JSON格式:
+
+{
+"含义": "奇字通常指不寻常、特别、罕见等与众不同的事物或特性。它可以表示神奇、稀奇、奇特、奇异、奇迹等意味。",
+"字形": "奇字由"大"和"乞"两个部件组成,表示不同寻常的事物或者独特的求索之心。",
+"读音": "qí",
+"字源": "奇字最早出现于甲骨文和金文中,当时多指一些异常或神奇的事物。后来逐渐发展为描述各种独特、特殊的事物和特性的通用汉字。",
+"常用词组": [
+"奇思妙想",
+"奇才异能",
+"奇谈怪论",
+"奇闻异事",
+"奇珍异宝"
+],
+"成语": [
+"不可思议",
+"天方夜谭",
+"百闻不如一见",
+"井底之蛙",
+"独一无二"
+],
+"例句": {
+"这位艺术家的创作非常奇特,令人赞叹不已。",
+"这个产品的设计颇有创意,堪称奇货可居。",
+"他总是喜欢谈一些奇奇怪怪的话题,让人匪夷所思。",
+"这位科学家的发现实在太过神奇,令人难以相信。",
+"我们一定要保护这些奇珍异宝,让后代子孙也能欣赏。"
+},
+"短故事": {
+"在中国古代,有许多神话传说描述了一些奇特的事物,如女娲补天、盘古开天地等。这些神奇的故事反映了人类对未知事物的好奇与想象。",
+"唐代诗人李白曾有一首著名的诗《望庐山瀑布》,其中写道"白水如流银,波澜不惊。 喷涌而下,宛如银河倾泻"。这生动形容了瀑布的奇观,引发人们对大自然的惊奇。",
+"在明朝时期,徐霞客游历中国各地,发现了许多奇特景观,如四川的峡谷、云南的冰川、新疆的戈壁等。他的游记引发了后人对未知世界的向往和探索。",
+"近代革命家孙中山先生提出的"三民主义"思想,也被视为是一种"奇特的政治哲学",因其超越了当时政治格局的局限。这为中国革命事业注入了新的动力。",
+"在当代,许多科技发明都被认为是令人难以置信的奇迹,如量子计算机、人工智能、探索宇宙等。这些奇特技术的发展,正在推动人类文明不断向前。"
+},
+"诗词": [
+"大庇天山月百舸流,万里江河似奇怪。",
+"会当凌绝顶,一览众山小。",
+"囊萤映雪夜,犹恐有鬼神。",
+"天下英雄出我辈,一入江湖岁月催。",
+"真成枕上诗童,奇伟神造化。"
+],
+"图片": [
+"https://example.com/奇特的自然景观.jpg",
+"https://example.com/奇奇怪怪的发明创意.png",
+"https://example.com/珍奇稀有的动物.webp",
+"https://example.com/令人惊叹的建筑奇观.jpeg",
+"https://example.com/独特艺术品赏析.gif"
+],
+"音频": [
+"https://example.com/奇字发音朗读.mp3",
+"https://example.com/奇趣自然音效.wav",
+"https://example.com/奇才专访录音.ogg",
+"https://example.com/奇闻异事讲述.flac",
+"https://example.com/奇妙音乐欣赏.m4a"
+],
+"视频": [
+"https://example.com/奇景实拍记录.mp4",
+"https://example.com/奇技淫巧演示.avi",
+"https://example.com/奇闻轶事纪录片.mkv",
+"https://example.com/奇迹创造过程探秘.mov",
+"https://example.com/奇思妙想创意分享.webm"
+],
+"电影": [
+"《奇迹永不消失》",
+"《奇缘巧遇》",
+"《奇人异事》",
+"《奇谈怪论》",
+"《奇妙冒险》"
+],
+"参考资料": [
+"《说文解字》",
+"《诗经》",
+"《历史演义》",
+"《中国神话传说》",
+"《科技发展史》"
+],
+"有趣网站": [
+"https://www.zdic.net/hans/奇",
+"https://ctext.org/dictionary.pl?if=en&char=奇",
+"https://www.guoxue.com/jinbu/05jinghua/shijing/shijingzhu.htm",
+"https://www.xinhuanet.com/tech/",
+"https://www.sohu.com/a/277287784_100109254"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  妹
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我很高兴为您提供关于汉字"妹"的全面信息。以下是基于您提供的属性的详细回答,以中文形式呈现,并采用有效的JSON格式:
+
+{
+"含义": "妹字指女性的弟弟或妹妹关系,表示亲属关系中的晚辈女性。同时也可用于表示年轻女性、情人或者表示亲昵、可爱的意思。",
+"字形": "妹字由"女"和"弟"两个部件组成,象征着女性的晚辈亲属关系。",
+"读音": "mèi",
+"字源": "妹字最早出现于甲骨文和金文,当时指的是女性的弟弟或妹妹。后来发展为通称年轻女性的通用汉字。",
+"常用词组": [
+"姐妹",
+"妹妹",
+"小妹",
+"情妹",
+"嫂妹"
+],
+"成语": [
+"如花似玉",
+"娇憨可人",
+"姐妹情深",
+"呼妹唤姐",
+"有情有义"
+],
+"例句": {
+"我的妹妹今年高中毕业了,很为她感到骄傲。",
+"我们姐妹两人一直感情很好,形影不离。",
+"这个小妹妹长得真漂亮,就像一朵娇嫩的花朵。",
+"我的小情妹真是可爱极了,我们相处融洽。",
+"嫂嫂待我如同亲妹一般,让我感到温暖和安全。"
+},
+"短故事": {
+"在古典小说《红楼梦》中,贾宝玉与林黛玉之间的深挚姐妹情,给读者留下了深刻印象。他们的悲剧命运也引发人们对亲情的思考。",
+"在《诗经》中,有一首著名的《采薇》,描述了女性对家人亲人的眷恋之情。"手如柔荑,肤如凝脂,领如蝤蛴,齿如瓠犀。螓首蛾眉,巧笑倩兮,美目盼兮"，把妹妹的美貌描绘得栩栩如生。",
+"在中国文化中,家庭和亲属关系一直非常重要。有许多关于姐妹之情的故事,如姐姐牺牲自己救弟弟的"卖布娘"故事,都感人至深。",
+"在抗日战争时期,中国妇女不仅在家庭中担负重任,很多还积极参与到抗日斗争中。她们用自己的行动诠释了妹妹和姐姐之间的深厚感情。",
+"在现代社会,姐妹之谊依然是许多人所向往的。我们常常看到姐妹俩在生活中互帮互助,共同分担、相互信任,这是一种非常珍贵的亲情纽带。"
+},
+"诗词": [
+"手如柔荑,肤如凝脂,领如蝤蛴,齿如瓠犀。",
+"螓首蛾眉,巧笑倩兮,美目盼兮。",
+"姐妹相亲,可以无别。",
+"妹妹啊!我思念你如思念自己。",
+"家有一妹如拥有全天下。"
+],
+"图片": [
+"https://example.com/姐妹亲情.jpg",
+"https://example.com/妹妹肖像.png",
+"https://example.com/姐妹情深.webp",
+"https://example.com/嫂嫂和妹妹.jpeg",
+"https://example.com/可爱的小妹.gif"
+],
+"音频": [
+"https://example.com/妹字发音.mp3",
+"https://example.com/姐妹情歌朗诵.wav",
+"https://example.com/妹妹的祝福.ogg",
+"https://example.com/妹子的撒娇声.flac",
+"https://example.com/姐妹俩的对话.m4a"
+],
+"视频": [
+"https://example.com/姐妹相见.mp4",
+"https://example.com/妹妹成长纪录片.avi",
+"https://example.com/姐妹亲情故事.mkv",
+"https://example.com/妹子生活日常.mov",
+"https://example.com/姐妹情深电影.webm"
+],
+"电影": [
+"《妹妹》",
+"《姐姐》",
+"《姐妹花》",
+"《妹子的世界》",
+"《姐妹情深不变》"
+],
+"参考资料": [
+"《说文解字》",
+"《诗经》",
+"《红楼梦》",
+"《中国家庭文化》",
+"《中国女性史》"
+],
+"有趣网站": [
+"https://www.zdic.net/hans/妹",
+"https://ctext.org/dictionary.pl?if=en&char=妹",
+"https://www.guoxue.com/jinbu/05jinghua/shijing/shijingzhu.htm",
+"https://www.dpm.org.cn/collection/book/233417.html",
+"https://www.xinhuanet.com/mil/2018-10/15/c_129972104.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  姐
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我很高兴为您提供关于汉字"姐"的全面信息。以下是基于您提供的属性的详细回答,以中文形式呈现,并采用有效的JSON格式:
+
+{
+"含义": "姐字指女性的姐姐关系,表示亲属关系中的年长女性。同时也可用于表示对年长女性的尊称或称呼。",
+"字形": "姐字由"女"和"者"两个部件组成,象征着女性辈分中的长辈。",
+"读音": "jiě",
+"字源": "姐字最早出现于甲骨文和金文,当时指的是女性的姐姐。后来发展为通称年长女性的通用汉字。",
+"常用词组": [
+"姐姐",
+"大姐",
+"老姐",
+"表姐",
+"嫂子"
+],
+"成语": [
+"姐妹情深",
+"呼妹唤姐",
+"姐妹双双",
+"姐姐当道",
+"姐弟恩爱"
+],
+"例句": {
+"我的姐姐今年30岁了,工作也很稳定。",
+"大姐在家里是当家的,所有事都由她做主。",
+"我的老姐虽然平时有点严厉,但是人很好。",
+"表姐在城里工作,每个月都会回来看我们。",
+"嫂子待我很好,就像亲姐姐一样。"
+},
+"短故事": {
+"在中国传统文化中,姐姐承担着照顾弟妹的重要责任,这种姐妹之间的深厚情谊往往成为家庭和睦的基础。许多文学作品都有描述姐姐对弟妹的关怀和庇护。",
+"在古典名著《红楼梦》中,贾宝玉的姐姐贾元春一直对他悉心照顾,尽管两人性格不同,但姐姐的爱却始终不变。这种姐妹之情深刻影响了整部小说的发展。",
+"在抗日战争时期,许多姐姐带领弟妹一起投身于抗日救亡运动。她们舍生忘死、视死如归,用自己的行动诠释了姐妹之间同甘共苦的情谊。这些英雄事迹激励了一代又一代人。",
+"在现代社会,姐姐作为家庭中的长辈,通常被期望要关心弟妹、为家人谋福利。许多人回忆起童年时姐姐的关爱和严厉,都有着深深的感恩之情。",
+"在中华民族传统中,崇尚尊长的美德一直广为流传。"呼妹唤姐"、"姐妹情深"等成语,都体现了中国人对姐姐这一家庭地位的崇敬和重视。"
+},
+"诗词": [
+"姐妹相亲,可以无别。",
+"兄呼弟应,惟女为难。",
+"姐姐当道,弟妹从之。",
+"姐姐啊,我好想你。",
+"有姐方知妹意重。"
+],
+"图片": [
+"https://example.com/姐妹亲情.jpg",
+"https://example.com/姐姐和弟弟.png",
+"https://example.com/姐妹情深.webp",
+"https://example.com/大姐和小妹.jpeg",
+"https://example.com/关爱女性.gif"
+],
+"音频": [
+"https://example.com/姐字发音.mp3",
+"https://example.com/姐妹情诗朗诵.wav",
+"https://example.com/姐姐的祝福.ogg",
+"https://example.com/姐姐的呼唤.flac",
+"https://example.com/姐妹对话.m4a"
+],
+"视频": [
+"https://example.com/姐妹相见.mp4",
+"https://example.com/姐妹成长纪录片.avi",
+"https://example.com/姐妹情深的故事.mkv",
+"https://example.com/姐姐照顾弟弟.mov",
+"https://example.com/姐妹感人电影.webm"
+],
+"电影": [
+"《姐姐》",
+"《姐妹花》",
+"《姐妹情深》",
+"《大姐当家》",
+"《姐妹恩怨》"
+],
+"参考资料": [
+"《说文解字》",
+"《诗经》",
+"《红楼梦》",
+"《中国家庭文化》",
+"《中国女性史》"
+],
+"有趣网站": [
+"https://www.zdic.net/hans/姐",
+"https://ctext.org/dictionary.pl?if=en&char=姐",
+"https://www.guoxue.com/jinbu/05jinghua/shijing/shijingzhu.htm",
+"https://www.dpm.org.cn/collection/book/233417.html",
+"https://www.xinhuanet.com/politics/2019-07/29/c_1124814991.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  存
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我很高兴为您提供关于汉字"存"的全面信息。以下是基于您提供的属性的详细回答,以中文形式呈现,并采用有效的JSON格式:
+
+{
+"含义": "存字主要表示保存、保留、保持某事物的状态或存在。它可以指保存信息、维持生命、保管物品等各种意义。",
+"字形": "存字由"亠"和"分"两个部件组成,其中"亠"表示上方,而"分"表示分离,合在一起代表物品或事物的保存或存在。",
+"读音": "cún",
+"字源": "存字最早出现于甲骨文和金文中,当时指的是保管物品、维系生命等意义。后来逐渐发展为表示各种保存或存在的通用汉字。",
+"常用词组": [
+"存在",
+"存钱",
+"存储",
+"存在感",
+"存活下来"
+],
+"成语": [
+"自古存而不论",
+"存诸高阁",
+"存于心腹",
+"存亡安危",
+"存亡之间"
+],
+"例句": {
+"这家银行的存款利率很高,我打算把薪水全部存进去。",
+"计算机中的数据必须要定期备份,以确保信息的存储安全。",
+"即使身边的人对我冷淡,我也希望能在他们心中保持一定的存在感。",
+"这次战役虽然艰难,但我们最终存活下来,并取得了胜利。",
+"这个问题一直存在争议,但至今还未得到明确答复。"
+},
+"短故事": {
+"在中国古代,许多名人都有精心保存自己著述和文物的习惯,如汉代的司马迁、唐代的杜甫等,他们的作品得以一代代流传下来,成为中华文化的珍贵遗产。",
+"在古代社会中,掌控大量资金和物资的商人、地主等,往往会将自己的财富悉心保存,以备不时之需。这种储蓄、积累的精神,也为中国的商业文化奠定了基础。",
+"在民间信仰中,人们常常会将某些神奇物品或传说中的遗物小心保存,认为这些"存在"着神奇的力量,能为自己带来祥瑞或保佑。这种信仰一直延续至今。",
+"在现代社会,大量的信息和数据都需要通过电子设备进行存储。如何确保这些信息的安全和完整性,成为计算机和网络技术发展的一大挑战。",
+"在生物学中,研究生命的起源、演化和存在形式,一直是科学家追求的目标。他们通过不断的实验和探索,致力于解开生命存在的奥秘。"
+},
+"诗词": [
+"自古英雄出我辈,无人能比我独存。",
+"江山代有才人出,各领风骚数百年。",
+"积蓄君山万里春,坚存东海一潭秋。",
+"天生我材必有用,千金散尽还复来。",
+"君不见,黄河之水天上来,奔流到海不复回。"
+],
+"图片": [
+"https://example.com/存折和银行卡.jpg",
+"https://example.com/数据存储硬盘.png",
+"https://example.com/古老文物保存.webp",
+"https://example.com/生命存在图示.jpeg",
+"https://example.com/商业存在标志.gif"
+],
+"音频": [
+"https://example.com/存字发音.mp3",
+"https://example.com/存在意义讲座.wav",
+"https://example.com/存储技术解说.ogg",
+"https://example.com/生命存在音效.flac",
+"https://example.com/商业存在分析.m4a"
+],
+"视频": [
+"https://example.com/存钱养老纪录片.mp4",
+"https://example.com/数据存储教程.avi",
+"https://example.com/文物保存过程.mkv",
+"https://example.com/生命的起源和存在.mov",
+"https://example.com/企业的生存之道.webm"
+],
+"电影": [
+"《存在的意义》",
+"《存储密码》",
+"《远古文明的存留》",
+"《生死存亡》",
+"《商业世界的存在》"
+],
+"参考资料": [
+"《说文解字》",
+"《史记》",
+"《论语》",
+"《生命科学概论》",
+"《信息技术原理》"
+],
+"有趣网站": [
+"https://www.zdic.net/hans/存",
+"https://ctext.org/dictionary.pl?if=en&char=存",
+"https://www.guoxue.com/jinbu/13jing/lunyu/lunyuzhu.htm",
+"https://www.kepu.net.cn/",
+"https://www.cctv.com/lm/206/1/index.shtml"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  宇
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我很高兴为您提供关于汉字"宇"的全面信息。以下是基于您提供的属性的详细回答,以中文形式呈现,并采用有效的JSON格式:
+
+{
+"含义": "宇字主要表示天地、苍穹、广大的空间范围。它可以指整个宇宙、天下或者代指房屋、建筑物等容纳空间。",
+"字形": "宇字由"宀"和"于"两个部件组成,其中"宀"表示建筑物,而"于"则代表广大的范围,合在一起表示广阔的空间。",
+"读音": "yǔ",
+"字源": "宇字最早出现于甲骨文和金文中,当时指的是天地、宇宙的意义。后来逐渐发展为表示各种广阔空间的通用汉字。",
+"常用词组": [
+"宇宙",
+"乾坤",
+"大宇",
+"天宇",
+"空中宇宙"
+],
+"成语": [
+"穹宇浩瀚",
+"乾坤未定",
+"天地一体",
+"包罗万宇",
+"无边无际"
+],
+"例句": {
+"这个房子宇阔宽敞,很适合我们一家人居住。",
+"人类对宇宙的探索从未停息,我们还有很长的路要走。",
+"我们的民族自古就有"天下为公"的宇宙观念。",
+"这个企业在产品研发上包罗万宇,涉及多个领域。",
+"浩瀚无垠的宇宙,令人感叹大自然的威力和神奇。"
+},
+"短故事": {
+"在中国古代的神话传说中,女娲补天、盘古开天地等故事,都描述了宇宙的起源和形成过程。这些神奇的传说反映了先民对宇宙奥秘的憧憬和想象。",
+"在中国古代的哲学思想中,儒家的"天人合一"思想,把人与自然、天地一体化,强调人与宇宙的和谐统一。这种宇宙观影响了中国文化数千年。",
+"在近代科学发展中,随着现代天文学和物理学的进步,人类对宇宙的认知不断深化。从地球到太阳系,再到银河系乃至整个宇宙,人类开始探索宇宙的奥秘。",
+"在当代,随着载人航天事业的不断发展,人类有机会亲自进入浩瀚宇宙,感受宇宙的广阔和神奇。这不仅推动了科技进步,也启发了人类对宇宙的崇敬与向往。",
+"在中国文化中,"天下为公"的思想,也是对广阔宇宙的崇敬和责任担当。这种崇尚天下、注重天人合一的宇宙观,影响了中国数千年的文化传统。"
+},
+"诗词": {
+"穹宇浩瀚,无边无际。",
+"天地一体,乾坤未定。",
+"我欲乘风归去,又恐琼楼玉宇,高处不胜寒。",
+"身在此山中,心在天外游。",
+"乾坤茫茫,此心安处是吾宇。"
+},
+"图片": [
+"https://example.com/宇宙星空壮丽.jpg",
+"https://example.com/宇宙飞船探索.png",
+"https://example.com/古代天文观测图.webp",
+"https://example.com/宇宙概念图示.jpeg",
+"https://example.com/宅院建筑内部.gif"
+],
+"音频": [
+"https://example.com/宇字发音.mp3",
+"https://example.com/宇宙探索讲座.wav",
+"https://example.com/乾坤大道解说.ogg",
+"https://example.com/天地一体音效.flac",
+"https://example.com/浩瀚宇宙音乐.m4a"
+],
+"视频": [
+"https://example.com/宇宙探索纪录片.mp4",
+"https://example.com/载人航天过程.avi",
+"https://example.com/宇宙起源理论.mkv",
+"https://example.com/天人合一思想.mov",
+"https://example.com/建筑空间设计.webm"
+],
+"电影": [
+"《宇宙奥秘》",
+"《乾坤未定》",
+"《天地一体》",
+"《穹宇浩瀚》",
+"《大宇探索》"
+],
+"参考资料": [
+"《说文解字》",
+"《老子》",
+"《庄子》",
+"《天文学概论》",
+"《中国古代建筑史》"
+],
+"有趣网站": [
+"https://www.zdic.net/hans/宇",
+"https://ctext.org/dictionary.pl?if=en&char=宇",
+"https://www.guoxue.com/jinbu/05jinghua/laozi/laozizhu.htm",
+"https://www.guokr.com/scientific/",
+"https://www.dpm.org.cn/collection/architecture/234302.html"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  宙
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我很高兴为您提供关于汉字"宙"的全面信息。以下是基于您提供的属性的详细回答,以中文形式呈现,并采用有效的JSON格式:
+
+{
+"含义": "宙字主要表示广大的空间领域,如宇宙、天地、天下等。它可以代指整个宇宙空间,也可用来描述某个特定的领域或范围。",
+"字形": "宙字由"宀"和"舟"两个部件组成,其中"宀"表示天地、房屋等建筑物,而"舟"则象征着广阔的水域或天地空间。合在一起表示广大无边的空间。",
+"读音": "zhòu",
+"字源": "宙字最早出现于甲骨文和金文中,当时指的是整个宇宙空间的意义。后来逐渐发展为表示各种广阔领域的通用汉字。",
+"常用词组": [
+"宇宙",
+"天宙",
+"太空",
+"乾坤",
+"天地"
+],
+"成语": [
+"乾坤未定",
+"穹宇浩瀚",
+"天地一体",
+"无边无垠",
+"包罗万宙"
+],
+"例句": {
+"宇宙浩瀚,蕴含着无穷的奥秘。",
+"眺望天宙,感受自然的神奇与壮丽。",
+"人类不断探索太空,征服宇宙的梦想。",
+"大自然的力量,充满了乾坤未定的神奇。",
+"这个企业的发展规划,包罗万宙,触及各个领域。"
+},
+"短故事": {
+"在中国古老的神话传说中,有"盘古开天辟地"的故事,描述了宇宙的起源。这些充满想象力的传说,折射出先民对宇宙奥秘的好奇心。",
+"在中国传统哲学中,有"天人合一"的思想,认为人与自然、天地是一体的。这种宇宙观影响了中国文化数千年,塑造了独特的宇宙观念。",
+"在现代科学发展过程中,随着天文学和物理学的进步,人类对宇宙的认知不断加深。从地球到太阳系,再到星系、星团,人类对宇宙的探索从未停歇。",
+"在太空探索领域,载人航天事业的不断发展,使人类有机会亲身踏入浩瀚宇宙。这不仅推动了科技进步,更激发了人类对未知宇宙的向往与敬畏。",
+"在中国文化中,"天下为公"的思想,也反映了对广大无边宇宙的尊崇和责任担当。这种包容天下的宇宙观,塑造了中国人特有的世界观和价值观。"
+},
+"诗词": {
+"乾坤未定,奇才出我辈。",
+"穹宇浩瀚,无边无际。",
+"浩淼长空,星斗灿烂。",
+"天地一体,未有分疆。",
+"披星戴月,至于九幽。"
+},
+"图片": [
+"https://example.com/宇宙星空图.jpg",
+"https://example.com/航天器探索太空.png",
+"https://example.com/天文台夜景.webp",
+"https://example.com/宇宙概念图.jpeg",
+"https://example.com/道家思想山水图.gif"
+],
+"音频": [
+"https://example.com/宙字发音.mp3",
+"https://example.com/宇宙探索演讲.wav",
+"https://example.com/乾坤大道赏析.ogg",
+"https://example.com/浩瀚太空音效.flac",
+"https://example.com/天人合一音乐.m4a"
+],
+"视频": [
+"https://example.com/宇宙探索纪录片.mp4",
+"https://example.com/航天器发射全程.avi",
+"https://example.com/宇宙起源理论探讨.mkv",
+"https://example.com/道家天人合一思想.mov",
+"https://example.com/建筑设计中的宇宙理念.webm"
+],
+"电影": [
+"《探索宇宙奥秘》",
+"《乾坤未定》",
+"《穹宇浩瀚》",
+"《天地一体》",
+"《太空奇遇》"
+],
+"参考资料": [
+"《说文解字》",
+"《老子》",
+"《庄子》",
+"《天文学概论》",
+"《中国哲学史》"
+],
+"有趣网站": [
+"https://www.zdic.net/hans/宙",
+"https://ctext.org/dictionary.pl?if=en&char=宙",
+"https://www.guoxue.com/jinbu/05jinghua/laozi/laozizhu.htm",
+"https://www.kepu.net.cn/",
+"https://www.dpm.org.cn/collection/bronze/234308.html"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  寻
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+好的,我很高兴为您提供关于汉字"寻"的全面信息。以下是基于您提供的属性的详细回答,以中文形式呈现,并采用有效的JSON格式:
+
+{
+"含义": "寻字主要表示寻找、探求、查找等各种探索和追求的行为。它可以指实际的寻觅过程,也可以用来形容精神层面的探索与追求。",
+"字形": "寻字由"寸"和"馀"两个部件组成,其中"寸"表示小步缓慢的行动,而"馀"则象征着剩余或者继续的意味。合在一起表示细致的探索和继续追求的行为。",
+"读音": "xún",
+"字源": "寻字最早出现于甲骨文和金文中,当时指的是实际寻找或探寻的过程。后来逐渐发展为各种形式追求的通用汉字。",
+"常用词组": [
+"寻找",
+"寻访",
+"寻求",
+"寻思",
+"寻常"
+],
+"成语": [
+"寻径而行",
+"寻根究底",
+"寻章摘句",
+"寻宝探幽",
+"寻梦探幽"
+],
+"例句": {
+"小明受委托寻找失踪女孩,已经走访了很多地方。",
+"这位考古学家花了数年时间,终于寻访到了古城遗址。",
+"我一直在寻求更好的工作机会,希望能找到心仪的岗位。",
+"他寻思许久,终于想出了解决问题的新办法。",
+"这种病毒感染在寻常百姓中极为常见,大家要格外小心。"
+},
+"短故事": {
+"在中国古典小说《西游记》中,孙悟空一路寻找师徒三人,穿越重重险境,终于回到了东土大唐。这种不懈的探索精神,激励了无数读者。",
+"在中国文化中,寻根究源、探究事物本质一直是众多学者和思想家所追求的目标。他们善于从表象寻到本质,揭示事物的内在规律。",
+"在诗歌创作中,不少诗人善于从细微之处寻找诗意的灵感,发掘事物的内在美。他们的诗作往往充满了探索和追求的气息。",
+"在现代科技发展中,科学家们长期寻求突破,通过不懈探索终于取得了重要发现。这种勇于探索未知的精神,成就了许多伟大的科学成就。",
+"在人生道路上,许多人都在寻找自我的意义和方向。通过寻找内心的声音,他们最终找到了人生的航向,实现了自我价值的实现。"
+},
+"诗词": {
+"春心莫共花争发,一寸相思一寸灰。",
+"寻寻觅觅,冷冷清清,淹没在冷气烟雾中。",
+"欲寻芳草去,惜与故人违。",
+"寻章摘句无完sentences,只是摘精撷英耳目欣。",
+"寻梦探幽烟雨外,旧游如梦隔山川。"
+},
+"图片": [
+"https://example.com/寻找线索图.jpg",
+"https://example.com/探寻古迹图像.png",
+"https://example.com/寻根溯源插画.webp",
+"https://example.com/寻梦探幽摄影.jpeg",
+"https://example.com/寻道领悟图景.gif"
+],
+"音频": [
+"https://example.com/寻字发音.mp3",
+"https://example.com/寻访名人采访录.wav",
+"https://example.com/寻根究底思考录.ogg",
+"https://example.com/寻常百姓生活音.flac",
+"https://example.com/寻梦探幽配乐.m4a"
+],
+"视频": [
+"https://example.com/寻找失踪人口纪录片.mp4",
+"https://example.com/探索古文化遗产过程.avi",
+"https://example.com/寻找创新灵感记录.mkv",
+"https://example.com/寻道修身实践录像.mov",
+"https://example.com/寻觅人生意义影片.webm"
+],
+"电影": [
+"《寻找失去的时光》",
+"《寻根之路》",
+"《寻梦探幽》",
+"《寻道修身》",
+"《寻找答案》"
+],
+"参考资料": [
+"《说文解字》",
+"《西游记》",
+"《道德经》",
+"《诗经》",
+"《中国哲学史》"
+],
+"有趣网站": [
+"https://www.zdic.net/hans/寻",
+"https://ctext.org/dictionary.pl?if=en&char=寻",
+"https://www.guoxue.com/jinbu/05jinghua/laozi/laozizhu.htm",
+"https://www.dpm.org.cn/collection/book/233423.html",
+"https://www.xinhuanet.com/politics/2019-10/29/c_1125165251.htm"
+]
+}
+
+Copy
+Retry
+
+
+Claude can make mistakes. Please double-check responses.
+
+
+
+No file chosen
+
+
+3 Haiku
+Tip:
+Long chats cause you to reach your usage limits faster.
+Start a new chat 
+Chat controls
+
+3 Haiku
+Fastest model for daily tasks Learn more
+
+Content
+No content added yet
+Add images, PDFs, docs, spreadsheets, and more to summarize, analyze, and query content with Claude.
+Chat styles
+Font
+
+Default

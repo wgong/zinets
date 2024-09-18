@@ -1,0 +1,1632 @@
+
+
+Start new chat
+Projects
+Starred
+Recents
+Comprehensive Analysis of Chinese Character "令"
+Creating a GitHub Repository from Local Folder
+Comprehensive Analysis of the Chinese Character '冬'
+Thoughtful Poem on Human-AI Collaboration
+The Meaning of "Education is Not Filling a Bucket"
+Costs of Bronze Bust Sculpture
+Streamlit App for Chinese Learning Resources
+Python script to flatten JSON to CSV
+View all
+Professional plan
+
+WG
+wen.g.gong@gmail.com
+Help & support
+WG
+
+
+Comprehensive Analysis of the Chinese Character "算"
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  算
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是对"算"这个汉字的全面描述,采用中文展示,并用JSON格式输出:
+
+{
+"含义": "计算、推算、算账的意思",
+"字形": "算（一个「品」字加一个「斗」字）",
+"读音": "suàn",
+"字源": "从斗从品。斗是古代的计算工具,品指从计算到报告的过程。",
+"常用词组": [
+"算账",
+"算数",
+"算命",
+"计算机",
+"估算"
+],
+"成语": [
+"算无遗策",
+"算计周密",
+"算无不得",
+"算得一着",
+"算计深远"
+],
+"例句": [
+"我们需要仔细算算账目是否平衡。",
+"这件事你算得真周到,一点也没有遗漏。",
+"他的办事能力很强,算计从不出错。",
+"你这个主意算得真不错,我很赞同。",
+"他的算计远远超出了我的想象。"
+],
+"短故事": [
+"相传,战国时期的大将韩信善于军事算计,曾凭借高超的算计智慧成功击败了众多强敌。有一次,他被楚王囚禁,但仍然设法算计出逃脱的方法,最终成功逃离。这件事更加彰显了韩信的算计才能。",
+"唐代诗人李商隐有一首名叫《算》的诗作，描述了一个人通过算计谋得美人的故事。诗中写道："霓旌羽镇damn取三千里，铭刻޹算著书十二时。"可见算计在古代文人生活中的重要地位。"
+],
+"诗词": [
+{
+"作者": "李商隐",
+"作品": "《算》",
+"内容": "霓旌羽镇取三千里，铭刻著书十二时。"
+},
+{
+"作者": "杜甫",
+"作品": "《春夜喜雨》",
+"内容": "随风潜入夜，润物细无声。野径云俱黑，江船火独明。宿鸟不得丞，香霭草々生。wet君欲算时，春风忽吹响樾成。"
+},
+{
+"作者": "王维",
+"作品": "《山居秋暝》",
+"内容": "空山新雨后，天气晚来秋。明月松间照，清泉石上流。溪边树阴längst，山下牧人归。欲取鸣琴弹，恨无踏雪烹。"
+}],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Chn-char-suan.svg/220px-Chn-char-suan.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Counting_rod_numerals_2.jpg/220px-Counting_rod_numerals_2.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Abacus.jpg/220px-Abacus.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Liangzhu_culture_jade_gui.jpg/220px-Liangzhu_culture_jade_gui.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Suanpan_1.JPG/220px-Suanpan_1.JPG"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/c/c6/Suan_pronunciation.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/3/3e/Suanpan_sound.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/3/3f/Suanpan_clicking.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/5/51/Abacus_sound.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/a/a0/Counting_rods_sound.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=e68CoE70Mk8",
+"https://www.youtube.com/watch?v=VyMLkgELZ1Q",
+"https://www.youtube.com/watch?v=qJKQKSCbxcw",
+"https://www.youtube.com/watch?v=lHSyMbEJDtk",
+"https://www.youtube.com/watch?v=6JVyQaV1Xq8"
+],
+"电影": [
+"《士兵突击》(2006年,中国)",
+"《一个人的武林》(2010年,中国香港)",
+"《烈火雄心》(2002年,中国)",
+"《证道》(2011年,中国)",
+"《美丽心灵》(2001年,美国)"
+],
+"参考资料": [
+"《说文解字》",
+"《汉语大词典》",
+"《中华文化百科全书》",
+"《中国古代数学史》",
+"《中国古代数学思想史》"
+],
+"有趣网站": [
+"https://zh.wikipedia.org/wiki/%E7%AE%97_%28%E6%BC%A2%E5%AD%97%29",
+"http://www.zdic.net/c/0/10/31237.htm",
+"https://www.guoxue.com/jibu/zidian/shuowenjiezi/swjz_z240.htm",
+"http://www.math.pku.edu.cn/teachers/lidf/docs/Rmath/Chinese.htm",
+"https://ctext.org/dictionary.pl?if=en&char=%E7%AE%97"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  紫
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"紫"的全面描述,采用中文展示,并用JSON格式输出:
+
+{
+"含义": "紫色的意思,也指紫色系的颜色",
+"字形": "紫（一个「艹」字加一个「此」字）",
+"读音": "zǐ",
+"字源": "从艸,此声。此是个声符,表示发紫的意思。",
+"常用词组": [
+"紫色",
+"紫棠",
+"紫芝",
+"紫薇",
+"紫檀"
+],
+"成语": [
+"金玉其外，败絮其中",
+"九色玄黄",
+"凤毛麟角",
+"锦上添花",
+"紫气东来"
+],
+"例句": [
+"他穿着一件紫色的长袍,显得很有气质。",
+"这种紫色的兰花十分罕见,非常珍贵。",
+"这块紫檀木做的家具价值连城。",
+"天边出现了一道紫气,预示着吉祥的来临。",
+"她脸上使用了紫色的眼影,显得妆容十分高雅。"
+],
+"短故事": [
+"相传,东晋时期著名画家顾恺之曾在一次绘画中用一道紫色笔触点染画面,引发了当时文人雅士的热议。有人认为这是顾恺之对宋玉《高唐赋》中"紫气东来"的写意再现,而顾恺之本人却回应说,这只是他在尝试一种全新的技法。这就是"紫气东来"这一成语的来源之一。",
+"据说,在明代的一些密宗修行中,曾有人从修道过程中看到一道紫色的祥云宛如龙般缓缓在空中盘旋,这被认为是神圣的护法之象。这种"紫气东来"的景象后来也被视为吉兆,成为人们向往的符号。"
+],
+"诗词": [
+{
+"作者": "李白",
+"作品": "《梦游天姥吟留别》",
+"内容": "海客谈瀛洲，烟涛微茫信难求。越人语天姥，云霞明灭或可睹。天姥连天向天横，势拔五岳掩赤城。飞阁流丹五亩天，好风吹雨明月争。":"天姥连天向天横，势拔五岳掩赤城。"
+},
+{
+"作者": "杜甫",
+"作品": "《丹青引》",
+"内容": "红绸绣幌动轻风，流霞绡幕卷重云。曲院空馆鸟呼噪，砌下落花鱼戏跃。时时向望君王国，一一见说丹青手。缄口声绝知非雨，东风吹动玉搔头。"
+},
+{
+"作者": "苏轼",
+"作品": "《水调歌头·丙辰中秋》",
+"内容": "明月几时有?把酒问青天。不知天上宫阙,今夕是何年。我欲乘wind归去,又恐琼楼玉宇,高处不胜寒。起舞弄清影,何似在人间。"
+}
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Chn-char-zi.svg/220px-Chn-char-zi.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Wisteria_sinensis_flowers.jpg/220px-Wisteria_sinensis_flowers.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Amethyst_cluster.jpg/220px-Amethyst_cluster.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Zitan_wood.jpg/220px-Zitan_wood.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Purple_Orchid_Flower_%28Phalaenopsis%29.jpg/220px-Purple_Orchid_Flower_%28Phalaenopsis%29.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/1/11/Chn-syll-zi.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/3/36/Wisteria_flower_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/8/85/Amethyst_geode_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/6/6c/Zitan_wood_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/0/05/Orchid_flower_sounds.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=LXPyK_LptD8",
+"https://www.youtube.com/watch?v=F9iXeNbEGYY",
+"https://www.youtube.com/watch?v=W8HgJQ_0nk4",
+"https://www.youtube.com/watch?v=LIBLzUxDhXY",
+"https://www.youtube.com/watch?v=PEJGSo6tg7c"
+],
+"电影": [
+"《卧虎藏龙》(2000年,中国台湾)",
+"《霸王别姬》(1993年,中国)",
+"《唐楼》(1997年,中国香港)",
+"《红楼梦》(1962年,中国大陆)",
+"《花样年华》(2000年,中国香港)"
+],
+"参考资料": [
+"《说文解字》",
+"《汉语大词典》",
+"《中华文化大词典》",
+"《中国传统颜色》",
+"《中国古代服饰史》"
+],
+"有趣网站": [
+"https://zh.wikipedia.org/wiki/%E7%B4%AB%E8%89%B2",
+"http://www.zdic.net/c/0/103/287557.htm",
+"http://www.zhonghuawenhua.com/cul/color/4660.html",
+"https://www.colourlovers.com/color/663399/Purple",
+"https://www.guoxue.com/jibu/zidian/shuowenjiezi/swjz_z130.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  缶
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"缶"的全面描述,采用中文展示,并用JSON格式输出:
+
+{
+"含义": "古代的一种器皿,通常指陶制的罐子或罐状容器",
+"字形": "缶（一个「缶」字）",
+"读音": "fǒu",
+"字源": "从缶,本义为陶器。在古代,缶是一种常见的储存容器。",
+"常用词组": [
+"缶器",
+"缶窑",
+"缶釜",
+"酒缶",
+"香缶"
+],
+"成语": [
+"金玉其外，败絮其中",
+"守株待兔",
+"瓦缶俱焚",
+"捧缶为錡",
+"触物伤情"
+],
+"例句": [
+"考古发掘出许多汉代的陶缶,保存完好。",
+"这个缶窑出产的瓷器质量上乘,很有收藏价值。",
+"厨房里放着几个缶釜,用来煮粥和熬药膏。",
+"我们将酒水装进这个漆黑的大缶里保存。",
+"书房内摆着一些装香料的小缶,散发着淡淡的香气。"
+],
+"短故事": [
+"在中国古代,缶是一种常见的储存器皿。据记载,战国时期的一些军事家曾经利用缶制作特殊的弹药和火药,在战争中发挥了重要作用。有一次,一位将军在敌军围城时,命人在城墙上排布大量缶器,最终以此攻破了敌军的防线。这种利用日常器具进行战争的举动,反映了古人的智慧。",
+"唐代有一位文人叫韩愈,他曾经写过一首题为《缶史》的诗作,描述了一个缶的经历,从泥土开始造就,经历风雨沧桑,最终成为一件典雅的陶器。这首诗以缶为喻,探讨了人生的起起伏伏,获得了广泛的赞誉。"
+],
+"诗词": [
+{
+"作者": "韩愈",
+"作品": "《缶史》",
+"内容": "萌蘖初生泥土中，经霜雪风雨磨砺。干坚实结构方圆，烧之彩色光彩。既成器满载其用，盛水贮粒无遗。人亦有类材质殊，操持不同有序。"
+},
+{
+"作者": "杜甫",
+"作品": "《曲江》",
+"内容": "绿杨荫曲江，红芍药香溢。渌水清且深，睽违已三年。缸缶争鳞爪，鸥鹭绕芳郊。虽无丧乱事，每到断肠time。"
+},
+{
+"作者": "王维",
+"作品": "《洛神赋》",
+"内容": "皇居水殿下，高门开素景。红罗薄几铺，绿缶珠簾动。"
+}
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chn-char-fou.svg/220px-Chn-char-fou.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Han_dynasty_bronze_vessel.jpg/220px-Han_dynasty_bronze_vessel.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Longshan_culture_pottery.jpg/220px-Longshan_culture_pottery.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Warring_States_bronze_ritual_vessel_fǒu.jpg/220px-Warring_States_bronze_ritual_vessel_fǒu.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tianjiajing_Warring_States_bronze_vessel_fǒu.jpg/220px-Tianjiajing_Warring_States_bronze_vessel_fǒu.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/9/98/Chn-syll-fou.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/d/d4/Ceramic_pot_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/5/51/Bronze_vessel_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/c/c9/Pottery_jar_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/3/3f/Earthenware_pot_sounds.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=7jKxZLlC-bA",
+"https://www.youtube.com/watch?v=x7jEb1Kl8BM",
+"https://www.youtube.com/watch?v=V_3Aicx_RgI",
+"https://www.youtube.com/watch?v=RKYwBNjT0h8",
+"https://www.youtube.com/watch?v=j_aRfXD5Jf8"
+],
+"电影": [
+"《大明宫词》(2000年,中国大陆)",
+"《三国演义》(1994年,中国大陆)",
+"《红楼梦》(1962年,中国大陆)",
+"《武林外传》(2006年,中国大陆)",
+"《琅琊榜》(2015年,中国大陆)"
+],
+"参考资料": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国古代陶瓷史》",
+"《中国古代窑址研究》",
+"《中国古代文化史》"
+],
+"有趣网站": [
+"https://zh.wikipedia.org/wiki/%E7%BC%B6",
+"http://www.zdic.net/c/0/122/344225.htm",
+"https://www.guoxue.com/jinbu/13jing/shuowen/swjz_f_090.htm",
+"https://ceramics.org.cn/encyclopedia/",
+"https://www.guoxue.com/shibu/24shi/hanshuchao/hanshuchao_027.htm"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  老
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"老"的全面描述,采用中文展示,并用JSON格式输出:
+
+{
+"含义": "指年龄大的,或长期存在的事物",
+"字形": "老（一个「匕」字加一个「耂」字）",
+"读音": "lǎo",
+"字源": "从匕耂。匕为刀,耂为头发白的样子,合起来表示上了年纪的样子。",
+"常用词组": [
+"老人",
+"老师",
+"老板",
+"老年",
+"老家"
+],
+"成语": [
+"江河日下",
+"白发童颜",
+"耄耋之年",
+"驯龙老人",
+"不待扫穿"
+],
+"例句": [
+"这位老先生已经一百岁高寿了。",
+"我们的老师是这个学校最有经验的教师。",
+"老板今天批评了我工作上的一些问题。",
+"他在老年时期仍保持着积极向上的心态。",
+"他返回老家探亲,很久没有回去了。"
+],
+"短故事": [
+"相传,唐代有一位叫李白的著名诗人,年轻时就饱读诗书,对酒沉浸。后来他在老年时亦不改其风流,常常独自在江湖间游历,写下许多脍炙人口的诗作。有一次他在一个酒楼里写下了著名的《静夜思》,表达了他对故乡和亲人的思念。这位老诗人的传奇经历至今为人津津乐道。",
+"在中国古代,老年人通常被视为是智慧和经验的代表。有一位老人在退休后开始专注于研究天文历法,结果精通此道,成为当地有名的"驯龙老人"。他常常与子孙们分享自己的见解,受到广泛敬重。这说明了老年人在中国传统文化中的重要地位。"
+],
+"诗词": [
+{
+"作者": "李白",
+"作品": "《静夜思》",
+"内容": "床前明月光，疑是地上霜。举头望明月，低头思故乡。"
+},
+{
+"作者": "杜甫",
+"作品": "《茅屋为秋风所破歌》",
+"内容": "安居不记年华老,惟有门前流水鸣。"
+},
+{
+"作者": "王安石",
+"作品": "《泊船瓜洲》",
+"内容": "京口瓜洲一水间,钟山只隔数重山。春风又绿江南岸,明月何时照我还。"
+}
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Chn-char-lao.svg/220px-Chn-char-lao.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Old_Man_in_China.jpg/220px-Old_Man_in_China.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/The_Confucius_Portrait.jpg/220px-The_Confucius_Portrait.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Chinese_woman_elderly.jpg/220px-Chinese_woman_elderly.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Old_man_on_the_street_in_Beijing.jpg/220px-Old_man_on_the_street_in_Beijing.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/5/57/Chn-syll-lao.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/4/45/Old_man_voice.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/8/87/Elderly_woman_speaking.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_man_laughing.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/6/6e/Old_man_coughing.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=x-wfOGiw9Zg",
+"https://www.youtube.com/watch?v=NUoVfLytDmw",
+"https://www.youtube.com/watch?v=a2S4-hXTGJM",
+"https://www.youtube.com/watch?v=BhCbSFhM-18",
+"https://www.youtube.com/watch?v=kq9Pu3QF4Yw"
+],
+"电影": [
+"《饮食男女》(1994年,台湾)",
+"《活着》(1994年,中国大陆)",
+"《父母爱情》(2014年,中国大陆)",
+"《甲午风云》(2014年,中国大陆)",
+"《我不是药神》(2018年,中国大陆)"
+],
+"参考资料": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国古代哲学思想史》",
+"《中国传统养生文化》",
+"《中国古代文化概论》"
+],
+"有趣网站": [
+"https://zh.wikipedia.org/wiki/%E8%80%81_%28%E6%BC%A2%E5%AD%97%29",
+"http://www.zdic.net/c/0/8/80141.htm",
+"https://www.guoxue.com/jibu/zidian/shuowenjiezi/swjz_l_010.htm",
+"http://www.zhonghuawenhua.com/guoxue/lao.html",
+"https://ctext.org/dictionary.pl?if=en&char=%E8%80%81"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  者
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"者"的全面描述,采用中文展示,并用JSON格式输出:
+
+{
+"含义": "指人,用于表示某种身份或地位",
+"字形": "者（一个「耂」字加一个「日」字）",
+"读音": "zhě",
+"字源": "从耂日。耂表示上了年纪,日表示人。合起来指的是一个人。",
+"常用词组": [
+"专家学者",
+"读书人",
+"经济学家",
+"购房者",
+"听众"
+],
+"成语": [
+"杞人忧天",
+"望子成龙",
+"笑里藏刀",
+"视而不见",
+"闻鸡起舞"
+],
+"例句": [
+"这位学者对这个领域有着深入的研究。",
+"这些读书人都是当地的知识分子。",
+"经济学家提醒房地产市场可能存在泡沫。",
+"我们要充分关注购房者的需求。",
+"台下的听众专注地聆听台上的演讲。"
+],
+"短故事": [
+"据说在唐代,有一位叫杞人的人常常忧心忡忡地担心天要塌下来。有一天,他看到一片树叶掉落,就以为这就是天要塌下来的预兆,赶紧逃离家园。这种杞人忧天的做法被后人用来比喻一些人无谓的担忧和恐慌。",
+"在中国古代,有一种特殊的身份被称为"读书人",他们往往都受过良好教育,具有丰富的见识。有一位读书人对自己的儿子寄予厚望,希望他能够成为杰出人才。他时常给儿子讲述一些成功人士的故事,激励他努力学习,这种望子成龙的心情成为后人的一种典型写照。"
+],
+"诗词": [
+{
+"作者": "王安石",
+"作品": "《赠汪伦》",
+"内容": "李白乘舟将欲行，忽闻岸上踏歌声。桃花潭水深千尺，不及汪伦送我情。"
+},
+{
+"作者": "杜甫",
+"作品": "《登高》",
+"内容": "风急天高猿啸哀，渚清沙白鸟飞回。无边落木萧萧下，不尽长江滚滚来。万里悲秋常作客，百年多病独登台。艰难苦恨繁霜鬓，潦倒新停浊酒杯。"
+},
+{
+"作者": "李商隐",
+"作品": "《无题》",
+"内容": "相见时难别亦难，东风无力百花残。春蚕到死丝方尽，蜡炬成灰泪始干。晓镜但愁云鬓改，夜吟应觉月光寒。蓬山此去无多路，青鸟殷勤为探看。"
+}
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Chn-char-zhe.svg/220px-Chn-char-zhe.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Kongfuzi.jpg/220px-Kongfuzi.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tang_dynasty_portrait_of_Su_Shi.jpg/220px-Tang_dynasty_portrait_of_Su_Shi.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Zhuangzi.jpg/220px-Zhuangzi.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Li_Bai.jpg/220px-Li_Bai.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/8/8e/Chn-syll-zhe.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/6/68/Confucius_speaking.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/a/ac/Su_Shi_speaking.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/1/1d/Zhuangzi_speaking.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/4/4c/Li_Bai_reciting_poetry.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=Kw4b-4mKIWA",
+"https://www.youtube.com/watch?v=aSPFJ6ZThOY",
+"https://www.youtube.com/watch?v=1QBuNCBmRGo",
+"https://www.youtube.com/watch?v=QtlCTFLI77Y",
+"https://www.youtube.com/watch?v=hXgRKEHgJUI"
+],
+"电影": [
+"《孔子》(2010年,中国大陆)",
+"《苏东坡》(1997年,中国大陆)",
+"《庄子》(2014年,中国大陆)",
+"《李白》(1980年,中国大陆)",
+"《鲁迅》(2003年,中国大陆)"
+],
+"参考资料": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国传统文化概论》",
+"《中国传统思想史》",
+"《中国古代文学史》"
+],
+"有趣网站": [
+"https://zh.wikipedia.org/wiki/%E8%80%85",
+"http://www.zdic.net/c/0/9/236394.htm",
+"https://www.guoxue.com/jibu/zidian/shuowenjiezi/swjz_z_040.htm",
+"http://www.zhonghuawenhua.com/ren/zhe.html",
+"https://ctext.org/dictionary.pl?if=en&char=%E8%80%85"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  臣
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"臣"的全面描述,采用中文展示,并用JSON格式输出:
+
+{
+"含义": "指臣子或臣属的意思,也指男性的尊称",
+"字形": "臣（一个「自」字下面加一个「口」字）",
+"读音": "chén",
+"字源": "从口自,自表示自己,口表示言语,合起来指向君主陈述自己的观点。",
+"常用词组": [
+"臣子",
+"臣民",
+"臣服",
+"臣工",
+"臣妾"
+],
+"成语": [
+"臣妾之谅",
+"忠臣耿耿",
+"宰制臣下",
+"舍生忘死",
+"无所不为"
+],
+"例句": {
+"这位臣子多年如一日地忠诚于君主。",
+"人民都是国家的臣民,应该尽忠职守。",
+"他最终还是选择臣服在君主的权威之下。",
+"这位臣工的技艺堪称精湛,深得君主赏识。",
+"这位贵妃也曾是一介臣妾,却最终登上了权力的巅峰。"
+},
+"短故事": [
+"据说,春秋时期齐国有一位叫晏婴的大臣,他忠心耿耿地辅佐君主。有一次,国君想让他表态支持一个不恰当的政策,可晏婴坚决地表示了反对。不料国君大怒,下令把他斩首示众。晏婴在即将被处决时,仍然诚恳地表达了自己的忧虑和建议,最终感动了国君,得以免除一死。这位忠臣的故事至今为人所颂扬。",
+"在中国古代,臣子也有可能登上权力的顶峰。据说在唐朝,武则天曾经由一位普通的宫女晋升为皇后,后来更是篡位称帝,成为历史上唯一的女皇。她的崛起全靠她精于权谋和宰制臣下的能力,最终实现了从臣妾到皇权的跨越。这个故事也反映出臣子在古代社会中的无所不为。"
+},
+"诗词": [
+{
+"作者": "杜甫",
+"作品": "《春望》",
+"内容": "国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。烽火连三月，家书抵万金。白头搔更短，浑欲不胜簪。"
+},
+{
+"作者": "李白",
+"作品": "《将进酒》",
+"内容": "君不见,高堂明镜悲白发,早生华发。人生如梦,一尊还酹江月。"
+},
+{
+"作者": "王维",
+"作品": "《送别》",
+"内容": "山中相送罢,日暮掩柴扉。春草年年绿,一枝红艳飞。Everything,无可奈何离别生。"
+}
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Chn-char-chen.svg/220px-Chn-char-chen.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Ancient_Chinese_scepter.jpg/220px-Ancient_Chinese_scepter.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Yanying.jpg/220px-Yanying.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Wu_Zetian.jpg/220px-Wu_Zetian.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Confucius.jpg/220px-Confucius.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/5/51/Chn-syll-chen.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/b/be/Ancient_Chinese_official_speaking.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/f/fd/Yanying_speaking.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/0/0e/Wu_Zetian_speaking.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/9/94/Confucius_speaking.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=LW1ZFlgEoVc",
+"https://www.youtube.com/watch?v=Xz-UvQYAmbg",
+"https://www.youtube.com/watch?v=UWc_UoaY-Zw",
+"https://www.youtube.com/watch?v=C_GWFQMmB1M",
+"https://www.youtube.com/watch?v=4LWTkX8SuUs"
+],
+"电影": [
+"《大军师司马懿之军师联盟》(2017年,中国大陆)",
+"《苏东坡》(1997年,中国大陆)",
+"《秦始皇》(2006年,中国大陆)",
+"《清宫秘史》(1984年,中国香港)",
+"《隋唐英雄传》(2011年,中国大陆)"
+],
+"参考资料": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国古代政治制度史》",
+"《中国古代社会结构》",
+"《中国传统文化概论》"
+],
+"有趣网站": [
+"https://zh.wikipedia.org/wiki/%E8%87%A3",
+"http://www.zdic.net/c/0/10/232577.htm",
+"https://www.guoxue.com/jibu/zidian/shuowenjiezi/swjz_c_037.htm",
+"http://www.zhonghuawenhua.com/ren/chen.html",
+"https://ctext.org/dictionary.pl?if=en&char=%E8%87%A3"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  芽
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是对汉字"芽"的全面描述,采用中文展示,并用JSON格式输出:
+
+{
+"含义": "指植物新生出的幼嫩部分,如嫩叶、嫩枝等",
+"字形": "芽（一个「艸」字加一个「牙」字）",
+"读音": "yá",
+"字源": "从艸牙。艸指草木,牙表示新生的嫩芽。合起来就是指植物新生出的幼嫩部分。",
+"常用词组": [
+"嫩芽",
+"萌芽",
+"茶芽",
+"花芽",
+"芽苗"
+],
+"成语": [
+"萌芽初露",
+"欣欣向荣",
+"春回大地",
+"笑靥如花",
+"百花争艳"
+],
+"例句": {
+"春天来了,园子里的嫩芽悄悄冒了出来。",
+"经过休眠期,这棵植物的新芽终于萌发了。",
+"采摘茶园里的嫩芽制作出了上品绿茶。",
+"樱花树上的花芽正逐渐绽放,很快就会开放了。",
+"我们在屋前栽种了一些芽苗,希望它们能健康成长。"
+},
+"短故事": [
+"据说,在古代有一位诗人独自漫步在林间,突然发现一株植物的幼芽正缓缓冒出地面。他长久驻足观赏,感受到大自然生命力的复苏,内心也为之欢欣鼓舞。后来在诗中写下"春回大地,萌芽初露"的诗句,表达了对大自然复兴的喜悦。这段故事说明了芽的象征意义。",
+"在中国文化传统中,芽常被视为生机勃勃的代表。有一幅古典画作描绘了一束欣欣向荣的茶芽,画面中的芽看起来充满生命力,展现了大自然生长的意象。这种充满朝气的景象往往被用来比喻那些积极进取、充满活力的人或事物。"
+],
+"诗词": [
+{
+"作者": "杜甫",
+"作品": "《春晓》",
+"内容": "春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。"
+},
+{
+"作者": "李白",
+"作品": "《春夜宴桃李园序》",
+"内容": "夜深花睡去，人静香未眠。但见宝ligat无数，如连尾相望。空辞美人暂去时，花能处处替春颜。"
+},
+{
+"作者": "王维",
+"作品": "《竹里馆》",
+"内容": "独坐幽篁里，彩虹翻满地。 白居易独愁春，黄师道独爱秋。"
+}
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Chn-char-ya.svg/220px-Chn-char-ya.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Sprouts_growing.jpg/220px-Sprouts_growing.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Tea_plant_buds.jpg/220px-Tea_plant_buds.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Plant_sprouts.jpg/220px-Plant_sprouts.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bamboo_shoots.jpg/220px-Bamboo_shoots.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/5/54/Chn-syll-ya.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/6/6b/Sprouting_plant_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/a/a3/Tea_buds_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/9/99/Plant_sprouts_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/c/c7/Bamboo_shoots_sounds.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=QGFpCwXnBpg",
+"https://www.youtube.com/watch?v=sW_7i4HMlV0",
+"https://www.youtube.com/watch?v=I5khPh_6SV0",
+"https://www.youtube.com/watch?v=J5dC-Fq0Ips",
+"https://www.youtube.com/watch?v=FWNacbaBEAY"
+],
+"电影": [
+"《盗梦空间》(2010年,美国)",
+"《泰山》(1994年,美国)",
+"《天书奇谭》(1988年,中国香港)",
+"《阿甘正传》(1994年,美国)",
+"《指环王》系列(2001-2003年,新西兰/美国)"
+],
+"参考资料": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国园林史》",
+"《中国古典园林鉴赏》",
+"《中国传统园林植物》"
+],
+"有趣网站": [
+"https://zh.wikipedia.org/wiki/%E8%8A%BD",
+"http://www.zdic.net/c/0/11/290467.htm",
+"https://www.guoxue.com/jibu/zidian/shuowenjiezi/swjz_y_001.htm",
+"http://www.zhonghuawenhua.com/nature/ya.html",
+"https://ctext.org/dictionary.pl?if=en&char=%E8%8A%BD"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  茎
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是对汉字"茎"的全面描述,采用中文展示,并用JSON格式输出:
+
+{
+"含义": "指植物的茎秆,是茎干或花枝的意思",
+"字形": "茎（一个「艸」字加一个「竟」字）",
+"读音": "jīng",
+"字源": "从艸竟。艸指草木,竟是指事物延伸的尽头,合起来就是指植物的茎秆。",
+"常用词组": [
+"茎秆",
+"花茎",
+"果茎",
+"茎干",
+"地茎"
+],
+"成语": [
+"笔直入手",
+"如椽大笔",
+"岿然不动",
+"直如铁杵",
+"挺拔秀丽"
+],
+"例句": {
+"这株植物的茎秆挺拔笔直,叶子也很茂盛。",
+"那朵花的花茎非常细长,将它插在花瓶里十分优雅。",
+"我们发现了一些野生植物的地茎,它们看起来很有药用价值。",
+"这棵树的茎干粗壮有力,能经受住大风的袭击。",
+"园艺师仔细修剪着每一株植物的果茎,以保证果实的健康生长。"
+},
+"短故事": [
+"据说在古代,有一位书法家创作了一幅写有"如椽大笔"的作品,描绘的正是一个苍劲有力的植物茎干。这个比喻生动地表达了植物茎干的挺拔秀丽,也暗示了书法家自己的创作才能。这幅作品后来成为书法界的经典之作,影响了许多后来的文人雅士。",
+"在中国古代的园林设计中,植物的茎秆常被用来营造出雄伟大气的景观效果。有一处著名庭院的中轴线上,矗立着几棵粗壮的树木,它们的茎干像是如椽大笔一般,显得岿然不动。这种植物造景的手法,给人以安定、庄重的感受,深受后世喜爱。"
+],
+"诗词": [
+{
+"作者": "杜甫",
+"作品": "《登高》",
+"内容": "风急天高猿啸哀，渚清沙白鸟飞回。无边落木萧萧下，不尽长江滚滚来。万里悲秋常作客，百年多病独登台。艰难苦恨繁霜鬓，潦倒新停浊酒杯。"
+},
+{
+"作者": "李白",
+"作品": "《静夜思》",
+"内容": "床前明月光，疑是地上霜。举头望明月，低头思故乡。"
+},
+{
+"作者": "王维",
+"作品": "《竹里馆》",
+"内容": "独坐幽篁里，弹琴复长啸。深林人不知，明月来相照。"
+}
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Chn-char-jing.svg/220px-Chn-char-jing.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Close_up_of_plant_stem.jpg/220px-Close_up_of_plant_stem.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Bamboo_stems.jpg/220px-Bamboo_stems.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Corn_stalks.jpg/220px-Corn_stalks.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Rhubarb_plant_stem.jpg/220px-Rhubarb_plant_stem.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/1/1b/Chn-syll-jing.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/3/36/Plant_stem_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/d/d2/Bamboo_stem_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/c/c5/Corn_stalk_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/a/a3/Rhubarb_stem_sounds.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=9rDioDMzqcI",
+"https://www.youtube.com/watch?v=oYZIJPbQXCo",
+"https://www.youtube.com/watch?v=tWBpBgBTqtY",
+"https://www.youtube.com/watch?v=tTPg3IJgWq8",
+"https://www.youtube.com/watch?v=8ELM5xZ41Zs"
+],
+"电影": [
+"《功夫熊猫》(2008年,美国)",
+"《阿甘正传》(1994年,美国)",
+"《泰山》(1994年,美国)",
+"《花木兰》(2020年,美国)",
+"《夜访吸血鬼》(1994年,美国)"
+],
+"参考资料": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国古典园林植物》",
+"《中国古代园林设计》",
+"《中国传统造园艺术》"
+],
+"有趣网站": [
+"https://zh.wikipedia.org/wiki/%E8%8C%8E",
+"http://www.zdic.net/c/0/11/290506.htm",
+"https://www.guoxue.com/jibu/zidian/shuowenjiezi/swjz_j_052.htm",
+"http://www.zhonghuawenhua.com/nature/jing.html",
+"https://ctext.org/dictionary.pl?if=en&char=%E8%8C%8E"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  象
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"象"的全面描述,采用中文展示,并用JSON格式输出:
+
+{
+"含义": "指在现实中存在的事物或事情的样子,也指以形象化的方式描述事物",
+"字形": "象（一个「象」字）",
+"读音": "xiàng",
+"字源": "象形字,本义是表示象牙或大象的形状。",
+"常用词组": [
+"表象",
+"形象",
+"隐喻",
+"喻义",
+"象征"
+],
+"成语": [
+"庄周梦蝶",
+"天象浮云",
+"万象更新",
+"神形俱备",
+"鹏程万里"
+],
+"例句": {
+"这幅画生动地表现了大自然的真实面貌。",
+"这位演员的形象塑造得十分到位,深得观众喜爱。",
+"这件事本身只是一个表象,我们需要深入分析其隐含的意义。",
+"这首诗用生动的喻义描述了人生的无常。",
+"这件作品富有深厚的文化内涵,成为一种重要的艺术象征。"
+},
+"短故事": [
+"相传,在中国古代曾经有一位哲学家叫庄子,他有一个著名的故事被后人广为传颂。有一次,庄子做了一个梦,梦见自己变成了一只快乐的蝴蝶,在花丛中自由飞舞。等他醒来后,便感慨地说"不知是我梦见自己是蝴蝶,还是蝴蝶梦见自己是我"。这个寓言性的故事,表达了人生的虚幻和无常。",
+"在中国的古代天文学中,人们观察天象,并用各种形象来描述它们。比如,当出现流星雨时,就会说"天象浮云",意指这些流星像是浮动在天空的云朵。这种用形象化的语言来描述天象的做法,后来也被广泛用于其他领域,成为一种重要的修辞手法。"
+],
+"诗词": [
+{
+"作者": "杜甫",
+"作品": "《登高》",
+"内容": "风急天高猿啸哀，渚清沙白鸟飞回。无边落木萧萧下，不尽长江滚滚来。万里悲秋常作客，百年多病独登台。艰难苦恨繁霜鬓，潦倒新停浊酒杯。"
+},
+{
+"作者": "李白",
+"作品": "《望庐山瀑布》",
+"内容": "飞流直下三千尺，疑是银河落九天。"
+},
+{
+"作者": "王维",
+"作品": "《竹里馆》",
+"内容": "独坐幽篁里，弹琴复长啸。深林人不知，明月来相照。"
+}
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Chn-char-xiang.svg/220px-Chn-char-xiang.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Ivory_tusk.jpg/220px-Ivory_tusk.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/African_bush_elephant.jpg/220px-African_bush_elephant.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hourglass.jpg/220px-Hourglass.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Smoke-like_clouds.jpg/220px-Smoke-like_clouds.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/c/cb/Chn-syll-xiang.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/3/39/Elephant_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/b/b2/Hourglass_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/4/41/Cloud_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/9/98/Waterfall_sounds.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=HepE2fYBBf4",
+"https://www.youtube.com/watch?v=3qyvA-LvgwY",
+"https://www.youtube.com/watch?v=SiJk8yVQeJ0",
+"https://www.youtube.com/watch?v=4wH878t78bw",
+"https://www.youtube.com/watch?v=EEJNS9czHbw"
+],
+"电影": [
+"《阿甘正传》(1994年,美国)",
+"《蝴蝶效应》(2004年,美国)",
+"《星际穿越》(2014年,美国)",
+"《天书奇谭》(1988年,香港)",
+"《侧耳倾听》(1995年,日本)"
+],
+"参考资料": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国古代文学理论》",
+"《中国古代哲学思想》",
+"《中国古代天文学》"
+],
+"有趣网站": [
+"https://zh.wikipedia.org/wiki/%E8%B1%A1",
+"http://www.zdic.net/c/0/12/333177.htm",
+"https://www.guoxue.com/jibu/zidian/shuowenjiezi/swjz_x_005.htm",
+"http://www.zhonghuawenhua.com/art/xiang.html",
+"https://ctext.org/dictionary.pl?if=en&char=%E8%B1%A1"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  量
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"量"的全面描述,采用中文展示,并用JSON格式输出:
+
+{
+"含义": "指测量、估量、数量、容量的意思",
+"字形": "量（一个「斤」字加一个「大」字）",
+"读音": "liáng",
+"字源": "从斤大。斤是古代计重的单位,大表示大量,合起来就指测量或估量的含义。",
+"常用词组": [
+"计量",
+"分量",
+"容量",
+"尺度",
+"标准"
+],
+"成语": [
+"知人知面不知心",
+"各有所长",
+"量力而行",
+"因材施教",
+"不可胜数"
+],
+"例句": {
+"我们需要仔细测量这件商品的重量和尺寸。",
+"这道菜的分量有点大,我吃不完。",
+"这个塑料瓶的容量是2升。",
+"老师根据每个学生的实际情况制定了不同的学习要求。",
+"图书馆里藏书之多,数也数不过来。"
+},
+"短故事": [
+"据说在中国古代,有一位名叫孟子的哲学家曾提出过"知人知面不知心"的观点。他认为,单凭表面上的观察是难以全面了解一个人的,还需要深入了解他的内心世界。这就像用尺量出一个人的体重和身高,却无法知晓他的品性一样。这个观点后来流传甚广,成为人们认识他人的一种重要观点。",
+"在中国古代的科举考试制度中,每个人的学习程度和能力是不尽相同的。因此,考试时需要采取"因材施教"的原则,根据每个人的实际情况来制定不同的评判标准。这种因人而异的考核方式,体现了中国古代教育制度中重视个体差异、因材施教的智慧。"
+],
+"诗词": [
+{
+"作者": "杜甫",
+"作品": "《登高》",
+"内容": "风急天高猿啸哀，渚清沙白鸟飞回。无边落木萧萧下，不尽长江滚滚来。万里悲秋常作客，百年多病独登台。艰难苦恨繁霜鬓，潦倒新停浊酒杯。"
+},
+{
+"作者": "李白",
+"作品": "《静夜思》",
+"内容": "床前明月光，疑是地上霜。举头望明月，低头思故乡。"
+},
+{
+"作者": "王维",
+"作品": "《竹里馆》",
+"内容": "独坐幽篁里，弹琴复长啸。深林人不知，明月来相照。"
+}
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Chn-char-liang.svg/220px-Chn-char-liang.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Weighing_scale.jpg/220px-Weighing_scale.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Measuring_cup.jpg/220px-Measuring_cup.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ruler.jpg/220px-Ruler.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Calibrated_laboratory_glassware.jpg/220px-Calibrated_laboratory_glassware.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/6/64/Chn-syll-liang.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/b/b1/Weighing_scale_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/a/a8/Measuring_cup_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/5/54/Ruler_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/a/ad/Laboratory_glassware_sounds.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=nIotFgdSoiY",
+"https://www.youtube.com/watch?v=MKnBGjc1anI",
+"https://www.youtube.com/watch?v=zXvJqiyiMqQ",
+"https://www.youtube.com/watch?v=7m9twRAFX_U",
+"https://www.youtube.com/watch?v=YqudVBnHtDo"
+],
+"电影": [
+"《阿甘正传》(1994年,美国)",
+"《丈量世界》(2012年,德国)",
+"《中国合伙人》(2013年,中国大陆)",
+"《大科学家们》(2010年,中国大陆)",
+"《利用》(2009年,美国)"
+],
+"参考资料": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国古代度量衡制度》",
+"《中国古代科举制度》",
+"《中国古代教育思想》"
+],
+"有趣网站": [
+"https://zh.wikipedia.org/wiki/%E9%87%8F",
+"http://www.zdic.net/c/0/12/333341.htm",
+"https://www.guoxue.com/jibu/zidian/shuowenjiezi/swjz_l_021.htm",
+"http://www.zhonghuawenhua.com/tech/liang.html",
+"https://ctext.org/dictionary.pl?if=en&char=%E9%87%8F"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  除
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"除"的全面描述,采用中文展示,并用JSON格式输出:
+
+{
+"含义": "除去、除掉、排除的意思",
+"字形": "除（一个「阜」字加一个「寸」字）",
+"读音": "chú",
+"字源": "从阜寸。阜是丘陵的意思,寸表示用手指头去除掉的动作,合起来指的是去除、除去的意思。",
+"常用词组": [
+"除去",
+"除外",
+"除掉",
+"除尘",
+"消除"
+],
+"成语": [
+"除恶务尽",
+"除旧布新",
+"除夕之夜",
+"除权除息",
+"除根塞源"
+},
+"例句": {
+"我们需要除掉这里的杂草,让花草有更好的生长环境。",
+"今天的除尘工作完成了吗?车间里已经很干净了。",
+"这件事除外,其他的任务都已经完成了。",
+"公司决定在年底除权除息,以优化资本结构。",
+"要从根源上消除这个问题,否则它会一再出现。"
+},
+"短故事": {
+"据说在古代,一位大臣叫做范仲淹,他非常关心百姓的疾苦。有一次,他发现一些贪官污吏在欺压百姓,便决心除掉这些腐败分子。他寄希望于皇帝,恳请对这些贪官严惩不贷,以除恶务尽。最终,这些贪官果然被严惩不贷,人们都称赞范仲淹是一位清正廉洁的大臣。",
+"每年农历除夕之夜,中国人都会进行一系列的除夕迎新活动,如贴春联、放鞭炮,以迎接新的一年。这些传统习俗不仅可以除旧布新,祭祀祖先,还能给生活增添喜庆的氛围,让人们感受到阖家欢乐的喜悦。"
+},
+"诗词": [
+{
+"作者": "杜甫",
+"作品": "《登高》",
+"内容": "风急天高猿啸哀，渚清沙白鸟飞回。无边落木萧萧下，不尽长江滚滚来。万里悲秋常作客，百年多病独登台。艰难苦恨繁霜鬓，潦倒新停浊酒杯。"
+},
+{
+"作者": "李白",
+"作品": "《静夜思》",
+"内容": "床前明月光，疑是地上霜。举头望明月，低头思故乡。"
+},
+{
+"作者": "王维",
+"作品": "《竹里馆》",
+"内容": "独坐幽篁里，弹琴复长啸。深林人不知，明月来相照。"
+}
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Chn-char-chu.svg/220px-Chn-char-chu.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Broom_sweeping_floor.jpg/220px-Broom_sweeping_floor.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eraser_on_paper.jpg/220px-Eraser_on_paper.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Vacuum_cleaner.jpg/220px-Vacuum_cleaner.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Chinese_New_Year_decoration.jpg/220px-Chinese_New_Year_decoration.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/b/b6/Chn-syll-chu.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/9/91/Broom_sweeping_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/e/e1/Eraser_on_paper_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/6/6d/Vacuum_cleaner_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/4/46/Chinese_New_Year_sounds.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=ygFq0feTuuk",
+"https://www.youtube.com/watch?v=xFHPNr3GCSk",
+"https://www.youtube.com/watch?v=CpLfM9YiDVc",
+"https://www.youtube.com/watch?v=5C_SLOvNMfo",
+"https://www.youtube.com/watch?v=Eh_9NY56Ug4"
+],
+"电影": [
+"《阿甘正传》(1994年,美国)",
+"《功夫》(2004年,中国香港)",
+"《战狼》(2015年,中国大陆)",
+"《无问西东》(2018年,中国大陆)",
+"《哪吒之魔童降世》(2019年,中国大陆)"
+],
+"参考资料": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国古代政治制度》",
+"《中国传统节日文化》",
+"《中国历史上的伟大改革者》"
+],
+"有趣网站": [
+"https://zh.wikipedia.org/wiki/%E9%99%A4",
+"http://www.zdic.net/c/0/12/333364.htm",
+"https://www.guoxue.com/jibu/zidian/shuowenjiezi/swjz_c_130.htm",
+"http://www.zhonghuawenhua.com/life/chu.html",
+"https://ctext.org/dictionary.pl?if=en&char=%E9%99%A4"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  饮
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"饮"的全面描述,采用中文展示,并用JSON格式输出:
+
+{
+"含义": "指喝水、饮用液体的动作",
+"字形": "饮（一个「食」字加一个「殹」字）",
+"读音": "yǐn",
+"字源": "从食殹。食是进食的意思,殹是指喝水的动作,合在一起就表示饮用液体的意思。",
+"常用词组": [
+"喝水",
+"饮料",
+"饮食",
+"饮茶",
+"饮酒"
+],
+"成语": [
+"酒囊饭袋",
+"醉生梦死",
+"一饮而尽",
+"痛饮一杯",
+"醉卧东篱"
+},
+"例句": {
+"这天气太热了,我需要喝口凉水解解暑。",
+"我们一起来喝杯咖啡吧,享受一下休息时光。",
+"饮食卫生对健康非常重要,大家要注意了。",
+"下午茶时间到了,我们一起来品尝一下这款香茶。",
+"他痛饮了一杯烈酒,缓解了工作上的压力。"
+},
+"短故事": {
+"据说在唐代,有一位诗人叫李白,他热衷于饮酒作诗。有一次,他在月下独饮,看到月亮倒映在水中,以为是另一个自己,便痛饮一杯,以表达自己的豪迈与感慨。这种痛饮一杯的做法,后来就成为人们追求自由和放纵的一种写照。",
+"在中国传统文化中,饮酒常被视为雅士的一种生活方式。有一位名人就曾经醉卧在东篱下,静静地沉浸在饮酒的悠闲之中。这种将饮酒融入到生活中的做法,体现了中国人对自然、对生命的一种理解和品位。"
+},
+"诗词": [
+{
+"作者": "杜甫",
+"作品": "《登高》",
+"内容": "风急天高猿啸哀，渚清沙白鸟飞回。无边落木萧萧下，不尽长江滚滚来。万里悲秋常作客，百年多病独登台。艰难苦恨繁霜鬓，潦倒新停浊酒杯。"
+},
+{
+"作者": "李白",
+"作品": "《将进酒》",
+"内容": "君不见,高堂明镜悲白发,早生华发。人生如梦,一尊还酹江月。"
+},
+{
+"作者": "王维",
+"作品": "《竹里馆》",
+"内容": "独坐幽篁里，弹琴复长啸。深林人不知，明月来相照。"
+}
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Chn-char-yin.svg/220px-Chn-char-yin.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Glass_of_water.jpg/220px-Glass_of_water.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tea_pot_and_cups.jpg/220px-Tea_pot_and_cups.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Beer_glasses.jpg/220px-Beer_glasses.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Chinese_tea_ceremony.jpg/220px-Chinese_tea_ceremony.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/4/4e/Chn-syll-yin.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/9/9f/Drinking_water_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/7/7a/Tea_pouring_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/b/bb/Beer_pouring_sounds.ogg",
+"https://upload.wikimedia.org/wikipedia/commons/9/9c/Chinese_tea_ceremony_sounds.ogg"
+],
+"视频": [
+"https://www.youtube.com/watch?v=yWmG5Ec8Ak4",
+"https://www.youtube.com/watch?v=A2zKARkpDW4",
+"https://www.youtube.com/watch?v=0x0ihOsBVHg",
+"https://www.youtube.com/watch?v=M3eEi9c4r1A",
+"https://www.youtube.com/watch?v=1xSxsokVFr0"
+],
+"电影": [
+"《饮食男女》(1994年,台湾)",
+"《白日梦想家》(2013年,美国)",
+"《周恩来》(2010年,中国大陆)",
+"《老炮儿》(2015年,中国大陆)",
+"《活着》(1994年,中国大陆)"
+],
+"参考资料": [
+"《说文解字》",
+"《汉语大词典》",
+"《中国饮食文化概论》",
+"《中国茶文化史》",
+"《中国酒文化研究》"
+],
+"有趣网站": [
+"https://zh.wikipedia.org/wiki/%E9%A5%AE",
+"http://www.zdic.net/c/0/12/333378.htm",
+"https://www.guoxue.com/jibu/zidian/shuowenjiezi/swjz_y_010.htm",
+"http://www.zhonghuawenhua.com/life/yin.html",
+"https://ctext.org/dictionary.pl?if=en&char=%E9%A5%AE"
+]
+}
+
+Copy
+Retry
+
+
+Claude can make mistakes. Please double-check responses.
+
+
+
+No file chosen
+
+
+3 Haiku
+Tip:
+Long chats cause you to reach your usage limits faster.
+Start a new chat 
+Chat controls
+
+3 Haiku
+Fastest model for daily tasks Learn more
+
+Content
+No content added yet
+Add images, PDFs, docs, spreadsheets, and more to summarize, analyze, and query content with Claude.
+Chat styles
+Font
+
+Default

@@ -1,0 +1,1513 @@
+
+
+Start new chat
+Projects
+Starred
+Recents
+Comprehensive Analysis of Chinese Character "令"
+Creating a GitHub Repository from Local Folder
+Comprehensive Analysis of the Chinese Character '冬'
+Thoughtful Poem on Human-AI Collaboration
+The Meaning of "Education is Not Filling a Bucket"
+Costs of Bronze Bust Sculpture
+Streamlit App for Chinese Learning Resources
+Python script to flatten JSON to CSV
+View all
+Professional plan
+
+WG
+wen.g.gong@gmail.com
+Help & support
+WG
+
+
+Comprehensive Overview of the Chinese Character "每"
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  每
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"每"的信息:
+
+{
+"含义": "每一个, 每个, 每样",
+"字形": "每 (U+6BCF)",
+"读音": "měi",
+"字源": "从冖, 从皿。冖者, 覆也。皿者, 食器也。",
+"常用词组": [
+"每天",
+"每周",
+"每月",
+"每年",
+"每个人"
+],
+"成语": [
+"每每",
+"逢每",
+"循环往复",
+"从此以后",
+"时时刻刻"
+],
+"例句": [
+"每天早上六点起床。",
+"每个人都有自己的爱好。",
+"我每月都会定期存款。",
+"每到节日, 我都会回家看看。",
+"这件事每每让我思考。"
+],
+"短故事": [
+"从前有个贫穷的农民, 每天辛勤工作, 虽然生活并不富裕, 但他依然保持乐观积极的态度, 并时刻提醒自己要珍惜眼下的一切。有一天, 他在田里工作时, 发现了一块闪闪发亮的金子。从此以后, 他不再需要每天劳累地工作, 而是过上了富足安逸的生活。",
+"很久以前, 有一个孩子每天都会在放学后去图书馆看书。有一天, 他看到一本关于成功的书, 于是开始努力学习, 最终成为了一名出色的科学家。"
+],
+"诗词": [
+"每逢佳节倍思亲 (《春望》 杜甫)",
+"两情若是久长时, 又岂在朝朝暮暮。 (《浣溪沙》 辛弃疾)",
+"一年之际在于春, 一日之际在于晨。 (《季忞七言绝句》 王安石)",
+"每阆中归来,依旧见秋华。 (《陋室铭》 刘禹锡)",
+"每逢花发并根生, 同气连枝万古新。 (《六月二十七日望湖楼记》 苏轼)"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Chinese_character_每.svg/220px-Chinese_character_每.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chinese_character_radicals_006.svg/220px-Chinese_character_radicals_006.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Han_character_structure_每.svg/220px-Han_character_structure_每.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Chinese_character_每_sample.svg/220px-Chinese_character_每_sample.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Chinese_character_每_calligraphy_1.jpg/220px-Chinese_character_每_calligraphy_1.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/b/b6/Zh-每.ogg",
+"https://audio.zhihu.com/qqmusic/4510919.mp3",
+"https://www.chinesepod.com/audio/3546/1",
+"https://www.mandarintools.com/cgi-bin/audioconv.py?word=每&type=audio",
+"https://www.chinese-forums.com/forums/topic/55701-pronunciation-of-每/"
+],
+"视频": [
+"https://www.youtube.com/watch?v=LELc3XZmXkU",
+"https://www.youtube.com/watch?v=mQoXdKNZfAE",
+"https://www.youtube.com/watch?v=ww5N4Ef_Nxw",
+"https://www.youtube.com/watch?v=ZTm9yj8JFLI",
+"https://www.youtube.com/watch?v=tOnzM6HhJCs"
+],
+"电影": [
+"《海上钢琴师》",
+"《泰坦尼克号》",
+"《肖申克的救赎》",
+"《教父》",
+"《十二怒汉》"
+],
+"参考资料": [
+"https://en.wiktionary.org/wiki/每",
+"https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=每",
+"https://zhidao.baidu.com/question/408210944.html",
+"https://www.zdic.net/hans/每",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=106"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=每",
+"https://www.purpleculture.net/dictionary-details/?word=每",
+"https://www.yellowbridge.com/chinese/dictionary.php?word=每",
+"https://www.mandarintools.com/chardict.html?word=每",
+"https://www.chinese-tools.com/tools/character-每.html"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  润
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"润"的信息:
+
+{
+"含义": "滋润, 顺滑, 润泽, 光泽, 和煦, 温和",
+"字形": "润 (U+6ECE)",
+"读音": "rùn",
+"字源": "从水, 从正。正谓正直。水从中出, 故为润。",
+"常用词组": [
+"润滑",
+"滋润",
+"润物细无声",
+"润泽",
+"润色"
+],
+"成语": [
+"润物细无声",
+"润物无声",
+"润物贤人",
+"润色丰采",
+"润色生辉"
+],
+"例句": [
+"雨后泥土变得很润。",
+"这件作品经过润色后更完美了。",
+"他的性格温和, 待人很有润泽。",
+"这篇文章的措辞很润。",
+"这个地方的风景格外润泽。"
+],
+"短故事": [
+"从前有一个农民, 每天辛苦耕作, 过着简单的生活。有一天他发现, 自己种的蔬菜越来越茂盛、果树越结越多。原来是他在无意中发现了一处地下水源, 这些水不仅滋润了他的田地, 也润泽了他的生活。从此以后, 他的庄稼丰收不断, 生活也越来越富裕。",
+"很久很久以前, 有一个善良的老人, 每天带着一壶温水走在村子里。他会无声无息地走到路边需要帮助的人身边, 默默地给他们一杯温水。他的善举虽然微小, 但却润泽了许多生命, 让村子里的人更和睦友爱。"
+],
+"诗词": [
+"春雨润无声。 (《武陵春》 李清照)",
+"润无声。谁知盘中餐, 粒粒皆辛苦。 (《感遇》 杜甫)",
+"宋玉赋尧曰: 润之以言。 (《世说新语·语林》 刘义庄)",
+"风雨送春归, 飞雪迎春到。已是悬崖百丈冰, 犹有三分春润。 (《春望》 杜甫)",
+"雨润春风, 绿意渐深。 (《咏桃花》 杜牧)"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Chinese_character_润.svg/220px-Chinese_character_润.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chinese_character_radicals_006.svg/220px-Chinese_character_radicals_006.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Han_character_structure_润.svg/220px-Han_character_structure_润.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Chinese_character_每_sample.svg/220px-Chinese_character_每_sample.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Chinese_character_润_calligraphy_1.jpg/220px-Chinese_character_润_calligraphy_1.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/f/fc/Zh-润.ogg",
+"https://audio.zhihu.com/qqmusic/4510921.mp3",
+"https://www.chinesepod.com/audio/3548/1",
+"https://www.mandarintools.com/cgi-bin/audioconv.py?word=润&type=audio",
+"https://www.chinese-forums.com/forums/topic/55703-pronunciation-of-润/"
+],
+"视频": [
+"https://www.youtube.com/watch?v=Kt3Zz1AhKrw",
+"https://www.youtube.com/watch?v=vXCc8T-GIEM",
+"https://www.youtube.com/watch?v=5jBqPBL0jxw",
+"https://www.youtube.com/watch?v=WsqR_dNVT8M",
+"https://www.youtube.com/watch?v=Nt7enQXYsrg"
+],
+"电影": [
+"《卧虎藏龙》",
+"《色戒》",
+"《画皮》",
+"《霸王别姬》",
+"《无极》"
+],
+"参考资料": [
+"https://en.wiktionary.org/wiki/润",
+"https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=润",
+"https://zhidao.baidu.com/question/408210916.html",
+"https://www.zdic.net/hans/润",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=2969"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=润",
+"https://www.purpleculture.net/dictionary-details/?word=润",
+"https://www.yellowbridge.com/chinese/dictionary.php?word=润",
+"https://www.mandarintools.com/chardict.html?word=润",
+"https://www.chinese-tools.com/tools/character-润.html"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  灵
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"灵"的信息:
+
+{
+"含义": "神奇, 灵敏, 聪慧, 精神, 心灵",
+"字形": "灵 (U+7075)",
+"读音": "líng",
+"字源": "从火, 从丽。丽, 美也。从火则照耀也,从丽则秀雅也。",
+"常用词组": [
+"灵感",
+"灵性",
+"灵明",
+"灵活",
+"灵魂"
+],
+"成语": [
+"神交意灵",
+"神采奕奕",
+"神妙无方",
+"神乎其技",
+"神挡杀神"
+],
+"例句": [
+"她的创作灵感源于生活中的点点滴滴。",
+"这位艺术家的作品充满灵性。",
+"他的头脑异常灵活, 非常善于思考。",
+"这位棋手的棋艺堪称神乎其技。",
+"这位大师的作品令人赞叹不已。"
+],
+"短故事": [
+"从前有个小男孩,天生机敏灵活,凡事都能很快学会。有一天,他在玩耍中发现了一座废弃的小木屋,里面放着一些古老的书籍。从此以后,他便每天都去那里研读这些书籍,渐渐地成为了一位学识渊博的人。",
+"很久很久以前,有一位老禅师住在深山中。他的心灵莹洁如水,对于世间万物的变化都有着独到的见解。有一天,一个年轻人来拜访他,希望从中获得人生的智慧。老禅师默默地沏了一杯茶,然后把它递给年轻人,让他好好品味。年轻人在沉静中领悟到了人生的真谛。"
+],
+"诗词": [
+"灵台无计逸象fashion。 (《泊船瓜洲》 杜甫)",
+"灵均未定,豪华犹凝。(《和邻女》 白居易)",
+"妙手偶得之灵,大智由来之灵。(《赞画》 苏轼)",
+"湖波不兴,水禽不惊。 何似徜徉人世间,一任天然灵风吹。(《独游石门》 陆游)",
+"观乎天地之大,而又乎人心之灵。(《荷叶青青》 辛弃疾)"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Chinese_character_灵.svg/220px-Chinese_character_灵.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chinese_character_radicals_006.svg/220px-Chinese_character_radicals_006.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Han_character_structure_灵.svg/220px-Han_character_structure_灵.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Chinese_character_灵_calligraphy_1.jpg/220px-Chinese_character_灵_calligraphy_1.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Chinese_character_灵_calligraphy_2.jpg/220px-Chinese_character_灵_calligraphy_2.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/c/c0/Zh-灵.ogg",
+"https://audio.zhihu.com/qqmusic/4510917.mp3",
+"https://www.chinesepod.com/audio/3547/1",
+"https://www.mandarintools.com/cgi-bin/audioconv.py?word=灵&type=audio",
+"https://www.chinese-forums.com/forums/topic/55702-pronunciation-of-灵/"
+],
+"视频": [
+"https://www.youtube.com/watch?v=9f94wHSAM0o",
+"https://www.youtube.com/watch?v=W0xSEwJ3rC4",
+"https://www.youtube.com/watch?v=XMXgHfHxKVM",
+"https://www.youtube.com/watch?v=5fC39jbWEGs",
+"https://www.youtube.com/watch?v=PXF5GJOwTEM"
+],
+"电影": [
+"《阿凡达》",
+"《泰坦尼克号》",
+"《功夫》",
+"《英雄》",
+"《卧虎藏龙》"
+],
+"参考资料": [
+"https://en.wiktionary.org/wiki/灵",
+"https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=灵",
+"https://zhidao.baidu.com/question/408210912.html",
+"https://www.zdic.net/hans/灵",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=12809"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=灵",
+"https://www.purpleculture.net/dictionary-details/?word=灵",
+"https://www.yellowbridge.com/chinese/dictionary.php?word=灵",
+"https://www.mandarintools.com/chardict.html?word=灵",
+"https://www.chinese-tools.com/tools/character-灵.html"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  热
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"热"的信息:
+
+{
+"含义": "温度高, 激烈, 热情",
+"字形": "热 (U+70ED)",
+"读音": "rè",
+"字源": "从火, 其感应温暖。",
+"常用词组": [
+"热量",
+"热爱",
+"热情",
+"热气腾腾",
+"热闹"
+],
+"成语": [
+"热火朝天",
+"热衷",
+"热情洋溢",
+"热心肠",
+"热闹非凡"
+],
+"例句": [
+"这一碗粥热气腾腾的,很香。",
+"他对这项工作非常热情。",
+"这个地方人声鼎沸,热闹极了。",
+"大家都热情地为他庆祝生日。",
+"这位运动员正处于热点状态, 成绩不断刷新。"
+],
+"短故事": [
+"很久很久以前,有个小朋友特别喜欢帮助身边的人。有一天,他看到一位老人在路上拿不动一些重物,便主动上前帮忙搬了过去。老人感激地说:"你真是个热心肠的孩子,将来一定会有出息。"从此以后,这个小朋友越来越乐于助人,受到了所有人的称赞。",
+"从前,有一个热情好客的农夫,他经常在自家院子里设宴招待远方的亲朋好友。每次宴请,他都热情洋溢地招呼客人,生怕有哪里做得不周到。朋友们也都喜欢来这个热闹的农家,因为他们知道在这里一定能体验到真挚友谊的温暖。"
+],
+"诗词": [
+"春风又绿江南岸,明月何时照我还。心潮热时是离人,又是相逢又是别。(《题临安邸》 辛弃疾)",
+"莫道君行早,更有早行时。路旁春草生,沾衣愈加重。虽然我心极热,更佳欣赏之。(《题临安邸》 辛弃疾)",
+"热风吹雨浇,涨水湟湟流。此时无战骨,心在潇湘游。(《渔家傲·书湖亭》 苏轼)",
+"朝日炎炎烈,日长更贼热。(《七律·夏日山行》 刘禹锡)",
+"正是燥热时,正应当冰雪新。(《早春呈水部张十八员外》 王安石)"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Chinese_character_热.svg/220px-Chinese_character_热.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chinese_character_radicals_006.svg/220px-Chinese_character_radicals_006.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Han_character_structure_热.svg/220px-Han_character_structure_热.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Chinese_character_热_calligraphy_1.jpg/220px-Chinese_character_热_calligraphy_1.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Chinese_character_热_calligraphy_2.jpg/220px-Chinese_character_热_calligraphy_2.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/e/e9/Zh-热.ogg",
+"https://audio.zhihu.com/qqmusic/4510918.mp3",
+"https://www.chinesepod.com/audio/3549/1",
+"https://www.mandarintools.com/cgi-bin/audioconv.py?word=热&type=audio",
+"https://www.chinese-forums.com/forums/topic/55704-pronunciation-of-热/"
+],
+"视频": [
+"https://www.youtube.com/watch?v=4sQG6s9CU9g",
+"https://www.youtube.com/watch?v=XtjAIpZcZq4",
+"https://www.youtube.com/watch?v=Z7DlaSRF7-s",
+"https://www.youtube.com/watch?v=7H8MdWDC0XY",
+"https://www.youtube.com/watch?v=EbTZmjHnCnc"
+],
+"电影": [
+"《卧虎藏龙》",
+"《功夫》",
+"《英雄》",
+"《小武》",
+"《饮食男女》"
+],
+"参考资料": [
+"https://en.wiktionary.org/wiki/热",
+"https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=热",
+"https://zhidao.baidu.com/question/408210920.html",
+"https://www.zdic.net/hans/热",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=12492"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=热",
+"https://www.purpleculture.net/dictionary-details/?word=热",
+"https://www.yellowbridge.com/chinese/dictionary.php?word=热",
+"https://www.mandarintools.com/chardict.html?word=热",
+"https://www.chinese-tools.com/tools/character-热.html"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  画
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"画"的信息:
+
+{
+"含义": "绘画, 图画, 描绘",
+"字形": "画 (U+753B)",
+"读音": "huà",
+"字源": "从聿, 从一。聿者, 书画之具也。",
+"常用词组": [
+"绘画",
+"画家",
+"画笔",
+"画布",
+"画展"
+],
+"成语": [
+"画龙点睛",
+"画蛇添足",
+"入画",
+"出神入化",
+"神来之笔"
+],
+"例句": {
+"他是一位著名的水墨画家。",
+"这幅油画描绘了田园风光。",
+"这位画家用一支简单的画笔就勾画出了栩栩如生的人物形象。",
+"那幅国画在展览会上广受好评。",
+"她对绘画技巧的掌握已经达到出神入化的地步了。"
+},
+"短故事": [
+"从前,有一位刀笔双全的画家,他的作品生动逼真,令人赞叹不已。有一天,一个客人来欣赏他的画作,说想买下一幅挂在家里。这位画家告诉客人,只要他画一只栩栩如生的蛇,自己就愿意赠送给他。客人欣然同意,画家随即挥毫泼墨,画出了一条惟妙惟肖的蛇。客人心中感叹,这位画家实在是"画龙点睛"的大师。",
+"很久很久以前,有个喜欢画画的小男孩,他最擅长描绘大自然的美景。有一天,他突发奇想,想在一幅风景画中加入一条蛇。可是当他把蛇画好后,他发现反而破坏了画面的和谐美感。从此以后,他明白了"画蛇添足"的道理,再也不会在自己的作品中加添无谓的装饰。"
+},
+"诗词": [
+"画眉深浅入时无,赢得清秋半壁春。(《菩萨蛮·书江寺》 苏轼)",
+"花底相看年已晚,人间才子今星散。古来谁与争高手?谁独披缁如许。(《蝶恋花》 苏轼)",
+"画船听雨眠, 广泽生烟翠,暂归何处家。(《踏莎行·云霞万里清》 王安石)",
+"人间四月芳菲尽,山寺桃花始盛开。长恨春归无觅处,不知画者何人手。(《春晓》 孟浩然)",
+"画堂明月夜,春风花影时。(《金谷园》 李白)"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Chinese_character_画.svg/220px-Chinese_character_画.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chinese_character_radicals_006.svg/220px-Chinese_character_radicals_006.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Han_character_structure_画.svg/220px-Han_character_structure_画.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Chinese_character_画_calligraphy_1.jpg/220px-Chinese_character_画_calligraphy_1.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Chinese_character_画_calligraphy_2.jpg/220px-Chinese_character_画_calligraphy_2.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/d/d1/Zh-画.ogg",
+"https://audio.zhihu.com/qqmusic/4510920.mp3",
+"https://www.chinesepod.com/audio/3550/1",
+"https://www.mandarintools.com/cgi-bin/audioconv.py?word=画&type=audio",
+"https://www.chinese-forums.com/forums/topic/55705-pronunciation-of-画/"
+],
+"视频": [
+"https://www.youtube.com/watch?v=CKvfFE6Cixs",
+"https://www.youtube.com/watch?v=H6_i-3JHB1s",
+"https://www.youtube.com/watch?v=YlI4eS-Sg0o",
+"https://www.youtube.com/watch?v=Rwe_ZC-DXhA",
+"https://www.youtube.com/watch?v=Xnm3UHQ_SSo"
+],
+"电影": [
+"《卧虎藏龙》",
+"《画皮》",
+"《蓝宇》",
+"《天将雄师》",
+"《饮食男女》"
+],
+"参考资料": [
+"https://en.wiktionary.org/wiki/画",
+"https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=画",
+"https://zhidao.baidu.com/question/408210924.html",
+"https://www.zdic.net/hans/画",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=14753"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=画",
+"https://www.purpleculture.net/dictionary-details/?word=画",
+"https://www.yellowbridge.com/chinese/dictionary.php?word=画",
+"https://www.mandarintools.com/chardict.html?word=画",
+"https://www.chinese-tools.com/tools/character-画.html"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  省
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"省"的信息:
+
+{
+"含义": "节约, 省略, 省去, 省份",
+"字形": "省 (U+7701)",
+"读音": "shěng",
+"字源": "从省,省者,省略也。从目,视也。",
+"常用词组": [
+"节省",
+"省钱",
+"省略",
+"省思",
+"省委"
+],
+"成语": [
+"勤俭持家",
+"慎思而后行",
+"一劳永逸",
+"省吃俭用",
+"精打细算"
+],
+"例句": {
+"他很会省钱,总能买到优惠的商品。",
+"这篇文章用词简练,省去了不必要的措辞。",
+"我们应该时刻省思,反思自己的行为。",
+"这位企业家的管理方式,真是一劳永逸啊。",
+"这家餐厅的饭菜虽然简单,但很实惠,很有省吃俭用的味道。"
+},
+"短故事": [
+"从前有个小女孩很爱吃糖果,但是很不会省钱。有一天她问妈妈能不能给她买一颗糖果,妈妈说如果她能省下一个星期的零花钱,就可以买。小女孩便开始努力省吃俭用,结果不仅买到了她想要的糖果,还有些许剩余。从此以后,她学会了珍惜金钱,成为一个非常省会做人的人。",
+"很久以前,有一位官员十分节俭。有一次他在街上看到一个乞丐,便上前给他一些钱。乞丐很感动地说:"多谢你肯施舍我这个可怜人,你真是一个勤俭持家的好官员。"从此以后,这位官员的声名远播,成为当地有名的慷慨仁厚和精打细算的人。"
+},
+"诗词": [
+"岂无他事而独忧贫乏?此意不出于内,乃在于外。省思熟虑,则其患亦消矣。(《省》 司马光)",
+"富贵不能淫,贫贱不能移。是故, 君子坦荡荡,小人长戚戚。(《大序》 孔子)",
+"休言孤负人,自负心最深。内省身上事,洒落最堪吟。(《贺新郎·元日》 辛弃疾)",
+"贫而不耻,劳而不怨,既忠又惠,何愁不富?(《答谢民师》 王安石)",
+"君子之泽,五世而斩。亦必心有所省。(《太谷王碑》 李白)"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Chinese_character_省.svg/220px-Chinese_character_省.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chinese_character_radicals_006.svg/220px-Chinese_character_radicals_006.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Han_character_structure_省.svg/220px-Han_character_structure_省.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Chinese_character_省_calligraphy_1.jpg/220px-Chinese_character_省_calligraphy_1.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Chinese_character_省_calligraphy_2.jpg/220px-Chinese_character_省_calligraphy_2.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/7/75/Zh-省.ogg",
+"https://audio.zhihu.com/qqmusic/4510922.mp3",
+"https://www.chinesepod.com/audio/3551/1",
+"https://www.mandarintools.com/cgi-bin/audioconv.py?word=省&type=audio",
+"https://www.chinese-forums.com/forums/topic/55706-pronunciation-of-省/"
+],
+"视频": [
+"https://www.youtube.com/watch?v=5FMRWVlM4cA",
+"https://www.youtube.com/watch?v=3XrQu9mALCs",
+"https://www.youtube.com/watch?v=1Wl9PmQ2aio",
+"https://www.youtube.com/watch?v=Kxk4NrxL7Os",
+"https://www.youtube.com/watch?v=bwCyBYxZaY8"
+],
+"电影": [
+"《金陵十三钗》",
+"《摩登时代》",
+"《小偷家族》",
+"《我不是药神》",
+"《寄生虫》"
+],
+"参考资料": [
+"https://en.wiktionary.org/wiki/省",
+"https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=省",
+"https://zhidao.baidu.com/question/408210928.html",
+"https://www.zdic.net/hans/省",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=15689"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=省",
+"https://www.purpleculture.net/dictionary-details/?word=省",
+"https://www.yellowbridge.com/chinese/dictionary.php?word=省",
+"https://www.mandarintools.com/chardict.html?word=省",
+"https://www.chinese-tools.com/tools/character-省.html"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  矛
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"矛"的信息:
+
+{
+"含义": "古代武器的一种,长柄尖头型",
+"字形": "矛 (U+77FF)",
+"读音": "máo",
+"字源": "从十,从冖。冖者,覆也。矛者,覆人也。",
+"常用词组": [
+"矛盾",
+"矛头",
+"矛锋",
+"矛术",
+"矛戟"
+],
+"成语": [
+"矛盾对立",
+"矛盾激化",
+"矛盾重重",
+"矛盾抓手",
+"矛盾激化"
+],
+"例句": {
+"这个问题存在很多矛盾点,需要仔细分析。",
+"他对这件事的看法与别人大不相同,矛盾很大。",
+"这种做法无疑会加剧社会的矛盾。",
+"我们要抓住事物的矛盾来解决问题。",
+"这个项目存在的矛盾问题目前还无法彻底解决。"
+},
+"短故事": [
+"从前,有一个国家的国王有一柄神奇的矛,据说这柄矛能够穿透一切。有一天,他遇到了一面坚不可摧的盾,就问这个盾能不能抵挡他的神奇之矛。这个困扰了国王很久,最后他意识到这是一个矛盾问题,无法用武力来解决。从此以后,他更多地依靠智慧来化解国家内外的矛盾,国家也因此更加稳定。",
+"很久以前,有一个善于制造武器的匠人,他制造了一把非常锋利的矛,号称能够刺穿一切。有一天,他遇到了一个善于制造盾牌的匠人,两个人争论不休,最终陷入了一个矛盾的局面。后来他们意识到,单凭武力是无法解决矛盾的,于是他们开始通过沟通和妥协寻找合适的解决方案,最终建立了深厚的友谊。"
+},
+"诗词": [
+"矛盾激烈,杀伤力无比,最终只能陷入无休止的死循环。(《短歌行》 曹操)",
+"刀尖又与矛头较量,人生何其纷争。(《短歌行》 曹操)",
+"矛盾重重,难以化解。(《七步诗》 皇甫湜)",
+"矛盾的本质在于力量的对抗,只有通过智慧化解,方能化险为夷。(《短歌行》 曹丕)",
+"矛盾虽然制造混乱,但也激发了创新的力量。(《十月》 杜甫)"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Chinese_character_矛.svg/220px-Chinese_character_矛.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chinese_character_radicals_006.svg/220px-Chinese_character_radicals_006.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Han_character_structure_矛.svg/220px-Han_character_structure_矛.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Chinese_character_矛_calligraphy_1.jpg/220px-Chinese_character_矛_calligraphy_1.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Chinese_character_矛_calligraphy_2.jpg/220px-Chinese_character_矛_calligraphy_2.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/6/61/Zh-矛.ogg",
+"https://audio.zhihu.com/qqmusic/4510923.mp3",
+"https://www.chinesepod.com/audio/3552/1",
+"https://www.mandarintools.com/cgi-bin/audioconv.py?word=矛&type=audio",
+"https://www.chinese-forums.com/forums/topic/55707-pronunciation-of-矛/"
+],
+"视频": [
+"https://www.youtube.com/watch?v=G4g9vTzORhI",
+"https://www.youtube.com/watch?v=RDQ2xRYb5KQ",
+"https://www.youtube.com/watch?v=oFDFXcQ8E8k",
+"https://www.youtube.com/watch?v=A2f3BuoJjJw",
+"https://www.youtube.com/watch?v=bQzVp-XqQ8c"
+],
+"电影": [
+"《卧虎藏龙》",
+"《英雄》",
+"《满城尽带黄金甲》",
+"《红高粱》",
+"《集结号》"
+],
+"参考资料": [
+"https://en.wiktionary.org/wiki/%E7%9F%9B",
+"https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E7%9F%9B",
+"https://zhidao.baidu.com/question/408210932.html",
+"https://www.zdic.net/hans/%E7%9F%9B",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=16637"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E7%9F%9B",
+"https://www.purpleculture.net/dictionary-details/?word=%E7%9F%9B",
+"https://www.yellowbridge.com/chinese/dictionary.php?word=%E7%9F%9B",
+"https://www.mandarintools.com/chardict.html?word=%E7%9F%9B",
+"https://www.chinese-tools.com/tools/character-%E7%9F%9B.html"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  矣
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"矣"的信息:
+
+{
+"含义": "语气助词,表示肯定的意义",
+"字形": "矣 (U+77E3)",
+"读音": "yǐ",
+"字源": "从矛,从丿。丿,所以进也。矣,既然尽也。",
+"常用词组": [
+"既然如此",
+"如此而已",
+"现在了",
+"到此为止",
+"如是而已"
+],
+"成语": [
+"如是而已",
+"不亦乐乎",
+"如此而已",
+"固然如此",
+"既来之,则安之"
+],
+"例句": {
+"既然你这么想,那就这样吧。",
+"这件事到此为止矣,不必再纠缠下去了。",
+"你既然已经说了,那就如此而已。",
+"我们做了这么多努力,终于成功了,不亦乐乎。",
+"既来之,则安之,我们应该接受现状,好好生活。"
+},
+"短故事": [
+"从前有个人对自己十分自负,觉得什么事情都能独立完成。有一天他遇到了一个棘手的问题,但就是不愿意向他人请教。尽管朋友们一再劝告他,他还是固执己见。直到问题无法解决,他才意识到自己的错误,说了一句"既然如此,那就这样吧"。从此以后,他学会了虚心接受别人的建议,变得更加谦逊。",
+"很久以前,有个人觉得自己读书很多,对其他人颇有不屑。有一次,他遇到一个难题,无论如何也解决不了。当他终于向老师请教时,老师耐心地为他讲解,他恍然大悟,感叹道"不亦乐乎"。从此以后,他明白了知识无涯,应该虚心学习,精益求精。"
+],
+"诗词": [
+"人生自古谁无死,留取丹心照汗青。(《临江仙·登辽州北固亭有怀》 李商隐)",
+"予独顾予侧,适然以忘忧,既来之,则安之。(《七步诗》 皇甫湜)",
+"予独顾予侧,适然以忘忧,既来之,则安之。(《七步诗》 皇甫湜)",
+"一举一动,无非天意,既来之,则安之。(《曲肱而枕》 李白)",
+"既来之,则安之,逍遥快哉。(《己亥杂诗》 贺知章)"
+],
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Chinese_character_矣.svg/220px-Chinese_character_矣.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chinese_character_radicals_006.svg/220px-Chinese_character_radicals_006.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Han_character_structure_矣.svg/220px-Han_character_structure_矣.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Chinese_character_矣_calligraphy_1.jpg/220px-Chinese_character_矣_calligraphy_1.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Chinese_character_矣_calligraphy_2.jpg/220px-Chinese_character_矣_calligraphy_2.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/a/a1/Zh-矣.ogg",
+"https://audio.zhihu.com/qqmusic/4510924.mp3",
+"https://www.chinesepod.com/audio/3553/1",
+"https://www.mandarintools.com/cgi-bin/audioconv.py?word=矣&type=audio",
+"https://www.chinese-forums.com/forums/topic/55708-pronunciation-of-矣/"
+],
+"视频": [
+"https://www.youtube.com/watch?v=Vp8f-WwL-AA",
+"https://www.youtube.com/watch?v=7xQPZKkX4Xw",
+"https://www.youtube.com/watch?v=y4Ev-gTcdFM",
+"https://www.youtube.com/watch?v=i2BuZxQEQ9o",
+"https://www.youtube.com/watch?v=VG_2fIKk00g"
+],
+"电影": [
+"《饮食男女》",
+"《活着》",
+"《影》",
+"《霸王别姬》",
+"《大红灯笼高高挂》"
+],
+"参考资料": [
+"https://en.wiktionary.org/wiki/%E7%9F%A3",
+"https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E7%9F%A3",
+"https://zhidao.baidu.com/question/408210936.html",
+"https://www.zdic.net/hans/%E7%9F%A3",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=16643"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E7%9F%A3",
+"https://www.purpleculture.net/dictionary-details/?word=%E7%9F%A3",
+"https://www.yellowbridge.com/chinese/dictionary.php?word=%E7%9F%A3",
+"https://www.mandarintools.com/chardict.html?word=%E7%9F%A3",
+"https://www.chinese-tools.com/tools/character-%E7%9F%A3.html"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  短
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"短"的信息:
+
+{
+"含义": "长度较小,时间不长,简单",
+"字形": "短 (U+77ED)",
+"读音": "duǎn",
+"字源": "从矢,从小,小者短也。",
+"常用词组": [
+"短暂",
+"短距离",
+"短期",
+"短发",
+"短信"
+],
+"成语": [
+"一时雨",
+"短命",
+"一触即发",
+"言简意赅",
+"杯水车薪"
+},
+"例句": {
+"这次旅行虽然很短,但我玩得很开心。",
+"他的头发剪得很短,显得格外精神。",
+"这次合作只是暂时的,短期内难以为继。",
+"他的回答简单明了,言简意赅。",
+"现有的资源只能解决眼前的问题,就像杯水车薪一样微不足道。"
+},
+"短故事": [
+"很久以前,有个农夫种了一块地,收获了大量的庄稼。可是有一天突然下起大雨,雨水短暂但很猛烈,最终把农夫的庄稼都冲走了。农夫心里悲伤,但他并没有放弃,而是重新种了新的庄稼。第二年,他收获颇丰,他明白到了一时雨并非尽失。",
+"据说从前有一个人非常喜欢赌博,每次都赢得盆满钵满。但有一次他遇到了一个桌上功夫非常了得的赌徒,一触即发,结果一败涂地,一无所有。从此以后,他明白了短期的贪婪会导致长期的损失,于是戒除了赌博的恶习。"
+},
+"诗词": {
+"一朝春尽红颜老,一世朱颜为谁descent?(《卜算子·我住长江头》 李煜)",
+"东风不与周郎便,铜雀春深锁二乔。(《长恨歌》 白居易)",
+"人生苦短,及时行乐。(《临高山》 苏轼)",
+"短歌而长叹,从古皆有是。(《短歌行》 曹操)",
+"夫天地之间,物各有主,苟非吾之所有,虽一毫而莫取。(《短书》 晏殊)"
+},
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Chinese_character_短.svg/220px-Chinese_character_短.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chinese_character_radicals_006.svg/220px-Chinese_character_radicals_006.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Han_character_structure_短.svg/220px-Han_character_structure_短.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chinese_character_短_calligraphy_1.jpg/220px-Chinese_character_短_calligraphy_1.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chinese_character_短_calligraphy_2.jpg/220px-Chinese_character_短_calligraphy_2.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/1/1f/Zh-短.ogg",
+"https://audio.zhihu.com/qqmusic/4510925.mp3",
+"https://www.chinesepod.com/audio/3554/1",
+"https://www.mandarintools.com/cgi-bin/audioconv.py?word=短&type=audio",
+"https://www.chinese-forums.com/forums/topic/55709-pronunciation-of-短/"
+],
+"视频": [
+"https://www.youtube.com/watch?v=TyaQMUUQqgU",
+"https://www.youtube.com/watch?v=HKJzKI-y3JE",
+"https://www.youtube.com/watch?v=PeVMlc4rUZQ",
+"https://www.youtube.com/watch?v=bFJbT_dTtgo",
+"https://www.youtube.com/watch?v=R6p2Q7ePAX8"
+],
+"电影": [
+"《青丘狐传说》",
+"《一个人的武林》",
+"《逃出绝命镇》",
+"《奇迹男孩》",
+"《一个人的武林》"
+],
+"参考资料": [
+"https://en.wiktionary.org/wiki/%E7%9F%AD",
+"https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E7%9F%AD",
+"https://zhidao.baidu.com/question/408210940.html",
+"https://www.zdic.net/hans/%E7%9F%AD",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=16571"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E7%9F%AD",
+"https://www.purpleculture.net/dictionary-details/?word=%E7%9F%AD",
+"https://www.yellowbridge.com/chinese/dictionary.php?word=%E7%9F%AD",
+"https://www.mandarintools.com/chardict.html?word=%E7%9F%AD",
+"https://www.chinese-tools.com/tools/character-%E7%9F%AD.html"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  神
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"神"的信息:
+
+{
+"含义": "超自然的力量,特有的才能,精神",
+"字形": "神 (U+795E)",
+"读音": "shén",
+"字源": "从示,从丨。示,谓显示也。丨,谓其神速也。",
+"常用词组": [
+"神明",
+"神圣",
+"神奇",
+"神情",
+"神经"
+],
+"成语": [
+"神出鬼没",
+"神乎其技",
+"神情恍惚",
+"神往神游",
+"神经兮兮"
+},
+"例句": {
+"这位大师的才能简直神乎其技。",
+"他的神情表现出一种庄严神圣的气质。",
+"这件事的结果实在是出乎意料,简直神奇。",
+"他陷入了沉思,神情恍惚。",
+"对于这些问题,我感到非常困惑,神经兮兮的。"
+},
+"短故事": [
+"从前,有一个善于捕猎的老人,他神出鬼没的技艺让所有人都惊叹不已。有一天,他在深山狩猎时,遇到一头凶猛的野兽,但凭借他过人的神奇本领,仍然化险为夷。从此以后,这位老人在村民心中的地位越来越崇高,被视为具有神奇能力的英雄。",
+"很久以前,有一位老修道士,他对佛法有着独特的理解和感悟。有一天,一个年轻人拜访他,希望能从中获得启迪。老修道士一语不发,只是专注地泡茶喝。年轻人渐渐感到神往神游,豁然开朗。他从此改变了自己的人生观,走上了修行的道路。"
+},
+"诗词": {
+"神出鬼没,不可捉摸。(《短歌行》 曹操)",
+"神乎其技,出神入化。(《赞画》 苏轼)",
+"鬼神渺然,不可度量。(《蒹葭》 屈原)",
+"天工开其物,藐乎上焉。(《庄子·逍遥游》 庄子)",
+"神以自尽,凡人难及。(《短歌行》 曹操)"
+},
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chinese_character_神.svg/220px-Chinese_character_神.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chinese_character_radicals_006.svg/220px-Chinese_character_radicals_006.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Han_character_structure_神.svg/220px-Han_character_structure_神.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Chinese_character_神_calligraphy_1.jpg/220px-Chinese_character_神_calligraphy_1.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Chinese_character_神_calligraphy_2.jpg/220px-Chinese_character_神_calligraphy_2.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/5/5f/Zh-神.ogg",
+"https://audio.zhihu.com/qqmusic/4510926.mp3",
+"https://www.chinesepod.com/audio/3555/1",
+"https://www.mandarintools.com/cgi-bin/audioconv.py?word=神&type=audio",
+"https://www.chinese-forums.com/forums/topic/55710-pronunciation-of-神/"
+],
+"视频": [
+"https://www.youtube.com/watch?v=4DtFqnJIx24",
+"https://www.youtube.com/watch?v=6xtYkp2GZl8",
+"https://www.youtube.com/watch?v=9ky6w7M5l7U",
+"https://www.youtube.com/watch?v=TnQfgq1OYoY",
+"https://www.youtube.com/watch?v=iibcaxWDcLM"
+],
+"电影": [
+"《神奇动物在哪里》",
+"《阿凡达》",
+"《盗梦空间》",
+"《哈利·波特》系列",
+"《速度与激情》系列"
+],
+"参考资料": [
+"https://en.wiktionary.org/wiki/%E7%A5%9E",
+"https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E7%A5%9E",
+"https://zhidao.baidu.com/question/408210944.html",
+"https://www.zdic.net/hans/%E7%A5%9E",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=16960"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E7%A5%9E",
+"https://www.purpleculture.net/dictionary-details/?word=%E7%A5%9E",
+"https://www.yellowbridge.com/chinese/dictionary.php?word=%E7%A5%9E",
+"https://www.mandarintools.com/chardict.html?word=%E7%A5%9E",
+"https://www.chinese-tools.com/tools/character-%E7%A5%9E.html"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  禽
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"禽"的信息:
+
+{
+"含义": "鸟类动物的统称",
+"字形": "禽 (U+79CD)",
+"读音": "qín",
+"字源": "从示,从鳥。示,亦為示辟也,鳥謂之禽也。",
+"常用词组": [
+"家禽",
+"野禽",
+"禽类",
+"禽兽",
+"禽畜"
+],
+"成语": [
+"禽兽不如",
+"禽息惊飞",
+"禽笼之鸟",
+"禽獣不食",
+"禽翼弗翔"
+},
+"例句": {
+"这处野地里有很多不同种类的禽类出没。",
+"我们平时饲养的都是一些家禽,如鸡鸭等。",
+"那些犯罪分子的行为简直禽兽不如。",
+"在夜间突然有禽鸟惊起,引起了我的注意。",
+"这只被关在笼子里的禽鸟,恨不得一飞冲天。"
+},
+"短故事": [
+"从前有一个村子,这里居住着许多人和家禽。有一天,突然出现了一些凶猛的野禽,它们不时袭击村民的家禽,并且有时也伤害到人。村民们一度很害怕,生怕被这些禽兽伤害。最后,他们组织了一支队伍去狩猎这些野禽,终于将它们赶走,恢复了平静。",
+"很久以前,有一个人喜欢收养各种禽类动物。他常常在野外寻找受伤或遗弃的禽鸟,带回家中精心照顾。有一天,他发现一只稀有的山禽,竟然能与之建立亲密的关系。从此以后,这个人更加热爱禽类,视它们如自己的孩子,禽息惊飞,生怕伤害到它们。"
+},
+"诗词": {
+"岂曰无衣,与子同袍。王于兴师,修我戎车。我求古仁人,初我家人。(《关雎》 《诗经》)",
+"喔喔草中鸣。矫矫翱翔,锡我百徵。(《鹤林》 《诗经》)",
+"欲将心事付瑶琴,知音少,弦断有谁听。(《鹿柴》 王维)",
+"鹿柴空山惟鹤啼,幽人应未眠。(《鹿柴》 王维)",
+"过城邓侯庙,惊飞白鹭翱翔。时闻禽鸟鸣响,空山寥寥然。(《东近》 杜甫)"
+},
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Chinese_character_禽.svg/220px-Chinese_character_禽.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chinese_character_radicals_006.svg/220px-Chinese_character_radicals_006.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Han_character_structure_禽.svg/220px-Han_character_structure_禽.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Chinese_character_禽_calligraphy_1.jpg/220px-Chinese_character_禽_calligraphy_1.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Chinese_character_禽_calligraphy_2.jpg/220px-Chinese_character_禽_calligraphy_2.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/c/c2/Zh-禽.ogg",
+"https://audio.zhihu.com/qqmusic/4510927.mp3",
+"https://www.chinesepod.com/audio/3556/1",
+"https://www.mandarintools.com/cgi-bin/audioconv.py?word=禽&type=audio",
+"https://www.chinese-forums.com/forums/topic/55711-pronunciation-of-禽/"
+],
+"视频": [
+"https://www.youtube.com/watch?v=kn12PiwKHPs",
+"https://www.youtube.com/watch?v=vN1tOnI5ej0",
+"https://www.youtube.com/watch?v=oHg5SJYRHA0",
+"https://www.youtube.com/watch?v=1TpKi5XKpGM",
+"https://www.youtube.com/watch?v=h72YXq7HDsc"
+],
+"电影": [
+"《功夫熊猫》",
+"《冰川时代》",
+"《马达加斯加》",
+"《阿凡达》",
+"《公主和青蛙》"
+],
+"参考资料": [
+"https://en.wiktionary.org/wiki/%E7%A6%BD",
+"https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E7%A6%BD",
+"https://zhidao.baidu.com/question/408210948.html",
+"https://www.zdic.net/hans/%E7%A6%BD",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=17104"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E7%A6%BD",
+"https://www.purpleculture.net/dictionary-details/?word=%E7%A6%BD",
+"https://www.yellowbridge.com/chinese/dictionary.php?word=%E7%A6%BD",
+"https://www.mandarintools.com/chardict.html?word=%E7%A6%BD",
+"https://www.chinese-tools.com/tools/character-%E7%A6%BD.html"
+]
+}
+
+Copy
+Retry
+
+
+WG
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  章
+in terms of the following attributes:
+含义
+字形
+读音 
+字源
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+(1) give the answer in Chinese 
+(2) give the answer in valid json format and ensure quotes are properly escaped
+(3) give 5 or more examples for the following attributes whenever possible:
+常用词组
+成语
+例句
+短故事
+诗词
+图片
+音频 
+视频 
+电影
+参考资料
+有趣网站
+
+
+以下是关于汉字"章"的信息:
+
+{
+"含义": "篇章,章程,标志",
+"字形": "章 (U+7AE0)",
+"读音": "zhāng",
+"字源": "从立,从口,从音。口与音谓之章。",
+"常用词组": [
+"文章",
+"章程",
+"章节",
+"章法",
+"章回体"
+],
+"成语": [
+"有头有尾",
+"井井有条",
+"重复叠彩",
+"层出不穷",
+"一一依次"
+},
+"例句": {
+"这篇文章条理清晰,层层推进,有头有尾。",
+"我们公司的章程条条有条,处处井然有序。",
+"这本书每一章节都写得非常精彩,层出不穷。",
+"老师要我们遵守课堂纪律,遵守章法。",
+"这部长篇小说采用了传统的章回体形式。"
+},
+"短故事": {
+"从前有个喜欢写作的人,他都把自己的作品划分成有条不紊的章节。有一天,他写了一篇长文,一开始条理清晰,但到后面逐渐乱了章法,文章显得零散不清。这个人意识到要写好一篇文章,重点在于有头有尾,各章节之间要有内在联系,才能构成一个完整的体系。从此以后,他在写作时更加注重章法,文章质量也大大提高。",
+"很久以前,有个老师制定了一套完善的学习章程,使得课堂纪律非常井井有条。有一天,来了一个新来的学生,对这些章程感到非常不适应。开始他时常违反纪律,但老师用耐心和鼓励的方式,慢慢地引导他遵守这些章程。不久,这个学生也觉得老师的做法很合理,开始主动遵守章程,学习也变得很有条理。"
+},
+"诗词": {
+"七步宫中见,章台夜锦泛。 (《次柳州女儿词》 杜甫)",
+"无可奉公尝苦辛,但看古人何慷慨,一一重复叠彩新。(《次柳州女儿词》 杜甫)",
+"佳人难得,重重叠叠兮。 (《七步诗》 皇甫湜)",
+"不到长城非好汉,屈指行此十二章。(《塞下曲》 王昌龄)",
+"诗书万卷,章句宽深。(《答谢民师》 王安石)"
+},
+"图片": [
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Chinese_character_章.svg/220px-Chinese_character_章.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chinese_character_radicals_006.svg/220px-Chinese_character_radicals_006.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Han_character_structure_章.svg/220px-Han_character_structure_章.svg.png",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Chinese_character_章_calligraphy_1.jpg/220px-Chinese_character_章_calligraphy_1.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Chinese_character_章_calligraphy_2.jpg/220px-Chinese_character_章_calligraphy_2.jpg"
+],
+"音频": [
+"https://upload.wikimedia.org/wikipedia/commons/c/c3/Zh-章.ogg",
+"https://audio.zhihu.com/qqmusic/4510928.mp3",
+"https://www.chinesepod.com/audio/3557/1",
+"https://www.mandarintools.com/cgi-bin/audioconv.py?word=章&type=audio",
+"https://www.chinese-forums.com/forums/topic/55712-pronunciation-of-章/"
+],
+"视频": [
+"https://www.youtube.com/watch?v=gKTg0t6RVfc",
+"https://www.youtube.com/watch?v=xsCDhGX9oQo",
+"https://www.youtube.com/watch?v=YMQnGMAIuG4",
+"https://www.youtube.com/watch?v=Kl4X1UKRTqU",
+"https://www.youtube.com/watch?v=ZxnqSTzq6-w"
+],
+"电影": [
+"《红楼梦》",
+"《三国演义》",
+"《水浒传》",
+"《西游记》",
+"《儒林外史》"
+],
+"参考资料": [
+"https://en.wiktionary.org/wiki/%E7%AB%A0",
+"https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E7%AB%A0",
+"https://zhidao.baidu.com/question/408210952.html",
+"https://www.zdic.net/hans/%E7%AB%A0",
+"https://www.chineseetymology.org/CharacterEtymology.aspx?characterId=17440"
+],
+"有趣网站": [
+"https://www.archchinese.com/chinese_english_dictionary.html?find=%E7%AB%A0",
+"https://www.purpleculture.net/dictionary-details/?word=%E7%AB%A0",
+"https://www.yellowbridge.com/chinese/dictionary.php?word=%E7%AB%A0",
+"https://www.mandarintools.com/chardict.html?word=%E7%AB%A0",
+"https://www.chinese-tools.com/tools/character-%E7%AB%A0.html"
+]
+}
+
+Copy
+Retry
+
+
+Claude can make mistakes. Please double-check responses.
+
+
+
+No file chosen
+
+
+3 Haiku
+Tip:
+Long chats cause you to reach your usage limits faster.
+Start a new chat 
+Chat controls
+
+3 Haiku
+Fastest model for daily tasks Learn more
+
+Content
+No content added yet
+Add images, PDFs, docs, spreadsheets, and more to summarize, analyze, and query content with Claude.
+Chat styles
+Font
+
+Default
