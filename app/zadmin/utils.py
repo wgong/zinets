@@ -1204,3 +1204,29 @@ def list_all_filenames(directory, file_types=[".png", ".jpg", ".jpeg", ".gif"]):
 def remove_parent_path(file_name, parent_path=None):
     x = file_name.replace(parent_path, "") if parent_path else file_name
     return x[1:] if x[0] in ["\\", "/"] else x
+
+def log_msg(msg, file_name=None):
+    """
+    Print a message and optionally append it to a file.
+
+    Args:
+    msg (str): The message to log.
+    file_name (str, optional): The name of the file to append the message to.
+
+    Returns:
+    None
+    """
+    # Print the message
+    if not msg: 
+        return
+        
+    print(msg)
+
+    # If a file name is provided, append the message to the file
+    if file_name:
+        try:
+            file_path = Path(file_name)
+            with file_path.open('a', encoding="utf-8") as f:
+                f.write(msg + '\n')
+        except IOError as e:
+            print(f"Error writing to file {file_name}: {e}")
