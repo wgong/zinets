@@ -1,0 +1,78 @@
+{
+    "word": "heart",
+    "attributes": {
+        "meaning": [
+            "心脏,身体的重要器官",
+            "感情，情感, 爱情",
+            "中心或核心部分"
+        ],
+        "pronunciation": "hahrt",
+        "origin": [
+            "源自古英语heort",
+            "中世纪拉丁语cordis演变而来"
+        ],
+        "common_phrases": [
+            "heart of the matter", 
+            "get to the heart of the problem",
+            "hit the heart", 
+            "heart to heart conversation",
+            "in one's heart of hearts"
+        ],
+        "idioms": [
+            "break one's heart",
+            "have a heart of stone",
+            "lose one's heart to someone",
+            "wear one's heart on one's sleeve",
+            "keep one's heart in one's mouth"
+        ],
+        "example_sentences": [
+            "She took a deep breath and plunged her heart into the challenge.",
+            "The doctor listened carefully as he tried to locate the patient’s heartbeat.",
+            "Her words touched my heart deeply, making me realize how much I missed him.",
+            "It was hard for me to say goodbye, but it was in the best interest of our hearts.",
+            "They decided on a heart-to-heart conversation with their parents before any big decisions."
+        ],
+        "short_stories": [
+            "Once upon a time, there was a young girl named Lily who had lost her heart to a charming boy. She would spend all her days daydreaming about him and writing love letters that never reached his hands.",
+            "In the village, they called it the Heartstone. It was said to have magical powers, capable of mending broken hearts and bringing true happiness into one’s life."
+        ],
+        "poems": [
+            "My heart is a lonely hunter come roaming through alleyways of my soul",
+            "Let me be your heart's home where you find comfort in my embrace"
+        ],
+        "images": [
+            "https://example.com/heart_artwork.jpg",
+            "https://example.com/heart_painting.jpg"
+        ],
+        "audio": {
+            "pronunciation": "https://example.com/heart_pronunciation.mp3",
+            "rhyme_songs": [
+                "http://example.com/rhyming_song1.mp3",
+                "http://example.com/rhyming_song2.mp3"
+            ]
+        },
+        "video": {
+            "introduction": "https://example.com/heart_video.mp4",
+            "animations": [
+                "https://example.com/animated_heart.mp4",
+                "https://example.com/beat_of_the_heart.mp4"
+            ],
+            "documentaries": [
+                "https://example.com/heart_health documentary.mp4"
+            ]
+        },
+        "movies": [
+            "The Notebook",
+            "Eternal Sunshine of the Spotless Mind",
+            "Pride and Prejudice"
+        ],
+        "references": [
+            "https://www.etymonline.com/word/heart",
+            "https://en.wikipedia.org/wiki/Heart_(anatomy)"
+        ],
+        "interesting_websites": [
+            "http://www.heart.org",
+            "http://www.dictionary.com/browse/heart?s=t"
+        ]
+    }
+}

@@ -1,0 +1,77 @@
+ {
+  "attributes": [
+    {
+      "name": "含义",
+      "examples": [
+          "meaning of character",
+          "definition of character"
+      ]
+    },
+    {
+      "name": "字形",
+      "examples": [
+          "radical, strokes and order in which to draw the character",
+          "outline or shape of the character"
+      ]
+    },
+    {
+      "name": "读音",
+      "examples": [
+          "pinyin, pronunciation guide for each stroke in the word",
+          "how to say the character out loud"
+      ]
+    },
+    {
+      "name": "字源",
+      "examples": []
+    },
+    {
+      "name": "常用词组",
+      "examples": [
+          "common phrases or expressions using this character",
+          "phrases that contain the character"
+      ]
+    },
+    {
+      "name": "成语",
+      "examples": []
+    },
+    {
+      "name": "例句",
+      "examples": [
+          "sentences or phrases using this character in context",
+          "contextual examples of the character"
+      ]
+    },
+    {
+      "name": "短故事",
+      "examples": []
+    },
+    {
+      "name": "诗词",
+      "examples": []
+    },
+    {
+      "name": "图片",
+      "examples": [
+          "images of the character or related objects in context",
+          "illustrations of the character"
+      ]
+    },
+    {
+      "name": "音频",
+      "examples": []
+    },
+    {
+      "name": "视频",
+      "examples": []
+    },
+    {
+      "name": "电影",
+      "examples": [
+          "related films or movies with the character as a main topic",
+          "movies about the character"
+      ]
+    }
+  ]
+}

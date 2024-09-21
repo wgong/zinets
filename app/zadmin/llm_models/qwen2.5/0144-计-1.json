@@ -1,0 +1,84 @@
+{
+    "汉字": "计",
+    "含义": "计划，计算，考虑。",
+    "字形": "象形字。早期文字中的'计'字，形象地表现了古代人们通过结绳记事、刻痕计数的方法来记录和计算。后来简化为现在的形式。",
+    "读音": "jì",
+    "字源": "甲骨文中的'计'字像绳子上打结的形状，反映了早期人们用结绳记事的方式进行简单计算或记录事件的过程。演变至楷书时，结构更为规整。",
+    "常用词组": [
+        "计较", 
+        "计划", 
+        "计算器", 
+        "计算机", 
+        "计策"
+    ],
+    "成语": [
+        "万无一失", 
+        "千虑一得", 
+        "三思而行", 
+        "事半功倍", 
+        "百密一疏"
+    ],
+    "例句": [
+        "公司需要重新制定一个详细的商业计划。",
+        "她用计算器算出了结果，非常准确。",
+        "这是一场精心策划的阴谋。",
+        "他的建议虽然很少，却常常有独到之处。",
+        "在做决定之前，我们要三思而行。"
+    ],
+    "短故事": [
+        "从前，有个商人每天早上出门前都会给自己的货物做一个详细的计划，包括如何运输、价格策略等。某一天，他的竞争对手突发奇想，向他借了一把尺子和一根绳子作为礼物，然后将所有的货物都堆在一起，用绳子缠绕起来。当商人回来时，发现所有的东西都被对方算得清清楚楚地分门别类了。从此，商人们都知道要时刻做好计划，以防对手的计策。",
+        "在古代战争中，将领们总是需要制定详细的攻防计划来确保胜利。有一次，一位年轻的将军因为过于自信，没有事先计算好兵力和粮草，结果导致了一场惨败。从那以后，他每做一件事都会先认真地考虑和计算。",
+        "有个人开了一家小书店，每天早上他会列出当天要做的事情清单，包括进货、整理书籍等，这使他的书店经营得井井有条。",
+        "在一次重要的考试前，学生们都积极准备复习。其中一位学生不仅复习了课本知识，还结合老师平时的讲解做了详细的笔记和总结，这种认真态度让他最终取得了不错的成绩。",
+        "一家公司新推出了一款产品，为了确保成功，他们请来了专业的市场调研团队进行详细的数据分析与预测，从而制定出最优的价格策略。结果产品一经上市就获得了市场的热烈反响"
+    ],
+    "诗词": [
+        "《春江花月夜》: 江畔何人初见月？江月何年初照人？人生代代无穷已，江月年年只相似。",
+        "《静夜思》: 床前明月光，疑是地上霜。举头望明月，低头思故乡。",
+        "《赋得古原草送别》: 离离原上草，一岁一枯荣。野火烧不尽，春风吹又生。",
+        "《登鹳雀楼》: 白日依山尽，黄河入海流。欲穷千里目，更上一层楼。",
+        "《渡荆门送别》: 渡远荆门外，来从楚国游。山随平野尽，江入大荒流。"
+    ],
+    "图片": [
+        "http://example.com/image1.jpg",
+        "http://example.com/image2.jpg",
+        "http://example.com/image3.jpg",
+        "http://example.com/image4.jpg",
+        "http://example.com/image5.jpg"
+    ],
+    "音频": [
+        "http://example.com/audio1.mp3",
+        "http://example.com/audio2.mp3",
+        "http://example.com/audio3.mp3",
+        "http://example.com/audio4.mp3",
+        "http://example.com/audio5.mp3"
+    ],
+    "视频": [
+        "http://example.com/video1.mp4",
+        "http://example.com/video2.mp4",
+        "http://example.com/video3.mp4",
+        "http://example.com/video4.mp4",
+        "http://example.com/video5.mp4"
+    ],
+    "电影": [
+        "《英雄》: http://www.example.com/movie1",
+        "《无极》: http://www.example.com/movie2",
+        "《天下无贼》: http://www.example.com/movie3",
+        "《大腕》: http://www.example.com/movie4",
+        "《天下第一楼》: http://www.example.com/movie5"
+    ],
+    "参考资料": [
+        "http://example.com/reference1",
+        "http://example.com/reference2",
+        "http://example.com/reference3",
+        "http://example.com/reference4",
+        "http://example.com/reference5"
+    ],
+    "有趣网站": [
+        "http://www.example.com/website1",
+        "http://www.example.com/website2",
+        "http://www.example.com/website3",
+        "http://www.example.com/website4",
+        "http://www.example.com/website5"
+    ]
+}

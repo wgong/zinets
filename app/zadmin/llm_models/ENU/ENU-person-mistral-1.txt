@@ -1,0 +1,88 @@
+ {
+      "Word": "Heart",
+      "Meaning": [
+         "The hollow, muscular organ in the human chest that pumps blood through the body.",
+         "A symbol of love, emotion, or passion.",
+         "The central part within an organization, movement, etc."
+      ],
+      "Pronunciation": "(hɑːrt)",
+      "Origin": "Old English: hært; related to Old Norse hjarta, Old High German herza, Sanskrit hṛdaya, Latin cor.",
+      "Common Phrases": [
+         "I love you",
+         "take it to heart",
+         "wear your heart on your sleeve",
+         "lose one's heart",
+         "have a heart of gold"
+      ],
+      "Idioms": [
+         "from the bottom (or depth) of (one's) heart",
+         "give someone one's heart",
+         "put one's heart into it",
+         "wear one's heart on one's sleeve",
+         "have a change of heart"
+      ],
+      "Example Sentences": [
+         "She found the letter in his desk and knew that he loved her from the bottom of his heart.",
+         "The teacher had to steel herself as she read the mean letters, taking them to heart.",
+         "He wore his heart on his sleeve, never hiding his emotions.",
+         "Despite losing a lot of money, he refused to give up and put his heart into it.",
+         "Although he was known for his tough exterior, everyone knew that he had a heart of gold."
+      ],
+      "Short Stories": [
+         {
+            "Title": "The Scarlet Letter",
+            "Author": "Nathaniel Hawthorne",
+            "Summary": "The story revolves around Hester Prynne, who gives birth to an illegitimate child and must wear a scarlet 'A' on her dress as punishment in 17th-century Puritan Massachusetts. The 'A' stands for 'adulteress,' but it also symbolizes the heart."
+         },
+         {
+            "Title": "The Gift of the Magi",
+            "Author": "O. Henry",
+            "Summary": "In this Christmas short story, a young couple, Della and Jim, each sell their most prized possession to buy a gift for the other. The story is a beautiful exploration of love, sacrifice, and the true meaning of giving."
+         }
+      ],
+      "Poems": [
+         {
+            "Title": "Sonnet 18" by William Shakespeare",
+            "Lines": "Shall I compare thee to a summer's day?\nThou art more lovely and more temperate:\nRough winds do shake the darling buds of May,\nAnd summer's lease hath all too short a date;\nSometime too hot the eye of heaven shines,\nAnd often is his gold complexion dimm'd;\nAnd every fair from fair sometime declines,\nBy chance, or nature's changing course untrimm'd;"
+         },
+         {
+            "Title": "Do Not Stand at My Grave and Weep" by Mary Elizabeth Frye",
+            "Lines": "Do not stand at my grave and weep\nI am not there; I do not sleep.\nI am a thousand winds that blow,\nI am the diamond glints on snow.\nI am the sunlight on ripened grain,\nI am the gentle autumn rain.\nWhen you awaken in the morning's hush,\nI am the swift uplifting rush\nOf quiet birds in circled flight.\nI am the soft stars that shine at night.\nDo not stand at my grave and cry;\nI am not there; I did not die."
+         }
+      ],
+      "Images": [
+         "https://www.healthline.com/hlcmsresource/images/topic_centers/Heart-Disease/heart-anatomy-158x158.png",
+         "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Heart_symbol.svg/2000px-Heart_symbol.svg.png",
+         "https://www.pinterest.com/pin/752937186748578663/"
+      ],
+      "Audio": [
+         "https://www.forvo.com/word/heart/#en",
+         "https://www.omniglot.com/sound-files/english/heart.mp3"
+      ],
+      "Video": [
+         "https://www.youtube.com/watch?v=2l_gQ0j7dE4",
+         "https://www.youtube.com/watch?v=YJRkC6WZXrU"
+      ],
+      "Movies": [
+         {
+            "Title": "The Heart is a Lonely Hunter",
+            "Year": 1968,
+            "Director": "Robert Ellis Miller",
+            "Summary": "A deaf-mute woman and her daughter form a strong bond with an intelligent but lonely man who, though he can hardly communicate, desperately wants human connection."
+         },
+         {
+            "Title": "Heart of Darkness" (various adaptations),
+            "Year": 1902 (short story),
+            "Director": Multiple,
+            "Summary": "The tale follows Charles Marlow as he travels up the Congo River to meet the enigmatic Colonel Kurtz, a powerful and mysterious ivory trader."
+         }
+      ],
+      "References": [
+         "Merriam-Webster Dictionary: https://www.merriam-webster.com/dictionary/heart",
+         "Oxford English Dictionary: https://en.oxforddictionaries.com/definition/heart"
+      ],
+      "Interesting Websites": [
+         "Heart Foundation: https://www.heart.org/HEARTORG/",
+         "American Heart Association: https://www.heart.org/"
+      ]
+   }

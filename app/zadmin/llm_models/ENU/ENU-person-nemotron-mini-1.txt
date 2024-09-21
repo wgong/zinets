@@ -1,0 +1,85 @@
+ {
+  "meaning": "heart",
+  "pronunciation": "/hɑːrt/",
+  "origin": "Middle English heorte, from Old English hēort (compare German Herz), ultimately from a Germanic word related to PIE *xweran- 'to be strong'.",
+  "common_phrases": [
+    "break someone's heart",
+    "give someone the cold shoulder",
+    "get off on the wrong foot",
+    "hold fast to one's convictions",
+    "kill two birds with one stone"
+  ],
+  "idioms": [
+    "beat around the bush",
+    "break a leg (good luck)",
+    "come clean",
+    "cut someone some slack",
+    "have it both ways"
+  ],
+  "example_sentences": [
+    "I have a broken heart.",
+    "Her heart is as big as Texas.",
+    "I broke my heart when I heard that news.",
+    "He gave me the cold shoulder for no reason.",
+    "She got off on the wrong foot in her first day at work."
+  ],
+  "short_stories": [
+    {
+      "title": "The Heartless Robot",
+      "content": "A robot is built to help people but finds itself programmed with a heart that never beats, unable to feel for anyone. The story ends when it finally realizes its mistake and decides to give love another try."
+    },
+    {
+      "title": "The Heart of the Matter",
+      "content": "A man is in search of his own lost heart while helping a stranger find theirs. He discovers that even if you lose your heart, there's always someone else who needs it more than you do."
+    }
+  ],
+  "poems": [],
+  "images": [
+      {
+        "url": "image_url",
+        "description": "A picture of a heart with rainbow colors surrounding it, symbolizing love and acceptance."
+      },
+      {
+        "url": "another_image_url",
+        "description": "A photo of someone's hand holding an object resembling a heart but made of metal or plastic."
+      }
+  ],
+  "audio": [
+    {
+      "url": "heartbeat.mp3",
+      "description": "A sound recording of a heartbeat, representing the physical organ and its rhythmic function in pumping blood through our bodies."
+    },
+    {
+      "url": "broken_heart.wav",
+      "description": "Sound effect of a broken heart symbolizing grief or pain."
+    }
+  ],
+  "video": [
+    {
+      "title": "The Heart's Journey",
+      "url": "youtube_video_url",
+      "description": "A short documentary about the journey from the human brain to the physical heart, explaining its purpose and importance."
+    }
+  ],
+  "movies": [],
+  "references": [
+    {
+      "title": "The Heart's Anatomy in Popular Culture",
+      "url": "article_url"
+    },
+    {
+      "title": "A History of the Word 'Heart'",
+      "url": "another_article_url"
+    }
+  ],
+  "interesting_websites": [
+    {
+      "name": "heart.org",
+      "description": "The American Heart Association's website, providing information on heart health and well-being."
+    },
+    {
+      "name": "theheartconnection.com",
+      "description": "A site about the connection between music and our hearts, promoting the idea that listening to or playing music can improve one's mood and sense of happiness."
+    }
+  ]
+}

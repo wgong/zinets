@@ -1,0 +1,15 @@
+ {
+  "meaning": "person",
+  "stroke form": [3, 10, 7, 6, 9],
+  "pronunciation": ["rén"],
+  "origin": "",
+  "common phrases": [],
+  "idioms": [{"name": "仁者立泰"}],
+  "short stories": [],
+  "poems": [],
+  "images": [],
+  "audio": [],
+  "video": [],
+  "movie": [],
+  "references": []
+}

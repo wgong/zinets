@@ -1,0 +1,35 @@
+```json
+{
+    "人": {
+        "含义": "人是一种高等动物，也指人类个体或整体。",
+        "字形": "上部为人字的变形体，下部为站立的人形",
+        "读音": "rén",
+        "字源": "甲骨文中的“人”字，描绘了人的侧面形象；金文中人字形状更简化；小篆时线条更加规整。",
+        "常用词组": ["人民", "人类", "大人", "儿童", "众人", "成人", "男女", "夫妻"],
+        "成语": ["人山人海", "人不犯我，我不犯人", "人心齐，泰山移", "人外有人，天外有天", "人定胜天"],
+        "例句": [
+            "每个人都应遵守公共秩序。",
+            "人民的力量是无穷的。",
+            "大人和小孩都应该尊重老人。",
+            "众人拾柴火焰高。",
+            "在困难面前，人不能轻易放弃。"
+        ],
+        "短故事": "有一次，一个小孩子问他的父亲：‘天为什么是蓝的？’父亲回答说：‘因为有很多人住在天上。’小孩子听后若有所思地点点头。",
+        "诗词": "床前明月光，疑是地上霜。举头望明月，低头思故乡。（李白）",
+        "图片": "https://example.com/person_character_image",
+        "音频": "https://example.com/ren_character_audio",
+        "视频": "https://example.com/person_character_video",
+        "电影": "《无间道》是一部关于人性的影片。",
+        "参考资料": [
+            "http://www.cihai.com/glossary/rén/",
+            "https://baike.baidu.com/item/%E4%BA%BA/210378",
+            "https://zhidao.baidu.com/question/5596787.html"
+        ],
+        "有趣网站": [
+            "http://www.zdic.net/z/1e/xs/rén.htm",
+            "https://wenku.baidu.com/view/fab6b463c1f70d46aa904d72.html",
+            "http://www.guokr.com/scientific/language/5811/"
+        ]
+    }
+}
+```

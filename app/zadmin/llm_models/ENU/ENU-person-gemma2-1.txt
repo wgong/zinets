@@ -1,0 +1,103 @@
+```json
+{
+  "word": "heart",
+  "meaning": {
+    "noun": [
+      "The organ that pumps blood throughout the body.",
+      "The emotional center of a person.",
+      "A symbol of love, courage, or compassion.",
+      "The core or essential part of something."
+    ],
+    "verb": [
+      "To feel love or affection for someone.",
+      "To be enthusiastic or committed to something."
+    ]
+  },
+  "pronunciation": "ˈhɑːrt",
+  "origin": "Old English *heorte*",
+  "common_phrases": [
+    "Have a change of heart",
+    "Follow your heart",
+    "Break someone's heart",
+    "Close to your heart",
+    "Straight from the heart"
+  ],
+  "idioms": [
+    "A heavy heart",
+    "Heart of gold",
+    "Have a heart of stone",
+    "Warm someone's heart",
+    "Speak from the heart"
+  ],
+  "example_sentences": [
+    "She felt a pang in her heart when she saw her old home.",
+    "He poured his heart out to his friend.",
+    "The doctor examined her patient's heart with a stethoscope.",
+    "My favorite color is the deepest red, close to my heart.",
+    "He decided to follow his heart and pursue his passion."
+  ],
+  "short_stories": [
+    "(1) The Lonely Heart: A story about a robot who learns to feel emotions.",
+    "(2) The Courage of Her Heart: A tale of a young woman facing adversity.",
+    "(3) The Broken Heart Society: A group of people who find solace in shared heartbreak.",
+    "(4) The Heart Healer: A fantasy story about a mystical individual who mends broken hearts.",
+    "(5) The Silent Heart: A mystery novel where a detective investigates a murder with no apparent motive."
+  ],
+  "poems": [
+    "(1) Sonnet 18 by William Shakespeare",
+    "(2) Stopping by Woods on a Snowy Evening by Robert Frost",
+    "(3) The Love Song of J. Alfred Prufrock by T.S. Eliot",
+    "(4) Ode to My Socks by Pablo Neruda",
+    "(5) Heartbreak Hotel by Elvis Presley"
+  ],
+  "images": [
+    "(1) Anatomical heart",
+    "(2) Symbolic heart with wings",
+    "(3) Red heart emoji",
+    "(4) Heart-shaped balloon",
+    "(5) Fingerprint pattern resembling a heart"
+  ],
+  "audio": [
+    "(1) Heartbeat sound effect",
+    "(2) Romantic love song",
+    "(3) Speech about the importance of kindness",
+    "(4) Podcast episode discussing mental health and empathy",
+    "(5) Music video with lyrics about heartbreak"
+  ],
+  "video": [
+    "(1) Time-lapse animation of a beating heart",
+    "(2) Documentary about cardiac surgery",
+    "(3) Animated film featuring characters with literal hearts",
+    "(4) TED Talk about the power of compassion",
+    "(5) Music video for a song about love and loss"
+  ],
+  "movies": [
+    "(1) Titanic",
+    "(2) The Notebook",
+    "(3) Lord of the Rings: The Fellowship of the Ring",
+    "(4) Fight Club",
+    "(5) Eternal Sunshine of the Spotless Mind"
+  ],
+  "references": [
+    "(1) Merriam-Webster Dictionary",
+    "(2) Oxford English Dictionary",
+    "(3) American Heritage Dictionary",
+    "(4) Cambridge Dictionary",
+    "(5) The Free Dictionary"
+  ],
+  "interesting_websites": [
+    "(1) https://www.heart.org/",
+    "(2) https://www.psychologytoday.com/us/blog/the-mysteries-love",
+    "(3) https://www.poetryfoundation.org/",
+    "(4) https://www.imdb.com/",
+    "(5) https://www.ted.com/"
+  ]
+}
+```
+
+**Explanation:**
+
+The JSON format is used to structure the information about the word "heart" in a clear and organized way. Each attribute has its own list of examples, allowing for a comprehensive understanding of the word's various aspects. 
+
+
+Let me know if you have any other words you'd like me to analyze!

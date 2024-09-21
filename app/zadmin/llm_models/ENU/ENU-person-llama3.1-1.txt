@@ -1,0 +1,95 @@
+Here is a holistic view of the word "heart" in various formats and attributes, encoded in JSON:
+
+```json
+{
+  "attributes": {
+    "meaning": [
+      "The organ that pumps blood through the body",
+      "The emotional center of a person's being",
+      "A symbol of love and affection"
+    ],
+    "pronunciation": "/hɑrt/",
+    "origin": {
+      "etymology": "Old English 'heorte'",
+      "related words": ["heart", "hart", "hearth"]
+    },
+    "common_phrases": [
+      "break one's heart",
+      "have a heart of gold",
+      "in the heart of the city",
+      "in the heat of the moment",
+      "love with all your heart"
+    ],
+    "idioms": [
+      "heart and soul",
+      "heart to heart",
+      "heartbroken",
+      "heartfelt",
+      "take it from the heart"
+    ],
+    "example_sentences": [
+      "She broke my heart when she left me.",
+      "He has a heart of gold and always helps those in need.",
+      "The city is located in the heart of the continent.",
+      "I love you with all my heart.",
+      "She sang from the heart, her voice trembling with emotion."
+    ],
+    "short_stories": [
+      "Heart of Darkness" by Joseph Conrad,
+      "The Heart Is a Lonely Hunter" by Carson McCullers,
+      "The Heart of the Matter" by Graham Greene,
+      "Hearts and Flowers" by L.M. Montgomery,
+      "A Heart for Any Fate" by Caroline B. Cooney
+    ],
+    "poems": [
+      "The Heart of the Earth" by Maya Angelou,
+      "Heart of a Lion" by William Ernest Henley,
+      "The Heart's Desire" by Christina Rossetti,
+      "Heart to Heart" by Robert Frost,
+      "A Heart Full of Love" by Rainer Maria Rilke
+    ],
+    "images": [
+      "The Heart of the Matter" by John Everett Millais,
+      "The Heart Sutra" by Chinese artists (14th century),
+      "The Heart Chakra" by Indian artists (18th century),
+      "Heart-Shaped Vase" by Greek artists (5th century BCE),
+      "A Heart for Any Fate" by contemporary artist, Michael Jackson
+    ],
+    "audio": [
+      "Heart and Soul" by The Beatles,
+      "Break My Heart" by Matriona Tova,
+      "In the Heat of the Moment" by Pat Benatar,
+      "Take It from the Heart" by Otis Redding,
+      "The Heart's Desire" by Roberta Flack
+    ],
+    "video": [
+      "Heart of Darkness" (film, 1994),
+      "The Heart Is a Lonely Hunter" (TV movie, 2005),
+      "Hearts and Flowers" (TV series, 1978),
+      "A Heart for Any Fate" (short film, 2011),
+      "The Heart Chakra" (documentary, 2009)
+    ],
+    "movies": [
+      "Heart of the Matter" (1993),
+      "Hearts in Atlantis" (2001),
+      "The Heartbreak Kid" (2007),
+      "A Heart to Hold You" (1976),
+      "You're a Good Man, Charlie Brown" (1969)
+    ],
+    "references": [
+      "Oxford English Dictionary",
+      "Merriam-Webster Dictionary",
+      "Etymology Online",
+      "Wikipedia",
+      "Cambridge Dictionary"
+    ],
+    "interesting_websites": [
+      "https://www.dictionary.com/wordoftheday",
+      "https://www.etymonline.com/word/heart",
+      "https://www.pinterest.com/explore/hearts/",
+      "https://www.heart.org/en",
+      "https://www.scientificamerican.com/article/the-heart-of-the-matter/"
+    ]
+  }
+}
+```

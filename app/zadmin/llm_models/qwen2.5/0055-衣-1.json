@@ -1,0 +1,29 @@
+{
+    "衣": {
+        "含义": ["衣服", "布料", "衣物"],
+        "字形": ["象形字，甲骨文中的“衣”像一件披着的上衣形状。"],
+        "读音": ["yī"],
+        "字源": ["源自古代文字，最早可以追溯到甲骨文时期，原本是表示上衣的意思。",
+                "经过演变，在小篆中已经呈现出现代汉字的基本形态。",
+                "楷书和隶书中有了进一步的简化。",
+                "到了现在，其含义扩展为衣物、布料等。"],
+        "常用词组": ["穿衣戴帽", "衣食住行", "衣锦还乡", "衣着打扮", "衣冠楚楚", "衣衫褴褛", "衣来伸手"],
+        "成语": ["衣不解带", "衣食无忧", "衣食父母", "衣不蔽体", "衣锦还乡"],
+        "例句": ["他穿了一件新买的毛衣。 - tā chuān le yī jiàn xīn mǎi de máo yī。",
+                 "你今天打扮得真漂亮，衣服也很合适。- nǐ jīntiān bànbān de zhēn piàoliàng, yīfú yě hěn héshì。",
+                 "他从乡下来到城里生活了一年，终于衣锦还乡了。- tā cóng xiāng lái dào chénglǐ shēnghuó le yī nián, zhōngyú yījǐn huánxiāng le。"],
+        "短故事": ["从前有一只小兔子，它最喜欢穿花衣服。有一天，它的妈妈给了它一件新衣服，小兔子高兴极了。",
+                  "在一个寒冷的冬天，一个贫穷的孩子穿着破旧的衣服坐在街角。好心人给他送来了新衣，让他感到了温暖。",
+                  "古代的一个将军，在战场上英勇作战，胜利归来后穿上了华丽的衣服庆祝。",
+                  "一位慈祥的老奶奶经常给她的孙子们做新衣服，让他们在新年里穿上漂亮的新装。",
+                  "一个孩子在生日那天收到了一套精美的衣服作为礼物，他非常开心。"],
+        "诗词": ["衣带渐宽终不悔, 为伊消得人憔悴。 - yī dài jiàn kuān zhōng bù huǐ, wéi yí xiāo dé rén qiáo cuì。",
+                "新帖绣罗襦，双双金鹧鸪。- xīn tiē xiù luó rú, shuāng shuāng jīn zhuī gū。"],
+        "图片": ["http://example.com/yi.jpg", "http://example.com/yijiaofu.jpg", "http://example.com/yinengzi.jpg"],
+        "音频": ["http://example.com/yiyufenshushenqu.mp3", "http://example.com/yifubingwenyuyan.mp3"],
+        "视频": ["https://www.example.com/video-yi.mp4"],
+        "电影": ["衣尚有时 - yī shàng yǒu shí", "衣食父母 - yīshí fùmǔ"],
+        "参考资料": ["http://example.com/zidian-yi.html", "http://example.com/dianziyishu-yi.html"],
+        "有趣网站": ["http://www.yinengzi.com", "http://www.shuxuejiqiao.net/yi"]
+    }
+}

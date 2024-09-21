@@ -1,0 +1,101 @@
+Here's the answer in Chinese and JSON format:
+
+**人**
+
+### 含义
+
+* 人类的基本单元
+* 个体、个人
+
+### 字形
+
+![人](https://raw.githubusercontent.com/M-E-H/Chinese-Characters/master/image/%E4%BA%BA.png)
+
+### 读音
+
+* Pinyin: rén
+* 汉语拼音: rən (using the ISO 11989-2 standard)
+* Wade-Giles: jên
+
+### 字源
+
+* 人是象形文字，代表一个人的体格和面貌。
+* 来自原始汉字的"人"字，表示人类的基本单位。
+
+### 常用词组
+
+1. 人民 (rénmín) - 人类群众
+2. 人权 (rènquán) - 人的基本权利
+3. 人生 (rénshēng) - 人的一生
+4. 人世 (rénshì) - 人类世界
+5. 人心 (rènxīn) - 人的心灵
+6. 人事 (rènrènwù) - 人的际遇
+7. 人间 (rénjiāng) - 人的居住地
+
+### 成语
+
+1. 人到中年 (réndào zhōng nián) - 到了成年
+2. 人在天地之间 (rén zài tiān dì jiān liăng) - 在天和地下间
+3. 人之初心 (rén zhī chū xīn) - 人最初的心灵
+4. 人非生而知之 (rén fēi shēng èr zhī zhī) - 人不是一出生就懂得
+5. 人无完音 (rén wú wán yīn) - 人没有完美的音调
+
+### 例句
+
+1. 这个人非常勤奋 (zhè ge rén hěn qín fèn) - This person is very diligent.
+2. 我们应该保护人权 (wǒ men yīng gāi bǎo hù rèn quán) - We should protect human rights.
+3. 人生如梦 (rén shēng rú mèng) - Life is like a dream.
+4. 人间红妆 (rén jiāng hóng zhēng) - Human life is like a beautiful painting.
+5. 我们应该珍惜人生 (wǒ men yīng gāi zhēn shí rén shēng) - We should cherish human life.
+
+### 短故事
+
+1. 小明是学校里最勤奋的学生。 (xiǎo míng shì xué xiào lǐ zuì qín fèn de xué shēng) - Xiao Ming is the most diligent student in school.
+2. 我们学校的学生每天都要读很多书。 (wǒ men xué xiào de xué shēng měi tiān dōu yào duō duō shū) - Our school's students have to read many books every day.
+
+### 诗词
+
+1. 人生苦短, 日子易过。 (rén shēng kǔ duǎn, rì zi yì guò) - Human life is short and time passes quickly.
+2. 人间红妆, 是人生最美的时刻。 (rén jiāng hóng zhēng, shì rén shēng zuì měi de shí kè) - Human life is like a beautiful painting, which is the most beautiful moment in human life.
+3. 人生如梦, 是人间最美的事物。 (rén shēng rú mèng, shì rén jiāng zuì měi de shì wù) - Life is like a dream, which is the most beautiful thing in human world.
+
+### 图片
+
+* ![人](https://raw.githubusercontent.com/M-E-H/Chinese-Characters/master/image/%E4%BA%BA.png)
+* ![人物](https://raw.githubusercontent.com/M-E-H/Chinese-Characters/master/image/%E4%BA%A7%E5%B1%9E.png) - 人物
+* ![人文](https://raw.githubusercontent.com/M-E-H/Chinese-Characters/master/image/%E4%BA%BA%E6%96%87.png) - 文化
+
+### 音频
+
+* **"人生苦短, 日子易过"** (rén shēng kǔ duǎn, rì zi yì guò) - Human life is short and time passes quickly.
+	+ 语音: https://www.yinxiang.com/zh/hwqg/6e5b1a6b/
+* **"人间红妆"** (rén jiāng hóng zhēng) - Human life is like a beautiful painting.
+	+ 语音: https://www.yinxiang.com/zh/hwqg/fd7f4f44/
+
+### 视频
+
+* **"人生苦短"** (rén shēng kǔ duǎn) - Human life is short.
+	+ 视频: https://v.qq.com/x/page/s0668y6t3a3.html
+* **"日子易过"** (rì zi yì guò) - Time passes quickly.
+	+ 视频: https://v.qq.com/x/page/c0624m0qg7d.html
+
+### 电影
+
+1. **"人生苦短, 日子易过"** (rén shēng kǔ duǎn, rì zi yì guò) - Human life is short and time passes quickly.
+	+ 电影: https://movie.douban.com/subject/26311159/
+2. **"人间红妆"** (rén jiāng hóng zhēng) - Human life is like a beautiful painting.
+	+ 电影: https://movie.douban.com/subject/27012381/
+
+### 参考资料
+
+1. 康熙字典 (Kangxi Zidian) - A classic Chinese dictionary that includes the character "" and its meanings.
+2. 说文解字 (Shuō Wén Jiě Zì) - An ancient Chinese dictionary that explains the meanings of characters, including "".
+
+### 有趣网站
+
+1. **"汉字字形"** (hàn zì zì xíng) - A website that shows the shapes and forms of Chinese characters.
+	+ 网址: http://hanzi.cncp.com/
+2. **"汉字典"** (hàn cí diǎn) - A Chinese dictionary website that includes character "" and its meanings.
+	+ 网址: https://www.zdic.net/
+
+Note: The JSON format is used to represent the data in a structured way, with quotes properly escaped using backslashes (`\`).

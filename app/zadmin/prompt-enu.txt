@@ -1,0 +1,33 @@
+You are an expert in English language, 
+
+can you generate a holistic view on this word:  "heart"
+in terms of the following attributes:
+- Meaning
+- Pronunciation
+- Origin
+- Common phrases
+- Idioms
+- Example sentences
+- Short stories
+- Poems
+- Images
+- Audio
+- Video
+- Movies
+- References
+- Interesting websites
+
+(1) format the answer in valid json and ensure quotes are properly escaped (specifically avoid double-quotes nested in doube-quotes)
+(2) whenever possible, give 5 or more examples for the following attributes:
+
+- Common phrases
+- Idioms
+- Example sentences
+- Short stories
+- Poems
+- Images
+- Audio
+- Video
+- Movies
+- References
+- Interesting websites

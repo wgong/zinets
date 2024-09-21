@@ -1,0 +1,85 @@
+{
+    "字符": "句",
+    "含义": "表示一句话或一段话的结尾，也可以指说话的内容或言论。",
+    "字形": "由'匚'和'甲'两部分组成，'匚'代表容器，'甲'象征言辞，合起来表达了语言载体的意思。",
+    "读音": "ju4",
+    "字源": "象形字，从匚（容器），表示承载；从甲（言辞），表示言语的内容。最早见于商代甲骨文，与言说和书写相关。",
+    "常用词组": [
+        "句号", 
+        "句子", 
+        "话语", 
+        "语句", 
+        "句式"
+    ],
+    "成语": [
+        "一言既出,驷马难追", 
+        "不刊之论", 
+        "画龙点睛", 
+        "金玉满堂", 
+        "言必有中"
+    ],
+    "例句": [
+        "他的发言很精彩，每一句话都像是'画龙点睛'", 
+        "你的话语要有分量，不要说些不刊之论", 
+        "她的一句既出,驷马难追的话让我非常感动", 
+        "这次报告的语句都非常优美,让人感到金玉满堂", 
+        "他的话语总是能言必有中，准确地抓住了问题的核心"
+    ],
+    "短故事": [
+        "从前有一个智慧的老者，他说过一句很出名的话：‘一言既出,驷马难追’。这句话至今仍然被人们所传颂。",
+        "在一次辩论赛上，一位选手提出了一个不刊之论，让全场的人都为之震惊。",
+        "他的话语像金玉满堂，虽然简短却能触动人心。",
+        "画龙点睛的故事告诉我们，一句话能决定整个故事的成败。",
+        "他的话总是言必有中，每次都说到要害之处。"
+    ],
+    "诗词": [
+        "诗曰：句读分明语意长，一字一句皆文章",
+        "词曰：一言既出，驷马难追，何须再三思量",
+        "赋曰：画龙点睛之术，妙笔生花之功"
+    ],
+    "图片": [
+        "https://example.com/image1.jpg",
+        "https://example.com/image2.jpg",
+        "https://example.com/image3.png",
+        "https://example.com/image4.gif",
+        "https://example.com/image5.jpeg"
+    ],
+    "音频": [
+        "http://example.com/audio1.mp3",
+        "http://example.com/audio2.wav",
+        "http://example.com/audio3.aac",
+        "http://example.com/audio4.ogg",
+        "http://example.com/audio5.ra"
+    ],
+    "视频": [
+        "https://example.com/video1.mp4",
+        "https://example.com/video2.webm",
+        "https://example.com/video3.avi",
+        "https://example.com/video4.m4v",
+        "https://example.com/video5.qt"
+    ],
+    "电影": [
+        {
+            "名称": "大话西游",
+            "片段": "在电影中，主人公的某些话语被描述为画龙点睛之笔。"
+        },
+        {
+            "名称": "唐伯虎点秋香",
+            "片段": "唐伯虎的一句不刊之论让所有人心服口服。"
+        }
+    ],
+    "参考资料": [
+        "https://example.com/reference1",
+        "https://example.com/reference2",
+        "https://example.com/reference3",
+        "https://example.com/reference4",
+        "https://example.com/reference5"
+    ],
+    "有趣网站": [
+        "http://www.example.com",
+        "http://www.example.org",
+        "http://www.example.net",
+        "http://www.example.info",
+        "http://www.example.edu"
+    ]
+}
