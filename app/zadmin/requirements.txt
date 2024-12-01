@@ -1,5 +1,5 @@
 lxml
-streamlit-option-menu>=0.3.2
+streamlit-option-menu  # >=0.3.2
 # streamlit-aggrid==0.3.3   
 # 
 # fix for latest 1.0.5 
@@ -8,3 +8,10 @@ streamlit-aggrid
 
 # display image
 pillow
+
+beautifulsoup4
+
+streamlit-tree-select
+
+pyecharts
+

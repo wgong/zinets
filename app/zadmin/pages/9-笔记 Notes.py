@@ -64,6 +64,7 @@ def main():
                 title
                 , ifnull(note, '')  as note 
                 , ifnull(link_url, '')  as link_url 
+                , ifnull(src_url, '')  as src_url 
                 , ifnull(status_code, '')  as status_code 
                 , ifnull(note_type, '')  as note_type 
                 , tags
@@ -79,7 +80,7 @@ def main():
         df = pd.read_sql(sql_stmt, _conn)
 
     grid_resp = ui_display_df_grid(df, 
-                                   clickable_columns=["link_url"],
+                                   clickable_columns=["link_url", "src_url"],
                                    selection_mode="single")
     selected_rows = grid_resp['selected_rows']
 

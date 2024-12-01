@@ -7,8 +7,7 @@ st.set_page_config(layout="wide")
 st.subheader("🐒 字分解 Zi Decomposer 📝")
 
 TABLE_NAME = CFG["TABLE_ZI_PART"]
-KEY_PREFIX = f"col_{TABLE_NAME}"
-
+st.session_state["KEY_PREFIX"] = f"col_{TABLE_NAME}"
 
 TAG_LEFT = "|["
 TAG_RIGHT = "]|"
@@ -115,7 +114,7 @@ def query_layer():
     return db_query_layer()
 
 def main():
-
+    KEY_PREFIX = st.session_state["KEY_PREFIX"]
     st.session_state["table_name"] = TABLE_NAME
     c1, c2, c3, c4 = st.columns([1,6,2,1])
     with c1:
@@ -212,113 +211,119 @@ def main():
 
     selected_rows = grid_resp['selected_rows']
     zi = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
+    # st.write(zi)
+    msg = ""
+    zi_zi = zi.get("zi") if zi else ""
+    zi_u_id = zi.get("u_id") if zi else ""
+    zi_is_active = zi.get("is_active") if zi else ""
+    zi_desc_cn = zi.get("desc_cn") if zi else ""
+    # zi_ts = zi.get("ts")
 
-    # display form
-    if zi is not None:
-        zi_zi = zi["zi"]
-        zi_u_id = zi["u_id"]
-        zi_is_active = zi["is_active"]
-        zi_desc_cn = zi["desc_cn"]
-        # zi_ts = zi["ts"]
-        zi_zi_left_up = zi["zi_left_up"]
-        zi_zi_up = zi["zi_up"]
-        zi_zi_right_up = zi["zi_right_up"]
-        zi_zi_left = zi["zi_left"]
-        zi_zi_mid = zi["zi_mid"]
-        zi_zi_right = zi["zi_right"]
-        zi_zi_mid_out = zi["zi_mid_out"]
-        zi_zi_left_down = zi["zi_left_down"]
-        zi_zi_down = zi["zi_down"]
-        zi_zi_right_down = zi["zi_right_down"]
-        zi_zi_mid_in = zi["zi_mid_in"]
-        zi_desc_en = zi["desc_en"]
-        zi_hsk_layer = zi["hsk_layer"]
-        zi_hsk_note = zi["hsk_note"]
-        zi_caizi = zi["caizi"]
-    else:
-        zi_zi = ""
-        zi_u_id = ""
-        zi_is_active = ""
-        zi_desc_cn = ""
-        # zi_ts = ""
-        zi_zi_left_up = ""
-        zi_zi_up = ""
-        zi_zi_right_up = ""
-        zi_zi_left = ""
-        zi_zi_mid = ""
-        zi_zi_right = ""
-        zi_zi_mid_out = ""
-        zi_zi_left_down = ""
-        zi_zi_down = ""
-        zi_zi_right_down = ""
-        zi_zi_mid_in = ""
-        zi_desc_en = ""
-        zi_hsk_layer = ""
-        zi_hsk_note = ""
-        zi_caizi = ""
+    zi_zi_left_up = zi.get("zi_left_up") if zi else ""
+    if zi_zi_left_up: msg += f"zi_zi_left_up={zi_zi_left_up}, "
 
+    zi_zi_up = zi.get("zi_up") if zi else ""
+    if zi_zi_up: msg += f"zi_zi_up={zi_zi_up}, "
+
+    zi_zi_right_up = zi.get("zi_right_up") if zi else ""
+    if zi_zi_right_up: msg += f"zi_zi_right_up={zi_zi_right_up}, "
+
+    zi_zi_left = zi.get("zi_left") if zi else ""
+    if zi_zi_left: msg += f"zi_zi_left={zi_zi_left}, "
+
+    zi_zi_mid = zi.get("zi_mid") if zi else ""
+    if zi_zi_mid: msg += f"zi_zi_mid={zi_zi_mid}, "
+
+    zi_zi_right = zi.get("zi_right") if zi else ""
+    if zi_zi_right: msg += f"zi_zi_right={zi_zi_right}, "
+
+    zi_zi_mid_out = zi.get("zi_mid_out") if zi else ""
+    if zi_zi_mid_out: msg += f"zi_zi_mid_out={zi_zi_mid_out}, "
+
+    zi_zi_left_down = zi.get("zi_left_down") if zi else ""
+    if zi_zi_left_down: msg += f"zi_zi_left_down={zi_zi_left_down}, "
+
+    zi_zi_down = zi.get("zi_down") if zi else ""
+    if zi_zi_down: msg += f"zi_zi_down={zi_zi_down}, "
+
+    zi_zi_right_down = zi.get("zi_right_down") if zi else ""
+    if zi_zi_right_down: msg += f"zi_zi_right_down={zi_zi_right_down}, "
+
+    zi_zi_mid_in = zi.get("zi_mid_in") if zi else ""
+    if zi_zi_mid_in: msg += f"zi_zi_mid_in={zi_zi_mid_in}, "
+
+    zi_desc_en = zi.get("desc_en") if zi else ""
+    zi_hsk_layer = zi.get("hsk_layer") if zi else ""
+    zi_hsk_note = zi.get("hsk_note") if zi else ""
+    zi_caizi = zi.get("caizi") if zi else ""
+    msg += f"zi_caizi={zi_caizi}, "
+    st.write(f"DEBUG: {msg}")
     col_left, col_right = st.columns([10,10])
 
     st.session_state["selected_row_original_value"] = zi
 
-
     # display Zi form
     with col_left:
-        with st.form(key="zi_parts"):
-            c0_1,c0_3,c0_4,c0_5 = st.columns([2,5,4,2])
-            with c0_1:
-                zi_title = f"""
-                <span style="color:red; font-size:5.6em;">{zi_zi}</span>
-                """
-                st.markdown(zi_title, unsafe_allow_html=True)
-            with c0_3:
-                st.text_area('解释', value=zi_desc_cn,  key=f"{KEY_PREFIX}_desc_cn")
-            with c0_4:
-                st.text_area('Explanation', value=zi_desc_en,  key=f"{KEY_PREFIX}_desc_en")
-            with c0_5:
-                st.text_input('HSK note', value=zi_hsk_note,  key=f"{KEY_PREFIX}_hsk_note")
+        # with st.form(key="zi_parts"):
+        c0_1,c0_3,c0_4,c0_5 = st.columns([2,5,4,2])
+        with c0_1:
+            zi_title = f"""
+            <span style="color:red; font-size:5.6em;">{zi_zi}</span>
+            """
+            st.markdown(zi_title, unsafe_allow_html=True)
+        with c0_3:
+            st.text_area('解释', value=zi_desc_cn,  key=f"{KEY_PREFIX}_desc_cn")
+        with c0_4:
+            st.text_area('Explanation', value=zi_desc_en,  key=f"{KEY_PREFIX}_desc_en")
+        with c0_5:
+            st.text_input('HSK note', value=zi_hsk_note,  key=f"{KEY_PREFIX}_hsk_note")
 
-            c4_0, c4_1, c4_2, c4_3, c4_4 = st.columns([1, 3, 3, 1, 2 ])
-            with c4_0:
-                st.text_input('字 zi', value=zi_zi, key=f"{KEY_PREFIX}_zi")
-            with c4_1:
-                st.text_input("拆字", value=zi_caizi, key=f"{KEY_PREFIX}_caizi")
-            with c4_2:
-                st.text_input('HSK layer', value=zi_hsk_layer,  key=f"{KEY_PREFIX}_hsk_layer")
-            with c4_3:
-                st.text_input('ID', value=zi_u_id, disabled=True, key=f"{KEY_PREFIX}_u_id")
-            with c4_4:
-                st.form_submit_button(STR_SAVE, on_click=_submit_zi_parts, use_container_width=True)
+        c4_0, c4_1, c4_2, c4_3, c4_4 = st.columns([1, 3, 3, 1, 2 ])
+        with c4_0:
+            st.text_input('字 zi', value=zi_zi, key=f"{KEY_PREFIX}_zi")
+        with c4_1:
+            st.text_input("拆字", value=zi_caizi, key=f"{KEY_PREFIX}_caizi")
+        with c4_2:
+            st.text_input('HSK layer', value=zi_hsk_layer,  key=f"{KEY_PREFIX}_hsk_layer")
+        with c4_3:
+            st.text_input('ID', value=zi_u_id, disabled=True, key=f"{KEY_PREFIX}_u_id")
+        with c4_4:
+            # st.form_submit_button(STR_SAVE, on_click=_submit_zi_parts, use_container_width=True)
+            st.button(STR_SAVE, on_click=_submit_zi_parts)
 
-            c1_1,c1_2,c1_3,c1_4,c1_5 = st.columns([2,2,2,1,1])
-            with c1_1:
-                st.text_input('左上 left_up', value=zi_zi_left_up,  key=f"{KEY_PREFIX}_zi_left_up")
-            with c1_2:
-                st.text_input('上 up', value=zi_zi_up,  key=f"{KEY_PREFIX}_zi_up")
-            with c1_3:
-                st.text_input("右上 right_up", value=zi_zi_right_up,  key=f"{KEY_PREFIX}_zi_right_up")
-            with c1_4:
-                st.selectbox('Active?', BI_STATES, index=BI_STATES.index(fix_None_val(zi_is_active)),  key=f"{KEY_PREFIX}_is_active")
+        c1_1,c1_2,c1_3,c1_4 = st.columns([2,2,2,2])
+        with c1_1:
+            st.text_input('左上 left_up', value=zi_zi_left_up,  key=f"{KEY_PREFIX}_zi_left_up")
+        with c1_2:
+            st.text_input('上 up', value=zi_zi_up,  key=f"{KEY_PREFIX}_zi_up")
+        with c1_3:
+            st.text_input("右上 right_up", value=zi_zi_right_up,  key=f"{KEY_PREFIX}_zi_right_up")
+        with c1_4:
+            st.selectbox('Active?', BI_STATES, index=BI_STATES.index(fix_None_val(zi_is_active)),  key=f"{KEY_PREFIX}_is_active")
 
-            c2_1,c2_2,c2_3,c2_4 = st.columns([2,2,2,2])
-            with c2_1:
-                st.text_input('左 left', value=zi_zi_left,  key=f"{KEY_PREFIX}_zi_left")
-            with c2_2:
-                st.text_input('中 mid', value=zi_zi_mid,  key=f"{KEY_PREFIX}_zi_mid")
-            with c2_3:
-                st.text_input("右 right", value=zi_zi_right,  key=f"{KEY_PREFIX}_zi_right")
-            with c2_4:
-                st.text_input('中外 mid_outer', value=zi_zi_mid_out,  key=f"{KEY_PREFIX}_zi_mid_out")
+        c2_1,c2_2,c2_3,c2_4 = st.columns([2,2,2,2])
+        with c2_1:
+            st.text_input('左 left', value=zi_zi_left,  key=f"{KEY_PREFIX}_zi_left")
+        with c2_2:
+            st.text_input('中 mid', value=zi_zi_mid,  key=f"{KEY_PREFIX}_zi_mid")
+        with c2_3:
+            st.text_input("右 right", value=zi_zi_right,  key=f"{KEY_PREFIX}_zi_right")
+            st.write(zi_zi_right)
+        with c2_4:
+            st.text_input('中外 mid_outer', value=zi_zi_mid_out,  key=f"{KEY_PREFIX}_zi_mid_out")
 
-            c3_1,c3_2,c3_3,c3_4 = st.columns([2,2,2,2])
-            with c3_1:
-                st.text_input('左下 left_down', value=zi_zi_left_down,  key=f"{KEY_PREFIX}_zi_left_down")
-            with c3_2:
-                st.text_input('下 down', value=zi_zi_down,  key=f"{KEY_PREFIX}_zi_down")
-            with c3_3:
-                st.text_input("右下 right_down", value=zi_zi_right_down,  key=f"{KEY_PREFIX}_zi_right_down")
-            with c3_4:
-                st.text_input('中内 mid_inner', value=zi_zi_mid_in,  key=f"{KEY_PREFIX}_zi_mid_in")
+        c3_1,c3_2,c3_3,c3_4 = st.columns([2,2,2,2])
+        with c3_1:
+            st.text_input('左下 left_down', value=zi_zi_left_down,  key=f"{KEY_PREFIX}_zi_left_down")
+        with c3_2:
+            st.text_input('下 down', value=zi_zi_down,  key=f"{KEY_PREFIX}_zi_down")
+        with c3_3:
+            st.text_input("右下 right_down", value=zi_zi_right_down,  key=f"{KEY_PREFIX}_zi_right_down")
+        with c3_4:
+            st.text_input('中内 mid_inner', value=zi_zi_mid_in,  key=f"{KEY_PREFIX}_zi_mid_in")
+
+
+
 
     # display Zi parts
     with col_right:
@@ -342,6 +347,7 @@ def main():
 
 def _submit_zi_parts():
     data = {}
+    KEY_PREFIX = st.session_state["KEY_PREFIX"]
     for c in ZI_PART_COLS:
         zp = st.session_state.get(f"{KEY_PREFIX}_{c}","")
         if c == "ts" and zp == "":
