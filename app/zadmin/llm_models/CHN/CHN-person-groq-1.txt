@@ -1,0 +1,218 @@
+**人** 的全方位解析
+
+```json
+{
+  "含义": "人",
+  "字形": "\u4eba",
+  "读音": "rén",
+  "字源": "象形文字，代表人体",
+  "常用词组": [
+    "\u4eba\u4e86\u4e00\u4e00\u4e86",
+    "\u4eba\u4e86\u4e00\u4e00\u4e86\u4e86",
+    "\u4eba\u4e86\u4e00\u4e00\u4e86\u4e86\u4e86",
+    "\u4eba\u4e86\u4e00\u4e00\u4e86\u4e86\u4e86\u4e86",
+    "\u4eba\u4e86\u4e00\u4e00\u4e86\u4e86\u4e86\u4e86\u4e86",
+    "\u4eba\u4e86\u4e00\u4e00\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86"
+  ],
+  "成语": [
+    "\u4eba\u4e86\u4e00\u4e00\u4e86",
+    "\u4eba\u4e86\u4e00\u4e00\u4e86\u4e86",
+    "\u4eba\u4e86\u4e00\u4e00\u4e86\u4e86\u4e86",
+    "\u4eba\u4e86\u4e00\u4e00\u4e86\u4e86\u4e86\u4e86",
+    "\u4eba\u4e86\u4e00\u4e00\u4e86\u4e86\u4e86\u4e86\u4e86",
+    "\u4eba\u4e86\u4e00\u4e00\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86"
+  ],
+  "例句": [
+    "\u4eba\u4e86\u4e00\u4e00\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86\u4e86
+
+## Mixtral-8x7b-32768 model
+
+618.14 T/s
+
+{
+  "含义": "人，人类，人群",
+  "字形": "㇐",
+  "读音": "rén",
+  "字源": "从两条腿、身体、手臂等部位形成的象形字",
+  "常用词组": [
+    "人类",
+    "人群",
+    "人口",
+    "人员",
+    "人物",
+    "人生",
+    "人事",
+    "人才",
+    "人情",
+    "人性"
+  ],
+  "成语": [
+    "人山人海",
+    "人模人样",
+    "人言人语",
+    "人情世故",
+    "人面兽心",
+    "人前显贵",
+    "一人一票",
+    "众人皆醉而唯我醒",
+    "人畜无害",
+    "人禽为寇"
+  ],
+  "例句": [
+    "这个人很高.",
+    "这个人很帅.",
+    "这个人很聪明.",
+    "这个人很有才华.",
+    "这个人很有人情.",
+    "这个人很有人性.",
+    "人类的发展需要保护环境.",
+    "人群中有很多孩子.",
+    "人口数量在不断增长.",
+    "人员的配备需要完善."
+  ],
+  "短故事": [
+    "《人生》",
+    "《人间》",
+    "《人生如戏》",
+    "《人生之路》",
+    "《人生价值》",
+    "《人生观念》"
+  ],
+  "诗词": [
+    "《人生》诗词：人生苦短，须臾芳华。",
+    "《人间》诗词：人间如梦，梦醒何所。",
+    "《人生观》诗词：人生观念不同，各有所长。",
+    "《人生价值》诗词：人生价值观念不同，各有所长。",
+    "《人生如戏》诗词：人生如戏，戏如人生。",
+    "《人生之路》诗词：人生之路漫漫，须臾芳华。"
+  ],
+  "图片": "![人](https://example.com/image1.jpg)",
+  "音频": "![人](https://example.com/audio1.mp3)",
+  "视频": "![人](https://example.com/video1.mp4)",
+  "电影": [
+    "《人生》",
+    "《人间》",
+    "《人生如戏》",
+    "《人生之路》",
+    "《人生价值》",
+    "《人生观念》"
+  ],
+  "参考资料": [
+    "《汉语大词典》",
+    "《现代汉语词典》",
+    "《汉语词汇》",
+    "《汉语语法》",
+    "《汉语文化》",
+    "《汉语历史》"
+  ],
+  "有趣网站": [
+    "https://www.zhihu.com",
+    "https://www.baidu.com",
+    "https://www.sina.com",
+    "https://www.qq.com",
+    "https://www.weibo.com",
+    "https://www.toutiao.com"
+  ]
+}
+
+## using Llama3-70b-8192
+
+312 T/s 
+
+{
+  "含义": "人，人类，人類",
+  "字形": "\u4eba",
+  "读音": "rén",
+  "字源": "象形文字，代表人体",
+  "常用词组": [
+    "人生",
+    "人间",
+    "人性",
+    "人格",
+    "人道",
+    "人权",
+    "人生观",
+    "人际关系",
+    "人生价值"
+  ],
+  "成语": [
+    "人山人海",
+    "人模人样",
+    "人言人语",
+    "人情世故",
+    "人面兽心",
+    "人前显贵"
+  ],
+  "例句": [
+    "他是一个好人。",
+    "人生苦短。",
+    "人山人海，难得一见。",
+    "人生观念不同。",
+    "人际关系很重要。",
+    "人生价值观念不同。"
+  ],
+  "短故事": [
+    "《人生》是一部著名的电影。",
+    "《人间情缘》是一部经典的电视剧。",
+    "《人生如戏》是一部著名的戏剧。",
+    "《人生百态》是一部著名的绘画作品。",
+    "《人生哲学》是一本著名的哲学书籍。",
+    "《人生之路》是一本著名的励志书籍。"
+  ],
+  "诗词": [
+    "《人生》诗词：人生苦短，须臾芳华。",
+    "《人间》诗词：人间如梦，梦醒何所。",
+    "《人生观》诗词：人生观念不同，各有所长。",
+    "《人生价值》诗词：人生价值观念不同，各有所长。",
+    "《人生如戏》诗词：人生如戏，戏如人生。",
+    "《人生之路》诗词：人生之路漫漫，须臾芳华。"
+  ],
+  "图片": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg",
+    "https://example.com/image4.jpg",
+    "https://example.com/image5.jpg",
+    "https://example.com/image6.jpg"
+  ],
+  "音频": [
+    "https://example.com/audio1.mp3",
+    "https://example.com/audio2.mp3",
+    "https://example.com/audio3.mp3",
+    "https://example.com/audio4.mp3",
+    "https://example.com/audio5.mp3",
+    "https://example.com/audio6.mp3"
+  ],
+  "视频": [
+    "https://example.com/video1.mp4",
+    "https://example.com/video2.mp4",
+    "https://example.com/video3.mp4",
+    "https://example.com/video4.mp4",
+    "https://example.com/video5.mp4",
+    "https://example.com/video6.mp4"
+  ],
+  "电影": [
+    "《人生》",
+    "《人间》",
+    "《人生如戏》",
+    "《人生之路》",
+    "《人生价值》",
+    "《人生观念》"
+  ],
+  "参考资料": [
+    "《汉语大词典》",
+    "《现代汉语词典》",
+    "《汉语词汇》",
+    "《汉语语法》",
+    "《汉语文化》",
+    "《汉语历史》"
+  ],
+  "有趣网站": [
+    "https://www.zhihu.com",
+    "https://www.baidu.com",
+    "https://www.sina.com",
+    "https://www.qq.com",
+    "https://www.weibo.com",
+    "https://www.toutiao.com"
+  ]
+}
