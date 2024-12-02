@@ -34,16 +34,7 @@ def query_parts(strokes_clause):
                     in {one2nine.replace("[","(").replace("]",")")}
             )
         """
-    # sql_stmt = f"""
-    #     select 
-    #         distinct zi
-    #         ,traditional as zi_tr 
-    #     from t_part 
-    #     where is_active = 'Y' 
-    #         and zi is not null
-    #         and {where_clause}
-    #     order by cast(strokes as int), u_id
-    # """
+
     sql_stmt = f"""
         with parts as (
             select 
@@ -109,11 +100,12 @@ def format_parts(chars_per_row=30):
         out.append("".join(items))
     return out, n_parts
 
-@st.cache_data
-def query_layer():
-    return db_query_layer()
 
 def main():
+    # fix detail form not refresh correctly when selection changes
+    if "previous_zi" not in st.session_state:
+        st.session_state.previous_zi = None
+
     KEY_PREFIX = st.session_state["KEY_PREFIX"]
     st.session_state["table_name"] = TABLE_NAME
     c1, c2, c3, c4 = st.columns([1,6,2,1])
@@ -196,7 +188,7 @@ def main():
             ;
         """
 
-        print(f"[DEBUG-SQL] {sql_stmt}")
+        # print(f"[DEBUG-SQL] {sql_stmt}")
         df = pd.read_sql(sql_stmt, _conn)
 
     # display grid
@@ -210,7 +202,16 @@ def main():
  
 
     selected_rows = grid_resp['selected_rows']
-    zi = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
+    # zi = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
+
+    if selected_rows is None or len(selected_rows) < 1:
+        return
+
+    zi = selected_rows.iloc[0].to_dict() if isinstance(selected_rows, pd.DataFrame) else selected_rows[0]
+    if zi != st.session_state.previous_zi:
+        st.session_state.previous_zi = zi
+        st.rerun()
+
     # st.write(zi)
     msg = ""
     zi_zi = zi.get("zi") if zi else ""
@@ -257,7 +258,7 @@ def main():
     zi_hsk_note = zi.get("hsk_note") if zi else ""
     zi_caizi = zi.get("caizi") if zi else ""
     msg += f"zi_caizi={zi_caizi}, "
-    st.write(f"DEBUG: {msg}")
+    # st.write(f"DEBUG: {msg}")
     col_left, col_right = st.columns([10,10])
 
     st.session_state["selected_row_original_value"] = zi
@@ -308,7 +309,6 @@ def main():
             st.text_input('中 mid', value=zi_zi_mid,  key=f"{KEY_PREFIX}_zi_mid")
         with c2_3:
             st.text_input("右 right", value=zi_zi_right,  key=f"{KEY_PREFIX}_zi_right")
-            st.write(zi_zi_right)
         with c2_4:
             st.text_input('中外 mid_outer', value=zi_zi_mid_out,  key=f"{KEY_PREFIX}_zi_mid_out")
 

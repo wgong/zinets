@@ -1178,12 +1178,14 @@ def ui_layout_form(selected_row, table_name, form_name):
             except Exception as ex:
                 st.error(f"{str(ex)}")
 
-        # clear form
-        try:
-            for c in key_names:
-                st.session_state[c] = ""
-        except Exception as e:
-            pass # ignore
+            # clear form
+            try:
+                for c in key_names:
+                    st.session_state[c] = ""
+            except Exception as e:
+                pass # ignore
+
+            st.rerun()
 
 
 def ui_display_df_grid(df, 
@@ -1203,7 +1205,8 @@ def ui_display_df_grid(df,
     gb.configure_selection(selection_mode,
             use_checkbox=True,
             groupSelectsChildren=AGGRID_OPTIONS["groupSelectsChildren"], 
-            groupSelectsFiltered=AGGRID_OPTIONS["groupSelectsFiltered"]
+            groupSelectsFiltered=AGGRID_OPTIONS["groupSelectsFiltered"],
+            rowMultiSelectWithClick=(selection_mode == "multiple"),
         )
     gb.configure_pagination(paginationAutoPageSize=False, 
         paginationPageSize=page_size)

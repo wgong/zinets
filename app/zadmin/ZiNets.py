@@ -6,7 +6,7 @@ ZiZi app prototype in streamlit
 #=======
 [2024-11-30]
 - why parts form on Zi Composer page does not show parts consistently???
-
+    - fixed with Claude by using st.rerun() after selection changes
 
 [2024-01-29]
 - Visualize Zi in tree structures

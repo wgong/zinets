@@ -18,6 +18,9 @@ def get_tags():
         return pd.read_sql(sql_stmt, _conn)["tags"].to_list()
 
 def main():
+    # fix detail form not refresh correctly when selection changes
+    if "previous_selected_row" not in st.session_state:
+        st.session_state.previous_selected_row = None    
     # get distinct tags
     tags = get_tags()
 
@@ -88,6 +91,10 @@ def main():
     # selected_row = selected_rows[0] if len(selected_rows) else None
     # streamlit-aggrid==1.0.5
     selected_row = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
+    if selected_row != st.session_state.previous_selected_row:
+        st.session_state.previous_selected_row = selected_row
+        st.rerun()
+
     # display form
     ui_layout_form(selected_row, TABLE_NAME, form_name=TABLE_NAME)
 
