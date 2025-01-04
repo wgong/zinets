@@ -329,7 +329,7 @@ def main():
     with col_right:
         parts, n_parts = format_parts(40)
 
-        st.subheader(f"Parts ({n_parts}):")
+        st.subheader(f"元字 Part ({n_parts}):")
         for p in parts:
             st.markdown(p, unsafe_allow_html=True)
 

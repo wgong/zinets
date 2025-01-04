@@ -7,11 +7,11 @@
 
 </head>
 <body >
-    <div id="db67f1d7a92048d18ff9559c1b7c4026" class="chart-container" style="width:900px; height:500px; "></div>
+    <div id="816e5be119444da188a578881632cd4a" class="chart-container" style="width:900px; height:500px; "></div>
     <script>
-        var chart_db67f1d7a92048d18ff9559c1b7c4026 = echarts.init(
-            document.getElementById('db67f1d7a92048d18ff9559c1b7c4026'), 'white', {renderer: 'canvas'});
-        var option_db67f1d7a92048d18ff9559c1b7c4026 = {
+        var chart_816e5be119444da188a578881632cd4a = echarts.init(
+            document.getElementById('816e5be119444da188a578881632cd4a'), 'white', {renderer: 'canvas'});
+        var option_816e5be119444da188a578881632cd4a = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -69,7 +69,6 @@
                     ]
                 }
             ],
-            "zoom": 1,
             "symbol": "rect",
             "symbolSize": 60,
             "edgeShape": "curve",
@@ -82,11 +81,14 @@
                 "show": true,
                 "color": "red",
                 "margin": 8,
-                "fontSize": 50,
-                "valueAnimation": false
+                "fontSize": 50
             },
-            "leaves": {},
-            "selectedMode": false
+            "leaves": {
+                "label": {
+                    "show": true,
+                    "margin": 8
+                }
+            }
         }
     ],
     "legend": [
@@ -100,6 +102,7 @@
             "itemHeight": 14,
             "backgroundColor": "transparent",
             "borderColor": "#ccc",
+            "borderWidth": 1,
             "borderRadius": 0,
             "pageButtonItemGap": 5,
             "pageButtonPosition": "end",
@@ -150,7 +153,7 @@
         }
     ]
 };
-        chart_db67f1d7a92048d18ff9559c1b7c4026.setOption(option_db67f1d7a92048d18ff9559c1b7c4026);
+        chart_816e5be119444da188a578881632cd4a.setOption(option_816e5be119444da188a578881632cd4a);
     </script>
 </body>
 </html>
