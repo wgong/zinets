@@ -16,6 +16,33 @@ TAG_RIGHT = "]|"
 def colorize_text(txt, color="red"):
     return f"""<span style="color:{color}">{txt}</span>"""
 
+def list_zi_with_parts(df):
+    if df is None or df.empty:
+        return
+    
+    # collect Zi with parts as an equation
+    # 火 + 乍 = 炸
+    list_of_dicts = df.to_dict(orient='records')
+    # st.write(list_of_dicts[0])
+    col_names = ["zi", 
+            "zi_left_up", "zi_left", "zi_left_down",
+            "zi_up", "zi_mid", "zi_down",
+            "zi_right_up", "zi_right", "zi_right_down",
+            "zi_mid_in", "zi_mid_out", 
+        ]
+    data = []
+    for row in list_of_dicts:
+        zi_data = []
+        for col in col_names:
+            z_val = row.get(col)
+            if z_val and z_val.strip():
+                zi_data.append(z_val.strip())
+        if len(zi_data) > 1:
+            equation = " + ".join(zi_data[1:])
+            data.append(f"{equation} = {zi_data[0]}")
+    return data
+
+
 # @st.cache_data
 def query_parts(strokes_clause):
     """query and concat all parts based on strokes
@@ -205,6 +232,10 @@ def main():
     # zi = None if selected_rows is None or len(selected_rows) < 1 else selected_rows.to_dict(orient='records')[0]
 
     if selected_rows is None or len(selected_rows) < 1:
+        if search_parts.strip():
+            data = list_zi_with_parts(df)
+            for d in data:
+                st.write(d) 
         return
 
     zi = selected_rows.iloc[0].to_dict() if isinstance(selected_rows, pd.DataFrame) else selected_rows[0]
@@ -343,6 +374,7 @@ def main():
                 file_name=f"{TABLE_NAME}-{get_ts_now()}.csv",
                 mime='text/csv',
             )               
+
 
 
 def _submit_zi_parts():
