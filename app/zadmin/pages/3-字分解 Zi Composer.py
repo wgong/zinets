@@ -85,12 +85,14 @@ def format_parts(chars_per_row=30):
         n_parts += n_part
         parts.extend(part)
 
-    txt = f" {TAG_LEFT} 10+ {TAG_RIGHT} "
-    parts.append(colorize_text(txt))
-    strokes_clause = "null or >9"
-    part, n_part = query_parts(strokes_clause)
-    n_parts += n_part
-    parts.extend(part)
+    ## TODO following code not correct
+    ## ================================
+    # txt = f" {TAG_LEFT} 10+ {TAG_RIGHT} "
+    # parts.append(colorize_text(txt))
+    # strokes_clause = " > 9 "
+    # part, n_part = query_parts(strokes_clause)
+    # n_parts += n_part
+    # parts.extend(part)
 
     out = []
     for i in range(0, len(parts), chars_per_row):
@@ -329,7 +331,7 @@ def main():
     with col_right:
         parts, n_parts = format_parts(40)
 
-        st.subheader(f"Parts ({n_parts}):")
+        st.subheader(f"元字 ({n_parts}):")
         for p in parts:
             st.markdown(p, unsafe_allow_html=True)
 
