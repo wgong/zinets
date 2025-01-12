@@ -100,7 +100,8 @@ def main():
         df = pd.read_sql(sql_stmt, _conn)
 
     grid_resp = ui_display_df_grid(df, clickable_columns=["baidu_url"], selection_mode="single", 
-                page_size=5, grid_height=AGGRID_OPTIONS["grid_height"]/2,
+                page_size=10, grid_height=AGGRID_OPTIONS["grid_height"],
+                # 5, half height /2
             )
     selected_rows = grid_resp['selected_rows']
     # streamlit-aggrid==0.3.3
