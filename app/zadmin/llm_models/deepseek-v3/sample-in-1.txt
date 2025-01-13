@@ -1,0 +1,20 @@
+You are an expert in Chinese language. Generate a holistic view on the Chinese character '人' in terms of the following attributes:
+
+1. 含义 (meaning): Explain its meaning.
+2. 字形 (character structure): Describe its structure.
+3. 读音 (pronunciation): Provide its pronunciation.
+4. 字源 (etymology): Explain its origin.
+5. 含此字的字 (composite characters): List characters that contain '人'.
+6. 常用词组 (common phrases): Provide common phrases containing '人'.
+7. 成语 (idioms): List idioms containing '人'.
+8. 例句 (example sentences): Provide example sentences using '人'.
+9. 短故事 (short stories): Share a short story related to '人'.
+10. 诗词 (poetry): Include famous poems containing '人'.
+11. 图片 (images): Suggest simple images illustrating '人'.
+12. 音频 (audio): Suggest short audio clips illustrating '人'.
+13. 视频 (video): Suggest short video clips illustrating '人'.
+14. 电影 (movies): List famous movies related to '人'.
+15. 参考资料 (references): Provide additional reference materials.
+16. 有趣网站 (interesting websites): Suggest websites related to '人'.
+
+Format the output as a valid JSON object.
