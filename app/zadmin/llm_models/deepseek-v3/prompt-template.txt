@@ -1,0 +1,26 @@
+You are an expert in Chinese language, 
+can you generate a holistic view on this chinese character  人
+in terms of the following attributes:
+
+含义 (i.e., its meaning)
+字形 (i.e., its character structure)
+读音 (i.e., its pronounciation)
+字源 (i.e., its etymology)
+含此字的字 (i.e., composite characters that contain this character, e.g. 仁，its radical means 人)
+同音字 (i.e., other characters that sound alike, e.g. 仁)
+常用词组 (i.e., phrases containing this character)
+成语 (i.e., idioms containing this character, often is made of 4 characters)
+例句 (i.e., example sentences that make use of this character)
+短故事 (i.e., short stories about this character)
+诗词 (i.e., famous poems that contain or describes this character)
+图片 (i.e., simple images that illustrate this character)
+音频 (i.e., short audio clips that illustrate this character)
+视频 (i.e., short video clips that illustrate this character)
+电影 (i.e., famous movies that are related to this character)
+参考资料 (i.e., additional reference materials that are related to this character)
+有趣网站 (i.e., famous websites that are related to this character)
+
+(1) give the answer in Chinese;
+(2) format the answer in valid json;
+(3) avoid invalid nested quotes by using backslash to escape quotes;
+(4) whenever possible, give at least 5 examples for each attribute listed above;
