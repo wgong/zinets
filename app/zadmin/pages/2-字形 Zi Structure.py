@@ -10,6 +10,9 @@ from pyecharts.charts import Tree
 
 from utils import *
 
+st.set_page_config(layout="wide")
+st.subheader("Zi De-composition")
+
 NODE_MAP = {}
 # lookup node label by node_id (hash)
 
@@ -127,7 +130,7 @@ if "expanded" not in st.session_state:
     st.session_state.expanded = []
 
 
-st.subheader("Zi Decomposition")
+
 c1, _, c2 = st.columns([4, 4, 2])
 with c1:
     zi_0 = "藻" # "澡"
