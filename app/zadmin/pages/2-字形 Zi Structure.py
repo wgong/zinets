@@ -130,7 +130,8 @@ if "expanded" not in st.session_state:
 st.subheader("Zi Decomposition")
 c1, _, c2 = st.columns([4, 4, 2])
 with c1:
-    root_zi = st.text_input("字分解", value="澡", key="input_zi")
+    zi_0 = "藻" # "澡"
+    root_zi = st.text_input("字分解", value=zi_0, key="input_zi")
 with c2:
     union_uniq = st.checkbox('No duplicates')
     union_op = " UNION " if union_uniq else " UNION ALL "
