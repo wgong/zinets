@@ -1,0 +1,108 @@
+部件,meaning,sample,频率,类别,子类别,tag
+甫,just,,23,,,1
+丿,slash,乂 乃 乎,40,radical,,0
+冖,cover,写 军 农 冠 幂,35,radical,,0
+亠,lid head,亡 亢 交 产 京,27,radical,,0
+丷,eight,兰 关,26,radical,,0
+丨,vertical line Through Alone Straight,个 中 丰 串 临,25,radical,,0
+丶,dot / point,丸 义 丹 为 主 点,24,radical,,0
+亻,person,你 他 仕 仙 例,213,人-,human,0
+女,woman / female,妈 好 始 姓 安,137,人-,human,0
+人,person,众丛,41,人-,human,0
+子,child / son / seed,孔 字 季 学 孩,28,人-伦理,family,0
+尸,corpse,尼 尽 局 居 层,27,人-生理,body,0
+耳,ear,聊 聆 聒 联 耿,31,人-生理,ear,0
+目,eye,盯 相 盲 看 眠,78,人-生理,eye,0
+页,page,顶 项 须 顺,44,人-生理,face,0
+夫,husband,,24,人-生理,family,0
+米,rice,粮 类 粉 粤 籽,51,人-生理,food,0
+酉,wine vessel,酒 酱 酷,46,人-生理,food,0
+饣,eating food cooking,饭 饥 饮 饱 饿  饰,32,人-生理,food,0
+辶,walk move,道 边 达 过 运 远 近 ,90,人-生理,foot,0
+足,foot,跃 跑 路 跳,76,人-生理,foot,0
+立,stand,站 竞 章 竖 端,32,人-生理,foot,0
+走,walk,赶 起 超 越,23,人-生理,foot,0
+彡,hair / ornament,形 彦 彩 影,23,人-生理,hair,0
+扌,hand,扔 扬 扛 扱 抱,261,人-生理,hand,0
+又,right hand / again,叉 友 双 发 受,64,人-生理,hand,0
+疒,illness sickness disease health,疾 病 疼 痛  疤 疫 疯 癌 ,74,人-生理,health,0
+忄,mental / feeling,忙 快 忆,116,人-生理,mind,0
+心,heart / mind,必  忘,82,人-生理,mind,0
+口,mouth / opening,吃 叹 品 吵 叫,282,人-生理,mouth,0
+讠,speech,说 话  语 议 读   计 讨 记 讲 识,102,人-生理,mouth,0
+言,speech / language,,36,人-生理,mouth,0
+虫,insect,蛇 蚊 蛋 蚤 蚀,130,动物-,amphibian,0
+鸟,bird,鸡 鸦 鸭,62,动物-,bird,0
+隹,short-tailed bird,难 雀 集 雇,50,动物-,bird,0
+羽,feather,翠 翁 耀 翔,42,动物-,bird,0
+鱼,fish,鲜 鲈 鲑,23,动物-,fish,0
+犭,animal,犯 犷 狂 狗,51,动物-,mammal,0
+马,horse,驰 驹 骂 骇 驳,44,动物-,mammal,0
+羊,sheep,群 羚,37,动物-,mammal,0
+犬,dog,哭吠,22,动物-,mammal,0
+阝,terrain / hill / city / town,那 邦 邮 郊 邕,153,地理-,,0
+石,stone,码 破 硌 硏 硬,71,地理-,,0
+山,mountain / hill,岀 峰 岁 岛 岳,64,地理-,,0
+雨,rain,雪 零 雷 雾,28,天文-,,0
+气,gas / steam / breath,氲 氧 氢,24,天文-,,0
+土,earth / soil,在 地 城 地 型,141,天文-土,,0
+日,sun / day / time,时 早 明 是 晩,123,天文-日,,0
+月,meat / moon / month,肖 肘 肚 服 朋 青 朝 明,153,"天文-月, 人-生理",flesh,0
+木,tree / wood / plant,森 林  本,319,天文-木,,0
+氵,water,海 河 湖 江 洗 泳,377,天文-水,,0
+冫,ice cold winter,冰 冷  况 冼 凊 寒,28,天文-水,,0
+火,fire,灯 炎,83,天文-火,,0
+钅,metal,银 钉 钟 钥,88,天文-金,,0
+寸,inch,对 寺 寻 寿 导,31,数理-度量,,0
+斤,axe / pound,斧 断 斯 新 斩,23,数理-度量,,0
+方,square,施 旁 旋 旅 旗,26,数理-时空,location,0
+囗,enclosure / boundary,围 团 国 囚 困,22,数理-时空,location,0
+一,one,丁 万 上 下,70,数理-计算,number,0
+十,ten,千 升 午 半,49,数理-计算,number,0
+八,eight,兮 公  兴,28,数理-计算,number,0
+白,white,百 的 皇 皁 皓,32,数理-颜色,,0
+黑,black,墨 黔 默 黛,23,数理-颜色,,0
+艹,grass,花 菜 茶 茬 草,284,植物-,,0
+⺮,bamboo,笑 笛 第 竿 等,108,植物-,,0
+纟,silk / thread,红 纪 组,106,植物-,,0
+糸,silk / relation,系 紧,31,植物-,,0
+禾,grain,秀 秋 种 秒 租,78,植物-,food,0
+攵,tap beat,攻 收 改 政 故 敌 放 教 ,59,概念-,,0
+力,strength / power,劝 办 加 务 动,51,概念-,,0
+大,big,天 太 夫 央 头,44,概念-,,0
+广,shelter / wide,座 庄 床 店,42,概念-,,0
+欠,lack owe yawn,次 欢 欣 歆 欲 歌 ,42,概念-,,0
+非,wrong / negate,靠 靡,30,概念-,,0
+彳,"step walking, movement, and progress",行 徐 律 很 往 徘徊 彷徨 彳亍chichu,28,概念-,,0
+且,further,祖组姐粗助租,24,概念-,,0
+分,fraction / divide,,24,概念-,,0
+厶,private secret,云 允 公 去 县 参,23,概念-,,0
+小,small / insignificant / less / few,少 尔,21,概念-,,0
+由,cause / from / reason,,21,概念-,,0
+几,table,凡 凤,24,社会-,,0
+工,work,左 巧 巩 巫,24,社会-,,0
+干,dry / do,平 年 并 幸,22,社会-,,0
+占,occupy,,21,社会-,,0
+巾,towel,巿 币 市 师,55,社会-,cloth,0
+衤,"clothing, garments, or fabric",袓  袖 袄 裤 袜 裙 褂 ,52,社会-,clothing,0
+革,leather,靴 鞋,34,社会-,clothing,0
+衣,clothes,表 袋  衷,25,社会-,clothing,0
+皿,dish / receptacle,盂 益 盆 监 盈,30,社会-,container,0
+贝,shell,贞 负 贡 责 财,56,社会-,currency,0
+厂,yard / factory,厄 厅 历 厉,32,社会-,factory,0
+礻,"spirit, religion, worship, and spiritual matters",神 福 祸 祝 祥  礼 社 视 禁 ,38,社会-,faith,0
+鬼,ghost,魂 魄 魅,24,社会-,faith,0
+田,field,男 甸 画 畅 界,49,社会-,farming,0
+宀,roof shelter protection,家 室 宁 它 安 定 容 宝 ,63,社会-,housing,0
+穴,cave,穷 究 空 穿 突,41,社会-,housing,0
+门,gate,间 闪 闯 闭 闹,22,社会-,housing,0
+王,king,珍 现 琴 莹 玺,109,社会-,order,0
+令,order / command,,21,社会-,order,0
+士,soldier / scholar,壮 仕 壬 声 志,22,社会-,soldier,0
+刂,knife,划 刻 刚 分 割 削 剪 ,45,社会-,tool,0
+罒,net surround,罗 罚 罢 罪,34,社会-,tool,0
+刀,knife,刅 分 切,32,社会-,tool,0
+戈,spear,我 成 戒 战 或,31,社会-,tool,0
+弓,bow,弟 引 张 弘 弯,23,社会-,tool,0
+车,vehicle / car / cart,轧 轨 软 轮 轻,53,社会-,transport,0
+殳,weapon spear ,段 殷 殴,37,社会-,weapong,0
