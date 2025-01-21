@@ -1,0 +1,48 @@
+{
+  "word": "any",
+  "category": "core_function_words",
+  "sub_category": "pronouns",
+  "attributes": {
+    "meaning": "The word 'any' is used to refer to one or some of a thing or number of things, no matter how much or how many. It is often used in questions and negative sentences to indicate an indefinite quantity or degree.",
+    "pronunciation": "/ˈɛni/",
+    "etymology": "The word 'any' originates from the Old English word 'ǣniġ', which means 'any, anyone, anything'. It is derived from the Proto-Germanic '*ainagaz', which is related to the concept of 'one'.",
+    "homophone_word": [
+      "Annie"
+    ],
+    "common_phrase": [
+      "Any time",
+      "Any day",
+      "Any way",
+      "Any more",
+      "Any chance"
+    ],
+    "sentence": [
+      "Do you have any questions?",
+      "I don't have any money.",
+      "Any fool can criticize, condemn, and complain - and most fools do. - Dale Carnegie"
+    ],
+    "short_stories": [
+      "In a small village, a wise old man was asked if he had any advice for the young. He simply replied, 'Any path you choose will lead you somewhere, but only you can decide if it's where you want to go.'",
+      "A child once asked his mother, 'Do we have any cookies left?' The mother smiled and said, 'Any cookies we have are yours, but remember, sharing is caring.'"
+    ],
+    "poetry": [
+      "Any fool can make a rule, and any fool will mind it. - Henry David Thoreau",
+      "Any man's death diminishes me, because I am involved in mankind. - John Donne"
+    ],
+    "image": "A simple image illustrating 'any' could be a question mark surrounded by various objects, symbolizing the indefinite nature of the word.",
+    "audio": "A short audio clip could be a voice asking, 'Do you have any questions?'",
+    "video": "A short video clip could be a scene from a classroom where a teacher asks, 'Does anyone have any questions?'",
+    "movie": [
+      "Any Given Sunday",
+      "Any Day Now"
+    ],
+    "reference": [
+      "Merriam-Webster Dictionary",
+      "Oxford English Dictionary"
+    ],
+    "interesting_website": [
+      "https://www.merriam-webster.com/dictionary/any",
+      "https://www.oxfordlearnersdictionaries.com/definition/english/any"
+    ]
+  }
+}

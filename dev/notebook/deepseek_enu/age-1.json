@@ -1,0 +1,51 @@
+{
+  "word": "age",
+  "category": "common_nouns",
+  "sub_category": "time",
+  "meaning": "Age refers to the length of time that a person, animal, or object has existed. It can also denote a particular period in history or a stage in life.",
+  "pronunciation": "/eɪdʒ/",
+  "etymology": "The word 'age' originates from the Old French 'aage', which comes from the Latin 'aetaticum', meaning 'lifetime' or 'generation'. It is related to the Latin 'aevum', meaning 'eternity' or 'age'.",
+  "homophone_words": [
+    "aidge",
+    "aige"
+  ],
+  "common_phrases": [
+    "coming of age",
+    "golden age",
+    "age of consent",
+    "age before beauty",
+    "act your age"
+  ],
+  "sentences": [
+    "The age of the ancient tree was estimated to be over 500 years.",
+    "She felt that with age came wisdom.",
+    "Famous quote: 'Age is an issue of mind over matter. If you don't mind, it doesn't matter.' - Mark Twain"
+  ],
+  "short_stories": [
+    "The story of 'The Old Man and the Sea' by Ernest Hemingway explores themes of aging and the struggle against the inevitable decline of physical strength.",
+    "In 'The Picture of Dorian Gray' by Oscar Wilde, the protagonist remains youthful while his portrait ages, reflecting his moral decay."
+  ],
+  "poetry": [
+    "William Butler Yeats' poem 'Sailing to Byzantium' reflects on aging and the desire for immortality: 'That is no country for old men. The young / In one another's arms, birds in the trees...'",
+    "Robert Frost's 'Provide, Provide' discusses the inevitability of aging and the importance of preparation: 'The witch that came (the withered hag) / To wash the steps with pail and rag...'"
+  ],
+  "image": "An image of a timeline showing different stages of human life from infancy to old age.",
+  "audio": "A short audio clip of a grandfather clock ticking, symbolizing the passage of time.",
+  "video": "A short video clip showing the transformation of a person from childhood to old age through time-lapse photography.",
+  "movie": [
+    "The Curious Case of Benjamin Button",
+    "The Age of Adaline",
+    "Cocoon",
+    "Youth"
+  ],
+  "reference": [
+    "The Oxford English Dictionary",
+    "Merriam-Webster Dictionary",
+    "Encyclopedia Britannica"
+  ],
+  "interesting_website": [
+    "https://www.psychologytoday.com/us/basics/aging",
+    "https://www.nia.nih.gov/ (National Institute on Aging)",
+    "https://www.ageuk.org.uk/"
+  ]
+}

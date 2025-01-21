@@ -1,0 +1,45 @@
+{
+  "word": "add",
+  "category": "common_verbs",
+  "sub_category": "basic_actions",
+  "meaning": "To combine or join something to another to increase the size, number, or amount.",
+  "pronunciation": "/æd/",
+  "etymology": "The word 'add' comes from the Latin word 'addere', which means 'to give to, join to, attach'. It entered Middle English through Old French 'ader'.",
+  "homophone_word": [
+    "ad"
+  ],
+  "common_phrase": [
+    "add up",
+    "add to",
+    "add on",
+    "add value"
+  ],
+  "sentence": [
+    "Please add sugar to the tea.",
+    "If you add these numbers, the total is 100.",
+    "As Benjamin Franklin once said, 'An investment in knowledge pays the best interest.' This can be interpreted as adding value through learning."
+  ],
+  "short_stories": [
+    "Once, a young boy was learning math. His teacher asked him to add numbers. He struggled at first but eventually mastered it, realizing that adding numbers was like adding blocks to build a tower.",
+    "In a small village, a baker would add a secret ingredient to his bread. This ingredient made his bread the most sought after in the village, teaching everyone that sometimes, adding a little extra can make a big difference."
+  ],
+  "poetry": [
+    "To add a little here, a little there, / Makes life a bit more rich and fair. / Each small addition, a step, a stair, / Building dreams with utmost care.",
+    "Add a dash of love, a sprinkle of care, / Mix it with moments that we share. / Life’s recipe, beyond compare, / With every addition, more joy to bear."
+  ],
+  "image": "A simple illustration of a plus sign (+) with numbers or objects being combined.",
+  "audio": "A short clip of someone saying 'add' in different contexts, such as in a classroom or a cooking show.",
+  "video": "A tutorial video showing how to add ingredients in a recipe or how to add numbers in a math lesson.",
+  "movie": [
+    "The Addams Family",
+    "Addicted to Love"
+  ],
+  "reference": [
+    "Oxford English Dictionary",
+    "Merriam-Webster Dictionary"
+  ],
+  "interesting_website": [
+    "https://www.mathsisfun.com/numbers/addition.html",
+    "https://www.cookinglight.com/cooking-101/techniques/how-to-add-flavor"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "word": "art",
+  "category": "common_nouns",
+  "sub_category": "abstract_concepts",
+  "meaning": "Art refers to the expression or application of human creative skill and imagination, typically in a visual form such as painting or sculpture, producing works to be appreciated primarily for their beauty or emotional power. It can also encompass a wide range of human activities, creations, and modes of expression, including music, literature, film, and performance.",
+  "pronunciation": "/ɑːrt/ (British English), /ɑrt/ (American English)",
+  "etymology": "The word 'art' originates from the Latin word 'ars' or 'artis', which means skill, craft, or technique. It entered Middle English via Old French, where it retained a similar meaning related to skill and craftsmanship.",
+  "homophone_word": [
+    "heart (in some dialects)",
+    "aught"
+  ],
+  "common_phrase": [
+    "art of the deal",
+    "state of the art",
+    "work of art",
+    "art for art's sake"
+  ],
+  "sentence": [
+    "Art is not what you see, but what you make others see. - Edgar Degas",
+    "Every artist was first an amateur. - Ralph Waldo Emerson"
+  ],
+  "short_stories": [
+    "The Picture of Dorian Gray by Oscar Wilde explores the relationship between art and morality, where a portrait ages while the subject remains youthful.",
+    "The Artist's Studio by Honoré de Balzac, which delves into the life of a painter and his muse, reflecting on the sacrifices made for art."
+  ],
+  "poetry": [
+    "Ode on a Grecian Urn by John Keats, which discusses the timeless beauty of art depicted on an ancient urn.",
+    "Ars Poetica by Archibald MacLeish, a poem that reflects on the nature of poetry and art."
+  ],
+  "image": [
+    "A painter at an easel with a vibrant palette of colors.",
+    "A sculpture of a human figure, emphasizing form and texture."
+  ],
+  "audio": [
+    "A clip of a classical music piece, such as Beethoven's Symphony No. 9, illustrating the art of music.",
+    "An audio recording of a poetry reading, showcasing the art of spoken word."
+  ],
+  "video": [
+    "A time-lapse video of a street artist creating a mural.",
+    "A documentary clip on the process of making a famous sculpture."
+  ],
+  "movie": [
+    "Frida (2002), a biographical film about the life of Mexican artist Frida Kahlo.",
+    "The Art of Getting By (2011), a film about a young artist navigating life and love."
+  ],
+  "reference": [
+    "The Story of Art by E.H. Gombrich, a comprehensive introduction to art history.",
+    "Ways of Seeing by John Berger, a critical look at how we perceive art."
+  ],
+  "interesting_website": [
+    "https://www.artsy.net/ - A platform for discovering and collecting art.",
+    "https://www.tate.org.uk/ - The website of Tate galleries, offering extensive resources on art and artists."
+  ]
+}

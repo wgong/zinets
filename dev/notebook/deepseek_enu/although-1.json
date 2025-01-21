@@ -1,0 +1,44 @@
+{
+  "word": "although",
+  "category": "core_function_words",
+  "sub_category": "conjunctions",
+  "meaning": "Although is a conjunction used to introduce a statement that contrasts with or seems to contradict something that has been said previously. It is often used to indicate a concession or exception.",
+  "pronunciation": "/ɔːlˈðəʊ/ (British English), /ɔːlˈðoʊ/ (American English)",
+  "etymology": "The word 'although' originates from the Middle English 'al thogh', which combines 'al' (all) and 'thogh' (though). It has been used in English since the 14th century.",
+  "homophone_word": [
+    "all though"
+  ],
+  "common_phrase": [
+    "Although it was raining, we went for a walk.",
+    "She decided to go to the party, although she was tired."
+  ],
+  "sentence": [
+    "Although he was late, he still managed to catch the train.",
+    "Although the task was difficult, she completed it with ease."
+  ],
+  "short_stories": [
+    "Once upon a time, there was a young boy who loved to play outside. Although his mother warned him about the dangers of the forest, he ventured in one day and discovered a hidden treasure.",
+    "In a small village, there was a farmer who worked hard every day. Although the weather was often harsh, he never gave up and eventually became the most successful farmer in the region."
+  ],
+  "poetry": [
+    "Although the night is dark and long, \nThe stars still shine, their light so strong. \nThough shadows fall and fears may rise, \nThe dawn will break, and hope will prize.",
+    "Although the world is full of care, \nAnd troubles seem to be everywhere, \nThere's still a place where peace is found, \nIn the quiet heart, where love is bound."
+  ],
+  "image": "An image of a rainy day with people walking under umbrellas, illustrating the contrast between the weather and their actions.",
+  "audio": "A short audio clip of someone saying, 'Although it was raining, we went for a walk.'",
+  "video": "A short video clip showing a person studying hard despite being tired, with a voiceover saying, 'Although she was tired, she continued to study.'",
+  "movie": [
+    "Although of Course You End Up Becoming Yourself",
+    "Although I'm Just a Cat"
+  ],
+  "reference": [
+    "Merriam-Webster Dictionary",
+    "Oxford English Dictionary",
+    "Cambridge Dictionary"
+  ],
+  "interesting_website": [
+    "https://www.merriam-webster.com/dictionary/although",
+    "https://www.lexico.com/en/definition/although",
+    "https://dictionary.cambridge.org/dictionary/english/although"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "word": "action",
+  "category": "common_nouns",
+  "sub_category": "abstract_concepts",
+  "meaning": "Action refers to the process of doing something, typically to achieve an aim or result. It can also denote a legal proceeding or the events represented in a story or play.",
+  "pronunciation": "/ˈakʃ(ə)n/",
+  "etymology": "The word 'action' originates from the Old French 'action', which in turn comes from the Latin 'actio', meaning 'a doing, a driving force; a legal process'. This is derived from 'actus', the past participle of 'agere', meaning 'to do, to act'.",
+  "homophone_word": [
+    "faction",
+    "fraction"
+  ],
+  "common_phrase": [
+    "take action",
+    "action plan",
+    "call to action",
+    "action-packed",
+    "in action"
+  ],
+  "sentence": [
+    "The government must take immediate action to address the crisis.",
+    "Actions speak louder than words.",
+    "He was caught in the act of stealing."
+  ],
+  "short_stories": [
+    "The story of 'The Tortoise and the Hare' is a classic example where action (or the lack thereof) determines the outcome of a race.",
+    "In 'The Boy Who Cried Wolf', the boy's repeated false actions lead to real consequences when he truly needs help."
+  ],
+  "poetry": [
+    "Do not go gentle into that good night by Dylan Thomas - 'Rage, rage against the dying of the light' emphasizes taking action against the inevitable.",
+    "If by Rudyard Kipling - 'If you can dream—and not make dreams your master; If you can think—and not make thoughts your aim;' highlights the importance of action over mere thought."
+  ],
+  "image": "A dynamic image of a sprinter breaking through a finish line tape, symbolizing decisive action and achievement.",
+  "audio": "A short clip of a crowd cheering at a sports event, capturing the excitement and energy of action.",
+  "video": "A clip from a high-speed car chase in a movie, illustrating intense action and movement.",
+  "movie": [
+    "Die Hard",
+    "Mad Max: Fury Road",
+    "The Dark Knight",
+    "John Wick",
+    "Mission: Impossible - Fallout"
+  ],
+  "reference": [
+    "Oxford English Dictionary",
+    "Merriam-Webster Dictionary",
+    "Cambridge Dictionary"
+  ],
+  "interesting_website": [
+    "https://www.actionmoviefan.com",
+    "https://www.imdb.com/genre/action",
+    "https://www.rottentomatoes.com/top/bestofrt/top_100_action__adventure_movies/"
+  ]
+}

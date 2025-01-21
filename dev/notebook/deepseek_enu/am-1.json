@@ -1,0 +1,54 @@
+{
+  "word": "am",
+  "category": "core_function_words",
+  "sub_category": "auxiliary_verbs",
+  "meaning": "The word 'am' is the first person singular present indicative of the verb 'be'. It is used to describe a state of being, identity, or condition.",
+  "pronunciation": "/æm/",
+  "etymology": "The word 'am' originates from Old English 'eom', which is derived from Proto-Germanic '*immi', and ultimately from Proto-Indo-European '*h₁esmi' (I am).",
+  "homophone_word": [
+    "ham",
+    "clam"
+  ],
+  "common_phrase": [
+    "I am",
+    "am I",
+    "am not"
+  ],
+  "sentence": [
+    "I am happy.",
+    "Am I late?",
+    "I am what I am."
+  ],
+  "short_stories": [
+    "Once upon a time, a little bird said, 'I am free,' and flew away into the vast sky.",
+    "A young boy once declared, 'I am strong,' and with that belief, he lifted a heavy stone."
+  ],
+  "poetry": [
+    "I am the master of my fate, I am the captain of my soul. - From 'Invictus' by William Ernest Henley",
+    "I am nobody! Who are you? Are you nobody, too? - From 'I'm Nobody! Who are you?' by Emily Dickinson"
+  ],
+  "image": [
+    "A simple image of a person standing confidently with the caption 'I am'.",
+    "An image of a sunrise with the words 'I am here' written across it."
+  ],
+  "audio": [
+    "A short clip of someone saying 'I am happy.'",
+    "An audio clip of a motivational speaker saying 'I am capable.'"
+  ],
+  "video": [
+    "A short video of a person meditating and saying 'I am at peace.'",
+    "A clip from a movie where a character declares 'I am ready.'"
+  ],
+  "movie": [
+    "I Am Legend",
+    "I Am Sam"
+  ],
+  "reference": [
+    "The Oxford English Dictionary",
+    "Merriam-Webster Dictionary"
+  ],
+  "interesting_website": [
+    "https://www.etymonline.com/word/am",
+    "https://www.poetryfoundation.org/poems"
+  ]
+}

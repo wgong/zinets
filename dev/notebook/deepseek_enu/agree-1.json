@@ -1,0 +1,46 @@
+{
+  "word": "agree",
+  "category": "common_verbs",
+  "sub_category": "basic_actions",
+  "meaning": "To have the same opinion or to consent to something.",
+  "pronunciation": "/əˈɡriː/",
+  "etymology": "The word 'agree' comes from the Old French word 'agreer', which means 'to receive with favor, take pleasure in'. It is derived from the phrase 'a gré', meaning 'to one's liking', from Latin 'ad' (to) + 'gratus' (pleasing).",
+  "homophone_word": [
+    "agri",
+    "agrie"
+  ],
+  "common_phrase": [
+    "agree to disagree",
+    "agree with",
+    "agree on",
+    "agree upon"
+  ],
+  "sentence": [
+    "I agree with your point of view.",
+    "They finally agreed on the terms of the contract.",
+    "As the saying goes, 'Great minds think alike, though fools seldom differ.'"
+  ],
+  "short_stories": [
+    "Once, two neighbors had a dispute over a tree that stood between their properties. After much argument, they agreed to share the fruits of the tree, turning a source of conflict into a bond of friendship.",
+    "In a small village, the elders agreed to let the young decide the future of the village, believing that fresh perspectives could lead to innovative solutions for their community's challenges."
+  ],
+  "poetry": [
+    "Agreement is a bridge, spanning the divide, where thoughts and hearts in harmony reside.",
+    "In the garden of discourse, where ideas grow, agreement is the water that helps them flow."
+  ],
+  "image": "An image of two hands shaking in agreement or a group of people nodding in unison.",
+  "audio": "A short clip of a conversation where two people come to an agreement.",
+  "video": "A video clip showing a successful negotiation or a group reaching a consensus.",
+  "movie": [
+    "The Agreement (2016)",
+    "Agreement to Disagree (Short Film)"
+  ],
+  "reference": [
+    "Merriam-Webster Dictionary",
+    "Oxford English Dictionary"
+  ],
+  "interesting_website": [
+    "https://www.merriam-webster.com/dictionary/agree",
+    "https://www.etymonline.com/word/agree"
+  ]
+}

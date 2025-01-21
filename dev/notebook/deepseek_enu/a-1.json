@@ -1,0 +1,52 @@
+{
+  "word": "a",
+  "category": "core_function_words",
+  "sub_category": "articles",
+  "meaning": "The word 'a' is an indefinite article used before nouns to indicate a single, nonspecific item or instance. It is used when the noun is singular and begins with a consonant sound.",
+  "pronunciation": "/ə/ (schwa sound) or /eɪ/ (long 'a' sound) depending on emphasis.",
+  "etymology": "The word 'a' originates from Old English 'ān', meaning 'one'. It evolved from Middle English 'a' or 'an', which were used as indefinite articles. The modern usage of 'a' and 'an' (before vowel sounds) was established by the 16th century.",
+  "homophone_words": [
+    "ay",
+    "eh",
+    "uh"
+  ],
+  "common_phrases": [
+    "a lot",
+    "a bit",
+    "a few",
+    "a little",
+    "a piece of cake"
+  ],
+  "sentences": [
+    "She found a book on the table.",
+    "A journey of a thousand miles begins with a single step. - Lao Tzu",
+    "He is a man of few words."
+  ],
+  "short_stories": [
+    "In a small village, there was a boy who found a magic stone. The stone granted him a single wish. He wished for a world full of kindness, and from that day, the village became a place of harmony.",
+    "A cat once found a shiny coin on the street. It carried the coin to a shopkeeper, who gave the cat a fish in exchange. The cat learned that even a small effort could bring a reward."
+  ],
+  "poetry": [
+    "A is for Apple, so juicy and sweet,\nA fruit that’s a treat for all to eat.\nA is for Adventure, a journey to take,\nA path full of wonder, for goodness’ sake.",
+    "A is the start of all that we see,\nA letter so small, yet full of glee.\nA word, a thought, a spark in the night,\nA beginning, a hope, a guiding light."
+  ],
+  "image": "A simple image of the letter 'A' in bold, with an apple next to it to represent the sound and common association.",
+  "audio": "A short audio clip of someone saying the word 'a' in different contexts, such as 'a cat', 'a book', and 'a moment'.",
+  "video": "A short video clip of a teacher explaining the use of 'a' in sentences, with examples and visual aids.",
+  "movie": [
+    "A Beautiful Mind",
+    "A Star is Born",
+    "A Quiet Place",
+    "A Few Good Men"
+  ],
+  "reference": [
+    "The Elements of Style by Strunk and White",
+    "Oxford English Dictionary",
+    "Merriam-Webster Dictionary"
+  ],
+  "interesting_website": [
+    "https://www.merriam-webster.com/",
+    "https://www.oxfordlearnersdictionaries.com/",
+    "https://www.grammarly.com/blog/articles/"
+  ]
+}
