@@ -1,32 +1,41 @@
-## 字子 ZiZi - 学子话字 xzhz
 
-project name: ACAP - A Character (Concept) A Page
+# ZiNets 
+An streamlit app to study Chinese characters
 
-- Flashcard 
-- eBook
-- Mobile App
-- Website
-- API
-
-学子觉字
-
-### AI App - ZiZi 
-multimodal/multilingual Chinese dictionary powered by AI，built on [Streamlit](https://streamlit.io/) web framework ([Source](https://github.com/wgong/zinets)) : 
-
-### YouTube Channel - ZiTalk 话字
-
-short videos on Zi's story
-
-### TikTok Channel
-syndicated with YouTube
-
-## How to use
+## Setup
 
 ```
-streamlit run ZiZi.py
+conda create -n zinet python=3.11
+conda activate zinet
+
+git clone https://github.com/wgong/zinets.git
+cd zinets\app\zadmin
+streamlit run ZiNets.py
 ```
 
 ## Resources and Tools
+
+### Tools
+- [汉字源](https://hanziyuan.net/#home)
+     - 甲骨文 | 金文 | 篆字 compiled by 汉字叔叔 Richard Sears
+     - [他非常期望能与中科院自动化研究所智能技术与系统工程团队进行长期深入的合作，共同将3500个常用汉字开发成故事产品，寓教于乐，让中小学生热爱汉字、了解汉字文化。](https://mp.weixin.qq.com/s/gAalrsB65Z43IQFk3DtKcg)
+
+- [Google ImageFx](https://labs.google/fx/tools/image-fx)
+- [Google Translate](https://translate.google.com/?sl=en&tl=zh-CN&text=ordinary%0A&op=translate)
+
+- [书同文学校](https://hanzi.unihan.com.cn)
+     - (https://hanzi.unihan.com.cn/Signet)
+
+- [MDBG dictionary](https://www.mdbg.net/chinese/dictionary?page=cc-cedict)
+     - good learning resource with English, handwriting input
+
+- [汉查查](https://hanchacha.com/) (very good)
+     - learning resource
+     - has textbooks
+
+- [chinese-characters](https://www.chinese-characters.org/)
+     - with English
+
 
 ### Dictionaries
 
@@ -46,10 +55,6 @@ streamlit run ZiZi.py
      - search by parts
 
 - [汉文学网](https://zd.hwxnet.com/search/hwxE5hwxADhwx90.html)
-
-- [汉字源](https://hanziyuan.net/#home)
-     - 甲骨文 | 金文 | 篆字 compiled by 汉字叔叔 Richard Sears
-     - [他非常期望能与中科院自动化研究所智能技术与系统工程团队进行长期深入的合作，共同将3500个常用汉字开发成故事产品，寓教于乐，让中小学生热爱汉字、了解汉字文化。](https://mp.weixin.qq.com/s/gAalrsB65Z43IQFk3DtKcg)
 
 - [汉字科普网站推荐](https://zhuanlan.zhihu.com/p/19808549)
      - [中华语文知识库](https://www.chinese-linguipedia.org/)   (good)
@@ -80,22 +85,6 @@ streamlit run ZiZi.py
 - [维基字典](https://zh.wiktionary.org/zh-hans/%E5%AD%90)
 - [百度百科](https://baike.baidu.com/item/%E5%AD%90/3135568)
      - [秒懂百科](https://baike.baidu.com/video?from=lemma&fromIndex=2&fromModule=lemma_video&fromPage=lemma-video&isSensitive=0&lemmaId=3135568&secondId=25766209&showNativeAd=1) short video
-
-#### Learning Tools
-- [MDBG dictionary](https://www.mdbg.net/chinese/dictionary?page=cc-cedict)
-     - good learning resource with English, handwriting input
-
-- [汉查查](https://hanchacha.com/) (very good)
-     - learning resource
-     - has textbooks
-
-- [chinese-characters](https://www.chinese-characters.org/)
-     - with English
-
-- [Google Translate](https://translate.google.com/?sl=en&tl=zh-CN&text=ordinary%0A&op=translate)
-
-- [书同文学校](https://hanzi.unihan.com.cn)
-     - (https://hanzi.unihan.com.cn/Signet)
 
 
 ### Emoji
@@ -185,16 +174,6 @@ see C:\Users\p2p2l\projects\wgong\zistory\resources\books
 
 ### Classic Music
 - [50 Best Classic Music of all time⚜️: Mozart, Tchaikovsky, Vivaldi, Paganini, Chopin](https://youtu.be/6truGSXOGF4?si=E7NcqQ2NHh2ro2_z)
-## ToDo
-
-[2024-04-03] 
-- in Zi-Decomposition page:
-     - add pronounciation via gTTS
-     - add translation via googletrans
-
-- add page to decompose a sentence into phrases using jieba pkg
-
-- add GenAI features
 
 ### Category
 - 天文-日
@@ -319,3 +298,43 @@ test cases: 嶷  𩱷
 - streamlit widgets including tree
      - https://nicedouble-streamlitantdcomponentsdemo-app-middmy.streamlit.app/
      - https://github.com/nicedouble/StreamlitAntdComponents/tree/master
+
+
+
+
+## Roadmap 
+
+### 字子 ZiZi - 学子话字 xzhz
+
+project name: ACAP - A Character (Concept) A Page
+
+- Flashcard 
+- eBook
+- Mobile App
+- Website
+- API
+
+学子觉字
+
+### AI App - ZiZi 
+multimodal/multilingual Chinese dictionary powered by AI，built on [Streamlit](https://streamlit.io/) web framework ([Source](https://github.com/wgong/zinets)) : 
+
+### YouTube Channel - ZiTalk 话字
+
+short videos on Zi's story
+
+### TikTok Channel
+syndicated with YouTube
+
+
+### ToDos
+
+[2024-04-03] 
+- in Zi-Decomposition page:
+     - add pronounciation via gTTS
+     - add translation via googletrans
+
+- add page to decompose a sentence into phrases using jieba pkg
+
+- add GenAI features
+

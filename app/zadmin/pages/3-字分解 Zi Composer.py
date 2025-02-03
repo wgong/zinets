@@ -17,8 +17,9 @@ def colorize_text(txt, color="red"):
     return f"""<span style="color:{color}">{txt}</span>"""
 
 def list_zi_with_parts(df):
+    data = []    
     if df is None or df.empty:
-        return
+        return data
     
     # collect Zi with parts as an equation
     # 火 + 乍 = 炸
@@ -30,7 +31,7 @@ def list_zi_with_parts(df):
             "zi_right_up", "zi_right", "zi_right_down",
             "zi_mid_in", "zi_mid_out", 
         ]
-    data = []
+
     for row in list_of_dicts:
         zi_data = []
         for col in col_names:
@@ -65,16 +66,16 @@ def query_parts(strokes_clause):
     sql_stmt = f"""
         with parts as (
             select 
-                zi
+                trim(zi) as zi
                 ,traditional as zi_tr
                 , strokes
                 , u_id
             from t_part 
             where is_active = 'Y' 
                 and zi is not null
-            union all
+            union
             select 
-                zi
+                trim(zi) as zi
                 ,traditional as zi_tr
                 , nstrokes as strokes
                 , u_id

@@ -50,6 +50,7 @@ CFG = {
 
     # assign table names
     "TABLE_ZI" : "t_zi",            # all Zi 字
+    "TABLE_ELEZI" : "t_ele_zi",     # 元字 
     "TABLE_PART" : "t_part",        # parts - not exposed in UI
     "TABLE_ZI_PART" : "t_zi_part",  # decomposed Zi 字子
     "TABLE_SHUFA" : "t_shufa",      # ShuFa 书法
@@ -94,7 +95,7 @@ CFG = {
         BLANK_STR_VALUE,
         '天文-',
         '天文-日',
-        '天文-月', '天文-月, 人-生理',
+        '天文-月', 
         '天文-金',
         '天文-木',
         '天文-水',
@@ -1008,7 +1009,7 @@ def ui_layout_form_fields(data,form_name,old_row,col,
             if col in SELECTBOX_OPTIONS:
                 try:
                     _options = SELECTBOX_OPTIONS.get(col,[])
-                    old_val = old_row.get(col, BLANK_STR_VALUE).split(",")
+                    old_val = [i.strip()  for i in old_row.get(col, BLANK_STR_VALUE).split(",")]
                     i_widget = 6
                     key_name_field = f"{key_name}-{str(i_widget)}"
                     val = st.multiselect(col_labels.get(col), _options, default=old_val, key=key_name_field)
@@ -1160,6 +1161,11 @@ def ui_layout_form(selected_row, table_name, form_name):
             
         if save_btn:
             try:
+                # fix category multi-values
+                if table_name in ['t_part', 't_ele_zi']:
+                    cat = data.get("category")
+                    data["category"] = ",".join(cat)
+
                 delete_flag = data.get("delelte_record", False)
                 if delete_flag:
                     if data.get("u_id"):
