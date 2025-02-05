@@ -435,11 +435,30 @@ def trim_str_col_val(data):
         data_new.update({k:v})
     return data_new
 
+def fix_list_col(data):
+    tab_name = data.get('table_name')
+    if tab_name not in  ["t_ele_zi", "t_zi"]:
+        return data 
+    
+    cat = data.get('category', [])
+    if cat and isinstance(cat, list):
+        cat_str = ",".join(cat)
+    else: 
+        cat_str = cat
+    cat_str = cat_str.replace("[","").replace("]","").replace("'","")
+    # print(f"cat_str: \n{cat_str}")
+    data.update({"category": cat_str})
+
+    return data
+
 def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
     """ u_id = '-1' are marked for deletion
     """
     if not data: 
         return None
+    
+    data = fix_list_col(data)
+    # print(f"data: \n{data}")
 
     table_name = data.get("table_name", "")
     if not table_name:
@@ -510,8 +529,11 @@ def db_upsert(data, user_key_cols="u_id", call_meta_func=False):
                 continue
             if col == user_key_cols and not val:
                 continue
+            if col == "category":
+                val = val.replace('[','').replace(']','').replace("'", "")
             col_clause.append(col)
             col_val = escape_single_quote(val)
+
 
             if table_name == "t_zi" and col in ["set_id"]:
                 # handle special numeric columns
@@ -1164,7 +1186,10 @@ def ui_layout_form(selected_row, table_name, form_name):
                 # fix category multi-values
                 if table_name in ['t_part', 't_ele_zi']:
                     cat = data.get("category")
-                    data["category"] = ",".join(cat)
+                    if isinstance(cat,list):
+                        data["category"] = ",".join(cat)
+                    else:
+                        data["category"] = cat
 
                 delete_flag = data.get("delelte_record", False)
                 if delete_flag:
