@@ -52,6 +52,39 @@ def query_parts(strokes_clause):
     """
     if strokes_clause.strip().startswith("="):
         where_clause = f""" 
+            cast(n_strokes as int) {strokes_clause} 
+        """
+    else:
+        one2nine = str(list(range(1,10)))
+        where_clause = f""" 
+            (
+                n_strokes is null or cast(n_strokes as int) not 
+                    in {one2nine.replace("[","(").replace("]",")")}
+            )
+        """
+
+    sql_stmt = f"""
+        select 
+            distinct zi
+        from t_ele_zi
+        where {where_clause}  
+    """
+
+    with DBConn() as _conn:
+        df3 = pd.read_sql(sql_stmt, _conn).fillna("")
+
+    parts  = df3["zi"].to_list()
+
+    out = [p for p in parts if isinstance(p, str)]
+    return out, len(out)
+
+def query_parts_v1(strokes_clause):
+    """query and concat all parts based on strokes
+        if =n:  (n = 1..9)
+        else: strokes is null or >9
+    """
+    if strokes_clause.strip().startswith("="):
+        where_clause = f""" 
             cast(strokes as int) {strokes_clause} 
         """
     else:
@@ -344,7 +377,7 @@ def main():
         with c2_3:
             st.text_input("右 right", value=zi_zi_right,  key=f"{KEY_PREFIX}_zi_right")
         with c2_4:
-            st.text_input('中外 mid_outer', value=zi_zi_mid_out,  key=f"{KEY_PREFIX}_zi_mid_out")
+            st.text_input('中内 mid_inner', value=zi_zi_mid_in,  key=f"{KEY_PREFIX}_zi_mid_in")
 
         c3_1,c3_2,c3_3,c3_4 = st.columns([2,2,2,2])
         with c3_1:
@@ -354,7 +387,7 @@ def main():
         with c3_3:
             st.text_input("右下 right_down", value=zi_zi_right_down,  key=f"{KEY_PREFIX}_zi_right_down")
         with c3_4:
-            st.text_input('中内 mid_inner', value=zi_zi_mid_in,  key=f"{KEY_PREFIX}_zi_mid_in")
+            st.text_input('中外 mid_outer', value=zi_zi_mid_out,  key=f"{KEY_PREFIX}_zi_mid_out")
 
 
 
