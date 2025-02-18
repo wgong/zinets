@@ -51,6 +51,7 @@ def main():
             select 
                 zi
                 , pinyin
+                , phono
                 , n_strokes
                 , n_frequency
                 , meaning
@@ -72,7 +73,6 @@ def main():
     grid_resp = ui_display_df_grid(df, selection_mode="single")
     selected_rows = grid_resp['selected_rows']
 
-    # st.write(selected_row)
 
     # streamlit-aggrid==0.3.3
     # selected_row = selected_rows[0] if len(selected_rows) else None
@@ -82,8 +82,10 @@ def main():
         st.session_state.previous_selected_row = selected_row
         st.rerun()
 
+    # print(selected_row)
 
     # display form
+    # st.write(selected_row)
     ui_layout_form(selected_row, TABLE_NAME, form_name=TABLE_NAME)
 
     f1,f2,_ = st.columns([3,3,6])

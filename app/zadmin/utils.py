@@ -640,7 +640,7 @@ def db_update_by_id(data, update_changed=True):
     if not id_val:
         return
 
-
+    print(data)
     if update_changed:
         rows = db_select_by_id(table_name=table_name, id_value=id_val)
         if len(rows) < 1:
@@ -669,6 +669,7 @@ def db_update_by_id(data, update_changed=True):
             set {', '.join(set_clause)}
             where u_id = '{id_val}';
         """
+        print(f"[DEBUG] {update_sql}")
         db_execute(update_sql, 
                     debug=CFG["DEBUG_FLAG"], 
                     execute_flag=CFG["SQL_EXECUTION_FLAG"], 
@@ -1185,7 +1186,10 @@ def ui_layout_form(selected_row, table_name, form_name):
             try:
                 # fix category multi-values
                 if table_name in ['t_part', 't_ele_zi']:
+
                     cat = data.get("category")
+                    if not cat: 
+                        cat = old_row.get("category")
                     if isinstance(cat,list):
                         data["category"] = ",".join(cat)
                     else:

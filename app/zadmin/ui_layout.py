@@ -425,20 +425,20 @@ COLUMN_PROPS = {
         'is_editable': True,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_1-3',
+        'form_column': 'COL_1-2',
         'widget_type': 'text_input',
         'label_text': '拼音'
         },
-    'variant': {'is_system_col': False,
+    'phono': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
         'is_editable': True,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_1-4',
+        'form_column': 'COL_1-3',
         'widget_type': 'text_input',
-        'label_text': '异体'
+        'label_text': '拼音2'
         },
 
     # Col_2
@@ -464,7 +464,7 @@ COLUMN_PROPS = {
         'widget_type': 'text_input',
         'label_text': '笔画数'
         },
-    'examples': {'is_system_col': False,
+    'variant': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -473,7 +473,7 @@ COLUMN_PROPS = {
         'datatype': 'text',
         'form_column': 'COL_2-3',
         'widget_type': 'text_input',
-        'label_text': '例字'
+        'label_text': '异体'
         },
     # Col_3
     'category': {'is_system_col': False,
@@ -522,7 +522,7 @@ COLUMN_PROPS = {
         'widget_type': 'text_input',
         'label_text': 'Meaning'
         },
-    'notes': {'is_system_col': False,
+    'examples': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -530,7 +530,19 @@ COLUMN_PROPS = {
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_4-2',
-        'widget_type': 'text_area',
+        'widget_type': 'text_input',
+        'label_text': '例字'
+        },
+
+    'notes': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_4-3',
+        'widget_type': 'text_input',
         'label_text': 'Notes'
         },
 
