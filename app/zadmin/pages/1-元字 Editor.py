@@ -11,16 +11,28 @@ st.subheader("⚛️ 元字编辑 Editor 📝")
 TABLE_NAME = CFG["TABLE_ELEZI"]
 KEY_PREFIX = f"col_{TABLE_NAME}"
 
+SORT_COLS = ['', 'category',
+    'is_radical',
+    'meaning',
+    'n_frequency',
+    'n_strokes',
+    'phono',
+    'pinyin',
+    'u_id',
+    'zi']
+
 def main():
     # fix detail form not refresh correctly when selection changes
     if "previous_selected_row" not in st.session_state:
         st.session_state.previous_selected_row = None
 
-    c1, c2,  c4 = st.columns([1,8,1])
+    c1, c2, c3, c4 = st.columns([1,6,2,1])
     with c1:
         search_term = st.text_input("🔍Search:", key=f"{KEY_PREFIX}_search_term").strip()
     with c2:
         search_others = st.text_input("🔍Free-form where-clause  (e.g.    cast(u_id as int) > 0,  zi = '佥'    ):", key=f"{KEY_PREFIX}_search_others").strip()
+    with c3:
+        order_by = st.selectbox("Sort By", SORT_COLS, index=SORT_COLS.index(""), key=f"{KEY_PREFIX}_order_by")
     with c4:
         active = st.selectbox("🔍Active?", BI_STATES, index=BI_STATES.index("Y"), key=f"{KEY_PREFIX}_active")
 
@@ -44,6 +56,11 @@ def main():
                 {search_others}
         ) """
 
+    order_clause = ""
+    if order_by:
+        order_clause = f"""
+            order by {order_by} desc
+        """ 
 
     df = None
     with DBConn() as _conn:
@@ -65,6 +82,7 @@ def main():
                 , is_active
             from {TABLE_NAME}
             where {where_clause}
+            {order_clause}
             ;
         """
         # st.write(sql_stmt)
