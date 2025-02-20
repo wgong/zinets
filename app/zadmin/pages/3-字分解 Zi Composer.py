@@ -269,9 +269,13 @@ def main():
 
     if selected_rows is None or len(selected_rows) < 1:
         if search_parts.strip():
+            example_zi = []
             data = list_zi_with_parts(df)
             for d in data:
-                st.write(d) 
+                st.write(d)
+                example_zi.append(d.split("=")[-1].strip())
+
+            st.write(" ".join(example_zi))
         return
 
     zi = selected_rows.iloc[0].to_dict() if isinstance(selected_rows, pd.DataFrame) else selected_rows[0]
