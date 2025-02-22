@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-# **/*.sqlite
+
 **/*.db
 **/.virtual_documents/
 **/Untitled*.ipynb
@@ -66,8 +66,8 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
-**/*.sqlite
-**/*.sqlite3
+# **/*.sqlite
+# **/*.sqlite3
 db.sqlite3-journal
 
 # Flask stuff:

@@ -196,6 +196,7 @@ FIBONACCI_NUMBERS = [BLANK_STR_VALUE,
 
 SELECTBOX_OPTIONS = {
     "is_active": BI_STATES,
+    "is_neted": BI_STATES,
     "is_picto": TRI_STATES,
     "as_part": TRI_STATES,
     "is_radical": TRI_STATES,

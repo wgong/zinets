@@ -559,6 +559,17 @@ COLUMN_PROPS = {
         'widget_type': 'text_input',
         'label_text': 'ID'
         },
+    'is_neted': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_5-2',
+        'widget_type': 'selectbox',
+        'label_text': 'Net-Analyzed?'
+        },
     'is_active': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,

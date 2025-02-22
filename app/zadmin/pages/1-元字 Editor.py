@@ -13,6 +13,7 @@ KEY_PREFIX = f"col_{TABLE_NAME}"
 
 SORT_COLS = ['', 'category',
     'is_radical',
+    'is_neted',
     'meaning',
     'n_frequency',
     'n_strokes',
@@ -75,9 +76,10 @@ def main():
                 , category
                 , sub_category
                 , examples
-                , is_radical
                 , variant
                 , notes
+                , is_radical
+                , is_neted
                 , u_id
                 , is_active
             from {TABLE_NAME}
@@ -86,7 +88,7 @@ def main():
             ;
         """
         # st.write(sql_stmt)
-        df = pd.read_sql(sql_stmt, _conn)
+        df = pd.read_sql(sql_stmt, _conn).fillna("")
 
     grid_resp = ui_display_df_grid(df, selection_mode="single")
     selected_rows = grid_resp['selected_rows']
@@ -106,83 +108,167 @@ def main():
     # st.write(selected_row)
     ui_layout_form(selected_row, TABLE_NAME, form_name=TABLE_NAME)
 
+    n_freq_qi = 24
     f1,f2,_ = st.columns([3,3,6])
     with f1:
         st.markdown("#### 元字频率", unsafe_allow_html=True)
     with f2:
-        min_count = st.number_input("频率大于", value=20, min_value=0, max_value=300, step=20, key="part_freq_min")
+        min_count = st.number_input("频率大于", value=(n_freq_qi-1), min_value=0, max_value=200, step=1, key="part_freq_min")
     
+    # sql_stmt = f"""
+
+    # -- unique parts
+    # with parts as (  
+    #     select zi from {TABLE_NAME} where is_active = 'Y'
+    # )
+    # -- zi vs part
+    # , zi_part as (
+    #     select zi_left_up as part, zi from t_zi_part 
+    #     union all
+    #     select zi_left as part, zi from t_zi_part 
+    #     union all
+    #     select zi_left_down as part, zi from t_zi_part 
+    #     union all
+    #     select zi_up as part, zi from t_zi_part 
+    #     union all
+    #     select zi_mid as part, zi from t_zi_part 
+    #     union all
+    #     select zi_down as part, zi from t_zi_part 
+    #     union all
+    #     select zi_right_up as part, zi from t_zi_part 
+    #     union all
+    #     select zi_right as part, zi from t_zi_part 
+    #     union all
+    #     select zi_right_down as part, zi from t_zi_part 
+    #     union all
+    #     select zi_mid_in as part, zi from t_zi_part 
+    #     union all
+    #     select zi_mid_out as part, zi from t_zi_part 
+    # )
+    # -- unique zi,part
+    # , zi_part_2 as (
+    #     select distinct zp.zi, zp.part 
+    #     from zi_part zp 
+    #     join parts p 
+    #         on zp.part = p.zi
+    #     where zp.part is not null and trim(zp.part) !='' 
+    # )
+    # -- count part frequency
+    # , part_freq as (
+    #     select part,count(zi) as zi_freq from zi_part_2 
+    #     group by part -- having count(zi) > 10
+    #     --order by count(zi) desc, part    
+    # ), part_freq_2 as (
+    #     select 
+    #         f.part, f.zi_freq, p.category, p.sub_category, '0' as tag
+    #     from part_freq f 
+    #     join t_part p
+    #     on f.part = p.zi
+    #     where trim(p.category || '') != ''
+    #     union all
+    #     select 
+    #         f.part, f.zi_freq, p.category, p.sub_category, '1' as tag
+    #     from part_freq f 
+    #     join t_part p
+    #     on f.part = p.zi
+    #     where trim(p.category || '') = ''
+    # )
+    # select 
+    #     pf.part            as "元字"
+    #     , p.meaning
+    #     , p.notes as sample
+    #     , pf.zi_freq       as "频率"
+    #     , pf.category      as "类别"
+    #     , pf.sub_category  as "子类别"
+    #     , pf.tag
+    # from part_freq_2 pf
+    # join t_part p
+    # on pf.part = p.zi
+    # where pf.zi_freq > {min_count}
+    # order by pf.category,pf.sub_category,pf.zi_freq desc, pf.part;
+    # """
+
+    # switch from t_part to t_ele_zi
     sql_stmt = f"""
 
-    -- unique parts
-    with parts as (  
-        select zi from t_ele_zi where is_active = 'Y'
-    )
-    -- zi vs part
-    , zi_part as (
-        select zi_left_up as part, zi from t_zi_part 
-        union all
-        select zi_left as part, zi from t_zi_part 
-        union all
-        select zi_left_down as part, zi from t_zi_part 
-        union all
-        select zi_up as part, zi from t_zi_part 
-        union all
-        select zi_mid as part, zi from t_zi_part 
-        union all
-        select zi_down as part, zi from t_zi_part 
-        union all
-        select zi_right_up as part, zi from t_zi_part 
-        union all
-        select zi_right as part, zi from t_zi_part 
-        union all
-        select zi_right_down as part, zi from t_zi_part 
-        union all
-        select zi_mid_in as part, zi from t_zi_part 
-        union all
-        select zi_mid_out as part, zi from t_zi_part 
-    )
-    -- unique zi,part
-    , zi_part_2 as (
-        select distinct zp.zi, zp.part 
-        from zi_part zp 
-        join parts p 
-            on zp.part = p.zi
-        where zp.part is not null and trim(zp.part) !='' 
-    )
-    -- count part frequency
-    , part_freq as (
-        select part,count(zi) as zi_freq from zi_part_2 
-        group by part -- having count(zi) > 10
-        --order by count(zi) desc, part    
-    ), part_freq_2 as (
+        -- unique parts
+        with parts as (  
+            select zi from {TABLE_NAME} where is_active = 'Y'
+        )
+        -- zi vs part
+        , zi_part as (
+            select zi_left_up as part, zi from t_zi_part 
+            union all
+            select zi_left as part, zi from t_zi_part 
+            union all
+            select zi_left_down as part, zi from t_zi_part 
+            union all
+            select zi_up as part, zi from t_zi_part 
+            union all
+            select zi_mid as part, zi from t_zi_part 
+            union all
+            select zi_down as part, zi from t_zi_part 
+            union all
+            select zi_right_up as part, zi from t_zi_part 
+            union all
+            select zi_right as part, zi from t_zi_part 
+            union all
+            select zi_right_down as part, zi from t_zi_part 
+            union all
+            select zi_mid_in as part, zi from t_zi_part 
+            union all
+            select zi_mid_out as part, zi from t_zi_part 
+        )
+        -- unique zi,part
+        , zi_part_2 as (
+            select distinct zp.zi, zp.part 
+            from zi_part zp 
+            join parts p 
+                on zp.part = p.zi
+            where zp.part is not null and trim(zp.part) !='' 
+        )
+        -- count part frequency
+        , part_freq as (
+            select part,count(zi) as zi_freq from zi_part_2 
+            group by part -- having count(zi) > 10
+            --order by count(zi) desc, part    
+        ), part_freq_2 as (
+            select 
+                f.part, f.zi_freq, p.category, p.sub_category, p.is_neted as tag
+            from part_freq f 
+            join {TABLE_NAME} p
+            on f.part = p.zi
+            where trim(p.category || '') != ''
+            union all
+            select 
+                f.part, f.zi_freq, p.category, p.sub_category, p.is_neted as tag
+            from part_freq f 
+            join {TABLE_NAME} p
+            on f.part = p.zi
+            where trim(p.category || '') = ''
+        )
         select 
-            f.part, f.zi_freq, p.category, p.sub_category, '0' as tag
-        from part_freq f 
-        join t_part p
-        on f.part = p.zi
-        where trim(p.category || '') != ''
-        union all
-        select 
-            f.part, f.zi_freq, p.category, p.sub_category, '1' as tag
-        from part_freq f 
-        join t_part p
-        on f.part = p.zi
-        where trim(p.category || '') = ''
-    )
-    select 
-        pf.part            as "元字"
-        , p.meaning
-        , p.notes as sample
-        , pf.zi_freq       as "频率"
-        , pf.category      as "类别"
-        , pf.sub_category  as "子类别"
-        , pf.tag
-    from part_freq_2 pf
-    join t_part p
-    on pf.part = p.zi
-    where pf.zi_freq > {min_count}
-    order by pf.category,pf.sub_category,pf.zi_freq desc, pf.part;
+            pf.part            as "元字"
+            , p.meaning
+            , p.pinyin
+            , p.phono
+            , p.n_strokes as strokes
+            , p.variant as alias
+            , p.n_frequency as n_freq
+            , pf.zi_freq       as "频率"
+            , pf.category      as "类别"
+            , pf.sub_category  as "子类别"
+            , p.examples as sample
+            , pf.tag
+            , p.is_zi
+            , p.notes
+            , p.term
+            , p.id_kangxi
+        from part_freq_2 pf
+        join {TABLE_NAME} p
+        on pf.part = p.zi
+        where pf.zi_freq > {min_count}
+        order by pf.category,pf.sub_category,pf.zi_freq desc, pf.part;
     """
 
     with DBConn() as _conn:
