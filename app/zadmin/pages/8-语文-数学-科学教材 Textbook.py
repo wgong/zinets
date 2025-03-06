@@ -202,7 +202,10 @@ def main():
                     else:
                         img = orig_img
 
-                st.image(img, caption=image_file, use_container_width=True)
+                st.image(img, 
+                         caption=image_file, 
+                        #  use_container_width=True
+                    )
             except Exception as e:
                 st.error(f"{str(e)}")
     with c_left:

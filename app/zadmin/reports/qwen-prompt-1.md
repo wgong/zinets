@@ -1,4 +1,13 @@
 
+draft me a similar section on ### “奉”字家族
+Here are its derived characters:
+"""
+木 + 奉 = 棒
+王 + 奉 = 琫
+艹 + 奉 = 菶
+口 + 奉 = 唪
+扌 + 奉 = 捧
+"""
 
 
 draft me a similar section on ### “冈”字家族
@@ -100,13 +109,4 @@ Here are its derived characters:
 
 """
 
-draft me a similar section on ### “奉”字家族
-Here are its derived characters:
-"""
-木 + 奉 = 棒
-王 + 奉 = 琫
-艹 + 奉 = 菶
-口 + 奉 = 唪
-扌 + 奉 = 捧
-"""
 

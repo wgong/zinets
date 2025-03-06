@@ -51,8 +51,8 @@ CFG = {
     # assign table names
     "TABLE_ZI" : "t_zi",            # all Zi 字
     "TABLE_ELEZI" : "t_ele_zi",     # 元字 
-    "TABLE_PART" : "t_part",        # parts - not exposed in UI
-    "TABLE_ZI_PART" : "t_zi_part",  # decomposed Zi 字子
+    "TABLE_ZI_PART" : "t_zi_part",  # decomposed Zi 字子 
+    "TABLE_PART" : "t_part",        # parts - （deprecated)
     "TABLE_SHUFA" : "t_shufa",      # ShuFa 书法
     "TABLE_WORD" : "t_phrase",      # phrase/word 词语
     "TABLE_TEXT" : "t_text",        # text 文章 
