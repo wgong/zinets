@@ -87,15 +87,6 @@ streamlit run ZiNets.py
      - [秒懂百科](https://baike.baidu.com/video?from=lemma&fromIndex=2&fromModule=lemma_video&fromPage=lemma-video&isSensitive=0&lemmaId=3135568&secondId=25766209&showNativeAd=1) short video
 
 
-### Emoji
-
-- [Wikipedia - Emoji](https://en.wikipedia.org/wiki/Emoji)
-- [Unicode Emoji](https://unicode.org/emoji/charts/full-emoji-list.html)
-- [Emoji Cheatsheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
-- [Emojipedia](https://emojipedia.org/)
-- [GetEmoji](https://getemoji.com/)
-- [EmojiHub](https://emojihub.org/)
-
 ### Other useful sites
 
 - [wikiwand-zh-cn](https://www.wikiwand.com/zh-cn/%E7%99%B6%E9%83%A8)
@@ -109,16 +100,18 @@ streamlit run ZiNets.py
                - logogram
                - pictogram
           - [phonetic component](https://en.wikipedia.org/wiki/Chinese_character_classification#Rebus_.28phonetic_loan.29_characters)
-     - [Kangxi radical](https://en.wikipedia.org/wiki/Kangxi_radical)
+     - [Kangxi radical - 214](https://en.wikipedia.org/wiki/Kangxi_radical)
+     - [說文解字部首 - 540](http://www.homeinmists.com/shuowen/540.htm)
      - [汉字部首表](https://en.wikipedia.org/wiki/Table_of_Indexing_Chinese_Character_Components)
 
-- [《说文解字》与汉字构型 汉字部首释例 王宁主讲 ](https://www.youtube.com/watch?v=aRgrP1gtrFg)
+- 《说文解字》
+     - [《说文解字》与汉字构型 汉字部首释例 王宁主讲 ](https://www.youtube.com/watch?v=aRgrP1gtrFg)
 
-- [shuowen.org](https://github.com/shuowenjiezi/shuowen)
-     - json data
-     - [store json data in sqlite](https://www.beekeeperstudio.io/blog/sqlite-json)
-     - https://www.jvt.me/posts/2023/03/13/sqlite-json/
-     - [uniDict](https://github.com/wgong/shuowen)
+     - [shuowen.org](https://github.com/shuowenjiezi/shuowen)
+          - json data
+          - [store json data in sqlite](https://www.beekeeperstudio.io/blog/sqlite-json)
+          - https://www.jvt.me/posts/2023/03/13/sqlite-json/
+          - [uniDict](https://github.com/wgong/shuowen)
 
 - [MDBG dictionary](https://www.mdbg.net/chinese/dictionary?page=cc-cedict)
      - [python parser](https://github.com/rubber-duck-dragon/rubber-duck-dragon.github.io/blob/master/cc-cedict_parser/parser.py)
@@ -148,6 +141,15 @@ streamlit run ZiNets.py
 
 - https://zh.wiktionary.org/wiki/Appendix:%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8
 - https://zh.wiktionary.org/wiki/%E4%BA%86
+
+### Emoji
+
+- [Wikipedia - Emoji](https://en.wikipedia.org/wiki/Emoji)
+- [Unicode Emoji](https://unicode.org/emoji/charts/full-emoji-list.html)
+- [Emoji Cheatsheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+- [Emojipedia](https://emojipedia.org/)
+- [GetEmoji](https://getemoji.com/)
+- [EmojiHub](https://emojihub.org/)
 
 
 ### Books

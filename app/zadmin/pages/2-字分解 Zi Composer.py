@@ -78,61 +78,61 @@ def query_parts(strokes_clause):
     out = [p for p in parts if isinstance(p, str)]
     return out, len(out)
 
-def query_parts_v1(strokes_clause):
-    """query and concat all parts based on strokes
-        if =n:  (n = 1..9)
-        else: strokes is null or >9
-    """
-    if strokes_clause.strip().startswith("="):
-        where_clause = f""" 
-            cast(strokes as int) {strokes_clause} 
-        """
-    else:
-        one2nine = str(list(range(1,10)))
-        where_clause = f""" 
-            (
-                strokes is null or cast(strokes as int) not 
-                    in {one2nine.replace("[","(").replace("]",")")}
-            )
-        """
+# def query_parts_v1(strokes_clause):
+#     """query and concat all parts based on strokes
+#         if =n:  (n = 1..9)
+#         else: strokes is null or >9
+#     """
+#     if strokes_clause.strip().startswith("="):
+#         where_clause = f""" 
+#             cast(strokes as int) {strokes_clause} 
+#         """
+#     else:
+#         one2nine = str(list(range(1,10)))
+#         where_clause = f""" 
+#             (
+#                 strokes is null or cast(strokes as int) not 
+#                     in {one2nine.replace("[","(").replace("]",")")}
+#             )
+#         """
 
-    sql_stmt = f"""
-        with parts as (
-            select 
-                trim(zi) as zi
-                ,traditional as zi_tr
-                , strokes
-                , u_id
-            from t_part 
-            where is_active = 'Y' 
-                and zi is not null
-            union
-            select 
-                trim(zi) as zi
-                ,traditional as zi_tr
-                , nstrokes as strokes
-                , u_id
-            from t_zi
-            where is_active = 'Y' 
-                and zi is not null
-                and as_part = 'Y'                       
-        )
-        select 
-            distinct zi
-            -- , zi_tr 
-        from parts
-        where {where_clause}
-            order by cast(strokes as int), u_id    
-    """
+#     sql_stmt = f"""
+#         with parts as (
+#             select 
+#                 trim(zi) as zi
+#                 ,traditional as zi_tr
+#                 , strokes
+#                 , u_id
+#             from t_part 
+#             where is_active = 'Y' 
+#                 and zi is not null
+#             union
+#             select 
+#                 trim(zi) as zi
+#                 ,traditional as zi_tr
+#                 , nstrokes as strokes
+#                 , u_id
+#             from t_zi
+#             where is_active = 'Y' 
+#                 and zi is not null
+#                 and as_part = 'Y'                       
+#         )
+#         select 
+#             distinct zi
+#             -- , zi_tr 
+#         from parts
+#         where {where_clause}
+#             order by cast(strokes as int), u_id    
+#     """
 
-    with DBConn() as _conn:
-        df3 = pd.read_sql(sql_stmt, _conn).fillna("")
-    # df3["zi2"] = df3["zi"] + df3["zi_tr"]
-    # parts  = df3["zi2"].to_list()
-    parts  = df3["zi"].to_list()
+#     with DBConn() as _conn:
+#         df3 = pd.read_sql(sql_stmt, _conn).fillna("")
+#     # df3["zi2"] = df3["zi"] + df3["zi_tr"]
+#     # parts  = df3["zi2"].to_list()
+#     parts  = df3["zi"].to_list()
 
-    out = [p for p in parts if isinstance(p, str)]
-    return out, len(out)
+#     out = [p for p in parts if isinstance(p, str)]
+#     return out, len(out)
 
 # @st.cache_data 
 def format_parts(chars_per_row=30):
