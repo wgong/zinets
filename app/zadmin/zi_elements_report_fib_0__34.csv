@@ -1,0 +1,90 @@
+元字,meaning,pinyin,phono,strokes,alias,n_freq,Fib_Num,频率,类别,子类别,sample,tag,is_zi,notes,term,id_kangxi
+气,steam,qì,qi,4,,24,0,24,天文-,,氕、氘、氚,,1.0,,,84
+丿,slash,piě,pie,1,,40,1,34,radical,,乂、乃、久、八,,0.0,,,4
+丶,dot,zhǔ,zhu,1,,26,1,21,radical,,丸、凡、丹、户,,0.0,,丶字旁,3
+丨,line,gùn / gǔn,gun,1,,25,1,19,radical,,十、中、串、丰,,0.0,,,2
+乚,second,yǐ,yi,1,,9,1,10,radical,,九、乞、也,,0.0,,,5
+乀,slash,piě,pie,1,,3,1,3,radical,,乂、乃、久、八,,0.0,,,4
+乁,slash,piě,pie,1,,1,1,1,radical,,,,0.0,,,4
+亅,hook,gōu / jué,gou,1,,1,1,1,radical,,了、矛、事,,0.0,,,6
+乙,second,yǐ,yi,1,,11,1,11,数理-天干,,九、乞、也,,1.0,,,5
+日,sun,rì,ri,4,,125,2,119,天文-日,,旦、旨、早,Y,1.0,,,72
+月,moon / meat,ròu / yuè,rou,4,⺼,154,2,154,"天文-月, 人-生理",flesh,有、朋、服,M,1.0,,,130
+亻,man / person,rén,ren,2,人,213,3,215,人-,human,你、什、仁、仇,,0.0,,单立人 单人旁,9
+人,man / person,rén,ren,2,亻,46,3,41,人-,human,你、什、仁、仇,,1.0,,单立人 单人旁,9
+天,sky / heaven,tiān,tian,4,,9,3,9,天文-,,关癸吞吴,M,1.0,,,-1
+川,river,chuān,chuan,3,巛 巜,6,5,8,地理-土,,川、州、順、災,,1.0,,,47
+土,earth,tǔ,tu,3,,143,5,138,天文-土,,地、圣、圭、堯,,1.0,,提土旁,32
+木,tree / wood,mù,mu,4,,324,5,318,天文-木,,未、末、本,,1.0,,木字旁,75
+氵,water,shuǐ,shui,3,水,377,5,378,天文-水,,永、氷、氾,,0.0,,三点水,85
+水,water,shuǐ,shui,4,氵 冫 氺 川,20,5,20,天文-水,,永、氷、氾,,1.0,,三点水,85
+火,fire,huǒ,huo,4,灬,85,5,83,天文-火,,灰、灯、灶,,1.0,,火字旁,86
+金,metal / gold,jīn,jin,8,釒 钅,18,5,18,天文-金,,釓、釔、釕,,1.0,,金字旁,167
+南,south,Nán,nan,9,,1,8,2,数理-时空,,,M,,,,
+北,north,Bei3 ,bei,5,,7,8,8,数理-时空,location,脊 背乘 乖 冀 燕,,1.0,,,-1
+西,west / western,xī,xi,6,襾 覀,6,8,6,数理-时空,location,西、要、覂,,1.0,,,146
+东,east,dōng,dong,5,,6,8,3,数理-时空,location,陈 冻 栋,,1.0,,,-1
+冬,winter,dōng,dong,5,,4,8,4,数理-时空,time,疼 图 终,,1.0,,,-1
+生,life / living,shēng,sheng,5,,11,13,11,人-生理,living,甡、產、甥,M,1.0,,,100
+龙,dragon,lóng,long,5,龍,10,13,10,动物-,,,,1.0,,,212
+鸟,bird,niǎo,niao,5,鳥,62,13,62,动物-,bird,,,1.0,,,196
+犭,dog,quǎn,quan,3,,51,13,51,动物-,mammal,犮、犯、犰,,1.0,,反犬旁,94
+马,horse,mǎ,ma,3,馬,44,13,45,动物-,mammal,,,1.0,,,187
+羊,sheep,yáng,yang,6,⺶ ⺷,37,13,36,动物-,mammal,羋、羌、美,,1.0,,,123
+犬,dog,quǎn,quan,4,犭,22,13,23,动物-,mammal,犮、犯、犰,Y,1.0,,反犬旁,94
+豕,boar / pig,shǐ,shi,7,,15,13,15,动物-,mammal,豗、豚、豜,Y,0.0,,,152
+牛,cow,niú,niu,4,牜 ⺧,11,13,11,动物-,mammal,牝、牟、牠,,1.0,,牛字旁,93
+鼠,rat,shu3,shu,13,,1,13,5,动物-生肖,,,Y,,,,
+兔,rabbit,tu4,tu,8,,4,13,4,动物-生肖,,冤 逸,Y,,,,
+寸,inch,cùn,cun,3,,31,21,31,数理-度量,,村、寺、封、射,,1.0,,,41
+里,village / kilometer,lǐ,li,7,,13,21,12,数理-度量,,重、野、量,,1.0,,,166
+丈,meter / measure / husband,zhàng,zhang,3,,2,21,2,数理-度量,,,,1.0,,,-1
+一,one,yī,yi,1,丶 丨 亅 丿 乀 ⺄ 乁 乙 乚 乛,73,21,67,数理-计算,number,王、丁、七、三,,1.0,,一字旁,1
+十,ten,shí,shi,2,,56,21,42,数理-计算,number,千、半、卅、升,,1.0,,,24
+八,eight,bā,ba,2,丷,28,21,28,数理-计算,number,公、六、兮、穴,,1.0,,,12
+九,nine,jiǔ,jiu,2,,16,21,16,数理-计算,number,,,1.0,"sounds similar to 久 (jiǔ), which means ""long-lasting"" or ""eternal.""",,-1
+二,two,ér / èr,er,2,亠 冫 丷 刂 龴,20,21,11,数理-计算,number,貳、于、云、些,,1.0,,,7
+千,thousand,qiān,qian,3,,10,21,10,数理-计算,number,,,1.0,,,-1
+三,three / many,sān,san,3,,7,21,8,数理-计算,number,,,1.0,,,-1
+七,seven,qī,qi,2,,4,21,4,数理-计算,number,,,1.0,,,-1
+四,four,sì,si,5,,3,21,3,数理-计算,number,柶 泗 呬,,1.0,,,-1
+万,ten thousand,wàn,wan,3,,2,21,2,数理-计算,number,,,1.0,,,-1
+五,five,wǔ,wu,4,,2,21,2,数理-计算,number,吾 伍,,1.0,,,-1
+六,six,liù,liu,4,,2,21,1,数理-计算,number,冥,,1.0,,,-1
+分,divide / minute/ part / distribute / unit-of-measure,fēn,fen,4,,24,21,24,概念-,,粉 颁  扮,,1.0,,,-1
+女,woman / female,nǚ,nu,3,,137,34,137,人-,human,妳、婆、奶、如,,1.0,,,38
+己,oneself,jǐ,ji,3,,15,34,14,人-,self,記、改、忌、龍,,1.0,,,49
+自,self,zì,zi,6,,9,34,9,人-,self,臬、臭、臯,,1.0,,,132
+子,son / child,zǐ,zi,3,,28,34,27,人-伦理,family,孩、學、孔、仔,Y,1.0,,子字旁,39
+忄,heart / emotion,xīn,xin,3,心,116,34,116,人-心理,mind,忉、忌,,0.0,,竖心旁,61
+心,heart / mind,xīn,xin,4,忄 ⺗ 㣺,84,34,83,人-心理,mind,必、忉、忌,,1.0,,竖心旁,61
+眉,eyebrow/upper margin,mei2,mei,9,,5,34,5,人-生理,,媚楣,,,,,
+血,blood,xuè / xiě,xue,6,,6,34,6,人-生理,blood,衁、衂、衃,M,1.0,,,143
+尸,corpse,shī,shi,3,,27,34,27,人-生理,body,屍、尺、尼、尻,M,1.0,,,44
+身,body,shēn,shen,7,,5,34,5,人-生理,body,躬、躭、躰,,1.0,,,158
+骨,bone,gǔ,gu,9,,16,34,16,人-生理,bone,骫、骭、骯,,1.0,,,188
+耳,ear,ěr,er,6,,31,34,31,人-生理,ear,耴、耵、耷,M,1.0,,,128
+目,eye,mù,mu,5,⺫,79,34,78,人-生理,eye,盯、盱、盲,,1.0,,目字旁,109
+面,face,miàn,mian,9,靣,5,34,5,人-生理,face,靤、靦、靧,,1.0,,,176
+肉,meat / flesh,ròu,rou,6,⺼,3,34,2,人-生理,flesh,肊、肋、然,,1.0,,,130
+立,stand,lì,li,5,,34,34,32,人-生理,foot,竑、竒、竘,,1.0,,,117
+彡,hair / bristle / feathery appearances,shān,shan,3,,23,34,23,人-生理,hair,"形 (xíng, shape/form) and 彩 (cǎi, color/variety)、彤、彥",,0.0,,三撇儿,59
+毛,fur / hair,máo,mao,4,彡,22,34,20,人-生理,hair,毡、毣、毧,,1.0,,,82
+扌,hand / hold,shǒu,shou,3,手,261,34,261,人-生理,hand,扎、扐,,0.0,,提手旁,64
+又,hand / again,yòu,you,2,攴 攵扌手,73,34,62,人-生理,hand,叉、及、友、取,,1.0,,,29
+手,hand,shǒu,shou,4,扌 龵,18,34,16,人-生理,hand,才、扎、扐,,1.0,,提手旁,64
+头,head / top ,tóu,tou,5,,2,34,2,人-生理,head,买 实,,1.0,,,-1
+首,head,shǒu,shou,9,,2,34,2,人-生理,head,馗、䭫、馘,,1.0,,,185
+口,mouth / opening,kǒu,kou,3,,300,34,284,人-生理,mouth,哎、古、只、品,,1.0,,,30
+讠,speech,yán,yan,2,言,102,34,102,人-生理,mouth,,,0.0,,,149
+言,speech,yán,yan,7,訁 讠,36,34,36,人-生理,mouth,訂、訃、計,,1.0,,言字旁,149
+鼻,nose,bí,bi,14,,3,34,3,人-生理,nose,鼽、鼾、齁,,1.0,,,209
+皮,skin,pí,pi,5,,17,34,17,人-生理,skin,皯、皰、皴,M,1.0,,,107
+舌,tongue,shé,she,6,,19,34,19,人-生理,tongue,舍、舐、舑,M,1.0,,,135
+牙,tooth / fang,yá,ya,4,,9,34,9,人-生理,tooth,㸦、㸧、牚,M,1.0,,,92
+齿,teeth,chǐ,chi,8,齒,7,34,7,人-生理,tooth,,,1.0,,,211
+辶,walk / movement,chuò,chuo,3,,90,34,90,人-行,foot,,,0.0,,,162
+足,foot,zú,zu,7,⻊ 疋 ⺪,76,34,76,人-行,foot,趴、趵、趷,,1.0,,足字旁,157
+走,run / walk,zǒu,zou,7,⻌ ⻍ ⻎ 辶 辵 赱,23,34,23,人-行,foot,赳、赴、赶,,1.0,,,156
+饣,eat / food,shí,shi,3,食,32,34,32,人-食,food,,,0.0,,,184
+食,eat,shí,shi,9,飠 饣,9,34,9,人-食,food,飡、飢、飣,,1.0,,食字旁,184
