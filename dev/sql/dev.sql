@@ -1,3 +1,36 @@
+CREATE TABLE t_ele_zi_2(
+  zi TEXT,
+  is_zi INT,
+  id_kangxi TEXT,
+  meaning TEXT,
+  pinyin TEXT,
+  n_strokes INT,
+  term TEXT,
+  examples TEXT,
+  variant TEXT,
+  n_frequency INT,
+  category TEXT,
+  sub_category TEXT,
+  notes TEXT,
+  u_id TEXT,
+  is_active TEXT,
+  is_radical TEXT,
+  phono TEXT,
+  ts TEXT,
+  is_neted CHAR(1) CHECK (is_neted IS NULL OR is_neted in ('', 'Y', 'M'))
+);
+
+-- 2. Copy data from the old table
+INSERT INTO t_ele_zi_2 SELECT * FROM t_ele_zi;
+
+-- 3. Drop the old table
+--DROP TABLE employees;
+ALTER TABLE t_ele_zi RENAME TO t_ele_zi_bkup2;
+
+-- 4. Rename the new table
+ALTER TABLE t_ele_zi_2 RENAME TO t_ele_zi;
+
+
 delete from t_part where u_id='420';
 
 alter table t_part add column alias text;

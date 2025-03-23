@@ -149,6 +149,7 @@ CFG = {
 # define options for selectbox column type, keyed on column name
 BI_STATES = ["Y", BLANK_STR_VALUE, ]   # add empty-str as placeholder
 TRI_STATES = ["Y", BLANK_STR_VALUE, None,]
+QUAD_STATES = ["Y", "M", BLANK_STR_VALUE, None,]
 HSK_LAYERS = ['', None, 
         'HSK_1-Common-01', 'HSK_1-Common-02', 'HSK_1-Common-03', 'HSK_1-Common-04', 
         'HSK_1-Common-05', 'HSK_1-Common-06', 'HSK_1-Common-07', 'HSK_1-Common-08', 
@@ -196,7 +197,7 @@ FIBONACCI_NUMBERS = [BLANK_STR_VALUE,
 
 SELECTBOX_OPTIONS = {
     "is_active": BI_STATES,
-    "is_neted": BI_STATES,
+    "is_neted": QUAD_STATES,
     "is_picto": TRI_STATES,
     "as_part": TRI_STATES,
     "is_radical": TRI_STATES,
