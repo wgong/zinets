@@ -139,6 +139,10 @@ streamlit run ZiNets.py
 
 - [Chinese Characters GitHub Repos](https://github.com/topics/chinese-characters)
 
+- [黃帝內經](https://www.wikiwand.com/zh/articles/%E5%85%A7%E7%B6%93)
+     - https://www.youtube.com/watch?v=MvBKKqg72yU&t=11s
+
+
 - [白雲深處人家 - Home in Mists - 逍遥子 - Daoism](http://www.homeinmists.com/index.htm)
 
 - [孔子学院](https://ci.cn/)
