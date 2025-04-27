@@ -418,7 +418,7 @@ COLUMN_PROPS = {
         'widget_type': 'text_input',
         'label_text': '字'
         },
-    'pinyin': {'is_system_col': False,
+    'n_strokes': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
@@ -426,6 +426,17 @@ COLUMN_PROPS = {
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_1-2',
+        'widget_type': 'text_input',
+        'label_text': '笔画数'
+        },
+    'pinyin': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': True,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_1-3',
         'widget_type': 'text_input',
         'label_text': '拼音'
         },
@@ -436,7 +447,7 @@ COLUMN_PROPS = {
         'is_editable': True,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_1-3',
+        'form_column': 'COL_1-4',
         'widget_type': 'text_input',
         'label_text': '拼音2'
         },
@@ -453,16 +464,27 @@ COLUMN_PROPS = {
         'widget_type': 'selectbox',
         'label_text': '扁旁部首?'
         },
-    'n_strokes': {'is_system_col': False,
+    'id_kangxi': {'is_system_col': False,
+        'is_user_key': False,
+        'is_required': False,
+        'is_visible': True,
+        'is_editable': False,
+        'is_clickable': False,
+        'datatype': 'text',
+        'form_column': 'COL_2-2',
+        'widget_type': 'text_input',
+        'label_text': '康熙Id'
+        },
+    'traditional': {'is_system_col': False,
         'is_user_key': False,
         'is_required': False,
         'is_visible': True,
         'is_editable': True,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_2-2',
+        'form_column': 'COL_2-3',
         'widget_type': 'text_input',
-        'label_text': '笔画数'
+        'label_text': '繁体'
         },
     'variant': {'is_system_col': False,
         'is_user_key': False,
@@ -471,7 +493,7 @@ COLUMN_PROPS = {
         'is_editable': True,
         'is_clickable': False,
         'datatype': 'text',
-        'form_column': 'COL_2-3',
+        'form_column': 'COL_2-4',
         'widget_type': 'text_input',
         'label_text': '异体'
         },
@@ -542,7 +564,7 @@ COLUMN_PROPS = {
         'is_clickable': False,
         'datatype': 'text',
         'form_column': 'COL_4-3',
-        'widget_type': 'text_input',
+        'widget_type': 'text_area',
         'label_text': 'Notes'
         },
 
@@ -1428,3 +1450,5 @@ COLUMN_PROPS = {
     'widget_type': 'selectbox',
     'label_text': 'Is Active'}}
 }
+
+

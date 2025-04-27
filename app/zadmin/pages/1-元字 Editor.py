@@ -76,10 +76,12 @@ def main():
                 , category
                 , sub_category
                 , examples
+                , traditional
                 , variant
                 , notes
-                , is_radical
                 , is_neted
+                , is_radical
+                , id_kangxi
                 , u_id
                 , is_active
             from {TABLE_NAME}
