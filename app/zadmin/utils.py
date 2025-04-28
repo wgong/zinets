@@ -21,6 +21,9 @@ from lxml import html
 import pandas as pd
 import sqlite3
 
+from pypinyin import pinyin, Style
+from rapidfuzz import distance
+
 # streamlit libs
 import streamlit as st
 from streamlit_option_menu import option_menu
@@ -1391,3 +1394,70 @@ def log_msg(msg, file_name=None):
                 f.write(msg + '\n')
         except IOError as e:
             print(f"Error writing to file {file_name}: {e}")
+
+# Function to extract Pinyin and split into initial/final
+def extract_pinyins(character, style=Style.NORMAL, heteronym=True):
+    """
+    Extract PinYin pronunciations (heteronyms) from character:
+    support the following styles:
+        - Style.NORMAL (default) : ['xing', 'hang', 'heng']
+        - Style.TONE   : ['xíng', 'háng', 'héng', 'xìng', 'hàng']
+        - Style.TONE2  : ['xi2ng', 'ha2ng', 'he2ng', 'xi4ng', 'ha4ng']
+        - Style.TONE3  : ['xing2', 'hang2', 'heng2', 'xing4', 'hang4']
+
+    Returns a tuple:
+        pinyins (拼音), initials (声母), finals (韵母)
+    """
+    
+    pinyins = pinyin(character, style=style, heteronym=heteronym)[0]
+    initials = pinyin(character, style=Style.INITIALS|style, heteronym=heteronym)[0]
+    finals = pinyin(character, style=Style.FINALS|style, heteronym=heteronym)[0]
+    return pinyins, initials, finals
+
+def calculate_similarity(pron1, pron2):
+    # Helper function to calculate similarity
+    return 1 - distance.Levenshtein.normalized_distance(pron1, pron2)
+
+def get_similarity(char, comp, threshold=0.0, first_only=True, style=Style.NORMAL, heteronym=True, debug=True):
+    """
+    Calculate pinyin similarity scores in 2 steps
+
+    Returns a tuple of tuple:
+        (max_raw_similarity, max_refined_similarity), (char, char_pinyins), (comp, phon_pinyins)
+    """
+    
+    max_raw_similarity, max_refined_similarity = -1, -1
+    
+    char_pinyins = extract_pinyins(char, style=style, heteronym=heteronym)
+    phon_pinyins = extract_pinyins(comp, style=style, heteronym=heteronym)
+    if debug:
+        print(f"Character: {char_pinyins}")
+        print(f"Phonetic Component: {phon_pinyins}")        
+
+    ## Step 1: Calculate raw similarity (full Pinyin)
+    ## =================================================
+    if first_only:
+        pron1 = char_pinyins[0][0]
+        pron2 = phon_pinyins[0][0]
+        max_raw_similarity = calculate_similarity(pron1, pron2)
+    else:
+        for pron1 in char_pinyins[0]:
+            for pron2 in phon_pinyins[0]:
+                raw_similarity = calculate_similarity(pron1, pron2)
+                
+                # Update maximum raw similarity
+                if raw_similarity > max_raw_similarity:
+                    max_raw_similarity = raw_similarity
+
+    ## Step 2: Calculate refined similarity (finals) if raw similarity is above threshold
+    ## =================================================
+    if max_raw_similarity >= threshold:
+        for pron1 in char_pinyins[2]:
+            for pron2 in phon_pinyins[2]:
+                refined_similarity = calculate_similarity(pron1, pron2)
+                                
+                # Update maximum refined similarity
+                if refined_similarity > max_refined_similarity:
+                    max_refined_similarity = refined_similarity
+    
+    return (f"{max_raw_similarity:.3f}", f"{max_refined_similarity:.3f}"), (char, char_pinyins), (comp, phon_pinyins)
