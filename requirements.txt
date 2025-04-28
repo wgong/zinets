@@ -4,7 +4,8 @@ streamlit-option-menu>=0.3.2
 streamlit-aggrid
 streamlit_tree_select
 
-
+pypinyin 
+rapidfuzz
 pyecharts
 jieba
 paddlepaddle
