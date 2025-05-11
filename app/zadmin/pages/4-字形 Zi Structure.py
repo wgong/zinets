@@ -184,10 +184,12 @@ SELECT * FROM child_of
 with DBConn() as _conn:
     df = pd.read_sql(sql_stmt, _conn)
 
+# st.write(df)
 #######################################
 ## display Zi parts in html
 
 zi_graph = convert_d3graph_to_tree(df, pkg_name="pyecharts")
+# st.write(f"zi_graph = {zi_graph}")
 
 zi_parts = []
 for z in select_node(zi_graph):
