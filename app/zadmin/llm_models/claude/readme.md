@@ -1,3 +1,15 @@
+# Anthropic Console
+
+- [Anthropic Console](https://console.anthropic.com/dashboard)
+- [Claude Billing](https://console.anthropic.com/settings/billing)
+- [Rate limits](https://console.anthropic.com/settings/limits)
+
+use Batch API to fetch about 400 chinese characters, 
+each character has 3000 output tokens, cost about $0.13
+400 characters cost about $5.00
+
+
+
 # Fetch Characters from Claude 
 
 Absolutely! That's a brilliant idea! Having both modes gives you the best of both worlds - quick experimentation with real-time mode, then efficient batch processing for production runs.
@@ -206,7 +218,37 @@ python fetch_char_claude.py submit --input-file chars360-100_2.txt
 python fetch_char_claude.py submit --input-file chars360-100_3.txt
 # python fetch_char_claude.py download msgbatch_017DemsPqcHMMJn83pFMPyDL
 
+# process extra elemental characters in 3 batches
+python fetch_char_claude.py submit --input-file chars450-ele_1.txt
+# python fetch_char_claude.py download msgbatch_0191m16SyswsR9DMdvUtR8Yj
+
+python fetch_char_claude.py submit --input-file chars450-ele_2.txt
+# python fetch_char_claude.py download msgbatch_01L1uiPyrz7eCqmTRvZgHg4p
+
+
+python fetch_char_claude.py submit --input-file chars450-ele_3.txt
+# python fetch_char_claude.py download msgbatch_01W1nLE1bcnFEBW8BfY3gnD2
+
 ```
+
+### failed cases:
+```
+claude4_兰.txt     # json markdown
+claude4_南.txt  
+claude4_电.txt
+claude4_乙.txt       
+claude4_写.txt  
+claude4_它.txt  
+claude4_青.txt
+
+claude4_幷.txt
+claude4_攴.txt
+claude4_皿.txt
+claude4_艮.txt
+claude4_黾.txt
+```
+
+manully revised them by removing ```json, ```
 
 ## Misc
 
