@@ -3,8 +3,9 @@ hanzi network
 
 
 ```
-conda create -n zinets python=3.11
-conda activate zinets
+conda create -n zistory python=3.11
+conda activate zistory
+cd ~/projects/wgong/zistory/zinets/app/zadmin
 ```
 ## SQLite as graphDB
 
@@ -31,4 +32,4 @@ pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/
 - [EmojiHub](https://emojihub.org/)
 
 ## Research
-related work, see parent folder ~/zistory/research 
+related work, see ~/projects/Proj-ZiNets/zinets/docs
