@@ -184,7 +184,16 @@ see C:\Users\p2p2l\projects\wgong\zistory\resources\books
 
 - [青禾未秀](https://youtu.be/8svj3Esp9ww?si=Q5ZB6CUrq0Yz1ZH5)
 
-### Classic Music
+### Music
+- Song Lyrics
+  - [词作家 乔羽](https://baike.baidu.com/item/%E4%B9%94%E7%BE%BD/1338187)
+    - [《中国文艺》 20220625 向经典致敬 本期致敬人物——词作家 乔羽|CCTV中文国际](https://www.youtube.com/watch?v=P-PK5sa3n0I&list=PLZzva-VIvJAAdH_Upg4Lez6hGTWmv6NUn&index=55)
+      - [我的祖国](https://baike.baidu.com/item/%E6%88%91%E7%9A%84%E7%A5%96%E5%9B%BD/18777?fromModule=lemma_inlink)
+      - [牡丹之歌](https://baike.baidu.com/item/%E7%89%A1%E4%B8%B9%E4%B9%8B%E6%AD%8C/9666941?fromModule=lemma_inlink)
+      - [难忘今宵](https://baike.baidu.com/item/%E9%9A%BE%E5%BF%98%E4%BB%8A%E5%AE%B5/2911758?fromModule=lemma_inlink)
+      - [思念](https://baike.baidu.com/item/%E6%80%9D%E5%BF%B5/3813079?fromModule=lemma_inlink)
+
+
 - [50 Best Classic Music of all time⚜️: Mozart, Tchaikovsky, Vivaldi, Paganini, Chopin](https://youtu.be/6truGSXOGF4?si=E7NcqQ2NHh2ro2_z)
 
 ### Exercises - 養生修鍊
